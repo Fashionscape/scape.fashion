@@ -5,6 +5,12 @@ const fetch = require('node-fetch');
 const BASE_URL = 'https://oldschool.runescape.wiki/w/';
 const API_URL = 'https://oldschool.runescape.wiki/api.php';
 
+const FETCH_OPTIONS = {
+  headers: {
+    'User-Agent': 'Fashionscape Bot (scape.fashion) (contact@scape.fashion)',
+  },
+};
+
 const categoryMembers = async (category, continu = '') => {
   const url = `
   ${API_URL}
@@ -16,7 +22,7 @@ const categoryMembers = async (category, continu = '') => {
     &format=json
   `.replace(/\s/g, '');
 
-  const response = await fetch(url).then(res => res.json());
+  const response = await fetch(url, FETCH_OPTIONS).then(res => res.json());
 
   let nextMembers = [];
 
@@ -31,12 +37,16 @@ const categoryMembers = async (category, continu = '') => {
   return [...response.query.categorymembers, ...nextMembers];
 };
 
-const parse = pageid => {
-  const url = `${API_URL}?action=parse&pageid=${pageid}&format=json`;
-  return fetch(url).then(response => response.json());
+const apiUrl = pageId => `${API_URL}?action=parse&pageid=${pageId}&format=json`;
+
+const parse = pageId => {
+  const url = apiUrl(pageId);
+  return fetch(url, FETCH_OPTIONS).then(response => response.json());
 };
 
-const wiki = {categoryMembers, parse};
+const wikiUrl = pageId => `${BASE_URL}?curid=${pageId}`;
+
+const wiki = {apiUrl, categoryMembers, parse, wikiUrl};
 
 // ======== Equipment ======
 
@@ -55,16 +65,41 @@ const toDetailImage = doc => {
   return detail ? toImageUrl(detail) : null;
 };
 
+const SLOT_MAP = {
+  Ammunition_slot_items: 'Ammunition',
+  Body_slot_items: 'Body',
+  Cape_slot_items: 'Cape',
+  Feet_slot_items: 'Feet',
+  Hand_slot_items: 'Hand',
+  Head_slot_items: 'Head',
+  Leg_slot_items: 'Leg',
+  Neck_slot_items: 'Neck',
+  Ring_slot_items: 'Ring',
+  Shield_slot_items: 'Shield',
+  Weapon_slot_items: 'Weapon',
+};
+
+const toSlot = doc => {
+  const categories = doc.parse.categories.map(category => category['*']);
+  const slotCategory = categories.find(category => category.includes('slot'));
+
+  return SLOT_MAP[slotCategory];
+};
+
 const toItem = doc => {
-  const page = doc.parse.title.replace(/ /g, '_');
-  const link = `${BASE_URL}${page}`;
+  const name = doc.parse.title;
   const pageId = doc.parse.pageid;
+  const api = wiki.apiUrl(pageId);
+  const link = wiki.wikiUrl(pageId);
 
   const detail = toDetailImage(doc);
+  const slot = toSlot(doc);
 
   return {
     images: {detail},
-    wiki: {link, pageId},
+    name,
+    slot,
+    wiki: {api, link, pageId},
   };
 };
 
@@ -79,7 +114,7 @@ const toHex = ([r, g, b]) => {
 };
 
 const toPalette = async src => {
-  const buffer = await fetch(src).then(res => res.buffer());
+  const buffer = await fetch(src, FETCH_OPTIONS).then(res => res.buffer());
 
   // getPalette can return +/- 2 quantity
   const palette = colorThief.getPalette(buffer, 3).slice(0, 3);
@@ -109,11 +144,12 @@ const importItem = async pageId => {
 };
 
 const importItems = async () => {
-  let members = await wiki.categoryMembers('Equipment');
+  const members = await wiki.categoryMembers('Equipment');
 
-  members = members.slice(0, 100); // TODO: remove when ready
+  let pageIds = members.map(member => member.pageid);
+  pageIds = pageIds.sort();
+  pageIds = pageIds.slice(0, 100); // TODO: remove when ready
 
-  const pageIds = members.map(member => member.pageid);
   const items = await Promise.all(pageIds.map(importItem));
 
   fs.writeFileSync('items.json', JSON.stringify(items));
