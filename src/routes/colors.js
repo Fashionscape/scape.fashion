@@ -8,15 +8,18 @@ router.get('/', (req, res) => {
   res.sendStatus(400);
 });
 
-router.get('/:hex', (req, res) => {
+router.get('/:hex/items', (req, res) => {
   const color = req.params.hex;
+  const slot = req.query.slot;
 
-  const itemsWithMatch = items.map(withMatch(color));
-  const goodMatches = itemsWithMatch.filter(isGoodMatch);
-  const sortedMatches = matches.sort(byMatch);
-  const bestMatches = matches.slice(0, 50);
+  const matches = items
+    .filter(isForSlot(slot))
+    .map(withMatch(color))
+    .filter(isGoodMatch)
+    .sort(byMatch)
+    .slice(0, 50);
 
-  res.json({items: bestMatches});
+  res.json({items: matches});
 });
 
 const compareColors = a => b => colordiff.compare(a, b);
@@ -35,6 +38,7 @@ const withMatch = color => item => {
   };
 };
 
+const isForSlot = slot => item => !slot || item.slot == slot;
 const isGoodMatch = item => item.match < 5;
 
 module.exports = router;
