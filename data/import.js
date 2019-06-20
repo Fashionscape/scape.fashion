@@ -76,6 +76,7 @@ const SLOT_MAP = {
   Neck_slot_items: 'Neck',
   Ring_slot_items: 'Ring',
   Shield_slot_items: 'Shield',
+  'Two-handed_slot_items': 'Weapon',
   Weapon_slot_items: 'Weapon',
 };
 
