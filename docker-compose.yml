@@ -1,0 +1,14 @@
+version: "3"
+services:
+  default:
+    command: pm2-dev start pm2.json
+    container_name: fashionscape-api
+    image: ncpierson/fashionscape-api:latest
+    ports:
+      - "8000:8000"
+    restart: always
+    volumes:
+      - "./config:/usr/src/app/config"
+      - "./data:/usr/src/app/data"
+      - "./node_modules:/usr/src/app/node_modules"
+      - "./src:/usr/src/app/src"
