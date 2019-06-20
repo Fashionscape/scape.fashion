@@ -1,12 +1,18 @@
 {
   "name": "gnome-scarf",
-  "version": " 0.1.0",
+  "version": "0.1.1",
   "description": "Old School Runescape Fashionscape Tool",
   "main": "index.js",
   "author": "Nick Pierson",
   "license": "MIT",
   "scripts": {
-    "start": "./scripts/start.sh"
+    "build": "./scripts/build.sh",
+    "deploy": "./scripts/deploy.sh",
+    "postversion": "./scripts/postversion.sh",
+    "precommit": "prettier -l \"**/*.js\"",
+    "prettier": "prettier --write \"**/*.js\"",
+    "start": "./scripts/start.sh",
+    "stop": "./scripts/stop.sh"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
