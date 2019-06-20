@@ -135,6 +135,7 @@ const withColor = async item => {
 // ======== Script ======
 
 const fs = require('fs');
+const slow = require('slow');
 
 const importItem = async pageId => {
   const doc = await wiki.parse(pageId);
@@ -149,11 +150,17 @@ const importItems = async () => {
 
   let pageIds = members.map(member => member.pageid);
   pageIds = pageIds.sort();
-  pageIds = pageIds.slice(0, 100); // TODO: remove when ready
+  pageIds = pageIds.slice(0, 100); // TODO remove
 
-  const items = await Promise.all(pageIds.map(importItem));
+  let processedCount = 0;
+  const items = await slow.run(pageIds, pageId => {
+    if (processedCount % 10 === 0) console.log(`Processing item ${processedCount}...`);
+    processedCount += 1;
 
-  fs.writeFileSync('items.json', JSON.stringify(items));
+    return importItem(pageId);
+  });
+
+  fs.writeFileSync('items.json', JSON.stringify(items, null, 2));
 };
 
 importItems();
