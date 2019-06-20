@@ -150,11 +150,10 @@ const importItems = async () => {
 
   let pageIds = members.map(member => member.pageid);
   pageIds = pageIds.sort();
-  pageIds = pageIds.slice(0, 100); // TODO remove
 
   let processedCount = 0;
   const items = await slow.run(pageIds, pageId => {
-    if (processedCount % 10 === 0) console.log(`Processing item ${processedCount}...`);
+    if (processedCount % 100 === 0) console.log(`Processing item ${processedCount}...`);
     processedCount += 1;
 
     return importItem(pageId);
