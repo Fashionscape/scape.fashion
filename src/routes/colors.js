@@ -43,6 +43,6 @@ const withMatch = color => item => {
 };
 
 const isForSlot = slot => item => !slot || item.slot == slot;
-const isGoodMatch = item => item.match < 5;
+const isGoodMatch = item => item.match < 10;
 
 module.exports = router;
