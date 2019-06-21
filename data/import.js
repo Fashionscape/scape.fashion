@@ -104,38 +104,11 @@ const toItem = doc => {
   };
 };
 
-// ======== Color ======
-
-const ColorThief = require('color-thief');
-const colorThief = new ColorThief();
-
-const toHex = ([r, g, b]) => {
-  const val = (r << 16) | (g << 8) | b;
-  return `#${val.toString(16)}`;
-};
-
-const toPalette = async src => {
-  const buffer = await fetch(src, FETCH_OPTIONS).then(res => res.buffer());
-
-  // getPalette can return +/- 2 quantity
-  const palette = colorThief.getPalette(buffer, 3).slice(0, 3);
-
-  return palette.map(toHex);
-};
-
-const withColor = async item => {
-  if (!item.images.detail) return item;
-
-  const image = item.images.detail;
-  const colors = await toPalette(image);
-
-  return {...item, colors};
-};
-
 // ======== Script ======
 
 const fs = require('fs');
 const slow = require('slow');
+const { withColor } = require('./tools/color');
 
 const importItem = async pageId => {
   const doc = await wiki.parse(pageId);
@@ -153,7 +126,8 @@ const importItems = async () => {
 
   let processedCount = 0;
   const items = await slow.run(pageIds, pageId => {
-    if (processedCount % 100 === 0) console.log(`Processing item ${processedCount}...`);
+    if (processedCount % 100 === 0)
+      console.log(`Processing item ${processedCount}...`);
     processedCount += 1;
 
     return importItem(pageId);
