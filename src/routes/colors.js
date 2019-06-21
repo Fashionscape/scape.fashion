@@ -4,13 +4,17 @@ const colordiff = require('color-difference');
 
 const items = require('../../data/items.json');
 
+const isHexColor = input => /^#[0-9A-Fa-f]{6}$/i.test(input);
+
 router.get('/', (req, res) => {
   res.sendStatus(400);
 });
 
-router.get('/:hex/items', (req, res) => {
+router.get('/:hex/items', (req, res, next) => {
   const color = req.params.hex;
   const slot = req.query.slot;
+
+  if (!isHexColor(color)) throw new Error(`Invalid color specified: ${color}`);
 
   const matches = items
     .filter(isForSlot(slot))
