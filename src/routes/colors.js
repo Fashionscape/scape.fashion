@@ -2,7 +2,8 @@ const express = require('express');
 const router = express.Router();
 const colordiff = require('color-difference');
 
-const items = require('../../data/items.json');
+const allItems = require('../../data/items.json');
+const items = allItems.filter(item => !!item.images.detail);
 
 const isHexColor = input => /^#[0-9A-Fa-f]{6}$/i.test(input);
 
