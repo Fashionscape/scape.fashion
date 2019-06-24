@@ -5,6 +5,19 @@ const {withMatch} = require('../lib/color');
 
 const byMatch = (a, b) => a.match - b.match;
 
+const byName = (a, b) => {
+  if (a.name < b.name) return -1;
+  if (b.name < a.name) return 1;
+  return 0;
+};
+
+router.get('/', (req, res) => {
+  const items = req.items;
+  const itemsNameOnly = items.map(item => ({name: item.name})).sort(byName);
+
+  res.json({items: itemsNameOnly});
+});
+
 router.get('/:name', (req, res, next) => {
   const name = req.params.name;
   const items = req.items;
