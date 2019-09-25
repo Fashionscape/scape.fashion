@@ -372,7 +372,7 @@
     "images": {
       "detail": null
     },
-    "name": "Amethyst fire arrows",
+    "name": "Amethyst fire arrow",
     "slot": "Ammunition",
     "wiki": {
       "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=100503&format=json",
@@ -1863,9 +1863,9 @@
   },
   {
     "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Bronze_fire_arrows_(unlit)_detail.png"
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Bronze_fire_arrow_detail.png"
     },
-    "name": "Bronze fire arrows",
+    "name": "Bronze fire arrow",
     "slot": "Ammunition",
     "wiki": {
       "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=10310&format=json",
@@ -5162,9 +5162,9 @@
   },
   {
     "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Doctors'_gown_detail.png"
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Medical_gown_detail.png"
     },
-    "name": "Doctors' gown",
+    "name": "Medical gown",
     "slot": "Body",
     "wiki": {
       "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=10561&format=json",
@@ -5257,9 +5257,9 @@
       "pageId": 10566
     },
     "colors": [
-      "#56130c",
-      "#4e4848",
-      "#383434"
+      "#64150c",
+      "#5a5353",
+      "#403c3c"
     ]
   },
   {
@@ -10106,9 +10106,9 @@
       "pageId": 11031
     },
     "colors": [
-      "#bba4aa",
-      "#4f2e26",
-      "#944363"
+      "#baa4a9",
+      "#853c59",
+      "#423d3d"
     ]
   },
   {
@@ -12544,6 +12544,17 @@
   },
   {
     "images": {
+      "detail": null
+    },
+    "name": "Justiciar armour",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=112773&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=112773",
+      "pageId": 112773
+    }
+  },
+  {
+    "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Elder_maul_(beta)_detail.png"
     },
     "name": "Elder maul (beta)",
@@ -14002,6 +14013,17 @@
   },
   {
     "images": {
+      "detail": null
+    },
+    "name": "Infinity robes",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=12225&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=12225",
+      "pageId": 12225
+    }
+  },
+  {
+    "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Tiara_detail.png"
     },
     "name": "Tiara",
@@ -14067,6 +14089,17 @@
       "#2c2929",
       "#3c3434"
     ]
+  },
+  {
+    "images": {
+      "detail": null
+    },
+    "name": "Ghostly robes",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=12550&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=12550",
+      "pageId": 12550
+    }
   },
   {
     "images": {
@@ -14312,9 +14345,9 @@
       "pageId": 13206
     },
     "colors": [
-      "#74466c",
-      "#e2dedd",
-      "#bcb4b4"
+      "#b4acac",
+      "#6a1070",
+      "#4e4a4a"
     ]
   },
   {
@@ -14796,6 +14829,17 @@
       "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=14183&format=json",
       "link": "https://oldschool.runescape.wiki/w/?curid=14183",
       "pageId": 14183
+    }
+  },
+  {
+    "images": {
+      "detail": null
+    },
+    "name": "3rd age melee equipment",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=14186&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=14186",
+      "pageId": 14186
     }
   },
   {
@@ -16251,23 +16295,6 @@
   },
   {
     "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Axe_handle_detail.png"
-    },
-    "name": "Axe handle",
-    "slot": "Weapon",
-    "wiki": {
-      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=16393&format=json",
-      "link": "https://oldschool.runescape.wiki/w/?curid=16393",
-      "pageId": 16393
-    },
-    "colors": [
-      "#2a1c04",
-      "#342404",
-      "#1c1404"
-    ]
-  },
-  {
-    "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Splitbark_helm_detail.png"
     },
     "name": "Splitbark helm",
@@ -16418,6 +16445,17 @@
       "#969676",
       "#747450"
     ]
+  },
+  {
+    "images": {
+      "detail": null
+    },
+    "name": "Lunar equipment",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=16586&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=16586",
+      "pageId": 16586
+    }
   },
   {
     "images": {
@@ -16653,6 +16691,17 @@
   },
   {
     "images": {
+      "detail": null
+    },
+    "name": "Leather armour",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=17665&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=17665",
+      "pageId": 17665
+    }
+  },
+  {
+    "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Leather_vambraces_detail.png"
     },
     "name": "Leather vambraces",
@@ -16687,6 +16736,17 @@
   },
   {
     "images": {
+      "detail": null
+    },
+    "name": "Skeletal armour",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=17912&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=17912",
+      "pageId": 17912
+    }
+  },
+  {
+    "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Black_robe_detail.png"
     },
     "name": "Black robe",
@@ -16701,6 +16761,17 @@
       "#1c1c10",
       "#3d3726"
     ]
+  },
+  {
+    "images": {
+      "detail": null
+    },
+    "name": "Wizard robes",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=17975&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=17975",
+      "pageId": 17975
+    }
   },
   {
     "images": {
@@ -17253,6 +17324,17 @@
   },
   {
     "images": {
+      "detail": null
+    },
+    "name": "Green dragonhide armour",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=18706&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=18706",
+      "pageId": 18706
+    }
+  },
+  {
+    "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Blue_cape_detail.png"
     },
     "name": "Blue cape",
@@ -17281,7 +17363,7 @@
     },
     "colors": [
       "#34270b",
-      "#9c8c2d",
+      "#9d8c2d",
       "#6f4d30"
     ]
   },
@@ -18705,6 +18787,17 @@
       "#141ba6",
       "#181cbb"
     ]
+  },
+  {
+    "images": {
+      "detail": null
+    },
+    "name": "3rd age range equipment",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=20653&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=20653",
+      "pageId": 20653
+    }
   },
   {
     "images": {
@@ -20519,12 +20612,23 @@
     "images": {
       "detail": null
     },
-    "name": "Iron fire arrows",
+    "name": "Iron fire arrow",
     "slot": "Ammunition",
     "wiki": {
       "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=21985&format=json",
       "link": "https://oldschool.runescape.wiki/w/?curid=21985",
       "pageId": 21985
+    }
+  },
+  {
+    "images": {
+      "detail": null
+    },
+    "name": "Studded leather armour",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=22047&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=22047",
+      "pageId": 22047
     }
   },
   {
@@ -20591,6 +20695,57 @@
   },
   {
     "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Blade_of_saeldor_(inactive)_detail.png"
+    },
+    "name": "Blade of saeldor",
+    "slot": "Weapon",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=222579&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=222579",
+      "pageId": 222579
+    },
+    "colors": [
+      "#b7abab",
+      "#5b503d",
+      "#607a7b"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Sarachnis_cudgel_detail.png"
+    },
+    "name": "Sarachnis cudgel",
+    "slot": "Weapon",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=223137&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=223137",
+      "pageId": 223137
+    },
+    "colors": [
+      "#532522",
+      "#a19595",
+      "#887c7c"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Mask_of_ranul_detail.png"
+    },
+    "name": "Mask of ranul",
+    "slot": "Head",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=223865&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=223865",
+      "pageId": 223865
+    },
+    "colors": [
+      "#504747",
+      "#90261b",
+      "#181616"
+    ]
+  },
+  {
+    "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Mystic_water_staff_detail.png"
     },
     "name": "Mystic water staff",
@@ -20642,6 +20797,261 @@
   },
   {
     "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Crystal_pickaxe_detail.png"
+    },
+    "name": "Crystal pickaxe",
+    "slot": "Weapon",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=225792&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=225792",
+      "pageId": 225792
+    },
+    "colors": [
+      "#5a5a5b",
+      "#c9cfd6",
+      "#91a4b5"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Ardougne_knight_helm_detail.png"
+    },
+    "name": "Ardougne knight helm",
+    "slot": "Head",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=225947&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=225947",
+      "pageId": 225947
+    },
+    "colors": [
+      "#736b6b",
+      "#1c1514",
+      "#60140a"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Ardougne_knight_platebody_detail.png"
+    },
+    "name": "Ardougne knight platebody",
+    "slot": "Body",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=225948&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=225948",
+      "pageId": 225948
+    },
+    "colors": [
+      "#63259a",
+      "#817978",
+      "#3b3425"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Ardougne_knight_platelegs_detail.png"
+    },
+    "name": "Ardougne knight platelegs",
+    "slot": "Leg",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=225949&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=225949",
+      "pageId": 225949
+    },
+    "colors": [
+      "#645d5d",
+      "#240907",
+      "#302c2c"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Corrupted_sceptre_detail.png"
+    },
+    "name": "Corrupted sceptre",
+    "slot": "Weapon",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=225965&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=225965",
+      "pageId": 225965
+    },
+    "colors": [
+      "#423535",
+      "#9c1436",
+      "#810d2c"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Corrupted_axe_detail.png"
+    },
+    "name": "Corrupted axe",
+    "slot": "Weapon",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=225966&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=225966",
+      "pageId": 225966
+    },
+    "colors": [
+      "#b0183d",
+      "#3f3935",
+      "#6b4d43"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Corrupted_pickaxe_detail.png"
+    },
+    "name": "Corrupted pickaxe",
+    "slot": "Weapon",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=225967&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=225967",
+      "pageId": 225967
+    },
+    "colors": [
+      "#5c2a32",
+      "#d61848",
+      "#ac1439"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Corrupted_harpoon_detail.png"
+    },
+    "name": "Corrupted harpoon",
+    "slot": "Weapon",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=225968&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=225968",
+      "pageId": 225968
+    },
+    "colors": [
+      "#4b3837",
+      "#d41847",
+      "#9d2d40"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Dragonstone_full_helm_detail.png"
+    },
+    "name": "Dragonstone full helm",
+    "slot": "Head",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=225998&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=225998",
+      "pageId": 225998
+    },
+    "colors": [
+      "#293339",
+      "#7c55ac",
+      "#567381"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Dragonstone_platebody_detail.png"
+    },
+    "name": "Dragonstone platebody",
+    "slot": "Body",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=225999&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=225999",
+      "pageId": 225999
+    },
+    "colors": [
+      "#30373f",
+      "#756296",
+      "#58707d"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Dragonstone_platelegs_detail.png"
+    },
+    "name": "Dragonstone platelegs",
+    "slot": "Leg",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=226000&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=226000",
+      "pageId": 226000
+    },
+    "colors": [
+      "#2f2e33",
+      "#506b77",
+      "#8239a5"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Dragonstone_boots_detail.png"
+    },
+    "name": "Dragonstone boots",
+    "slot": "Feet",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=226001&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=226001",
+      "pageId": 226001
+    },
+    "colors": [
+      "#28343a",
+      "#546f7e",
+      "#7551a1"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Dragonstone_gauntlets_detail.png"
+    },
+    "name": "Dragonstone gauntlets",
+    "slot": "Hand",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=226002&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=226002",
+      "pageId": 226002
+    },
+    "colors": [
+      "#353c47",
+      "#933cb6",
+      "#597383"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Imbued_tephra_detail.png"
+    },
+    "name": "Imbued tephra",
+    "slot": "Weapon",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=226070&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=226070",
+      "pageId": 226070
+    },
+    "colors": [
+      "#2e2d2d",
+      "#1ed2d9",
+      "#0e7b80"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Elven_signet_detail.png"
+    },
+    "name": "Elven signet",
+    "slot": "Ring",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=226088&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=226088",
+      "pageId": 226088
+    },
+    "colors": [
+      "#645e4f",
+      "#8baba3",
+      "#8a9484"
+    ]
+  },
+  {
+    "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Seal_of_passage_detail.png"
     },
     "name": "Seal of passage",
@@ -20676,6 +21086,40 @@
   },
   {
     "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Gauntlet_cape_detail.png"
+    },
+    "name": "Gauntlet cape",
+    "slot": "Cape",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=226308&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=226308",
+      "pageId": 226308
+    },
+    "colors": [
+      "#7d251d",
+      "#311f19",
+      "#51231f"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Crystal_harpoon_detail.png"
+    },
+    "name": "Crystal harpoon",
+    "slot": "Weapon",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=226526&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=226526",
+      "pageId": 226526
+    },
+    "colors": [
+      "#544e49",
+      "#bfc8d0",
+      "#99abbd"
+    ]
+  },
+  {
+    "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Rune_platelegs_(g)_detail.png"
     },
     "name": "Rune platelegs (g)",
@@ -20689,6 +21133,40 @@
       "#2e414b",
       "#d9a31d",
       "#7e5d0e"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Crystal_crown_(Ithell)_detail.png"
+    },
+    "name": "Crystal crown",
+    "slot": "Head",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=226633&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=226633",
+      "pageId": 226633
+    },
+    "colors": [
+      "#bcb4b3",
+      "#4c4746",
+      "#645c5c"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Crystal_grail_detail.png"
+    },
+    "name": "Crystal grail",
+    "slot": "Weapon",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=226675&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=226675",
+      "pageId": 226675
+    },
+    "colors": [
+      "#b2c7c2",
+      "#6f6146",
+      "#627c76"
     ]
   },
   {
@@ -20710,6 +21188,476 @@
   },
   {
     "images": {
+      "detail": null
+    },
+    "name": "Enchanted robes",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=22676&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=22676",
+      "pageId": 22676
+    }
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Crystal_helm_(basic)_detail.png"
+    },
+    "name": "Crystal helm (basic)",
+    "slot": "Head",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=226796&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=226796",
+      "pageId": 226796
+    },
+    "colors": [
+      "#999fa2",
+      "#414346",
+      "#4f5454"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Crystal_body_(basic)_detail.png"
+    },
+    "name": "Crystal body (basic)",
+    "slot": "Body",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=226798&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=226798",
+      "pageId": 226798
+    },
+    "colors": [
+      "#2d6761",
+      "#a5abb0",
+      "#82898c"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Crystal_legs_(basic)_detail.png"
+    },
+    "name": "Crystal legs (basic)",
+    "slot": "Leg",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=226799&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=226799",
+      "pageId": 226799
+    },
+    "colors": [
+      "#456562",
+      "#b5bcbe",
+      "#949da4"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Crystal_helm_(attuned)_detail.png"
+    },
+    "name": "Crystal helm (attuned)",
+    "slot": "Head",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=226801&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=226801",
+      "pageId": 226801
+    },
+    "colors": [
+      "#519e89",
+      "#26483d",
+      "#9bddc3"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Crystal_body_(attuned)_detail.png"
+    },
+    "name": "Crystal body (attuned)",
+    "slot": "Body",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=226806&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=226806",
+      "pageId": 226806
+    },
+    "colors": [
+      "#368074",
+      "#12342e",
+      "#75caa9"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Crystal_legs_(attuned)_detail.png"
+    },
+    "name": "Crystal legs (attuned)",
+    "slot": "Leg",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=226807&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=226807",
+      "pageId": 226807
+    },
+    "colors": [
+      "#3f6660",
+      "#6bc2a4",
+      "#747c7c"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Crystal_bow_(basic)_detail.png"
+    },
+    "name": "Crystal bow (basic)",
+    "slot": "Weapon",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=226808&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=226808",
+      "pageId": 226808
+    },
+    "colors": [
+      "#a29998",
+      "#3e3131",
+      "#5d5353"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Crystal_helm_detail.png"
+    },
+    "name": "Crystal helm",
+    "slot": "Head",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=226809&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=226809",
+      "pageId": 226809
+    },
+    "colors": [
+      "#8594a2",
+      "#31353d",
+      "#444c54"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Crystal_legs_detail.png"
+    },
+    "name": "Crystal legs",
+    "slot": "Leg",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=226810&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=226810",
+      "pageId": 226810
+    },
+    "colors": [
+      "#5a676c",
+      "#9aacbd",
+      "#8c9cac"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Crystal_body_detail.png"
+    },
+    "name": "Crystal body",
+    "slot": "Body",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=226811&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=226811",
+      "pageId": 226811
+    },
+    "colors": [
+      "#496166",
+      "#9fb0bf",
+      "#8494a4"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Crystal_sceptre_detail.png"
+    },
+    "name": "Crystal sceptre",
+    "slot": "Weapon",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=226812&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=226812",
+      "pageId": 226812
+    },
+    "colors": [
+      "#5d7374",
+      "#12969b",
+      "#2a3335"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Crystal_staff_(basic)_detail.png"
+    },
+    "name": "Crystal staff (basic)",
+    "slot": "Weapon",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=226814&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=226814",
+      "pageId": 226814
+    },
+    "colors": [
+      "#3c2e28",
+      "#a4988e",
+      "#877c72"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Crystal_bow_(attuned)_detail.png"
+    },
+    "name": "Crystal bow (attuned)",
+    "slot": "Weapon",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=226820&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=226820",
+      "pageId": 226820
+    },
+    "colors": [
+      "#3a9e83",
+      "#3e3131",
+      "#276455"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Crystal_bow_(perfected)_detail.png"
+    },
+    "name": "Crystal bow (perfected)",
+    "slot": "Weapon",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=226831&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=226831",
+      "pageId": 226831
+    },
+    "colors": [
+      "#129195",
+      "#3e3131",
+      "#115c5e"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Crystal_halberd_(perfected)_detail.png"
+    },
+    "name": "Crystal halberd (perfected)",
+    "slot": "Weapon",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=226835&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=226835",
+      "pageId": 226835
+    },
+    "colors": [
+      "#1b8a8e",
+      "#453930",
+      "#827358"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Crystal_staff_(perfected)_detail.png"
+    },
+    "name": "Crystal staff (perfected)",
+    "slot": "Weapon",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=226836&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=226836",
+      "pageId": 226836
+    },
+    "colors": [
+      "#2c2d29",
+      "#139096",
+      "#948364"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Crystal_halberd_(basic)_detail.png"
+    },
+    "name": "Crystal halberd (basic)",
+    "slot": "Weapon",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=226898&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=226898",
+      "pageId": 226898
+    },
+    "colors": [
+      "#a49994",
+      "#3f312b",
+      "#675c46"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Crystal_helm_(perfected)_detail.png"
+    },
+    "name": "Crystal helm (perfected)",
+    "slot": "Head",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=226911&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=226911",
+      "pageId": 226911
+    },
+    "colors": [
+      "#53a0a5",
+      "#254548",
+      "#95d8df"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Crystal_body_(perfected)_detail.png"
+    },
+    "name": "Crystal body (perfected)",
+    "slot": "Body",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=226920&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=226920",
+      "pageId": 226920
+    },
+    "colors": [
+      "#2f716d",
+      "#69c1c8",
+      "#64a4ac"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Crystal_legs_(perfected)_detail.png"
+    },
+    "name": "Crystal legs (perfected)",
+    "slot": "Leg",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=226921&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=226921",
+      "pageId": 226921
+    },
+    "colors": [
+      "#45716f",
+      "#60bfc4",
+      "#243633"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Crystal_axe_detail.png"
+    },
+    "name": "Crystal axe",
+    "slot": "Weapon",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=227241&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=227241",
+      "pageId": 227241
+    },
+    "colors": [
+      "#909ca8",
+      "#4b423a",
+      "#4c5660"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Elven_top_(yellow)_detail.png"
+    },
+    "name": "Elven top (yellow)",
+    "slot": "Body",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=227705&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=227705",
+      "pageId": 227705
+    },
+    "colors": [
+      "#6e6124",
+      "#8a7f6f",
+      "#2a271d"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Elven_top_(white_vest)_detail.png"
+    },
+    "name": "Elven top (white vest)",
+    "slot": "Body",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=227707&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=227707",
+      "pageId": 227707
+    },
+    "colors": [
+      "#6e695e",
+      "#b3b8bd",
+      "#949c9c"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Elven_top_(yellow_vest)_detail.png"
+    },
+    "name": "Elven top (yellow vest)",
+    "slot": "Body",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=227708&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=227708",
+      "pageId": 227708
+    },
+    "colors": [
+      "#6f6015",
+      "#817767",
+      "#2b2504"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Elven_top_(white)_detail.png"
+    },
+    "name": "Elven top (white)",
+    "slot": "Body",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=227709&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=227709",
+      "pageId": 227709
+    },
+    "colors": [
+      "#645e50",
+      "#afb4ba",
+      "#9ca4a4"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Elven_skirt_(yellow)_detail.png"
+    },
+    "name": "Elven skirt (yellow)",
+    "slot": "Leg",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=227711&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=227711",
+      "pageId": 227711
+    },
+    "colors": [
+      "#50431a",
+      "#978526",
+      "#84740c"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Elven_skirt_(white)_detail.png"
+    },
+    "name": "Elven skirt (white)",
+    "slot": "Leg",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=227719&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=227719",
+      "pageId": 227719
+    },
+    "colors": [
+      "#4b4233",
+      "#999ea4",
+      "#808589"
+    ]
+  },
+  {
+    "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Ruby_necklace_detail.png"
     },
     "name": "Ruby necklace",
@@ -20723,6 +21671,159 @@
       "#b59d04",
       "#c50404",
       "#7c6c04"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Elven_legwear_detail.png"
+    },
+    "name": "Elven legwear",
+    "slot": "Leg",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=227721&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=227721",
+      "pageId": 227721
+    },
+    "colors": [
+      "#4c331b",
+      "#6d4922",
+      "#4b4646"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Dragon_pickaxe(or)_detail.png"
+    },
+    "name": "Dragon pickaxe(or)",
+    "slot": "Weapon",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=227730&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=227730",
+      "pageId": 227730
+    },
+    "colors": [
+      "#432b28",
+      "#b93920",
+      "#862a21"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Elven_boots_detail.png"
+    },
+    "name": "Elven boots",
+    "slot": "Feet",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=227887&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=227887",
+      "pageId": 227887
+    },
+    "colors": [
+      "#3b5657",
+      "#1b2626",
+      "#243438"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Elven_gloves_detail.png"
+    },
+    "name": "Elven gloves",
+    "slot": "Hand",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=227888&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=227888",
+      "pageId": 227888
+    },
+    "colors": [
+      "#395355",
+      "#1e2a2a",
+      "#243438"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Crystal_staff_(attuned)_detail.png"
+    },
+    "name": "Crystal staff (attuned)",
+    "slot": "Weapon",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=228529&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=228529",
+      "pageId": 228529
+    },
+    "colors": [
+      "#302e27",
+      "#559779",
+      "#817158"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Crystal_halberd_(attuned)_detail.png"
+    },
+    "name": "Crystal halberd (attuned)",
+    "slot": "Weapon",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=228531&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=228531",
+      "pageId": 228531
+    },
+    "colors": [
+      "#3d8d73",
+      "#3d312a",
+      "#85755a"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Crystal_axe_(The_Gauntlet)_detail.png"
+    },
+    "name": "Crystal axe (The Gauntlet)",
+    "slot": "Weapon",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=228549&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=228549",
+      "pageId": 228549
+    },
+    "colors": [
+      "#909ca8",
+      "#4b423a",
+      "#4c5660"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Crystal_pickaxe_(The_Gauntlet)_detail.png"
+    },
+    "name": "Crystal pickaxe (The Gauntlet)",
+    "slot": "Weapon",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=228550&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=228550",
+      "pageId": 228550
+    },
+    "colors": [
+      "#575757",
+      "#c0c9d1",
+      "#899bad"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Crystal_harpoon_(The_Gauntlet)_detail.png"
+    },
+    "name": "Crystal harpoon (The Gauntlet)",
+    "slot": "Weapon",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=228551&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=228551",
+      "pageId": 228551
+    },
+    "colors": [
+      "#544e49",
+      "#bfc8d0",
+      "#99abbd"
     ]
   },
   {
@@ -20820,6 +21921,409 @@
       "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=23018&format=json",
       "link": "https://oldschool.runescape.wiki/w/?curid=23018",
       "pageId": 23018
+    }
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Corrupted_halberd_(basic)_detail.png"
+    },
+    "name": "Corrupted halberd (basic)",
+    "slot": "Weapon",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=231374&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=231374",
+      "pageId": 231374
+    },
+    "colors": [
+      "#a49994",
+      "#3f312b",
+      "#675c46"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Corrupted_halberd_(attuned)_detail.png"
+    },
+    "name": "Corrupted halberd (attuned)",
+    "slot": "Weapon",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=231376&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=231376",
+      "pageId": 231376
+    },
+    "colors": [
+      "#6c5564",
+      "#9a71a8",
+      "#302726"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Corrupted_halberd_(perfected)_detail.png"
+    },
+    "name": "Corrupted halberd (perfected)",
+    "slot": "Weapon",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=231377&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=231377",
+      "pageId": 231377
+    },
+    "colors": [
+      "#802d25",
+      "#3c2c26",
+      "#807157"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Corrupted_bow_(basic)_detail.png"
+    },
+    "name": "Corrupted bow (basic)",
+    "slot": "Weapon",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=231378&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=231378",
+      "pageId": 231378
+    },
+    "colors": [
+      "#aca3a3",
+      "#3e3131",
+      "#655c5c"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Corrupted_bow_(attuned)_detail.png"
+    },
+    "name": "Corrupted bow (attuned)",
+    "slot": "Weapon",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=231379&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=231379",
+      "pageId": 231379
+    },
+    "colors": [
+      "#7d5c87",
+      "#3e3131",
+      "#513c56"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Corrupted_bow_(perfected)_detail.png"
+    },
+    "name": "Corrupted bow (perfected)",
+    "slot": "Weapon",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=231380&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=231380",
+      "pageId": 231380
+    },
+    "colors": [
+      "#b7382f",
+      "#3e3131",
+      "#6c241e"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Corrupted_staff_(basic)_detail.png"
+    },
+    "name": "Corrupted staff (basic)",
+    "slot": "Weapon",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=231381&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=231381",
+      "pageId": 231381
+    },
+    "colors": [
+      "#3c2e28",
+      "#a4988e",
+      "#877c72"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Corrupted_staff_(attuned)_detail.png"
+    },
+    "name": "Corrupted staff (attuned)",
+    "slot": "Weapon",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=231382&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=231382",
+      "pageId": 231382
+    },
+    "colors": [
+      "#3a282a",
+      "#916a9e",
+      "#8f7e61"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Corrupted_staff_(perfected)_detail.png"
+    },
+    "name": "Corrupted staff (perfected)",
+    "slot": "Weapon",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=231383&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=231383",
+      "pageId": 231383
+    },
+    "colors": [
+      "#34201c",
+      "#a64f3e",
+      "#807157"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Corrupted_helm_(basic)_detail.png"
+    },
+    "name": "Corrupted helm (basic)",
+    "slot": "Head",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=231384&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=231384",
+      "pageId": 231384
+    },
+    "colors": [
+      "#a29999",
+      "#443f3f",
+      "#595454"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Corrupted_helm_(attuned)_detail.png"
+    },
+    "name": "Corrupted helm (attuned)",
+    "slot": "Head",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=231385&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=231385",
+      "pageId": 231385
+    },
+    "colors": [
+      "#7a5a84",
+      "#34273a",
+      "#46344c"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Corrupted_helm_(perfected)_detail.png"
+    },
+    "name": "Corrupted helm (perfected)",
+    "slot": "Head",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=231386&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=231386",
+      "pageId": 231386
+    },
+    "colors": [
+      "#902d24",
+      "#cf4035",
+      "#3e120f"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Corrupted_body_(basic)_detail.png"
+    },
+    "name": "Corrupted body (basic)",
+    "slot": "Body",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=231387&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=231387",
+      "pageId": 231387
+    },
+    "colors": [
+      "#43302f",
+      "#b5abaa",
+      "#948c8c"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Corrupted_body_(attuned)_detail.png"
+    },
+    "name": "Corrupted body (attuned)",
+    "slot": "Body",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=231388&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=231388",
+      "pageId": 231388
+    },
+    "colors": [
+      "#412c32",
+      "#876393",
+      "#74547c"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Corrupted_body_(perfected)_detail.png"
+    },
+    "name": "Corrupted body (perfected)",
+    "slot": "Body",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=231389&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=231389",
+      "pageId": 231389
+    },
+    "colors": [
+      "#3e2625",
+      "#a73328",
+      "#7f251f"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Corrupted_legs_(basic)_detail.png"
+    },
+    "name": "Corrupted legs (basic)",
+    "slot": "Leg",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=231390&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=231390",
+      "pageId": 231390
+    },
+    "colors": [
+      "#4e4848",
+      "#beb5b4",
+      "#a09494"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Corrupted_legs_(attuned)_detail.png"
+    },
+    "name": "Corrupted legs (attuned)",
+    "slot": "Leg",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=231391&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=231391",
+      "pageId": 231391
+    },
+    "colors": [
+      "#5a515a",
+      "#966ea2",
+      "#301f1e"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Corrupted_legs_(perfected)_detail.png"
+    },
+    "name": "Corrupted legs (perfected)",
+    "slot": "Leg",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=231392&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=231392",
+      "pageId": 231392
+    },
+    "colors": [
+      "#472f2d",
+      "#ad362a",
+      "#922b24"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Armadyl_halo_detail.png"
+    },
+    "name": "Armadyl halo",
+    "slot": "Head",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=231460&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=231460",
+      "pageId": 231460
+    },
+    "colors": [
+      "#8d897f",
+      "#bdaf6b",
+      "#6c643c"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Bandos_halo_detail.png"
+    },
+    "name": "Bandos halo",
+    "slot": "Head",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=231461&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=231461",
+      "pageId": 231461
+    },
+    "colors": [
+      "#686050",
+      "#0e796d",
+      "#857c6c"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Ancient_halo_detail.png"
+    },
+    "name": "Ancient halo",
+    "slot": "Head",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=231462&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=231462",
+      "pageId": 231462
+    },
+    "colors": [
+      "#161416",
+      "#532f53",
+      "#643664"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Seren_halo_detail.png"
+    },
+    "name": "Seren halo",
+    "slot": "Head",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=231463&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=231463",
+      "pageId": 231463
+    },
+    "colors": [
+      "#92abab",
+      "#15a9a3",
+      "#6c8384"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Brassica_halo_detail.png"
+    },
+    "name": "Brassica halo",
+    "slot": "Head",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=231464&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=231464",
+      "pageId": 231464
+    },
+    "colors": [
+      "#597234",
+      "#739a46",
+      "#3b5224"
+    ]
+  },
+  {
+    "images": {
+      "detail": null
+    },
+    "name": "Rune berserker shield",
+    "slot": "Shield",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=231467&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=231467",
+      "pageId": 231467
     }
   },
   {
@@ -20926,6 +22430,125 @@
   },
   {
     "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Swift_blade_detail.png"
+    },
+    "name": "Swift blade",
+    "slot": "Weapon",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=232190&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=232190",
+      "pageId": 232190
+    },
+    "colors": [
+      "#534433",
+      "#8e7b43",
+      "#aa9353"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Staff_of_balance_detail.png"
+    },
+    "name": "Staff of balance",
+    "slot": "Weapon",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=232195&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=232195",
+      "pageId": 232195
+    },
+    "colors": [
+      "#2b4f2b",
+      "#6c6750",
+      "#4c916c"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Victor's_cape_(1)_detail.png"
+    },
+    "name": "Victor's cape (1)",
+    "slot": "Cape",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=232267&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=232267",
+      "pageId": 232267
+    },
+    "colors": [
+      "#423c3c",
+      "#585454",
+      "#b3a8a8"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Victor's_cape_(10)_detail.png"
+    },
+    "name": "Victor's cape (10)",
+    "slot": "Cape",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=232268&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=232268",
+      "pageId": 232268
+    },
+    "colors": [
+      "#322b28",
+      "#585454",
+      "#ada0a0"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Victor's_cape_(50)_detail.png"
+    },
+    "name": "Victor's cape (50)",
+    "slot": "Cape",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=232269&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=232269",
+      "pageId": 232269
+    },
+    "colors": [
+      "#342e2e",
+      "#9b9090",
+      "#6c6464"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Victor's_cape_(100)_detail.png"
+    },
+    "name": "Victor's cape (100)",
+    "slot": "Cape",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=232270&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=232270",
+      "pageId": 232270
+    },
+    "colors": [
+      "#ad9450",
+      "#423c3c",
+      "#585454"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Victor's_cape_(500)_detail.png"
+    },
+    "name": "Victor's cape (500)",
+    "slot": "Cape",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=232271&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=232271",
+      "pageId": 232271
+    },
+    "colors": [
+      "#423c3c",
+      "#a16058",
+      "#585454"
+    ]
+  },
+  {
+    "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Spined_helm_detail.png"
     },
     "name": "Spined helm",
@@ -20991,6 +22614,18 @@
       "#afa8a4",
       "#8c8484"
     ]
+  },
+  {
+    "images": {
+      "detail": null
+    },
+    "name": "Neitiznot faceguard",
+    "slot": "Head",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=232396&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=232396",
+      "pageId": 232396
+    }
   },
   {
     "images": {
@@ -21363,6 +22998,17 @@
   },
   {
     "images": {
+      "detail": null
+    },
+    "name": "Bandos armour",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=23865&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=23865",
+      "pageId": 23865
+    }
+  },
+  {
+    "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Void_melee_helm_detail.png"
     },
     "name": "Void melee helm",
@@ -21436,9 +23082,9 @@
       "pageId": 23936
     },
     "colors": [
-      "#514b4b",
-      "#0c580e",
-      "#15a91b"
+      "#524d4d",
+      "#17b6bc",
+      "#0a4e52"
     ]
   },
   {
@@ -21937,6 +23583,17 @@
       "#8b8080",
       "#5c5427"
     ]
+  },
+  {
+    "images": {
+      "detail": null
+    },
+    "name": "Rock-shell armour",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=25019&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=25019",
+      "pageId": 25019
+    }
   },
   {
     "images": {
@@ -23421,7 +25078,7 @@
   },
   {
     "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Mourner_trousers_(damaged)_detail.png"
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Mourner_trousers_detail.png"
     },
     "name": "Mourner trousers",
     "slot": "Leg",
@@ -23431,9 +25088,9 @@
       "pageId": 27663
     },
     "colors": [
-      "#64520d",
-      "#2c2f21",
-      "#3c2c14"
+      "#65510c",
+      "#242323",
+      "#4c420c"
     ]
   },
   {
@@ -23503,6 +25160,17 @@
       "#ac8c04",
       "#72420c"
     ]
+  },
+  {
+    "images": {
+      "detail": null
+    },
+    "name": "Spined armour",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=27867&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=27867",
+      "pageId": 27867
+    }
   },
   {
     "images": {
@@ -24230,9 +25898,9 @@
       "pageId": 29067
     },
     "colors": [
-      "#7c7372",
-      "#413939",
-      "#533937"
+      "#7b7272",
+      "#494645",
+      "#473635"
     ]
   },
   {
@@ -25501,9 +27169,9 @@
   },
   {
     "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Doctors_hat_detail.png"
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Doctor's_hat_detail.png"
     },
-    "name": "Doctors hat",
+    "name": "Doctor's hat",
     "slot": "Head",
     "wiki": {
       "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=32275&format=json",
@@ -26222,7 +27890,7 @@
   },
   {
     "images": {
-      "detail": null
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Salve_amulet(i)_detail.png"
     },
     "name": "Salve amulet(i)",
     "slot": "Neck",
@@ -26230,7 +27898,12 @@
       "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=34093&format=json",
       "link": "https://oldschool.runescape.wiki/w/?curid=34093",
       "pageId": 34093
-    }
+    },
+    "colors": [
+      "#b4acac",
+      "#6a1070",
+      "#4e4a4a"
+    ]
   },
   {
     "images": {
@@ -26316,18 +27989,6 @@
       "#dad6d5",
       "#d4cccc"
     ]
-  },
-  {
-    "images": {
-      "detail": null
-    },
-    "name": "Villager sandals",
-    "slot": "Feet",
-    "wiki": {
-      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=34186&format=json",
-      "link": "https://oldschool.runescape.wiki/w/?curid=34186",
-      "pageId": 34186
-    }
   },
   {
     "images": {
@@ -26605,7 +28266,7 @@
     "images": {
       "detail": null
     },
-    "name": "Rune fire arrows",
+    "name": "Rune fire arrow",
     "slot": "Ammunition",
     "wiki": {
       "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=35604&format=json",
@@ -26617,7 +28278,7 @@
     "images": {
       "detail": null
     },
-    "name": "Steel fire arrows",
+    "name": "Steel fire arrow",
     "slot": "Ammunition",
     "wiki": {
       "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=35943&format=json",
@@ -26629,7 +28290,7 @@
     "images": {
       "detail": null
     },
-    "name": "Mithril fire arrows",
+    "name": "Mithril fire arrow",
     "slot": "Ammunition",
     "wiki": {
       "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=35944&format=json",
@@ -26641,7 +28302,7 @@
     "images": {
       "detail": null
     },
-    "name": "Adamant fire arrows",
+    "name": "Adamant fire arrow",
     "slot": "Ammunition",
     "wiki": {
       "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=35945&format=json",
@@ -26651,9 +28312,9 @@
   },
   {
     "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Dragon_fire_arrows_(unlit)_detail.png"
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Dragon_fire_arrow_detail.png"
     },
-    "name": "Dragon fire arrows",
+    "name": "Dragon fire arrow",
     "slot": "Ammunition",
     "wiki": {
       "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=35946&format=json",
@@ -26736,9 +28397,9 @@
   },
   {
     "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Runecrafting_hood_detail.png"
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Runecraft_hood_detail.png"
     },
-    "name": "Runecrafting hood",
+    "name": "Runecraft hood",
     "slot": "Head",
     "wiki": {
       "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=36047&format=json",
@@ -28912,6 +30573,17 @@
   },
   {
     "images": {
+      "detail": null
+    },
+    "name": "Black dragonhide armour",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=38078&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=38078",
+      "pageId": 38078
+    }
+  },
+  {
+    "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Black_d'hide_body_(t)_detail.png"
     },
     "name": "Black d'hide body (t)",
@@ -31032,6 +32704,17 @@
   },
   {
     "images": {
+      "detail": null
+    },
+    "name": "Frog-leather armour",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=40643&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=40643",
+      "pageId": 40643
+    }
+  },
+  {
+    "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Mystic_gloves_(blue)_detail.png"
     },
     "name": "Mystic gloves",
@@ -31163,9 +32846,9 @@
   },
   {
     "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Dragon_pickaxe_(or)_detail.png"
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Dragon_pickaxe_(upgraded)_detail.png"
     },
-    "name": "Dragon pickaxe (or)",
+    "name": "Dragon pickaxe (upgraded)",
     "slot": "Weapon",
     "wiki": {
       "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=41819&format=json",
@@ -32301,9 +33984,9 @@
       "pageId": 45907
     },
     "colors": [
-      "#705390",
-      "#cac3c2",
-      "#434043"
+      "#624e7f",
+      "#932dd5",
+      "#beb7ba"
     ]
   },
   {
@@ -32842,6 +34525,17 @@
       "#1a201c",
       "#4c4c4c"
     ]
+  },
+  {
+    "images": {
+      "detail": null
+    },
+    "name": "3rd age mage equipment",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=51879&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=51879",
+      "pageId": 51879
+    }
   },
   {
     "images": {
@@ -35532,17 +37226,6 @@
       "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=6899&format=json",
       "link": "https://oldschool.runescape.wiki/w/?curid=6899",
       "pageId": 6899
-    }
-  },
-  {
-    "images": {
-      "detail": null
-    },
-    "name": "Crystal equipment",
-    "wiki": {
-      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=6902&format=json",
-      "link": "https://oldschool.runescape.wiki/w/?curid=6902",
-      "pageId": 6902
     }
   },
   {
@@ -38461,6 +40144,28 @@
   },
   {
     "images": {
+      "detail": null
+    },
+    "name": "Robes of darkness",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=75175&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=75175",
+      "pageId": 75175
+    }
+  },
+  {
+    "images": {
+      "detail": null
+    },
+    "name": "Samurai armour",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=75177&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=75177",
+      "pageId": 75177
+    }
+  },
+  {
+    "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Half_moon_spectacles_detail.png"
     },
     "name": "Half moon spectacles",
@@ -40327,6 +42032,17 @@
   },
   {
     "images": {
+      "detail": null
+    },
+    "name": "Elder chaos druid robes",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=76539&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=76539",
+      "pageId": 76539
+    }
+  },
+  {
+    "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Evil_chicken_wings_detail.png"
     },
     "name": "Evil chicken wings",
@@ -41774,6 +43490,17 @@
   },
   {
     "images": {
+      "detail": null
+    },
+    "name": "Ancestral robes",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=82100&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=82100",
+      "pageId": 82100
+    }
+  },
+  {
+    "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Dinh's_bulwark_detail.png"
     },
     "name": "Dinh's bulwark",
@@ -42434,6 +44161,50 @@
       "#7d6b47",
       "#6c6444"
     ]
+  },
+  {
+    "images": {
+      "detail": null
+    },
+    "name": "Blue dragonhide armour",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=9525&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=9525",
+      "pageId": 9525
+    }
+  },
+  {
+    "images": {
+      "detail": null
+    },
+    "name": "Red dragonhide armour",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=9526&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=9526",
+      "pageId": 9526
+    }
+  },
+  {
+    "images": {
+      "detail": null
+    },
+    "name": "Yak-hide armour",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=9537&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=9537",
+      "pageId": 9537
+    }
+  },
+  {
+    "images": {
+      "detail": null
+    },
+    "name": "Snakeskin armour",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=9538&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=9538",
+      "pageId": 9538
+    }
   },
   {
     "images": {
