@@ -1,7 +1,7 @@
 # fashionscape-api
 
 [scape.fashion](https://scape.fashion) is a website built to help players of Old School Runescape find an outfit which makes
-them look good (☞ﾟヮﾟ)☞
+them look good (&nbsp;☞ﾟ&nbsp;ヮﾟ&nbsp;)&nbsp;☞
 
 This repository contains the Node/Express application that powers the api. You can find the web application at the
 [fashionscape-web](https://github.com/ncpierson/fashionscape-web) repo.
