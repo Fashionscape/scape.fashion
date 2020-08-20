@@ -18,4 +18,4 @@ RUN yarn install --production --pure-lockfile
 
 EXPOSE 8000
 
-CMD ["pm2-runtime", "start", "pm2.json"]
+CMD ["pm2-runtime", "start", "src/server.js"]
