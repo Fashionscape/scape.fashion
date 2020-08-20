@@ -1,6 +1,6 @@
-const invisibleSlots = ['Ring', 'Neck'];
+const version = process.env.RUNESCAPE_VERSION;
 
-const items = require('../../data/items.json').filter(
+const items = require(`../../data/items-${version}.json`).filter(
   item => !!item.images.detail,
 );
 

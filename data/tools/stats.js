@@ -1,7 +1,9 @@
 const fs = require('fs');
-const items = require('../items.json');
 
-const OUT_PATH = process.argv[2] || 'stats.json';
+const OUT_PATH = process.argv[2] || 'stats-oldschool.json';
+const ITEMS_PATH = process.argv[3] || 'items-oldschool.json';
+
+const items = require(`../${ITEMS_PATH}`);
 
 const hasColors = item => !!item.colors;
 const hasThreeColors = item => item.colors && item.colors.length === 3;

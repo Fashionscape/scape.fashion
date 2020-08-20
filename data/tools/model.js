@@ -1,10 +1,13 @@
 const wiki = require('./wiki');
 
+const context = process.argv[3];
+const config = require('./config')(context);
+
 const isDetailedImage = (image, page) =>
   image.startsWith(page) && image.includes('detail');
 
 const toImageUrl = file =>
-  `https://oldschool.runescape.wiki/w/Special:Redirect/file/${file}`;
+  `${config.url.base}Special:Redirect/file/${file}`;
 
 const toDetailImage = doc => {
   const page = doc.parse.title.replace(/ /g, '_');

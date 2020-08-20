@@ -1,7 +1,10 @@
 const fetch = require('node-fetch');
 
-const BASE_URL = 'https://oldschool.runescape.wiki/w/';
-const API_URL = 'https://oldschool.runescape.wiki/api.php';
+const context = process.argv[3];
+const config = require('./config')(context);
+
+const BASE_URL = config.url.base;
+const API_URL = config.url.api;
 
 const FETCH_OPTIONS = {
   headers: {

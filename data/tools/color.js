@@ -28,9 +28,9 @@ const withColor = async item => {
   if (!item.images.detail) return item;
 
   const image = item.images.detail;
-  const colors = await toPalette(image);
+  const colors = await toPalette(image).catch(() => []);
 
   return {...item, colors};
 };
 
-module.exports = { withColor };
+module.exports = {withColor};
