@@ -50,6 +50,7 @@ const wiki = config => {
 
   const parse = pageId => {
     const url = apiUrl(pageId);
+    console.log('Fetching item: ', url);
     return fetch(url, FETCH_OPTIONS).then(response => response.json());
   };
 

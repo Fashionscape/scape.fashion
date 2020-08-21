@@ -27,7 +27,11 @@ const categories = {
 
 const file = `items-${rsrelease}.json`;
 const items = require(`../${file}`);
-const itemMap = items.reduce((map, item) => (map[item.pageId] = item), {});
+
+const itemMap = items.reduce(
+  (map, item) => ((map[item.wiki.pageId] = item), map),
+  {},
+);
 
 const hasError = item =>
   !Boolean(item.slot && item.images.detail && item.colors.length);
