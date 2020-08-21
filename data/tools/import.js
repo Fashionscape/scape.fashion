@@ -1,9 +1,12 @@
 const fs = require('fs');
 const slow = require('slow');
-
-const wiki = require('./wiki');
-const {toItem} = require('./model');
 const {withColor} = require('./color');
+
+const [_, __, file, rsrelease] = process.argv;
+const config = require('./config')(rsrelease);
+
+const {toItem} = require('./model')(config);
+const wiki = require('./wiki')(config);
 
 const importItem = async pageId => {
   const doc = await wiki.parse(pageId);
@@ -19,6 +22,8 @@ const importItems = async file => {
   let pageIds = members.map(member => member.pageid);
   pageIds = pageIds.sort();
 
+  console.log('Total items: ', pageIds.length);
+
   let processedCount = 0;
   const items = await slow.run(pageIds, pageId => {
     if (processedCount % 100 === 0)
@@ -30,7 +35,5 @@ const importItems = async file => {
 
   fs.writeFileSync(file, JSON.stringify(items, null, 2));
 };
-
-const [_, __, file] = process.argv;
 
 importItems(file);
