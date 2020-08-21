@@ -32,15 +32,29 @@ const toSlot = doc => {
   return SLOT_MAP[slotCategory];
 };
 
+const isDiscontinued = doc =>
+  doc.parse.categories.map(c => c['*']).includes('Discontinued_content');
+
+const patterns = [
+  {pattern: /fire_arrow/, solution: 'Bronze_fire_arrow'},
+  {pattern: /Diving_apparatus/, solution: 'Diving_apparatus'},
+];
+
+const closestMatch = page =>
+  patterns.reduce((target, {pattern, solution}) => {
+    if (target) return target;
+    return pattern.test(page) ? solution : target;
+  }, null) || page;
+
 const isDetailedImage = (image, page) => {
   const isDetail = image.endsWith('detail.png');
-  if (!isDetail) return false;
+  const isAnimated = image.endsWith('detail_animated.gif');
+  if (!isDetail && !isAnimated) return false;
 
   const isEasyMode = image.startsWith(page);
   if (isEasyMode) return true;
 
-  const isFireArrow = page.includes('fire_arrow');
-  const target = isFireArrow ? 'Bronze_fire_arrow' : page;
+  const target = closestMatch(page);
 
   return image.startsWith(target);
 };
@@ -68,7 +82,10 @@ const model = config => {
     const detail = toDetailImage(doc);
     const slot = toSlot(doc);
 
+    const discontinued = isDiscontinued(doc);
+
     return {
+      discontinued,
       images: {detail},
       name,
       slot,
