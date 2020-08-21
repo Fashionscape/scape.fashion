@@ -1,27 +1,28 @@
 const Wiki = require('./wiki');
 
 const SLOT_MAP_RS3 = {
-  Legs_slot_items: 'Leg',
-  Torso_slot_items: 'Body',
-  Back_slot_items: 'Cape',
-  Main_hand_slot_items: 'Weapon',
   'Off-hand_slot_items': 'Shield',
+  Back_slot_items: 'Cape',
+  Hand_slot_items: 'Hand',
+  Legs_slot_items: 'Leg',
+  Main_hand_slot_items: 'Weapon',
   Pocket_slot_items: 'Pocket',
+  Torso_slot_items: 'Body',
 };
 
 const SLOT_MAP = {
   ...SLOT_MAP_RS3,
+  'Two-handed_slot_items': 'Weapon',
   Ammunition_slot_items: 'Ammunition',
   Body_slot_items: 'Body',
   Cape_slot_items: 'Cape',
   Feet_slot_items: 'Feet',
-  Hand_slot_items: 'Hand',
+  Hands_slot_items: 'Hand',
   Head_slot_items: 'Head',
   Leg_slot_items: 'Leg',
   Neck_slot_items: 'Neck',
   Ring_slot_items: 'Ring',
   Shield_slot_items: 'Shield',
-  'Two-handed_slot_items': 'Weapon',
   Weapon_slot_items: 'Weapon',
 };
 
@@ -38,6 +39,7 @@ const isDiscontinued = doc =>
 const patterns = [
   {pattern: /fire_arrow/, solution: 'Bronze_fire_arrow'},
   {pattern: /Diving_apparatus/, solution: 'Diving_apparatus'},
+  {pattern: /Onyx_bracelet/, solution: 'Regen_bracelet'}
 ];
 
 const closestMatch = page =>

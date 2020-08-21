@@ -24,11 +24,18 @@ const toPalette = async src => {
   return palette.map(toHex);
 };
 
+const overrides = {
+  'Ghostly gloves': ['#4d4c47', '#342f2c', '#44443c'],
+  'Ankou gloves': ['#ac2313', '#d22c1c', '#861b0c'],
+};
+
 const withColor = async item => {
   if (!item.images.detail) return item;
 
   const image = item.images.detail;
-  const colors = await toPalette(image).catch(() => []);
+  let colors = await toPalette(image).catch(() => []);
+
+  if (!colors.length) colors = overrides[item.name] || [];
 
   return {...item, colors};
 };
