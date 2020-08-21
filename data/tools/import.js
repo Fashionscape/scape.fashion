@@ -2,7 +2,7 @@ const fs = require('fs');
 const slow = require('slow');
 const {withColor} = require('./color');
 
-const [_, __, file, rsrelease] = process.argv;
+const [_, __, rsrelease] = process.argv;
 const config = require('./config')(rsrelease);
 
 const {toItem} = require('./model')(config);
@@ -36,4 +36,5 @@ const importItems = async file => {
   fs.writeFileSync(file, JSON.stringify(items, null, 2));
 };
 
+const file = `items-${rsrelease}.json`;
 importItems(file);

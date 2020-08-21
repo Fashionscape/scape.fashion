@@ -1,7 +1,9 @@
 const fs = require('fs');
 
-const OUT_PATH = process.argv[2] || 'stats-oldschool.json';
-const ITEMS_PATH = process.argv[3] || 'items-oldschool.json';
+const [_, __, rsrelease] = process.argv;
+
+const OUT_PATH = `stats-${rsrelease}.json`;
+const ITEMS_PATH = `items-${rsrelease}.json`;
 
 const items = require(`../${ITEMS_PATH}`);
 

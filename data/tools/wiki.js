@@ -1,4 +1,5 @@
 const fetch = require('node-fetch');
+const slow = require('slow');
 
 const wiki = config => {
   const BASE_URL = config.url.base;
@@ -39,6 +40,11 @@ const wiki = config => {
     return [...response.query.categorymembers, ...nextMembers];
   };
 
+  const categories = categories =>
+    slow
+      .run(categories, category => categoryMembers(category))
+      .then(ms => ms.flat());
+
   const apiUrl = pageId =>
     `${API_URL}?action=parse&pageid=${pageId}&format=json`;
 
@@ -49,7 +55,7 @@ const wiki = config => {
 
   const wikiUrl = pageId => `${BASE_URL}?curid=${pageId}`;
 
-  return {apiUrl, categoryMembers, parse, wikiUrl};
+  return {apiUrl, categories, categoryMembers, parse, wikiUrl};
 };
 
 module.exports = wiki;

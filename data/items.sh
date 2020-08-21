@@ -4,29 +4,34 @@
 # ./items.sh import oldschool # or runescape
 # ./items.sh stats oldschool # or runescape
 
-GAME=$2
+RSRELEASE=$2
 
-if [ "$GAME" != "oldschool" ] && [ "$GAME" != "runescape" ]; then
+if [ "$RSRELEASE" != "oldschool" ] && [ "$RSRELEASE" != "runescape" ]; then
   echo "Only oldschool,runescape are valid arguments";
   exit;
 fi
 
-ITEMS_PATH="items-$GAME.json"
-STATS_PATH="stats-$GAME.json"
-
 set -e
 
 import() {
-  node tools/import.js $ITEMS_PATH $GAME
+  node tools/import.js $RSRELEASE
+
+  stats
+}
+
+update() {
+  node tools/update.js $RSRELEASE
 
   stats
 }
 
 stats() {
+  STATS_PATH="stats-$RSRELEASE.json"
+
   printf "Before:\n\n"
   test -f "$STATS_PATH" && cat "$STATS_PATH"
 
-  node tools/stats.js "$STATS_PATH" "$ITEMS_PATH"
+  node tools/stats.js "$RSRELEASE"
 
   printf "\nAfter:\n\n"
   test -f "$STATS_PATH" && cat "$STATS_PATH"
@@ -38,4 +43,5 @@ shift
 case "$COMMAND" in
   import) import $@;;
   stats) stats $@;;
+  update) update $@;;
 esac

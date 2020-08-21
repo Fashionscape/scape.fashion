@@ -32,8 +32,18 @@ const toSlot = doc => {
   return SLOT_MAP[slotCategory];
 };
 
-const isDetailedImage = (image, page) =>
-  image.startsWith(page) && image.includes('detail');
+const isDetailedImage = (image, page) => {
+  const isDetail = image.endsWith('detail.png');
+  if (!isDetail) return false;
+
+  const isEasyMode = image.startsWith(page);
+  if (isEasyMode) return true;
+
+  const isFireArrow = page.includes('fire_arrow');
+  const target = isFireArrow ? 'Bronze_fire_arrow' : page;
+
+  return image.startsWith(target);
+};
 
 const model = config => {
   const wiki = Wiki(config);
