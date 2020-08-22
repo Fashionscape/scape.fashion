@@ -97,12 +97,16 @@ const model = config => {
 
   const toDetailImage = doc => {
     const page = doc.parse.title.replace(/ /g, '_');
-    const target = withOverrides(page);
-
     const images = doc.parse.images;
-    const detail = images.find(image => isDetailedImage(image, target));
 
-    return detail ? toImageUrl(detail) : null;
+    const detail = images.find(image => isDetailedImage(image, page));
+
+    if (detail) return toImageUrl(detail);
+
+    const target = withOverrides(page);
+    const detail_ = images.find(image => isDetailedImage(image, target));
+
+    return detail_ ? toImageUrl(detail_) : null;
   };
 
   const toItem = doc => {

@@ -31,6 +31,8 @@ const hasError = item =>
 const logItem = item =>
   fs.appendFileSync(`errors-${rsrelease}.txt`, JSON.stringify(item, null, 2));
 
+const byPageId = (a, b) => a.wiki.pageId - b.wiki.pageId;
+
 const importItem = async pageId => {
   const doc = await wiki.parse(pageId);
   const item = toItem(doc);
