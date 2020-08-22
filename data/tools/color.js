@@ -27,6 +27,7 @@ const toPalette = async src => {
 const overrides = {
   'Ghostly gloves': ['#4d4c47', '#342f2c', '#44443c'],
   'Ankou gloves': ['#ac2313', '#d22c1c', '#861b0c'],
+  'Ghostly robe (bottom)': ['#51504a', '#2d2d29', '#3c3c36'],
 };
 
 const withColor = async item => {
