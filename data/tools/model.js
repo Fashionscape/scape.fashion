@@ -46,6 +46,7 @@ const patterns = [
   {from: /Clean_necklace/, to: 'Digsite_pendant'},
   {from: /Unblessed_symbol/, to: 'Holy_symbol'},
   {from: /Unpowered_symbol/, to: 'Unholy_symbol'},
+  {from: /'perfect'_ring/, to: 'Ring_of_forging'},
 ];
 
 const withOverrides = page =>
