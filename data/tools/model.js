@@ -33,8 +33,7 @@ const toSlot = doc => {
   return SLOT_MAP[slotCategory];
 };
 
-const isItemStatus = category =>
-  ['Discontinued_content', 'Needs_image'].includes(category);
+const isItemStatus = category => ['Discontinued_content'].includes(category);
 
 const patterns = [
   {from: /fire_arrow/, to: 'Bronze_fire_arrow'},
@@ -56,6 +55,17 @@ const patterns = [
   {from: /Damaged_book_\(Armadyl\)/, to: 'Book_of_law'},
   {from: /Damaged_book_\(Saradomin\)/, to: 'Holy_book'},
   {from: /Iced_gingerbread_shield/, to: 'Green_gingerbread_shield'},
+  {from: /Lunar_staff_-_pt\d/, to: 'Dramen_staff'},
+  {from: /Mystic_steam_staff/, to: 'Steam_battlestaff'},
+  {from: /Mystic_mud_staff/, to: 'Mud_battlestaff'},
+  {from: /Mystic_mist_staff/, to: 'Mist_battlestaff'},
+  {from: /Mystic_dust_staff/, to: 'Dust_battlestaff'},
+  {from: /Mystic_lava_staff_\(or\)/, to: 'Lava_battlestaff_(or)'},
+  {from: /Mystic_smoke_staff/, to: 'Smoke_battlestaff'},
+  {from: /Enchanted_emerald_sickle_\(b\)/, to: 'Emerald_sickle_(b)'},
+  {from: /Killer's_knife/, to: 'Hunting_knife'},
+  {from: /Enchanted_lyre/, to: 'Lyre'},
+  {from: /Bearded_gorilla_greegree/, to: 'Gorilla_greegree'},
 ];
 
 const withOverrides = page =>
@@ -78,6 +88,8 @@ const isDetailedImage = (image, page) => {
   return false;
 };
 
+const banList = ['Rune berserker shield'];
+
 const model = config => {
   const wiki = Wiki(config);
 
@@ -95,6 +107,10 @@ const model = config => {
 
   const toItem = doc => {
     const name = doc.parse.title;
+
+    if (name.startsWith('Category:')) return null;
+    if (banList.includes(name)) return null;
+
     const pageId = doc.parse.pageid;
     const api = wiki.apiUrl(pageId);
     const link = wiki.wikiUrl(pageId);

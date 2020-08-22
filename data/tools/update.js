@@ -33,11 +33,14 @@ const itemMap = items
   .reduce((map, item) => ((map[item.wiki.pageId] = item), map), {});
 
 const hasError = item =>
+  item &&
   !item.status?.includes('Needs_image') &&
   !Boolean(item.slot && item.images.detail && item.colors.length);
 
 const logItem = item =>
   fs.appendFileSync(`errors-${rsrelease}.txt`, JSON.stringify(item, null, 2));
+
+const byPageId = (a, b) => a.wiki.pageId - b.wiki.pageId;
 
 const importItem = pageId => wiki.parse(pageId).then(toItem);
 
@@ -57,16 +60,18 @@ const updateItem = async pageId => {
   const item = isNew
     ? await importItem(pageId)
     : await refreshItem(itemMap[pageId]);
+
+  if (!item) return null;
+
   const itemWithColor = item.colors?.length ? item : await withColor(item);
 
   return itemWithColor;
 };
 
 const update = async () => {
-  const categoryNames = categories.map(c => `${c}_slot_items`).slice(0, 3);
+  const categoryNames = categories.map(c => `${c}_slot_items`);
   const members = await wiki.categories(categoryNames);
   let pageIds = members.map(member => member.pageid);
-  pageIds = pageIds.sort();
 
   console.log('Total items: ', pageIds.length);
 
@@ -84,8 +89,9 @@ const update = async () => {
   });
 
   const validItems = items.filter(item => !!item);
+  const sortedItems = validItems.sort(byPageId);
 
-  fs.writeFileSync(file, JSON.stringify(validItems, null, 2));
+  fs.writeFileSync(file, JSON.stringify(sortedItems, null, 2));
 };
 
 fs.unlink(`errors-${rsrelease}.txt`, () => update());
