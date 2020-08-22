@@ -33,9 +33,7 @@ const itemMap = items
   .reduce((map, item) => ((map[item.wiki.pageId] = item), map), {});
 
 const hasError = item =>
-  item &&
-  !item.status?.includes('Needs_image') &&
-  !Boolean(item.slot && item.images.detail && item.colors.length);
+  item && !Boolean(item.slot && item.images.detail && item.colors.length);
 
 const logItem = item =>
   fs.appendFileSync(`errors-${rsrelease}.txt`, JSON.stringify(item, null, 2));
@@ -48,9 +46,8 @@ const refreshItem = item => {
   const hasSlot = !!item.slot;
   if (!hasSlot) return importItem(item.wiki.pageId);
 
-  const hasWikiImage = !item.status?.includes('Needs_image');
   const hasImage = !!item.images.detail;
-  if (!hasImage && hasWikiImage) return importItem(item.wiki.pageId);
+  if (!hasImage) return importItem(item.wiki.pageId);
 
   return item;
 };
