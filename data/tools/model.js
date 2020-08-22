@@ -37,17 +37,21 @@ const isDiscontinued = doc =>
   doc.parse.categories.map(c => c['*']).includes('Discontinued_content');
 
 const patterns = [
-  {pattern: /fire_arrow/, solution: 'Bronze_fire_arrow'},
-  {pattern: /Diving_apparatus/, solution: 'Diving_apparatus'},
-  {pattern: /Onyx_bracelet/, solution: 'Regen_bracelet'},
-  {pattern: /Rune_heraldic_helm_\(Varrock\)/, solution: 'Adamant_heraldic'},
-  {pattern: /heraldic_helm/, solution: 'Steel_heraldic_helm'},
+  {from: /fire_arrow/, to: 'Bronze_fire_arrow'},
+  {from: /Diving_apparatus/, to: 'Diving_apparatus'},
+  {from: /Onyx_bracelet/, to: 'Regen_bracelet'},
+  {from: /Onyx_necklace/, to: 'Berserker_necklace'},
+  {from: /Rune_heraldic_helm_\(Varrock\)/, to: 'Adamant_heraldic'},
+  {from: /heraldic_helm/, to: 'Steel_heraldic_helm'},
+  {from: /Clean_necklace/, to: 'Digsite_pendant'},
+  {from: /Unblessed_symbol/, to: 'Holy_symbol'},
+  {from: /Unpowered_symbol/, to: 'Unholy_symbol'},
 ];
 
 const withOverrides = page =>
-  patterns.reduce((target, {pattern, solution}) => {
+  patterns.reduce((target, {from, to}) => {
     if (target) return target;
-    return pattern.test(page) ? solution : target;
+    return from.test(page) ? to : target;
   }, null) || page;
 
 const isDetailedImage = (image, page) => {
@@ -58,7 +62,7 @@ const isDetailedImage = (image, page) => {
   const isEasyMode = image.startsWith(page);
   if (image.startsWith(page)) return true;
 
-  const trimmedPage = page.split('_(')[0];
+  const trimmedPage = page.split(/_?\(/)[0];
   if (image.startsWith(trimmedPage)) return true;
 
   return false;
