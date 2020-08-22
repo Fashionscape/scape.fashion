@@ -48002,19 +48002,6 @@
   },
   {
     "images": {
-      "detail": null
-    },
-    "name": "Rune berserker shield",
-    "slot": "Shield",
-    "status": [],
-    "wiki": {
-      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=231467&format=json",
-      "link": "https://oldschool.runescape.wiki/w/?curid=231467",
-      "pageId": 231467
-    }
-  },
-  {
-    "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Swift_blade_detail.png"
     },
     "name": "Swift blade",

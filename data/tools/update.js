@@ -68,7 +68,7 @@ const updateItem = async pageId => {
 const update = async () => {
   const categoryNames = categories.map(c => `${c}_slot_items`);
   const members = await wiki.categories(categoryNames);
-  let pageIds = members.map(member => member.pageid);
+  const pageIds = members.map(member => member.pageid);
 
   console.log('Total items: ', pageIds.length);
 
