@@ -33,6 +33,7 @@ const itemMap = items
   .reduce((map, item) => ((map[item.wiki.pageId] = item), map), {});
 
 const hasError = item =>
+  !item.status?.includes('Needs_image') &&
   !Boolean(item.slot && item.images.detail && item.colors.length);
 
 const logItem = item =>
@@ -42,9 +43,13 @@ const importItem = pageId => wiki.parse(pageId).then(toItem);
 
 const refreshItem = item => {
   const hasSlot = !!item.slot;
-  const hasImage = !!item.images.detail;
+  if (!hasSlot) return importItem(item.wiki.pageId);
 
-  return hasSlot && hasImage ? item : importItem(item.wiki.pageId);
+  const hasWikiImage = !item.status?.includes('Needs_image');
+  const hasImage = !!item.images.detail;
+  if (!hasImage && hasWikiImage) return importItem(item.wiki.pageId);
+
+  return item;
 };
 
 const updateItem = async pageId => {

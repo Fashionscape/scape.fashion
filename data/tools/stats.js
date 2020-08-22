@@ -11,6 +11,7 @@ const hasColors = item => !!item.colors;
 const hasThreeColors = item => item.colors && item.colors.length === 3;
 const hasImage = item => !!item.images.detail;
 const hasSlot = item => !!item.slot;
+const hasWikiImage = item => !item.status?.includes('Needs_image');
 
 const itemsWithCount = fn =>
   items.reduce((count, item) => (fn(item) ? count + 1 : count), 0);
@@ -26,6 +27,7 @@ const results = count([
   {name: 'hasThreeColors', fn: hasThreeColors},
   {name: 'hasImage', fn: hasImage},
   {name: 'hasSlot', fn: hasSlot},
+  {name: 'hasWikiImage', fn: hasWikiImage},
   {name: 'total', fn: () => true},
 ]);
 

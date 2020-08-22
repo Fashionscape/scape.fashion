@@ -33,8 +33,8 @@ const toSlot = doc => {
   return SLOT_MAP[slotCategory];
 };
 
-const isDiscontinued = doc =>
-  doc.parse.categories.map(c => c['*']).includes('Discontinued_content');
+const isItemStatus = category =>
+  ['Discontinued_content', 'Needs_image'].includes(category);
 
 const patterns = [
   {from: /fire_arrow/, to: 'Bronze_fire_arrow'},
@@ -43,10 +43,19 @@ const patterns = [
   {from: /Onyx_necklace/, to: 'Berserker_necklace'},
   {from: /Rune_heraldic_helm_\(Varrock\)/, to: 'Adamant_heraldic'},
   {from: /heraldic_helm/, to: 'Steel_heraldic_helm'},
+  {from: /kiteshield_\(\w+\)/, to: 'Steel_kiteshield_('},
   {from: /Clean_necklace/, to: 'Digsite_pendant'},
   {from: /Unblessed_symbol/, to: 'Holy_symbol'},
   {from: /Unpowered_symbol/, to: 'Unholy_symbol'},
   {from: /'perfect'_ring/, to: 'Ring_of_forging'},
+  {from: /Bug_lantern/, to: 'Lit_bug_lantern'},
+  {from: /Damaged_book_\(Bandos\)/, to: 'Book_of_war'},
+  {from: /Damaged_book_\(Ancient\)/, to: 'Book_of_darkness'},
+  {from: /Damaged_book_\(Guthix\)/, to: 'Book_of_balance'},
+  {from: /Damaged_book_\(Zamorak\)/, to: 'Unholy_book'},
+  {from: /Damaged_book_\(Armadyl\)/, to: 'Book_of_law'},
+  {from: /Damaged_book_\(Saradomin\)/, to: 'Holy_book'},
+  {from: /Iced_gingerbread_shield/, to: 'Green_gingerbread_shield'},
 ];
 
 const withOverrides = page =>
@@ -93,13 +102,14 @@ const model = config => {
     const detail = toDetailImage(doc);
     const slot = toSlot(doc);
 
-    const discontinued = isDiscontinued(doc);
+    const categories = doc.parse.categories.map(c => c['*']);
+    const status = categories.filter(isItemStatus);
 
     return {
-      discontinued,
       images: {detail},
       name,
       slot,
+      status,
       wiki: {api, link, pageId},
     };
   };
