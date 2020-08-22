@@ -39,10 +39,12 @@ const isDiscontinued = doc =>
 const patterns = [
   {pattern: /fire_arrow/, solution: 'Bronze_fire_arrow'},
   {pattern: /Diving_apparatus/, solution: 'Diving_apparatus'},
-  {pattern: /Onyx_bracelet/, solution: 'Regen_bracelet'}
+  {pattern: /Onyx_bracelet/, solution: 'Regen_bracelet'},
+  {pattern: /Rune_heraldic_helm_\(Varrock\)/, solution: 'Adamant_heraldic'},
+  {pattern: /heraldic_helm/, solution: 'Steel_heraldic_helm'},
 ];
 
-const closestMatch = page =>
+const withOverrides = page =>
   patterns.reduce((target, {pattern, solution}) => {
     if (target) return target;
     return pattern.test(page) ? solution : target;
@@ -54,11 +56,12 @@ const isDetailedImage = (image, page) => {
   if (!isDetail && !isAnimated) return false;
 
   const isEasyMode = image.startsWith(page);
-  if (isEasyMode) return true;
+  if (image.startsWith(page)) return true;
 
-  const target = closestMatch(page);
+  const trimmedPage = page.split('_(')[0];
+  if (image.startsWith(trimmedPage)) return true;
 
-  return image.startsWith(target);
+  return false;
 };
 
 const model = config => {
@@ -68,9 +71,10 @@ const model = config => {
 
   const toDetailImage = doc => {
     const page = doc.parse.title.replace(/ /g, '_');
-    const images = doc.parse.images;
+    const target = withOverrides(page);
 
-    const detail = images.find(image => isDetailedImage(image, page));
+    const images = doc.parse.images;
+    const detail = images.find(image => isDetailedImage(image, target));
 
     return detail ? toImageUrl(detail) : null;
   };
