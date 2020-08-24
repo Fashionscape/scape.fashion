@@ -26,10 +26,8 @@ const SLOT_MAP = {
   Weapon_slot_items: 'Weapon',
 };
 
-const toSlot = doc => {
-  const categories = doc.parse.categories.map(category => category['*']);
+const toSlot = categories => {
   const slotCategory = categories.find(category => category.includes('slot'));
-
   return SLOT_MAP[slotCategory];
 };
 
@@ -74,19 +72,62 @@ const withOverrides = page =>
     return from.test(page) ? to : target;
   }, null) || page;
 
-const isDetailedImage = (image, page) => {
+const isDetailedImage = ({image, page, suffix}) => {
   const isDetail = image.endsWith('detail.png');
   const isAnimated = image.endsWith('detail_animated.gif');
   if (!isDetail && !isAnimated) return false;
 
-  const isEasyMode = image.startsWith(page);
-  if (image.startsWith(page)) return true;
+  if (image.startsWith(page + suffix)) return true;
+  if (suffix) return false;
 
   const trimmedPage = page.split(/_?\(/)[0];
   if (image.startsWith(trimmedPage)) return true;
 
   return false;
 };
+
+const infoboxPattern = /^{{Infobox Item\n([^}]+)}}$/m;
+const versionPattern = /^\|version\d = (.*)$/gm;
+
+const bannedVariants = [
+  'Damaged',
+  'Undamaged',
+  'Active',
+  'Inactive',
+  'Cosmetic',
+  'Deadman mode',
+  'Normal',
+  'Broken',
+  'Locked',
+  'Regular',
+  'Unpoisoned',
+  'Poison',
+  'Poison+',
+  'Poison++',
+  'Lit',
+  'Unlit',
+];
+
+const isValidVariant = variant => {
+  const asNum = parseInt(variant);
+  if (Number.isFinite(asNum)) return false;
+
+  if (bannedVariants.includes(variant)) return false;
+
+  return true;
+};
+
+const parseVariants = wikitext => {
+  const [_, infobox] = wikitext.match(infoboxPattern) || [];
+  if (!infobox) return [];
+
+  const variants = [...infobox.matchAll(versionPattern)].map(ms => ms[1]);
+
+  return variants.filter(isValidVariant).sort();
+};
+
+const toVariantName = ({name, variant}) =>
+  variant ? `${name} (${variant})` : name;
 
 const banList = ['Rune berserker shield'];
 
@@ -95,35 +136,52 @@ const model = config => {
 
   const toImageUrl = file => `${config.url.base}Special:Redirect/file/${file}`;
 
-  const toDetailImage = doc => {
-    const page = doc.parse.title.replace(/ /g, '_');
-    const images = doc.parse.images;
+  const toDetailImage = ({parse, variant}) => {
+    let page = parse.title.replace(/ /g, '_');
+    variant = variant?.replace(/ /g, '_');
+    const suffix = variant && `_(${variant})`;
 
-    const detail = images.find(image => isDetailedImage(image, page));
+    const images = parse.images;
+    let detail = images.find(image => isDetailedImage({image, page, suffix}));
 
     if (detail) return toImageUrl(detail);
 
-    const target = withOverrides(page);
-    const detail_ = images.find(image => isDetailedImage(image, target));
+    const page_ = withOverrides(page);
+    if (page === page_) return null;
 
-    return detail_ ? toImageUrl(detail_) : null;
+    detail = images.find(image => isDetailedImage({image, page: page_}));
+
+    return detail ? toImageUrl(detail) : null;
   };
 
-  const toItem = doc => {
-    const name = doc.parse.title;
+  const toItems = ({parse}) => {
+    const {title, wikitext} = parse;
 
-    if (name.startsWith('Category:')) return null;
-    if (banList.includes(name)) return null;
+    if (title.startsWith('Category:')) return [];
+    if (banList.includes(title)) return [];
 
-    const pageId = doc.parse.pageid;
+    const categories = parse.categories.map(c => c['*']);
+    const hasVariant = categories.includes(
+      'Pages_that_contain_switch_infobox_data',
+    );
+    const variantNames = hasVariant ? parseVariants(wikitext['*']) : [];
+    const items = variantNames.map(variant => toItem({parse, variant}));
+
+    return [toItem({parse}), ...items];
+  };
+
+  const toItem = ({parse, variant}) => {
+    const name = toVariantName({name: parse.title, variant});
+    const pageId = parse.pageid;
     const api = wiki.apiUrl(pageId);
-    const link = wiki.wikiUrl(pageId);
+    const link = wiki.wikiUrl({pageId, variant});
 
-    const detail = toDetailImage(doc);
-    const slot = toSlot(doc);
-
-    const categories = doc.parse.categories.map(c => c['*']);
+    const categories = parse.categories.map(c => c['*']);
     const status = categories.filter(isItemStatus);
+    if (variant) status.push('Variant');
+
+    const detail = toDetailImage({parse, variant});
+    const slot = toSlot(categories);
 
     return {
       images: {detail},
@@ -134,7 +192,7 @@ const model = config => {
     };
   };
 
-  return {toItem};
+  return {toItems};
 };
 
 module.exports = model;

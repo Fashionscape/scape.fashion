@@ -13,14 +13,14 @@ const wiki = config => {
 
   const categoryMembers = async (category, continu = '') => {
     const url = `
-  ${API_URL}
-    ?action=query
-    &list=categorymembers
-    &cmtitle=Category:${category}
-    &cmlimit=500
-    &cmcontinue=${continu}
-    &format=json
-  `.replace(/\s/g, '');
+      ${API_URL}
+        ?action=query
+        &list=categorymembers
+        &cmtitle=Category:${category}
+        &cmlimit=500
+        &cmcontinue=${continu}
+        &format=json
+    `.replace(/\s/g, '');
 
     const response = await fetch(url, FETCH_OPTIONS).then(res => res.json());
 
@@ -46,7 +46,7 @@ const wiki = config => {
       .then(ms => ms.flat());
 
   const apiUrl = pageId =>
-    `${API_URL}?action=parse&pageid=${pageId}&format=json`;
+    `${API_URL}?action=parse&pageid=${pageId}&prop=categories|images|templates|wikitext&format=json`;
 
   const parse = pageId => {
     const url = apiUrl(pageId);
@@ -54,7 +54,12 @@ const wiki = config => {
     return fetch(url, FETCH_OPTIONS).then(response => response.json());
   };
 
-  const wikiUrl = pageId => `${BASE_URL}?curid=${pageId}`;
+  const wikiUrl = ({pageId, variant}) => {
+    const pageUrl = `${BASE_URL}?curid=${pageId}`;
+    const hash = '#' + variant?.replace(/ /g, '_');
+
+    return variant ? pageUrl + hash : pageUrl;
+  };
 
   return {apiUrl, categories, categoryMembers, parse, wikiUrl};
 };

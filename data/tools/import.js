@@ -5,7 +5,7 @@ const {withColor} = require('./color');
 const [_, __, rsrelease] = process.argv;
 const config = require('./config')(rsrelease);
 
-const {toItem} = require('./model')(config);
+const {toItems} = require('./model')(config);
 const wiki = require('./wiki')(config);
 
 const categories = {
@@ -33,15 +33,11 @@ const logItem = item =>
 
 const byPageId = (a, b) => a.wiki.pageId - b.wiki.pageId;
 
-const importItem = async pageId => {
+const importFromPage = async pageId => {
   const doc = await wiki.parse(pageId);
-  const item = toItem(doc);
-
-  if (!item) return null;
-
-  const itemWithColor = await withColor(item);
-
-  return itemWithColor;
+  const items = toItems(doc);
+  const itemsWithColor = await Promise.all(items.map(withColor));
+  return itemsWithColor;
 };
 
 const importItems = async file => {
@@ -57,14 +53,15 @@ const importItems = async file => {
       console.log(`Processing item ${processedCount}...`);
     processedCount += 1;
 
-    const item = await importItem(pageId);
+    const items = await importFromPage(pageId);
 
-    if (hasError(item)) logItem(item);
+    items.forEach(item => hasError(item) && logItem(item));
 
-    return item;
+    return items;
   });
 
-  const validItems = items.filter(item => !!item);
+  const flatItems = items.flat();
+  const validItems = flatItems.filter(item => !!item);
   const sortedItems = validItems.sort(byPageId);
 
   fs.writeFileSync(file, JSON.stringify(sortedItems, null, 2));
