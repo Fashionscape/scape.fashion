@@ -14,7 +14,7 @@ fi
 set -e
 
 import() {
-  node tools/import.js $RSRELEASE
+  node tools/update $RSRELEASE --force
 
   stats
 }

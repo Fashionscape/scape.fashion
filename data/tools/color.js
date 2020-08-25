@@ -39,7 +39,7 @@ const withColor = async item => {
 
   if (!colors.length) colors = overrides[item.name] || [];
 
-  return {colors, ...item};
+  return {...item, colors};
 };
 
 module.exports = {withColor};

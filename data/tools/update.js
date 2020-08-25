@@ -2,10 +2,10 @@ const fs = require('fs');
 const slow = require('slow');
 const {withColor} = require('./color');
 
-const [_, __, rsrelease] = process.argv;
+const [_, __, rsrelease, force] = process.argv;
 const config = require('./config')(rsrelease);
 
-const {toItem} = require('./model')(config);
+const {toItems} = require('./model')(config);
 const wiki = require('./wiki')(config);
 
 const categories = {
@@ -28,9 +28,14 @@ const categories = {
 const file = `items-${rsrelease}.json`;
 const items = require(`../${file}`);
 
-const itemMap = items
+const pageMap = items
   .filter(item => !!item)
-  .reduce((map, item) => ((map[item.wiki.pageId] = item), map), {});
+  .reduce((map, item) => {
+    const items = map.get(item.wiki.pageId) || [];
+    return map.set(item.wiki.pageId, [...items, item]);
+  }, new Map());
+
+if (force) pageMap.clear();
 
 const hasError = item =>
   item && !Boolean(item.slot && item.images.detail && item.colors.length);
@@ -40,30 +45,33 @@ const logItem = item =>
 
 const byPageId = (a, b) => a.wiki.pageId - b.wiki.pageId;
 
-const importItem = pageId => wiki.parse(pageId).then(toItem);
-
-const refreshItem = item => {
-  const hasSlot = !!item.slot;
-  if (!hasSlot) return importItem(item.wiki.pageId);
-
-  const hasImage = !!item.images.detail;
-  if (!hasImage) return importItem(item.wiki.pageId);
-
-  return item;
+const importFromPage = async pageId => {
+  const doc = await wiki.parse(pageId);
+  const items = toItems(doc);
+  const itemsWithColor = await Promise.all(items.map(withColor));
+  return itemsWithColor;
 };
 
-const updateItem = async pageId => {
-  const isNew = !itemMap[pageId];
-  const item = isNew
-    ? await importItem(pageId)
-    : await refreshItem(itemMap[pageId]);
+const refreshFromPage = async pageId => {
+  const items = pageMap.get(pageId);
 
-  if (!item) return null;
+  const hasSlot = items.every(item => item.slot);
+  const hasImage = items.every(item => item.images.detail);
+  if (!hasSlot || !hasImage) return importFromPage(pageId);
 
-  const itemWithColor = item.colors?.length ? item : await withColor(item);
+  const hasColor = items.every(item => item.colors?.length);
+  if (!hasColor) return Promise.all(items.map(withColor));
 
-  return itemWithColor;
+  return items;
 };
+
+const groupBy = (as, fn) =>
+  as.reduce((res, a) => {
+    const key = fn(a);
+    if (res[key]) res[key].push(a);
+    else res[key] = [a];
+    return res;
+  }, {});
 
 const update = async () => {
   const categoryNames = categories.map(c => `${c}_slot_items`);
@@ -73,17 +81,27 @@ const update = async () => {
   console.log('Total items: ', pageIds.length);
 
   let processedCount = 0;
-  const items = await slow.run(pageIds, async pageId => {
-    if (processedCount % 100 === 0)
-      console.log(`Processing item ${processedCount}...`);
-    processedCount += 1;
+  const logProgress = () =>
+    processedCount++ % 100 === 0 &&
+    console.log(`Processing item ${processedCount}...`);
 
-    const item = await updateItem(pageId);
+  const {known = [], unknown = []} = groupBy(pageIds, id =>
+    pageMap.has(id) ? 'known' : 'unknown',
+  );
 
-    if (hasError(item)) logItem(item);
-
-    return item;
+  const refreshed = await slow.run(known, pageId => {
+    logProgress();
+    return refreshFromPage(pageId);
   });
+
+  const imported = await slow.run(unknown, pageId => {
+    logProgress();
+    return importFromPage(pageId);
+  });
+
+  const items = [...refreshed, ...imported].flat();
+
+  items.forEach(item => hasError(item) && logItem(item));
 
   const validItems = items.filter(item => !!item);
   const sortedItems = validItems.sort(byPageId);
