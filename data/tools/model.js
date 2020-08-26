@@ -34,20 +34,21 @@ const toSlot = categories => {
 const isItemStatus = category => ['Discontinued_content'].includes(category);
 
 const bannedVariants = [
+  'Activated',
   'Broken',
   'Damaged',
   'Deadman mode',
   'Inactive',
   'Lit',
   'Locked',
-  'Poison',
   'Poison+',
   'Poison++',
 ];
 
+const numberedVariantPattern = /\(?(t|i)?\d+\)?/;
+
 const isValidVariant = variant => {
-  const asNum = parseInt(variant);
-  if (Number.isFinite(asNum)) return false;
+  if (numberedVariantPattern.test(variant)) return false;
   if (bannedVariants.includes(variant)) return false;
   return true;
 };
@@ -104,8 +105,10 @@ const parseImages = wikitext => {
 const standardVariants = [
   'Active',
   'Cosmetic',
+  'Fixed',
   'Normal',
   'Regular',
+  'Standard',
   'Undamaged',
   'Unlit',
   'Unpoisoned',

@@ -255,6 +255,26 @@
   },
   {
     "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Bronze_javelin(p)_detail.png"
+    },
+    "name": "Bronze javelin (Poison)",
+    "slot": "Ammunition",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=9891&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=9891#Poison",
+      "pageId": 9891
+    },
+    "colors": [
+      "#624924",
+      "#048904",
+      "#7c5c34"
+    ]
+  },
+  {
+    "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Bronze_javelin_detail.png"
     },
     "name": "Bronze javelin",
@@ -325,6 +345,26 @@
       "#4c4646",
       "#664904",
       "#865e04"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Iron_dagger(p)_detail.png"
+    },
+    "name": "Iron dagger (Poison)",
+    "slot": "Weapon",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=9899&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=9899#Poison",
+      "pageId": 9899
+    },
+    "colors": [
+      "#5b5529",
+      "#c7ca04",
+      "#a1a204"
     ]
   },
   {
@@ -495,6 +535,26 @@
   },
   {
     "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Iron_spear(p)_detail.png"
+    },
+    "name": "Iron spear (Poison)",
+    "slot": "Weapon",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=9908&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=9908#Poison",
+      "pageId": 9908
+    },
+    "colors": [
+      "#7f5b04",
+      "#4a3d04",
+      "#594904"
+    ]
+  },
+  {
+    "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Iron_spear_detail.png"
     },
     "name": "Iron spear",
@@ -579,6 +639,26 @@
     "wiki": {
       "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=9913&prop=categories|images|templates|wikitext&format=json",
       "link": "https://oldschool.runescape.wiki/w/?curid=9913#Karambwan_poison",
+      "pageId": 9913
+    },
+    "colors": [
+      "#48312a",
+      "#7e7574",
+      "#5c6549"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Iron_hasta(p)_detail.png"
+    },
+    "name": "Iron hasta (Poison)",
+    "slot": "Weapon",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=9913&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=9913#Poison",
       "pageId": 9913
     },
     "colors": [
@@ -919,6 +999,26 @@
   },
   {
     "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Steel_spear(p)_detail.png"
+    },
+    "name": "Steel spear (Poison)",
+    "slot": "Weapon",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=9939&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=9939#Poison",
+      "pageId": 9939
+    },
+    "colors": [
+      "#7f5b04",
+      "#4a3d04",
+      "#594904"
+    ]
+  },
+  {
+    "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Steel_spear_detail.png"
     },
     "name": "Steel spear",
@@ -975,6 +1075,26 @@
   },
   {
     "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Steel_javelin(p)_detail.png"
+    },
+    "name": "Steel javelin (Poison)",
+    "slot": "Ammunition",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=9944&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=9944#Poison",
+      "pageId": 9944
+    },
+    "colors": [
+      "#664c26",
+      "#736b6b",
+      "#048904"
+    ]
+  },
+  {
+    "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Steel_javelin_detail.png"
     },
     "name": "Steel javelin",
@@ -991,6 +1111,26 @@
       "#6e6766",
       "#624b2c",
       "#6c5434"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Steel_dart(p)_detail.png"
+    },
+    "name": "Steel dart (Poison)",
+    "slot": "Weapon",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=9945&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=9945#Poison",
+      "pageId": 9945
+    },
+    "colors": [
+      "#6b1506",
+      "#7b7563",
+      "#565050"
     ]
   },
   {
@@ -1043,6 +1183,26 @@
     "wiki": {
       "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=9947&prop=categories|images|templates|wikitext&format=json",
       "link": "https://oldschool.runescape.wiki/w/?curid=9947#Karambwan_poison",
+      "pageId": 9947
+    },
+    "colors": [
+      "#493025",
+      "#9fa18a",
+      "#7c7171"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Steel_hasta(p)_detail.png"
+    },
+    "name": "Steel hasta (Poison)",
+    "slot": "Weapon",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=9947&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=9947#Poison",
       "pageId": 9947
     },
     "colors": [
@@ -1131,6 +1291,26 @@
   },
   {
     "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Steel_knife(p)_detail.png"
+    },
+    "name": "Steel knife (Poison)",
+    "slot": "Weapon",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=9952&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=9952#Poison",
+      "pageId": 9952
+    },
+    "colors": [
+      "#605959",
+      "#677b04",
+      "#918685"
+    ]
+  },
+  {
+    "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Steel_knife_detail.png"
     },
     "name": "Steel knife",
@@ -1169,6 +1349,26 @@
   },
   {
     "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Bronze_bolts_(p)_detail.png"
+    },
+    "name": "Bronze bolts (Poison)",
+    "slot": "Ammunition",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=9988&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=9988#Poison",
+      "pageId": 9988
+    },
+    "colors": [
+      "#483007",
+      "#9b9b93",
+      "#4d8036"
+    ]
+  },
+  {
+    "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Bronze_bolts_detail.png"
     },
     "name": "Bronze bolts",
@@ -1189,6 +1389,26 @@
   },
   {
     "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Steel_bolts_(p)_detail.png"
+    },
+    "name": "Steel bolts (Poison)",
+    "slot": "Ammunition",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=9990&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=9990#Poison",
+      "pageId": 9990
+    },
+    "colors": [
+      "#89817f",
+      "#3a522d",
+      "#4e8d32"
+    ]
+  },
+  {
+    "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Steel_bolts_detail.png"
     },
     "name": "Steel bolts",
@@ -1205,6 +1425,26 @@
       "#968f8c",
       "#686060",
       "#746c6c"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Iron_bolts_(p)_detail.png"
+    },
+    "name": "Iron bolts (Poison)",
+    "slot": "Ammunition",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=9992&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=9992#Poison",
+      "pageId": 9992
+    },
+    "colors": [
+      "#514e4a",
+      "#9b9b93",
+      "#548a3b"
     ]
   },
   {
@@ -1503,6 +1743,26 @@
   },
   {
     "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Black_dagger(p)_detail.png"
+    },
+    "name": "Black dagger (Poison)",
+    "slot": "Weapon",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=10040&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=10040#Poison",
+      "pageId": 10040
+    },
+    "colors": [
+      "#3b390e",
+      "#abad04",
+      "#c7ca04"
+    ]
+  },
+  {
+    "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Black_dagger_detail.png"
     },
     "name": "Black dagger",
@@ -1557,6 +1817,26 @@
       "#785504",
       "#43bc7f",
       "#329363"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Black_spear(p)_detail.png"
+    },
+    "name": "Black spear (Poison)",
+    "slot": "Weapon",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=10042&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=10042#Poison",
+      "pageId": 10042
+    },
+    "colors": [
+      "#7f5b04",
+      "#4a3d04",
+      "#594904"
     ]
   },
   {
@@ -1671,6 +1951,26 @@
   },
   {
     "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Adamant_arrow(p)_detail.png"
+    },
+    "name": "Adamant arrow (Poison)",
+    "slot": "Ammunition",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=10217&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=10217#Poison",
+      "pageId": 10217
+    },
+    "colors": [
+      "#612a05",
+      "#607614",
+      "#2d2b14"
+    ]
+  },
+  {
+    "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Adamant_arrow_detail.png"
     },
     "name": "Adamant arrow",
@@ -1705,6 +2005,26 @@
       "#484a26",
       "#815b04",
       "#1a2921"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Adamant_bolts_(p)_detail.png"
+    },
+    "name": "Adamant bolts (Poison)",
+    "slot": "Ammunition",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=10219&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=10219#Poison",
+      "pageId": 10219
+    },
+    "colors": [
+      "#3c543f",
+      "#9b9b93",
+      "#4c8b31"
     ]
   },
   {
@@ -1801,6 +2121,26 @@
   },
   {
     "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Adamant_dagger(p)_detail.png"
+    },
+    "name": "Adamant dagger (Poison)",
+    "slot": "Weapon",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=10226&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=10226#Poison",
+      "pageId": 10226
+    },
+    "colors": [
+      "#4c5a25",
+      "#c7ca04",
+      "#a1a204"
+    ]
+  },
+  {
+    "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Adamant_dagger_detail.png"
     },
     "name": "Adamant dagger",
@@ -1817,6 +2157,26 @@
       "#454f34",
       "#b8b714",
       "#9e9c14"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Adamant_dart(p)_detail.png"
+    },
+    "name": "Adamant dart (Poison)",
+    "slot": "Weapon",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=10227&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=10227#Poison",
+      "pageId": 10227
+    },
+    "colors": [
+      "#5d200c",
+      "#4e6634",
+      "#8a0604"
     ]
   },
   {
@@ -1935,6 +2295,26 @@
   },
   {
     "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Adamant_hasta(p)_detail.png"
+    },
+    "name": "Adamant hasta (Poison)",
+    "slot": "Weapon",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=10233&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=10233#Poison",
+      "pageId": 10233
+    },
+    "colors": [
+      "#3f4636",
+      "#5a7e5c",
+      "#74b844"
+    ]
+  },
+  {
+    "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Adamant_hasta_detail.png"
     },
     "name": "Adamant hasta",
@@ -1969,6 +2349,26 @@
       "#7f5f0e",
       "#46523c",
       "#3a4736"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Adamant_javelin(p)_detail.png"
+    },
+    "name": "Adamant javelin (Poison)",
+    "slot": "Ammunition",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=10236&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=10236#Poison",
+      "pageId": 10236
+    },
+    "colors": [
+      "#664c26",
+      "#048904",
+      "#3b4c3c"
     ]
   },
   {
@@ -2061,6 +2461,26 @@
       "#435142",
       "#7b8469",
       "#6c745c"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Adamant_knife(p)_detail.png"
+    },
+    "name": "Adamant knife (Poison)",
+    "slot": "Weapon",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=10241&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=10241#Poison",
+      "pageId": 10241
+    },
+    "colors": [
+      "#434f43",
+      "#677b04",
+      "#726868"
     ]
   },
   {
@@ -2339,6 +2759,26 @@
   },
   {
     "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Adamant_spear(p)_detail.png"
+    },
+    "name": "Adamant spear (Poison)",
+    "slot": "Weapon",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=10255&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=10255#Poison",
+      "pageId": 10255
+    },
+    "colors": [
+      "#7f5b04",
+      "#4a3d04",
+      "#594904"
+    ]
+  },
+  {
+    "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Adamant_spear_detail.png"
     },
     "name": "Adamant spear",
@@ -2601,126 +3041,6 @@
   },
   {
     "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Amulet_of_glory(4)_detail.png"
-    },
-    "name": "Amulet of glory ((1))",
-    "slot": "Neck",
-    "status": [
-      "Variant"
-    ],
-    "wiki": {
-      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=10272&prop=categories|images|templates|wikitext&format=json",
-      "link": "https://oldschool.runescape.wiki/w/?curid=10272#(1)",
-      "pageId": 10272
-    },
-    "colors": [
-      "#b6adad",
-      "#b1af15",
-      "#6b0c8a"
-    ]
-  },
-  {
-    "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Amulet_of_glory(4)_detail.png"
-    },
-    "name": "Amulet of glory ((2))",
-    "slot": "Neck",
-    "status": [
-      "Variant"
-    ],
-    "wiki": {
-      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=10272&prop=categories|images|templates|wikitext&format=json",
-      "link": "https://oldschool.runescape.wiki/w/?curid=10272#(2)",
-      "pageId": 10272
-    },
-    "colors": [
-      "#b6adad",
-      "#b1af15",
-      "#6b0c8a"
-    ]
-  },
-  {
-    "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Amulet_of_glory(4)_detail.png"
-    },
-    "name": "Amulet of glory ((3))",
-    "slot": "Neck",
-    "status": [
-      "Variant"
-    ],
-    "wiki": {
-      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=10272&prop=categories|images|templates|wikitext&format=json",
-      "link": "https://oldschool.runescape.wiki/w/?curid=10272#(3)",
-      "pageId": 10272
-    },
-    "colors": [
-      "#b6adad",
-      "#b1af15",
-      "#6b0c8a"
-    ]
-  },
-  {
-    "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Amulet_of_glory(4)_detail.png"
-    },
-    "name": "Amulet of glory ((4))",
-    "slot": "Neck",
-    "status": [
-      "Variant"
-    ],
-    "wiki": {
-      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=10272&prop=categories|images|templates|wikitext&format=json",
-      "link": "https://oldschool.runescape.wiki/w/?curid=10272#(4)",
-      "pageId": 10272
-    },
-    "colors": [
-      "#b6adad",
-      "#b1af15",
-      "#6b0c8a"
-    ]
-  },
-  {
-    "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Amulet_of_glory(4)_detail.png"
-    },
-    "name": "Amulet of glory ((5))",
-    "slot": "Neck",
-    "status": [
-      "Variant"
-    ],
-    "wiki": {
-      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=10272&prop=categories|images|templates|wikitext&format=json",
-      "link": "https://oldschool.runescape.wiki/w/?curid=10272#(5)",
-      "pageId": 10272
-    },
-    "colors": [
-      "#b6adad",
-      "#b1af15",
-      "#6b0c8a"
-    ]
-  },
-  {
-    "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Amulet_of_glory(4)_detail.png"
-    },
-    "name": "Amulet of glory ((6))",
-    "slot": "Neck",
-    "status": [
-      "Variant"
-    ],
-    "wiki": {
-      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=10272&prop=categories|images|templates|wikitext&format=json",
-      "link": "https://oldschool.runescape.wiki/w/?curid=10272#(6)",
-      "pageId": 10272
-    },
-    "colors": [
-      "#b6adad",
-      "#b1af15",
-      "#6b0c8a"
-    ]
-  },
-  {
-    "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Amulet_of_glory_detail.png"
     },
     "name": "Amulet of glory (Uncharged)",
@@ -2737,126 +3057,6 @@
       "#715852",
       "#cbcb4a",
       "#b6ab81"
-    ]
-  },
-  {
-    "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Amulet_of_glory_(t)_detail.png"
-    },
-    "name": "Amulet of glory (t) ((t1))",
-    "slot": "Neck",
-    "status": [
-      "Variant"
-    ],
-    "wiki": {
-      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=10273&prop=categories|images|templates|wikitext&format=json",
-      "link": "https://oldschool.runescape.wiki/w/?curid=10273#(t1)",
-      "pageId": 10273
-    },
-    "colors": [
-      "#bd945a",
-      "#5e0e5b",
-      "#d9d4d4"
-    ]
-  },
-  {
-    "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Amulet_of_glory_(t)_detail.png"
-    },
-    "name": "Amulet of glory (t) ((t2))",
-    "slot": "Neck",
-    "status": [
-      "Variant"
-    ],
-    "wiki": {
-      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=10273&prop=categories|images|templates|wikitext&format=json",
-      "link": "https://oldschool.runescape.wiki/w/?curid=10273#(t2)",
-      "pageId": 10273
-    },
-    "colors": [
-      "#bd945a",
-      "#5e0e5b",
-      "#d9d4d4"
-    ]
-  },
-  {
-    "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Amulet_of_glory_(t)_detail.png"
-    },
-    "name": "Amulet of glory (t) ((t3))",
-    "slot": "Neck",
-    "status": [
-      "Variant"
-    ],
-    "wiki": {
-      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=10273&prop=categories|images|templates|wikitext&format=json",
-      "link": "https://oldschool.runescape.wiki/w/?curid=10273#(t3)",
-      "pageId": 10273
-    },
-    "colors": [
-      "#bd945a",
-      "#5e0e5b",
-      "#d9d4d4"
-    ]
-  },
-  {
-    "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Amulet_of_glory_(t)_detail.png"
-    },
-    "name": "Amulet of glory (t) ((t4))",
-    "slot": "Neck",
-    "status": [
-      "Variant"
-    ],
-    "wiki": {
-      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=10273&prop=categories|images|templates|wikitext&format=json",
-      "link": "https://oldschool.runescape.wiki/w/?curid=10273#(t4)",
-      "pageId": 10273
-    },
-    "colors": [
-      "#bd945a",
-      "#5e0e5b",
-      "#d9d4d4"
-    ]
-  },
-  {
-    "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Amulet_of_glory_(t)_detail.png"
-    },
-    "name": "Amulet of glory (t) ((t5))",
-    "slot": "Neck",
-    "status": [
-      "Variant"
-    ],
-    "wiki": {
-      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=10273&prop=categories|images|templates|wikitext&format=json",
-      "link": "https://oldschool.runescape.wiki/w/?curid=10273#(t5)",
-      "pageId": 10273
-    },
-    "colors": [
-      "#bd945a",
-      "#5e0e5b",
-      "#d9d4d4"
-    ]
-  },
-  {
-    "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Amulet_of_glory_(t)_detail.png"
-    },
-    "name": "Amulet of glory (t) ((t6))",
-    "slot": "Neck",
-    "status": [
-      "Variant"
-    ],
-    "wiki": {
-      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=10273&prop=categories|images|templates|wikitext&format=json",
-      "link": "https://oldschool.runescape.wiki/w/?curid=10273#(t6)",
-      "pageId": 10273
-    },
-    "colors": [
-      "#bd945a",
-      "#5e0e5b",
-      "#d9d4d4"
     ]
   },
   {
@@ -3227,6 +3427,26 @@
   },
   {
     "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Bronze_arrow(p)_detail.png"
+    },
+    "name": "Bronze arrow (Poison)",
+    "slot": "Ammunition",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=10299&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=10299#Poison",
+      "pageId": 10299
+    },
+    "colors": [
+      "#602b06",
+      "#657904",
+      "#2c1e04"
+    ]
+  },
+  {
+    "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Bronze_arrow_detail.png"
     },
     "name": "Bronze arrow",
@@ -3337,6 +3557,26 @@
   },
   {
     "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Bronze_dagger(p)_detail.png"
+    },
+    "name": "Bronze dagger (Poison)",
+    "slot": "Weapon",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=10307&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=10307#Poison",
+      "pageId": 10307
+    },
+    "colors": [
+      "#503914",
+      "#bbbd04",
+      "#7c8804"
+    ]
+  },
+  {
+    "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Bronze_dagger_detail.png"
     },
     "name": "Bronze dagger",
@@ -3353,6 +3593,26 @@
       "#4b381a",
       "#b0af14",
       "#7e7e0e"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Bronze_dart(p)_detail.png"
+    },
+    "name": "Bronze dart (Poison)",
+    "slot": "Weapon",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=10308&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=10308#Poison",
+      "pageId": 10308
+    },
+    "colors": [
+      "#5c210a",
+      "#8a0604",
+      "#657804"
     ]
   },
   {
@@ -3393,6 +3653,26 @@
       "#533613",
       "#968c8c",
       "#6c140c"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Iron_arrow(p)_detail.png"
+    },
+    "name": "Iron arrow (Poison)",
+    "slot": "Ammunition",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=10312&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=10312#Poison",
+      "pageId": 10312
+    },
+    "colors": [
+      "#5b2804",
+      "#667806",
+      "#554d4d"
     ]
   },
   {
@@ -3453,6 +3733,26 @@
   },
   {
     "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Iron_dart(p)_detail.png"
+    },
+    "name": "Iron dart (Poison)",
+    "slot": "Weapon",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=10316&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=10316#Poison",
+      "pageId": 10316
+    },
+    "colors": [
+      "#5e2313",
+      "#646738",
+      "#8a0604"
+    ]
+  },
+  {
+    "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Iron_dart_detail.png"
     },
     "name": "Iron dart",
@@ -3483,6 +3783,26 @@
     "wiki": {
       "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=10317&prop=categories|images|templates|wikitext&format=json",
       "link": "https://oldschool.runescape.wiki/w/?curid=10317#Karambwan_poison",
+      "pageId": 10317
+    },
+    "colors": [
+      "#4b311b",
+      "#826d45",
+      "#74b844"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Bronze_hasta(p)_detail.png"
+    },
+    "name": "Bronze hasta (Poison)",
+    "slot": "Weapon",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=10317&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=10317#Poison",
       "pageId": 10317
     },
     "colors": [
@@ -3569,6 +3889,26 @@
   },
   {
     "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Bronze_knife(p)_detail.png"
+    },
+    "name": "Bronze knife (Poison)",
+    "slot": "Weapon",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=10321&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=10321#Poison",
+      "pageId": 10321
+    },
+    "colors": [
+      "#4b3e24",
+      "#6a6161",
+      "#6e8110"
+    ]
+  },
+  {
+    "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Bronze_knife_detail.png"
     },
     "name": "Bronze knife",
@@ -3585,6 +3925,26 @@
       "#6b6262",
       "#43351f",
       "#5c4424"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Iron_javelin(p)_detail.png"
+    },
+    "name": "Iron javelin (Poison)",
+    "slot": "Ammunition",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=10325&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=10325#Poison",
+      "pageId": 10325
+    },
+    "colors": [
+      "#624c2b",
+      "#048904",
+      "#7c5c34"
     ]
   },
   {
@@ -3789,6 +4149,26 @@
   },
   {
     "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Mithril_arrow(p)_detail.png"
+    },
+    "name": "Mithril arrow (Poison)",
+    "slot": "Ammunition",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=10336&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=10336#Poison",
+      "pageId": 10336
+    },
+    "colors": [
+      "#5b2804",
+      "#657904",
+      "#433d62"
+    ]
+  },
+  {
+    "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Mithril_arrow_detail.png"
     },
     "name": "Mithril arrow",
@@ -3845,6 +4225,26 @@
   },
   {
     "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Mithril_bolts_(p)_detail.png"
+    },
+    "name": "Mithril bolts (Poison)",
+    "slot": "Ammunition",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=10339&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=10339#Poison",
+      "pageId": 10339
+    },
+    "colors": [
+      "#4c4b62",
+      "#9b9b93",
+      "#304c27"
+    ]
+  },
+  {
+    "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Mithril_bolts_detail.png"
     },
     "name": "Mithril bolts",
@@ -3897,6 +4297,26 @@
       "#4a4966",
       "#2c2c44",
       "#28233a"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Mithril_dagger(p)_detail.png"
+    },
+    "name": "Mithril dagger (Poison)",
+    "slot": "Weapon",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=10342&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=10342#Poison",
+      "pageId": 10342
+    },
+    "colors": [
+      "#504c37",
+      "#c7ca04",
+      "#aeb004"
     ]
   },
   {
@@ -3997,6 +4417,26 @@
   },
   {
     "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Mithril_hasta(p)_detail.png"
+    },
+    "name": "Mithril hasta (Poison)",
+    "slot": "Weapon",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=10347&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=10347#Poison",
+      "pageId": 10347
+    },
+    "colors": [
+      "#412b28",
+      "#5a597b",
+      "#74b844"
+    ]
+  },
+  {
+    "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Mithril_hasta_detail.png"
     },
     "name": "Mithril hasta",
@@ -4031,6 +4471,26 @@
       "#434266",
       "#20131c",
       "#960504"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Mithril_javelin(p)_detail.png"
+    },
+    "name": "Mithril javelin (Poison)",
+    "slot": "Ammunition",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=10349&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=10349#Poison",
+      "pageId": 10349
+    },
+    "colors": [
+      "#664c26",
+      "#048904",
+      "#3b3b5b"
     ]
   },
   {
@@ -4087,6 +4547,26 @@
       "#413004",
       "#403f61",
       "#342c4c"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Mithril_knife(p)_detail.png"
+    },
+    "name": "Mithril knife (Poison)",
+    "slot": "Weapon",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=10352&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=10352#Poison",
+      "pageId": 10352
+    },
+    "colors": [
+      "#454257",
+      "#677b04",
+      "#726868"
     ]
   },
   {
@@ -4163,6 +4643,26 @@
       "#785504",
       "#43bc7f",
       "#329363"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Bronze_spear(p)_detail.png"
+    },
+    "name": "Bronze spear (Poison)",
+    "slot": "Weapon",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=10355&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=10355#Poison",
+      "pageId": 10355
+    },
+    "colors": [
+      "#7f5b04",
+      "#4a3d04",
+      "#594904"
     ]
   },
   {
@@ -4279,6 +4779,26 @@
   },
   {
     "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Mithril_spear(p)_detail.png"
+    },
+    "name": "Mithril spear (Poison)",
+    "slot": "Weapon",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=10360&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=10360#Poison",
+      "pageId": 10360
+    },
+    "colors": [
+      "#7f5b04",
+      "#4a3d04",
+      "#594904"
+    ]
+  },
+  {
+    "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Mithril_spear_detail.png"
     },
     "name": "Mithril spear",
@@ -4385,6 +4905,26 @@
       "#48585d",
       "#c79519",
       "#997414"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Rune_arrow(p)_detail.png"
+    },
+    "name": "Rune arrow (Poison)",
+    "slot": "Ammunition",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=10366&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=10366#Poison",
+      "pageId": 10366
+    },
+    "colors": [
+      "#5b2804",
+      "#5d7725",
+      "#315156"
     ]
   },
   {
@@ -4535,6 +5075,26 @@
   },
   {
     "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Rune_dart(p)_detail.png"
+    },
+    "name": "Rune dart (Poison)",
+    "slot": "Weapon",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=10374&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=10374#Poison",
+      "pageId": 10374
+    },
+    "colors": [
+      "#6d1304",
+      "#4a695a",
+      "#1d2e32"
+    ]
+  },
+  {
+    "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Rune_dart_detail.png"
     },
     "name": "Rune dart",
@@ -4645,6 +5205,26 @@
   },
   {
     "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Rune_javelin(p)_detail.png"
+    },
+    "name": "Rune javelin (Poison)",
+    "slot": "Ammunition",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=10381&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=10381#Poison",
+      "pageId": 10381
+    },
+    "colors": [
+      "#664c26",
+      "#3b545c",
+      "#048904"
+    ]
+  },
+  {
+    "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Rune_javelin_detail.png"
     },
     "name": "Rune javelin",
@@ -4715,6 +5295,26 @@
       "#455b66",
       "#7a98b5",
       "#67849a"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Rune_knife(p)_detail.png"
+    },
+    "name": "Rune knife (Poison)",
+    "slot": "Weapon",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=10385&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=10385#Poison",
+      "pageId": 10385
+    },
+    "colors": [
+      "#435156",
+      "#677b04",
+      "#56747a"
     ]
   },
   {
@@ -4939,6 +5539,26 @@
   },
   {
     "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Rune_spear(p)_detail.png"
+    },
+    "name": "Rune spear (Poison)",
+    "slot": "Weapon",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=10401&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=10401#Poison",
+      "pageId": 10401
+    },
+    "colors": [
+      "#7f5b04",
+      "#4a3d04",
+      "#594904"
+    ]
+  },
+  {
+    "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Rune_spear_detail.png"
     },
     "name": "Rune spear",
@@ -4995,6 +5615,26 @@
   },
   {
     "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Steel_arrow(p)_detail.png"
+    },
+    "name": "Steel arrow (Poison)",
+    "slot": "Ammunition",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=10404&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=10404#Poison",
+      "pageId": 10404
+    },
+    "colors": [
+      "#5b2804",
+      "#737e29",
+      "#665e5e"
+    ]
+  },
+  {
+    "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Steel_arrow_detail.png"
     },
     "name": "Steel arrow",
@@ -5029,6 +5669,26 @@
       "#7a7271",
       "#4d4848",
       "#625e5c"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Steel_dagger(p)_detail.png"
+    },
+    "name": "Steel dagger (Poison)",
+    "slot": "Weapon",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=10406&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=10406#Poison",
+      "pageId": 10406
+    },
+    "colors": [
+      "#878337",
+      "#d3d504",
+      "#412d04"
     ]
   },
   {
@@ -5199,7 +5859,7 @@
     "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Barrelchest_anchor_detail.png"
     },
-    "name": "Barrelchest anchor (Fixed)",
+    "name": "Barrelchest anchor",
     "slot": "Weapon",
     "status": [
       "Variant"
@@ -5505,6 +6165,26 @@
       "#cac0bf",
       "#3e3c58",
       "#a09494"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Blurite_bolts_(p)_detail.png"
+    },
+    "name": "Blurite bolts (Poison)",
+    "slot": "Ammunition",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=10463&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=10463#Poison",
+      "pageId": 10463
+    },
+    "colors": [
+      "#7f7db0",
+      "#3a672e",
+      "#261c83"
     ]
   },
   {
@@ -6951,6 +7631,26 @@
   },
   {
     "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Dragon_arrow(p)_detail.png"
+    },
+    "name": "Dragon arrow (Poison)",
+    "slot": "Ammunition",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=10565&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=10565#Poison",
+      "pageId": 10565
+    },
+    "colors": [
+      "#581512",
+      "#9c9d7a",
+      "#9c0404"
+    ]
+  },
+  {
+    "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Dragon_arrow_detail.png"
     },
     "name": "Dragon arrow",
@@ -7007,6 +7707,26 @@
   },
   {
     "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Dragon_dagger(p)_detail.png"
+    },
+    "name": "Dragon dagger (Poison)",
+    "slot": "Weapon",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=10569&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=10569#Poison",
+      "pageId": 10569
+    },
+    "colors": [
+      "#583025",
+      "#14a31a",
+      "#0e6c13"
+    ]
+  },
+  {
+    "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Dragon_dagger_detail.png"
     },
     "name": "Dragon dagger",
@@ -7023,6 +7743,26 @@
       "#60160d",
       "#534d4d",
       "#503c15"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Dragon_dart(p)_detail.png"
+    },
+    "name": "Dragon dart (Poison)",
+    "slot": "Weapon",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=10578&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=10578#Poison",
+      "pageId": 10578
+    },
+    "colors": [
+      "#650e09",
+      "#888871",
+      "#646251"
     ]
   },
   {
@@ -9161,6 +9901,26 @@
   },
   {
     "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Keris(p)_detail.png"
+    },
+    "name": "Keris (Poison)",
+    "slot": "Weapon",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=10811&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=10811#Poison",
+      "pageId": 10811
+    },
+    "colors": [
+      "#656a56",
+      "#8c95aa",
+      "#303034"
+    ]
+  },
+  {
+    "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Keris_detail.png"
     },
     "name": "Keris",
@@ -10813,106 +11573,6 @@
   },
   {
     "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Ring_of_wealth_detail.png"
-    },
-    "name": "Ring of wealth ((1))",
-    "slot": "Ring",
-    "status": [
-      "Variant"
-    ],
-    "wiki": {
-      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=11005&prop=categories|images|templates|wikitext&format=json",
-      "link": "https://oldschool.runescape.wiki/w/?curid=11005#(1)",
-      "pageId": 11005
-    },
-    "colors": [
-      "#b49d17",
-      "#711191",
-      "#501c56"
-    ]
-  },
-  {
-    "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Ring_of_wealth_detail.png"
-    },
-    "name": "Ring of wealth ((2))",
-    "slot": "Ring",
-    "status": [
-      "Variant"
-    ],
-    "wiki": {
-      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=11005&prop=categories|images|templates|wikitext&format=json",
-      "link": "https://oldschool.runescape.wiki/w/?curid=11005#(2)",
-      "pageId": 11005
-    },
-    "colors": [
-      "#b49d17",
-      "#711191",
-      "#501c56"
-    ]
-  },
-  {
-    "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Ring_of_wealth_detail.png"
-    },
-    "name": "Ring of wealth ((3))",
-    "slot": "Ring",
-    "status": [
-      "Variant"
-    ],
-    "wiki": {
-      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=11005&prop=categories|images|templates|wikitext&format=json",
-      "link": "https://oldschool.runescape.wiki/w/?curid=11005#(3)",
-      "pageId": 11005
-    },
-    "colors": [
-      "#b49d17",
-      "#711191",
-      "#501c56"
-    ]
-  },
-  {
-    "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Ring_of_wealth_detail.png"
-    },
-    "name": "Ring of wealth ((4))",
-    "slot": "Ring",
-    "status": [
-      "Variant"
-    ],
-    "wiki": {
-      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=11005&prop=categories|images|templates|wikitext&format=json",
-      "link": "https://oldschool.runescape.wiki/w/?curid=11005#(4)",
-      "pageId": 11005
-    },
-    "colors": [
-      "#b49d17",
-      "#711191",
-      "#501c56"
-    ]
-  },
-  {
-    "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Ring_of_wealth_detail.png"
-    },
-    "name": "Ring of wealth ((5))",
-    "slot": "Ring",
-    "status": [
-      "Variant"
-    ],
-    "wiki": {
-      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=11005&prop=categories|images|templates|wikitext&format=json",
-      "link": "https://oldschool.runescape.wiki/w/?curid=11005#(5)",
-      "pageId": 11005
-    },
-    "colors": [
-      "#b49d17",
-      "#711191",
-      "#501c56"
-    ]
-  },
-  {
-    "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Ring_of_wealth_(uncharged)_detail.png"
     },
     "name": "Ring of wealth (Uncharged)",
@@ -11091,6 +11751,26 @@
       "#cbaf04",
       "#c30908",
       "#6e6238"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Runite_bolts_(p)_detail.png"
+    },
+    "name": "Runite bolts (Poison)",
+    "slot": "Ammunition",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=11025&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=11025#Poison",
+      "pageId": 11025
+    },
+    "colors": [
+      "#3d5c66",
+      "#9b9b93",
+      "#315928"
     ]
   },
   {
@@ -11543,126 +12223,6 @@
       "#605041",
       "#908585",
       "#ab9d9d"
-    ]
-  },
-  {
-    "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Skills_necklace_detail.png"
-    },
-    "name": "Skills necklace ((1))",
-    "slot": "Neck",
-    "status": [
-      "Variant"
-    ],
-    "wiki": {
-      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=11078&prop=categories|images|templates|wikitext&format=json",
-      "link": "https://oldschool.runescape.wiki/w/?curid=11078#(1)",
-      "pageId": 11078
-    },
-    "colors": [
-      "#d8bd1c",
-      "#9c8812",
-      "#6b108c"
-    ]
-  },
-  {
-    "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Skills_necklace_detail.png"
-    },
-    "name": "Skills necklace ((2))",
-    "slot": "Neck",
-    "status": [
-      "Variant"
-    ],
-    "wiki": {
-      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=11078&prop=categories|images|templates|wikitext&format=json",
-      "link": "https://oldschool.runescape.wiki/w/?curid=11078#(2)",
-      "pageId": 11078
-    },
-    "colors": [
-      "#d8bd1c",
-      "#9c8812",
-      "#6b108c"
-    ]
-  },
-  {
-    "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Skills_necklace_detail.png"
-    },
-    "name": "Skills necklace ((3))",
-    "slot": "Neck",
-    "status": [
-      "Variant"
-    ],
-    "wiki": {
-      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=11078&prop=categories|images|templates|wikitext&format=json",
-      "link": "https://oldschool.runescape.wiki/w/?curid=11078#(3)",
-      "pageId": 11078
-    },
-    "colors": [
-      "#d8bd1c",
-      "#9c8812",
-      "#6b108c"
-    ]
-  },
-  {
-    "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Skills_necklace_detail.png"
-    },
-    "name": "Skills necklace ((4))",
-    "slot": "Neck",
-    "status": [
-      "Variant"
-    ],
-    "wiki": {
-      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=11078&prop=categories|images|templates|wikitext&format=json",
-      "link": "https://oldschool.runescape.wiki/w/?curid=11078#(4)",
-      "pageId": 11078
-    },
-    "colors": [
-      "#d8bd1c",
-      "#9c8812",
-      "#6b108c"
-    ]
-  },
-  {
-    "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Skills_necklace_detail.png"
-    },
-    "name": "Skills necklace ((5))",
-    "slot": "Neck",
-    "status": [
-      "Variant"
-    ],
-    "wiki": {
-      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=11078&prop=categories|images|templates|wikitext&format=json",
-      "link": "https://oldschool.runescape.wiki/w/?curid=11078#(5)",
-      "pageId": 11078
-    },
-    "colors": [
-      "#d8bd1c",
-      "#9c8812",
-      "#6b108c"
-    ]
-  },
-  {
-    "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Skills_necklace_detail.png"
-    },
-    "name": "Skills necklace ((6))",
-    "slot": "Neck",
-    "status": [
-      "Variant"
-    ],
-    "wiki": {
-      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=11078&prop=categories|images|templates|wikitext&format=json",
-      "link": "https://oldschool.runescape.wiki/w/?curid=11078#(6)",
-      "pageId": 11078
-    },
-    "colors": [
-      "#d8bd1c",
-      "#9c8812",
-      "#6b108c"
     ]
   },
   {
@@ -12555,6 +13115,26 @@
   },
   {
     "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/White_dagger(p)_detail.png"
+    },
+    "name": "White dagger (Poison)",
+    "slot": "Weapon",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=11184&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=11184#Poison",
+      "pageId": 11184
+    },
+    "colors": [
+      "#a98f5c",
+      "#1c800d",
+      "#df9f04"
+    ]
+  },
+  {
+    "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/White_dagger_detail.png"
     },
     "name": "White dagger",
@@ -13259,6 +13839,26 @@
   },
   {
     "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Iron_knife(p)_detail.png"
+    },
+    "name": "Iron knife (Poison)",
+    "slot": "Weapon",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=11623&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=11623#Poison",
+      "pageId": 11623
+    },
+    "colors": [
+      "#474242",
+      "#6e8110",
+      "#726868"
+    ]
+  },
+  {
+    "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Iron_knife_detail.png"
     },
     "name": "Iron knife",
@@ -13543,6 +14143,26 @@
   },
   {
     "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Rune_dagger(p)_detail.png"
+    },
+    "name": "Rune dagger (Poison)",
+    "slot": "Weapon",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=12167&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=12167#Poison",
+      "pageId": 12167
+    },
+    "colors": [
+      "#4b5f3b",
+      "#c7ca04",
+      "#a1a204"
+    ]
+  },
+  {
+    "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Rune_dagger_detail.png"
     },
     "name": "Rune dagger",
@@ -13821,6 +14441,26 @@
   },
   {
     "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Dragon_spear(p)_detail.png"
+    },
+    "name": "Dragon spear (Poison)",
+    "slot": "Weapon",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=12920&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=12920#Poison",
+      "pageId": 12920
+    },
+    "colors": [
+      "#5d5651",
+      "#710604",
+      "#3b342e"
+    ]
+  },
+  {
+    "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Dragon_spear_detail.png"
     },
     "name": "Dragon spear",
@@ -13967,6 +14607,26 @@
   },
   {
     "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Black_knife(p)_detail.png"
+    },
+    "name": "Black knife (Poison)",
+    "slot": "Weapon",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=13364&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=13364#Poison",
+      "pageId": 13364
+    },
+    "colors": [
+      "#262424",
+      "#6a6161",
+      "#6e8110"
+    ]
+  },
+  {
+    "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Black_knife_detail.png"
     },
     "name": "Black knife",
@@ -13987,6 +14647,26 @@
   },
   {
     "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Mithril_dart(p)_detail.png"
+    },
+    "name": "Mithril dart (Poison)",
+    "slot": "Weapon",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=13365&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=13365#Poison",
+      "pageId": 13365
+    },
+    "colors": [
+      "#6d1304",
+      "#434165",
+      "#657804"
+    ]
+  },
+  {
+    "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Mithril_dart_detail.png"
     },
     "name": "Mithril dart",
@@ -14003,6 +14683,26 @@
       "#661604",
       "#3b3959",
       "#8a0504"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Black_dart(p)_detail.png"
+    },
+    "name": "Black dart (Poison)",
+    "slot": "Weapon",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=13366&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=13366#Poison",
+      "pageId": 13366
+    },
+    "colors": [
+      "#6f1304",
+      "#141413",
+      "#657804"
     ]
   },
   {
@@ -14461,26 +15161,6 @@
       "#383211",
       "#826d3c",
       "#68552d"
-    ]
-  },
-  {
-    "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Ring_of_charos_(a)_detail.png"
-    },
-    "name": "Ring of charos (Activated)",
-    "slot": "Ring",
-    "status": [
-      "Variant"
-    ],
-    "wiki": {
-      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=14199&prop=categories|images|templates|wikitext&format=json",
-      "link": "https://oldschool.runescape.wiki/w/?curid=14199#Activated",
-      "pageId": 14199
-    },
-    "colors": [
-      "#9e8027",
-      "#564416",
-      "#d3ab35"
     ]
   },
   {
@@ -15789,6 +16469,26 @@
   },
   {
     "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Silver_bolts_(p)_detail.png"
+    },
+    "name": "Silver bolts (Poison)",
+    "slot": "Ammunition",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=15888&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=15888#Poison",
+      "pageId": 15888
+    },
+    "colors": [
+      "#8e8e95",
+      "#3d632f",
+      "#4c4c51"
+    ]
+  },
+  {
+    "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Silver_bolts_detail.png"
     },
     "name": "Silver bolts",
@@ -16211,7 +16911,7 @@
     "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Axe_handle_detail.png"
     },
-    "name": "Axe handle (Standard)",
+    "name": "Axe handle",
     "slot": "Weapon",
     "status": [
       "Variant"
@@ -17879,6 +18579,26 @@
     "wiki": {
       "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=19826&prop=categories|images|templates|wikitext&format=json",
       "link": "https://oldschool.runescape.wiki/w/?curid=19826#Karambwan_poison",
+      "pageId": 19826
+    },
+    "colors": [
+      "#3b312b",
+      "#4f737f",
+      "#74a969"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Rune_hasta(p)_detail.png"
+    },
+    "name": "Rune hasta (Poison)",
+    "slot": "Weapon",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=19826&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=19826#Poison",
       "pageId": 19826
     },
     "colors": [
@@ -31176,106 +31896,6 @@
   },
   {
     "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Ring_of_wealth_(i)_detail.png"
-    },
-    "name": "Ring of wealth (i) ((i1))",
-    "slot": "Ring",
-    "status": [
-      "Variant"
-    ],
-    "wiki": {
-      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=41594&prop=categories|images|templates|wikitext&format=json",
-      "link": "https://oldschool.runescape.wiki/w/?curid=41594#(i1)",
-      "pageId": 41594
-    },
-    "colors": [
-      "#bdbb18",
-      "#8e50cd",
-      "#534b22"
-    ]
-  },
-  {
-    "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Ring_of_wealth_(i)_detail.png"
-    },
-    "name": "Ring of wealth (i) ((i2))",
-    "slot": "Ring",
-    "status": [
-      "Variant"
-    ],
-    "wiki": {
-      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=41594&prop=categories|images|templates|wikitext&format=json",
-      "link": "https://oldschool.runescape.wiki/w/?curid=41594#(i2)",
-      "pageId": 41594
-    },
-    "colors": [
-      "#bdbb18",
-      "#8e50cd",
-      "#534b22"
-    ]
-  },
-  {
-    "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Ring_of_wealth_(i)_detail.png"
-    },
-    "name": "Ring of wealth (i) ((i3))",
-    "slot": "Ring",
-    "status": [
-      "Variant"
-    ],
-    "wiki": {
-      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=41594&prop=categories|images|templates|wikitext&format=json",
-      "link": "https://oldschool.runescape.wiki/w/?curid=41594#(i3)",
-      "pageId": 41594
-    },
-    "colors": [
-      "#bdbb18",
-      "#8e50cd",
-      "#534b22"
-    ]
-  },
-  {
-    "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Ring_of_wealth_(i)_detail.png"
-    },
-    "name": "Ring of wealth (i) ((i4))",
-    "slot": "Ring",
-    "status": [
-      "Variant"
-    ],
-    "wiki": {
-      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=41594&prop=categories|images|templates|wikitext&format=json",
-      "link": "https://oldschool.runescape.wiki/w/?curid=41594#(i4)",
-      "pageId": 41594
-    },
-    "colors": [
-      "#bdbb18",
-      "#8e50cd",
-      "#534b22"
-    ]
-  },
-  {
-    "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Ring_of_wealth_(i)_detail.png"
-    },
-    "name": "Ring of wealth (i) ((i5))",
-    "slot": "Ring",
-    "status": [
-      "Variant"
-    ],
-    "wiki": {
-      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=41594&prop=categories|images|templates|wikitext&format=json",
-      "link": "https://oldschool.runescape.wiki/w/?curid=41594#(i5)",
-      "pageId": 41594
-    },
-    "colors": [
-      "#bdbb18",
-      "#8e50cd",
-      "#534b22"
-    ]
-  },
-  {
-    "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Ring_of_wealth_(i)_(uncharged)_detail.png"
     },
     "name": "Ring of wealth (i) (Uncharged)",
@@ -34302,6 +34922,26 @@
       "#9c8b7b",
       "#261816",
       "#4d211e"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Abyssal_dagger_(p)_detail.png"
+    },
+    "name": "Abyssal dagger (Poison)",
+    "slot": "Weapon",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=65179&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=65179#Poison",
+      "pageId": 65179
+    },
+    "colors": [
+      "#250f0e",
+      "#139d1a",
+      "#70160c"
     ]
   },
   {
@@ -37598,6 +38238,26 @@
       "#3b373a",
       "#b85f17",
       "#7b4220"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Dragon_javelin(p)_detail.png"
+    },
+    "name": "Dragon javelin (Poison)",
+    "slot": "Ammunition",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=72317&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=72317#Poison",
+      "pageId": 72317
+    },
+    "colors": [
+      "#5d1414",
+      "#919270",
+      "#53120c"
     ]
   },
   {
@@ -42560,6 +43220,26 @@
   },
   {
     "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Dragon_hasta(p)_detail.png"
+    },
+    "name": "Dragon hasta (Poison)",
+    "slot": "Weapon",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=79119&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=79119#Poison",
+      "pageId": 79119
+    },
+    "colors": [
+      "#64332d",
+      "#15a91a",
+      "#a22418"
+    ]
+  },
+  {
+    "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Dragon_hasta_detail.png"
     },
     "name": "Dragon hasta",
@@ -44276,6 +44956,26 @@
   },
   {
     "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Amethyst_arrow(p)_detail.png"
+    },
+    "name": "Amethyst arrow (Poison)",
+    "slot": "Ammunition",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=100496&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=100496#Poison",
+      "pageId": 100496
+    },
+    "colors": [
+      "#5b2804",
+      "#83516e",
+      "#b66791"
+    ]
+  },
+  {
+    "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Amethyst_arrow_detail.png"
     },
     "name": "Amethyst arrow",
@@ -44312,6 +45012,26 @@
       "#533613",
       "#968c8c",
       "#6c140c"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Amethyst_javelin(p)_detail.png"
+    },
+    "name": "Amethyst javelin (Poison)",
+    "slot": "Ammunition",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=100509&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=100509#Poison",
+      "pageId": 100509
+    },
+    "colors": [
+      "#654c26",
+      "#935b7b",
+      "#048904"
     ]
   },
   {
@@ -45222,6 +45942,26 @@
       "#867b7a",
       "#393434",
       "#5a5454"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Dragon_bolts_(p)_detail.png"
+    },
+    "name": "Dragon bolts (Poison)",
+    "slot": "Ammunition",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=108704&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=108704#Poison",
+      "pageId": 108704
+    },
+    "colors": [
+      "#909786",
+      "#6b291b",
+      "#7f382c"
     ]
   },
   {
@@ -48716,6 +49456,26 @@
       "#3e2607",
       "#1b1306",
       "#5f4328"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Dragon_knife(p)_detail.png"
+    },
+    "name": "Dragon knife (Poison)",
+    "slot": "Weapon",
+    "status": [
+      "Variant"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=199884&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=199884#Poison",
+      "pageId": 199884
+    },
+    "colors": [
+      "#603e3a",
+      "#149a17",
+      "#971d14"
     ]
   },
   {
