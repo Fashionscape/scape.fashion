@@ -99,7 +99,7 @@ const model = config => {
 
   const banList = {
     oldschool: ['Rune bersker shield'],
-    runescape: ['Enchanted bolts'],
+    runescape: ['Enchanted bolts', 'Shield'],
   }[config.release];
 
   const toItem = parse => {

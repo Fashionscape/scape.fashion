@@ -24,6 +24,7 @@ const Slot = config => {
       {category: 'Main_hand_slot_items', key: 'main_hand'},
       {category: 'Neck_slot_items', key: 'neck'},
       {category: 'Off-hand_slot_items', key: 'off-hand'},
+      {category: 'Off-hand_slot_weapons', key: 'off-hand'},
       {category: 'Pocket_slot_items', key: 'pocket'},
       {category: 'Rings', key: 'ring'},
       {category: 'Sigil_slot_items', key: 'sigil'},
@@ -35,9 +36,7 @@ const Slot = config => {
   const categories = slots.map(slot => slot.category);
 
   const toSlot = categories => {
-    const category = categories.find(c => c.includes('slot'));
-    const slot = slots.find(slot => slot.category === category);
-
+    const slot = slots.find(slot => categories.includes(slot.category));
     return slot.key;
   };
 
