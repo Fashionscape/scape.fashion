@@ -1,35 +1,5 @@
 const Wiki = require('./wiki');
-
-const SLOT_MAP_RS3 = {
-  'Off-hand_slot_items': 'Shield',
-  Back_slot_items: 'Cape',
-  Hand_slot_items: 'Hand',
-  Legs_slot_items: 'Leg',
-  Main_hand_slot_items: 'Weapon',
-  Pocket_slot_items: 'Pocket',
-  Torso_slot_items: 'Body',
-};
-
-const SLOT_MAP = {
-  ...SLOT_MAP_RS3,
-  'Two-handed_slot_items': 'Weapon',
-  Ammunition_slot_items: 'Ammunition',
-  Body_slot_items: 'Body',
-  Cape_slot_items: 'Cape',
-  Feet_slot_items: 'Feet',
-  Hands_slot_items: 'Hand',
-  Head_slot_items: 'Head',
-  Leg_slot_items: 'Leg',
-  Neck_slot_items: 'Neck',
-  Ring_slot_items: 'Ring',
-  Shield_slot_items: 'Shield',
-  Weapon_slot_items: 'Weapon',
-};
-
-const toSlot = categories => {
-  const slotCategory = categories.find(category => category.includes('slot'));
-  return SLOT_MAP[slotCategory];
-};
+const Slot = require('./slot');
 
 const isItemStatus = category => ['Discontinued_content'].includes(category);
 
@@ -88,7 +58,10 @@ const toImageFileName = name => {
 const imagePattern = /\[\[File:(.+(detail\.png|detail animated\.gif))/m;
 
 const parseImage = wikitext => {
-  const [_, name] = wikitext.match(imagePattern);
+  const [_, name] = wikitext.match(imagePattern) || [];
+
+  if (!name) return null;
+
   return toImageFileName(name);
 };
 
@@ -115,39 +88,62 @@ const standardVariants = [
 ];
 
 const toVariantName = ({name, variant}) => {
-  if (!variant) return name;
   if (standardVariants.includes(variant)) return name;
 
   return `${name} (${variant})`;
 };
 
-const banList = ['Rune berserker shield'];
-
 const model = config => {
+  const {toSlot} = Slot(config);
   const wiki = Wiki(config);
 
-  const toImageUrl = file => `${config.url.base}Special:Redirect/file/${file}`;
+  const banList = {
+    oldschool: ['Rune bersker shield'],
+    runescape: ['Enchanted bolts'],
+  }[config.release];
 
-  const toItem = ({image, parse, variant}) => {
-    const name = toVariantName({name: parse.title, variant});
+  const toItem = parse => {
+    const name = parse.title;
     const pageId = parse.pageid;
     const api = wiki.apiUrl(pageId);
-    const link = wiki.wikiUrl({pageId, variant});
+    const link = wiki.wikiUrl({pageId});
 
     const categories = parse.categories.map(c => c['*']);
     const status = categories.filter(isItemStatus);
-    if (variant) status.push('Variant');
 
-    const detail = toImageUrl(image);
     const slot = toSlot(categories);
 
     return {
-      images: {detail},
+      images: {},
       name,
       slot,
       status,
       wiki: {api, link, pageId},
     };
+  };
+
+  const toVariant = (item, name) => {
+    return {
+      ...item,
+      name: toVariantName({name: item.name, variant: name}),
+      status: [...item.status, 'Variant'],
+      wiki: {
+        ...item.wiki,
+        link: wiki.wikiUrl({pageId: item.wiki.pageId, variant: name}),
+      },
+    };
+  };
+
+  const toImageUrl = file => `${config.url.base}Special:Redirect/file/${file}`;
+
+  const withImages = ({item, wikitext}) => {
+    const file = parseImage(wikitext);
+
+    if (!file) return item;
+
+    const detail = toImageUrl(file);
+
+    return {...item, images: {detail}};
   };
 
   const toItems = ({parse}) => {
@@ -157,23 +153,25 @@ const model = config => {
     if (title.startsWith('Category:')) return [];
     if (banList.includes(title)) return [];
 
+    const item = toItem(parse);
     const categories = parse.categories.map(c => c['*']);
     const hasVariants = syncedSwitchPattern.test(wikitext);
 
-    if (!hasVariants) return [toItem({image: parseImage(wikitext), parse})];
+    if (!hasVariants) return [withImages({item, wikitext})];
 
     const variantImages = parseImages(wikitext);
     const variantNames = parseVariants(wikitext);
 
-    const zipped = variantNames
-      .map((variant, i) => ({
-        image: variantImages[i],
-        variant,
-      }))
-      .filter(({variant}) => isValidVariant(variant))
-      .sort((a, b) => a.variant.localeCompare(b.variant));
+    const zipped = variantNames.map((name, i) => ({
+      image: variantImages[i],
+      name,
+    }));
 
-    return zipped.map(({image, variant}) => toItem({image, parse, variant}));
+    return zipped
+      .filter(({name}) => isValidVariant(name))
+      .map(({image, name}) => toVariant(item, name))
+      .map(variant => withImages({item: variant, wikitext}))
+      .sort((a, b) => a.name.localeCompare(b.name));
   };
 
   return {toItems};

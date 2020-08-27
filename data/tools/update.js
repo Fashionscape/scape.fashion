@@ -6,24 +6,8 @@ const [_, __, rsrelease, force] = process.argv;
 const config = require('./config')(rsrelease);
 
 const {toItems} = require('./model')(config);
+const slot = require('./slot')(config);
 const wiki = require('./wiki')(config);
-
-const categories = {
-  oldschool: [
-    'Ammunition',
-    'Body',
-    'Cape',
-    'Feet',
-    'Hands',
-    'Head',
-    'Legs',
-    'Neck',
-    'Ring',
-    'Shield',
-    'Two-handed',
-    'Weapon',
-  ],
-}[rsrelease];
 
 const file = `items-${rsrelease}.json`;
 const items = require(`../${file}`);
@@ -74,8 +58,7 @@ const groupBy = (as, fn) =>
   }, {});
 
 const update = async () => {
-  const categoryNames = categories.map(c => `${c}_slot_items`);
-  const members = await wiki.categories(categoryNames);
+  const members = await wiki.categories(slot.categories);
   const pageIds = members.map(member => member.pageid);
 
   console.log('Total items: ', pageIds.length);

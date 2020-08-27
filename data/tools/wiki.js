@@ -17,6 +17,7 @@ const wiki = config => {
         ?action=query
         &list=categorymembers
         &cmtitle=Category:${category}
+        &cmtype=page
         &cmlimit=500
         &cmcontinue=${continu}
         &format=json
