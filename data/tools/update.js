@@ -21,8 +21,14 @@ const pageMap = items
 
 if (force) pageMap.clear();
 
+const silentItems = fs
+  .readFileSync(`./ignore-${rsrelease}.txt`, 'utf8')
+  .split('\n');
+
 const hasError = item =>
-  item && !Boolean(item.slot && item.images.detail && item.colors.length);
+  item &&
+  !silentItems.includes(item.name) &&
+  !Boolean(item.slot && item.images.detail && item.colors.length);
 
 const logItem = item =>
   fs.appendFileSync(`errors-${rsrelease}.txt`, JSON.stringify(item, null, 2));
@@ -59,7 +65,7 @@ const groupBy = (as, fn) =>
 
 const update = async () => {
   const members = await wiki.categories(slot.categories);
-  const pageIds = members.map(member => member.pageid);
+  const pageIds = [...new Set(members.map(member => member.pageid))];
 
   console.log('Total items: ', pageIds.length);
 
