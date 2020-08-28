@@ -52,7 +52,7 @@ const decodeEntities = encodedString => {
 
 const toImageFileName = name => {
   const decoded = decodeEntities(name);
-  return decoded.replace(/ /g, '_');
+  return decoded.replace(/\s/g, '_');
 };
 
 const imagePattern = /\[\[File:(.+(detail\.png|detail animated\.gif))/m;
@@ -99,7 +99,13 @@ const model = config => {
 
   const banList = {
     oldschool: ['Rune bersker shield'],
-    runescape: ['Enchanted bolts', 'Shield', 'Master cape of Accomplishment'],
+    runescape: [
+      'Boots',
+      'Enchanted bolts',
+      'Shield',
+      'Master cape of Accomplishment',
+      'Metal boots'
+    ],
   }[config.release];
 
   const toItem = parse => {
