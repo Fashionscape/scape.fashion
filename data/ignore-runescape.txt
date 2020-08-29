@@ -1,133 +1,60 @@
-Academy arrow
-Academy bolts
-Armour spikes (alloy)
-Arrows (class 1)
-Arrows (class 2)
-Arrows (class 3)
-Arrows (class 4)
-Arrows (class 5)
-Mithril grapple (Dimension of Disaster)
-Performance arrow
-Archaeology cape
-Archaeology cape (t)
-Cape (Stealing Creation, blue)
-Cape (Stealing Creation, red)
-Crafting cape
-Divination cape
-Energy barrel
+Prayer cape
 Farming cape
 Fishing cape
+Herblore cape
+Hunter cape
+Runecrafting cape
+Woodcutting cape
+Crafting cape
+Performance arrow
+Arrows (class 3)
+Arrows (class 1)
+Arrows (class 2)
+Arrows (class 4)
+Arrows (class 5)
+Soul cape
+Herald cape
+Mod cape
+Academy arrow
+Academy bolts
+Divination cape
 Golden warpriest of Armadyl cape
 Golden warpriest of Bandos cape
-Herald cape
-Herblore cape
+Hooded woodcutting cape
+Mithril grapple (Dimension of Disaster)
+Hooded attack cape
+Hooded strength cape
+Hooded magic cape
+Hooded prayer cape
+Hooded crafting cape
+Hooded mining cape
+Hooded smithing cape
+Hooded fishing cape
+Hooded firemaking cape
+Hooded runecrafting cape
+Hooded herblore cape
+Hooded thieving cape
+Hooded fletching cape
+Hooded slayer cape
+Hooded farming cape
+Hooded hunter cape
+Hooded summoning cape
+Hooded divination cape
+Hooded ranged cape
+Cape (Stealing Creation, red)
+Cape (Stealing Creation, blue)
+Soul cape (white)
+Soul cape (blood)
+Soul cape (black)
+Soul cape (shadow)
+Soul cape (barrows)
+Veteran cape (15 year)
+Soul cape (golden)
+Energy barrel
+Sack of medium parcels
+Sack of huge parcels
+Armour spikes (alloy)
+Archaeology cape
+Archaeology cape (t)
 Hooded archaeology cape
 Hooded archaeology cape (t)
-Hooded attack cape
-Hooded crafting cape
-Hooded divination cape
-Hooded farming cape
-Hooded firemaking cape
-Hooded fishing cape
-Hooded fletching cape
-Hooded herblore cape
-Hooded hunter cape
-Hooded magic cape
-Hooded mining cape
-Hooded prayer cape
-Hooded ranged cape
-Hooded runecrafting cape
-Hooded slayer cape
-Hooded smithing cape
-Hooded strength cape
-Hooded summoning cape
-Hooded thieving cape
-Hooded woodcutting cape
-Hunter cape
-Mod cape
-Prayer cape
-Runecrafting cape
-Sack of huge parcels
-Sack of medium parcels
-Soul cape
-Soul cape (barrows)
-Soul cape (black)
-Soul cape (blood)
-Soul cape (golden)
-Soul cape (shadow)
-Soul cape (white)
-Veteran cape (15 year)
-Woodcutting cape
-Abandoned gorajan trailblazer feet
-Colonist's boots
-Colonist's shoes
-Cool disco feet
-Custom-fit trimmed spiked masterwork boots
-Decaying zombie feet
-Dervish shoes
-Desert camouflage feet
-Disco feet
-Divination chronicle feet
-Divination energy feet
-Divination memory feet
-Eastern sandals
-Elf-style boots
-Elf-style shoes
-Feathered serpent boots
-Frozen gorajan trailblazer feet
-Furnished gorajan trailblazer feet
-Ghostly builder's boots
-Ghostly chicken feet
-Ghostly clown shoes
-Ghostly jester boots
-Ghostly lederhosen boots
-Ghostly reaver boots
-Ghostly revenant boots
-Ghostly ringmaster boots
-Ghostly spirit hunter greaves
-High Armour of Hanto sabatons
-Highland boots
-Infected zombie feet
-Jungle trapper boots
-Keldagrim camouflage feet
-Maple sentinel boots
-Metal boots
-Mod boots
-Musketeer's boots
-Oaken sentinel boots
-Pharaoh's sandals
-Rotten zombie feet
-Rune armoured boots + 1
-Rune armoured boots + 2
-Rune armoured boots + 3
-Samba sandals
-Shadow gem Virtus boots
-Shoes (Circus)
-Shoes (female, flats)
-Shoes (female, straps)
-Shoes (male, shoes)
-Silken boots
-Starfire magic boots
-Starfire melee boots
-Starfire ranged boots
-Starfury magic boots
-Starfury melee boots
-Starfury ranged boots
-Super disco feet
-Superior skeletal boots
-Superior spined boots
-Theatrical shoes
-Tribal shoes
-Tribal shoes (black, male)
-Tribal shoes (orange, male)
-Tribal shoes (pink, male)
-Tribal shoes (purple, male)
-Tribal shoes (red, male)
-Werewolf paws
-Willow sentinel boots
-Wushanko shoes
-Wushanko shoes (blue, male)
-Wushanko shoes (light red, male)
-Wushanko shoes (orange, male)
-Wushanko shoes (pink, male)
-Wushanko shoes (red, male)
