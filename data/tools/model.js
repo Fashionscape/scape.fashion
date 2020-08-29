@@ -132,7 +132,7 @@ const model = config => {
 
   const toImageUrl = file => `${config.url.base}Special:Redirect/file/${file}`;
 
-  const commentPattern = /<!--(.*?)-->/gm;
+  const commentPattern = /<!--(.*?)-->/gms;
 
   const withImages = ({item, wikitext}) => {
     const withoutComments = wikitext.replace(commentPattern, '');

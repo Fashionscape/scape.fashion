@@ -922,6 +922,7 @@ Augmented Off-hand Blightbound crossbow
 Augmented Blightbound crossbow (shadow)
 Augmented Off-hand blightbound crossbow (shadow)
 Augmented Blightbound crossbow (blood)
+Augmented Off-hand blightbound crossbow (blood)
 Augmented Blightbound crossbow (ice)
 Augmented Off-hand blightbound crossbow (ice)
 Augmented Blightbound crossbow (Third Age)

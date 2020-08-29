@@ -29,13 +29,15 @@ const toPalette = async src => {
 const Color = config => {
   const overrides = {
     oldschool: {
-      'Ghostly gloves': ['#4d4c47', '#342f2c', '#44443c'],
       'Ankou gloves': ['#ac2313', '#d22c1c', '#861b0c'],
-      'Ghostly robe (bottom)': ['#51504a', '#2d2d29', '#3c3c36'],
       'Crone-made amulet': ['#fae7c6', '#f2efeb', '#e7dac2'],
+      'Ghostly gloves': ['#4d4c47', '#342f2c', '#44443c'],
+      'Ghostly robe (bottom)': ['#51504a', '#2d2d29', '#3c3c36'],
     },
     runescape: {
       'Crystal ward (historical)': ['#dce8f0', '#e6e7ed', '#cacdce'],
+      'Ghostly gloves': ['#040710', '#1b292d', '#141c22'],
+      'Ghostly robe (bottom)': ['#040710', '#1b292d', '#141c22'],
     },
   }[config.release];
 

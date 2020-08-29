@@ -9229,7 +9229,7 @@
   },
   {
     "images": {
-      "detail": "https://runescape.wiki/w/Special:Redirect/file/Iban's_staff_detail.png"
+      "detail": "https://runescape.wiki/w/Special:Redirect/file/Iban's_staff_(broken)_detail.png"
     },
     "name": "Iban's staff (broken)",
     "slot": "two-handed",
@@ -9242,9 +9242,9 @@
       "pageId": 9652
     },
     "colors": [
-      "#462516",
-      "#ad6b56",
-      "#8d7f78"
+      "#4d310d",
+      "#7f3819",
+      "#683514"
     ]
   },
   {
@@ -13158,9 +13158,9 @@
       "pageId": 14888
     },
     "colors": [
-      "#51504a",
-      "#2d2d29",
-      "#3c3c36"
+      "#040710",
+      "#1b292d",
+      "#141c22"
     ]
   },
   {
@@ -14285,9 +14285,9 @@
       "pageId": 18706
     },
     "colors": [
-      "#4d4c47",
-      "#342f2c",
-      "#44443c"
+      "#040710",
+      "#1b292d",
+      "#141c22"
     ]
   },
   {
@@ -22022,7 +22022,7 @@
   },
   {
     "images": {
-      "detail": "https://runescape.wiki/w/Special:Redirect/file/Dragon_gauntlets_detail.png"
+      "detail": "https://runescape.wiki/w/Special:Redirect/file/Worn-out_dragon_gauntlets_detail.png"
     },
     "name": "Dragon gauntlets (worn-out)",
     "slot": "hand",
@@ -22035,9 +22035,9 @@
       "pageId": 62851
     },
     "colors": [
-      "#1f0404",
-      "#7c140e",
-      "#5a1304"
+      "#331e1a",
+      "#df8475",
+      "#814c43"
     ]
   },
   {
@@ -22098,7 +22098,7 @@
   },
   {
     "images": {
-      "detail": "https://runescape.wiki/w/Special:Redirect/file/Black_gauntlets_detail.png"
+      "detail": "https://runescape.wiki/w/Special:Redirect/file/Worn-out_black_gauntlets_detail.png"
     },
     "name": "Black gauntlets (worn-out)",
     "slot": "hand",
@@ -22111,9 +22111,9 @@
       "pageId": 62856
     },
     "colors": [
-      "#0f0e0f",
-      "#736e6a",
-      "#4c4c46"
+      "#282728",
+      "#99948c",
+      "#6c6c64"
     ]
   },
   {
@@ -129636,9 +129636,7 @@
     }
   },
   {
-    "images": {
-      "detail": "https://runescape.wiki/w/Special:Redirect/file/Off-hand_Blightbound_crossbow_(blood)_detail.png"
-    },
+    "images": {},
     "name": "Augmented Off-hand blightbound crossbow (blood)",
     "slot": "off-hand",
     "status": [],
@@ -129646,12 +129644,7 @@
       "api": "https://runescape.wiki/api.php?action=parse&pageid=630364&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=630364",
       "pageId": 630364
-    },
-    "colors": [
-      "#370712",
-      "#802917",
-      "#c02424"
-    ]
+    }
   },
   {
     "images": {},
