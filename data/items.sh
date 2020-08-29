@@ -13,10 +13,18 @@ fi
 
 set -e
 
+ignore() {
+  node tools/ignore.js $RSRELEASE
+}
+
 import() {
-  node tools/update $RSRELEASE --force
+  node tools/update.js $RSRELEASE --force
 
   stats
+}
+
+try() {
+  node tools/try.js $@
 }
 
 update() {
@@ -41,7 +49,9 @@ COMMAND="$1"
 shift
 
 case "$COMMAND" in
+  ignore) ignore $@;;
   import) import $@;;
   stats) stats $@;;
+  try) try $@;;
   update) update $@;;
 esac

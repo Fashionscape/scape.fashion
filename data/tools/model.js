@@ -104,7 +104,7 @@ const model = config => {
       'Enchanted bolts',
       'Shield',
       'Master cape of Accomplishment',
-      'Metal boots'
+      'Metal boots',
     ],
   }[config.release];
 
@@ -142,8 +142,10 @@ const model = config => {
 
   const toImageUrl = file => `${config.url.base}Special:Redirect/file/${file}`;
 
+  const commentPattern = /<!--[^\-]+-->/g;
   const withImages = ({item, wikitext}) => {
-    const file = parseImage(wikitext);
+    const withoutComments = wikitext.replace(commentPattern, '');
+    const file = parseImage(withoutComments);
 
     if (!file) return item;
 
