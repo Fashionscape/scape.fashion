@@ -107,6 +107,8 @@ const model = config => {
     const categories = parse.categories.map(c => c['*']);
     const status = categories.filter(isItemStatus);
 
+    if (name.match(/ \+ \d$/g)) status.push('Ignored');
+
     const slot = toSlot(categories);
 
     return {

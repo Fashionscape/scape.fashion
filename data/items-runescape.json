@@ -131806,7 +131806,9 @@
     },
     "name": "Adamant dagger + 1",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=684906&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=684906",
@@ -131824,7 +131826,9 @@
     },
     "name": "Adamant dagger + 2",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=684907&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=684907",
@@ -131842,7 +131846,9 @@
     },
     "name": "Adamant off hand dagger + 1",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=684909&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=684909",
@@ -131860,7 +131866,9 @@
     },
     "name": "Adamant off hand dagger + 2",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=684910&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=684910",
@@ -131878,7 +131886,9 @@
     },
     "name": "Adamant mace + 1",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=684912&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=684912",
@@ -131896,7 +131906,9 @@
     },
     "name": "Adamant mace + 2",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=684913&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=684913",
@@ -131914,7 +131926,9 @@
     },
     "name": "Adamant off hand mace + 1",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=684915&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=684915",
@@ -131932,7 +131946,9 @@
     },
     "name": "Adamant off hand mace + 2",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=684916&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=684916",
@@ -131950,7 +131966,9 @@
     },
     "name": "Adamant sword + 1",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=684918&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=684918",
@@ -131968,7 +131986,9 @@
     },
     "name": "Adamant sword + 2",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=684919&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=684919",
@@ -131986,7 +132006,9 @@
     },
     "name": "Adamant off hand sword + 1",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=684921&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=684921",
@@ -132004,7 +132026,9 @@
     },
     "name": "Adamant off hand sword + 2",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=684922&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=684922",
@@ -132022,7 +132046,9 @@
     },
     "name": "Adamant scimitar + 1",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=684924&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=684924",
@@ -132040,7 +132066,9 @@
     },
     "name": "Adamant scimitar + 2",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=684925&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=684925",
@@ -132058,7 +132086,9 @@
     },
     "name": "Adamant off hand scimitar + 1",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=684927&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=684927",
@@ -132076,7 +132106,9 @@
     },
     "name": "Adamant off hand scimitar + 2",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=684928&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=684928",
@@ -132094,7 +132126,9 @@
     },
     "name": "Adamant longsword + 1",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=684930&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=684930",
@@ -132112,7 +132146,9 @@
     },
     "name": "Adamant longsword + 2",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=684931&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=684931",
@@ -132130,7 +132166,9 @@
     },
     "name": "Adamant off hand longsword + 1",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=684933&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=684933",
@@ -132148,7 +132186,9 @@
     },
     "name": "Adamant off hand longsword + 2",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=684934&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=684934",
@@ -132166,7 +132206,9 @@
     },
     "name": "Adamant warhammer + 1",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=684937&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=684937",
@@ -132184,7 +132226,9 @@
     },
     "name": "Adamant warhammer + 2",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=684938&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=684938",
@@ -132202,7 +132246,9 @@
     },
     "name": "Adamant off hand warhammer + 1",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=684941&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=684941",
@@ -132220,7 +132266,9 @@
     },
     "name": "Adamant off hand warhammer + 2",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=684942&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=684942",
@@ -132238,7 +132286,9 @@
     },
     "name": "Adamant battleaxe + 1",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=684944&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=684944",
@@ -132256,7 +132306,9 @@
     },
     "name": "Adamant battleaxe + 2",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=684945&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=684945",
@@ -132274,7 +132326,9 @@
     },
     "name": "Adamant off hand battleaxe + 1",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=684947&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=684947",
@@ -132292,7 +132346,9 @@
     },
     "name": "Adamant off hand battleaxe + 2",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=684948&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=684948",
@@ -132310,7 +132366,9 @@
     },
     "name": "Adamant claws + 1",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=684950&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=684950",
@@ -132328,7 +132386,9 @@
     },
     "name": "Adamant claws + 2",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=684951&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=684951",
@@ -132346,7 +132406,9 @@
     },
     "name": "Adamant off hand claws + 1",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=684953&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=684953",
@@ -132364,7 +132426,9 @@
     },
     "name": "Adamant off hand claws + 2",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=684954&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=684954",
@@ -132382,7 +132446,9 @@
     },
     "name": "Adamant 2h sword + 1",
     "slot": "two-handed",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=684956&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=684956",
@@ -132400,7 +132466,9 @@
     },
     "name": "Adamant 2h sword + 2",
     "slot": "two-handed",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=684957&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=684957",
@@ -132418,7 +132486,9 @@
     },
     "name": "Adamant full helm + 1",
     "slot": "head",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=684959&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=684959",
@@ -132436,7 +132506,9 @@
     },
     "name": "Adamant full helm + 2",
     "slot": "head",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=684960&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=684960",
@@ -132454,7 +132526,9 @@
     },
     "name": "Adamant med helm + 1",
     "slot": "head",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=684962&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=684962",
@@ -132472,7 +132546,9 @@
     },
     "name": "Adamant med helm + 2",
     "slot": "head",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=684963&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=684963",
@@ -132490,7 +132566,9 @@
     },
     "name": "Adamant platelegs + 1",
     "slot": "leg",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=684965&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=684965",
@@ -132508,7 +132586,9 @@
     },
     "name": "Adamant platelegs + 2",
     "slot": "leg",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=684966&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=684966",
@@ -132526,7 +132606,9 @@
     },
     "name": "Adamant plateskirt + 1",
     "slot": "leg",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=684968&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=684968",
@@ -132544,7 +132626,9 @@
     },
     "name": "Adamant plateskirt + 2",
     "slot": "leg",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=684969&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=684969",
@@ -132562,7 +132646,9 @@
     },
     "name": "Adamant platebody + 1",
     "slot": "torso",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=684971&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=684971",
@@ -132580,7 +132666,9 @@
     },
     "name": "Adamant platebody + 2",
     "slot": "torso",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=684972&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=684972",
@@ -132598,7 +132686,9 @@
     },
     "name": "Adamant chainbody + 1",
     "slot": "torso",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=684974&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=684974",
@@ -132616,7 +132706,9 @@
     },
     "name": "Adamant chainbody + 2",
     "slot": "torso",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=684975&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=684975",
@@ -132634,7 +132726,9 @@
     },
     "name": "Adamant square shield + 1",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=684977&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=684977",
@@ -132652,7 +132746,9 @@
     },
     "name": "Adamant square shield + 2",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=684978&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=684978",
@@ -132670,7 +132766,9 @@
     },
     "name": "Adamant kiteshield + 1",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=684980&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=684980",
@@ -132688,7 +132786,9 @@
     },
     "name": "Adamant kiteshield + 2",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=684981&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=684981",
@@ -132706,7 +132806,9 @@
     },
     "name": "Adamant armoured boots + 1",
     "slot": "feet",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=684983&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=684983",
@@ -132724,7 +132826,9 @@
     },
     "name": "Adamant armoured boots + 2",
     "slot": "feet",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=684984&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=684984",
@@ -132760,7 +132864,9 @@
     },
     "name": "Adamant gauntlets + 1",
     "slot": "hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=684987&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=684987",
@@ -132778,7 +132884,9 @@
     },
     "name": "Adamant gauntlets + 2",
     "slot": "hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=684988&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=684988",
@@ -132796,7 +132904,9 @@
     },
     "name": "Adamant pickaxe + 1",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=684990&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=684990",
@@ -132814,7 +132924,9 @@
     },
     "name": "Adamant pickaxe + 2",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=684991&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=684991",
@@ -132832,7 +132944,9 @@
     },
     "name": "Bane longsword + 1",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=684993&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=684993",
@@ -132850,7 +132964,9 @@
     },
     "name": "Bane longsword + 2",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=684994&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=684994",
@@ -132868,7 +132984,9 @@
     },
     "name": "Bane longsword + 3",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=684995&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=684995",
@@ -132886,7 +133004,9 @@
     },
     "name": "Bane longsword + 4",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=684996&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=684996",
@@ -132922,7 +133042,9 @@
     },
     "name": "Bane off hand longsword + 1",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=684999&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=684999",
@@ -132940,7 +133062,9 @@
     },
     "name": "Bane off hand longsword + 2",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685000&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685000",
@@ -132958,7 +133082,9 @@
     },
     "name": "Bane off hand longsword + 3",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685001&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685001",
@@ -132976,7 +133102,9 @@
     },
     "name": "Bane off hand longsword + 4",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685002&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685002",
@@ -132994,7 +133122,9 @@
     },
     "name": "Bane 2h sword + 1",
     "slot": "two-handed",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685005&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685005",
@@ -133012,7 +133142,9 @@
     },
     "name": "Bane 2h sword + 2",
     "slot": "two-handed",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685006&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685006",
@@ -133030,7 +133162,9 @@
     },
     "name": "Bane 2h sword + 3",
     "slot": "two-handed",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685007&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685007",
@@ -133048,7 +133182,9 @@
     },
     "name": "Bane 2h sword + 4",
     "slot": "two-handed",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685008&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685008",
@@ -133066,7 +133202,9 @@
     },
     "name": "Bane pickaxe + 1",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685010&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685010",
@@ -133084,7 +133222,9 @@
     },
     "name": "Bane pickaxe + 2",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685011&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685011",
@@ -133102,7 +133242,9 @@
     },
     "name": "Bane pickaxe + 3",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685012&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685012",
@@ -133120,7 +133262,9 @@
     },
     "name": "Bane pickaxe + 4",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685013&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685013",
@@ -133156,7 +133300,9 @@
     },
     "name": "Bane full helm + 1",
     "slot": "head",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685016&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685016",
@@ -133174,7 +133320,9 @@
     },
     "name": "Bane full helm + 2",
     "slot": "head",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685017&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685017",
@@ -133192,7 +133340,9 @@
     },
     "name": "Bane full helm + 3",
     "slot": "head",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685018&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685018",
@@ -133210,7 +133360,9 @@
     },
     "name": "Bane full helm + 4",
     "slot": "head",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685019&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685019",
@@ -133228,7 +133380,9 @@
     },
     "name": "Bane platelegs + 1",
     "slot": "leg",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685021&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685021",
@@ -133246,7 +133400,9 @@
     },
     "name": "Bane platelegs + 2",
     "slot": "leg",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685022&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685022",
@@ -133264,7 +133420,9 @@
     },
     "name": "Bane platelegs + 3",
     "slot": "leg",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685023&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685023",
@@ -133282,7 +133440,9 @@
     },
     "name": "Bane platelegs + 4",
     "slot": "leg",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685024&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685024",
@@ -133300,7 +133460,9 @@
     },
     "name": "Bane platebody + 1",
     "slot": "torso",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685026&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685026",
@@ -133318,7 +133480,9 @@
     },
     "name": "Bane platebody + 2",
     "slot": "torso",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685027&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685027",
@@ -133336,7 +133500,9 @@
     },
     "name": "Bane platebody + 3",
     "slot": "torso",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685028&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685028",
@@ -133354,7 +133520,9 @@
     },
     "name": "Bane platebody + 4",
     "slot": "torso",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685029&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685029",
@@ -133390,7 +133558,9 @@
     },
     "name": "Bane square shield + 1",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685032&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685032",
@@ -133408,7 +133578,9 @@
     },
     "name": "Bane square shield + 2",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685033&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685033",
@@ -133426,7 +133598,9 @@
     },
     "name": "Bane square shield + 3",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685034&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685034",
@@ -133444,7 +133618,9 @@
     },
     "name": "Bane square shield + 4",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685035&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685035",
@@ -133480,7 +133656,9 @@
     },
     "name": "Bane armoured boots + 1",
     "slot": "feet",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685038&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685038",
@@ -133498,7 +133676,9 @@
     },
     "name": "Bane armoured boots + 2",
     "slot": "feet",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685043&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685043",
@@ -133516,7 +133696,9 @@
     },
     "name": "Bane armoured boots + 3",
     "slot": "feet",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685044&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685044",
@@ -133534,7 +133716,9 @@
     },
     "name": "Bane armoured boots + 4",
     "slot": "feet",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685045&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685045",
@@ -133570,7 +133754,9 @@
     },
     "name": "Bane gauntlets + 1",
     "slot": "hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685048&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685048",
@@ -133588,7 +133774,9 @@
     },
     "name": "Bane gauntlets + 2",
     "slot": "hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685049&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685049",
@@ -133606,7 +133794,9 @@
     },
     "name": "Bane gauntlets + 3",
     "slot": "hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685050&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685050",
@@ -133624,7 +133814,9 @@
     },
     "name": "Bane gauntlets + 4",
     "slot": "hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685051&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685051",
@@ -134092,7 +134284,9 @@
     },
     "name": "Elder rune longsword + 1",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685193&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685193",
@@ -134110,7 +134304,9 @@
     },
     "name": "Elder rune longsword + 2",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685194&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685194",
@@ -134128,7 +134324,9 @@
     },
     "name": "Elder rune longsword + 3",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685195&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685195",
@@ -134146,7 +134344,9 @@
     },
     "name": "Elder rune longsword + 4",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685196&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685196",
@@ -134164,7 +134364,9 @@
     },
     "name": "Elder rune longsword + 5",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685197&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685197",
@@ -134200,7 +134402,9 @@
     },
     "name": "Elder rune off hand longsword + 1",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685200&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685200",
@@ -134218,7 +134422,9 @@
     },
     "name": "Elder rune off hand longsword + 2",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685201&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685201",
@@ -134236,7 +134442,9 @@
     },
     "name": "Elder rune off hand longsword + 3",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685202&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685202",
@@ -134254,7 +134462,9 @@
     },
     "name": "Elder rune off hand longsword + 4",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685203&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685203",
@@ -134272,7 +134482,9 @@
     },
     "name": "Elder rune off hand longsword + 5",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685204&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685204",
@@ -134290,7 +134502,9 @@
     },
     "name": "Elder rune 2h sword + 1",
     "slot": "two-handed",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685207&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685207",
@@ -134308,7 +134522,9 @@
     },
     "name": "Elder rune 2h sword + 2",
     "slot": "two-handed",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685208&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685208",
@@ -134326,7 +134542,9 @@
     },
     "name": "Elder rune 2h sword + 3",
     "slot": "two-handed",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685209&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685209",
@@ -134344,7 +134562,9 @@
     },
     "name": "Elder rune 2h sword + 4",
     "slot": "two-handed",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685210&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685210",
@@ -134362,7 +134582,9 @@
     },
     "name": "Elder rune 2h sword + 5",
     "slot": "two-handed",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685211&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685211",
@@ -134380,7 +134602,9 @@
     },
     "name": "Elder rune pickaxe + 1",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685213&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685213",
@@ -134398,7 +134622,9 @@
     },
     "name": "Elder rune pickaxe + 2",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685214&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685214",
@@ -134416,7 +134642,9 @@
     },
     "name": "Elder rune pickaxe + 3",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685215&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685215",
@@ -134434,7 +134662,9 @@
     },
     "name": "Elder rune pickaxe + 4",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685216&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685216",
@@ -134452,7 +134682,9 @@
     },
     "name": "Elder rune pickaxe + 5",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685217&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685217",
@@ -134488,7 +134720,9 @@
     },
     "name": "Elder rune full helm + 1",
     "slot": "head",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685220&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685220",
@@ -134506,7 +134740,9 @@
     },
     "name": "Elder rune full helm + 2",
     "slot": "head",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685221&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685221",
@@ -134524,7 +134760,9 @@
     },
     "name": "Elder rune full helm + 3",
     "slot": "head",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685222&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685222",
@@ -134542,7 +134780,9 @@
     },
     "name": "Elder rune full helm + 4",
     "slot": "head",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685223&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685223",
@@ -134560,7 +134800,9 @@
     },
     "name": "Elder rune full helm + 5",
     "slot": "head",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685224&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685224",
@@ -134578,7 +134820,9 @@
     },
     "name": "Elder rune platelegs + 1",
     "slot": "leg",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685226&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685226",
@@ -134596,7 +134840,9 @@
     },
     "name": "Elder rune platelegs + 2",
     "slot": "leg",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685227&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685227",
@@ -134614,7 +134860,9 @@
     },
     "name": "Elder rune platelegs + 3",
     "slot": "leg",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685228&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685228",
@@ -134632,7 +134880,9 @@
     },
     "name": "Elder rune platelegs + 4",
     "slot": "leg",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685229&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685229",
@@ -134650,7 +134900,9 @@
     },
     "name": "Elder rune platelegs + 5",
     "slot": "leg",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685230&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685230",
@@ -134668,7 +134920,9 @@
     },
     "name": "Elder rune platebody + 1",
     "slot": "torso",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685232&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685232",
@@ -134686,7 +134940,9 @@
     },
     "name": "Elder rune platebody + 2",
     "slot": "torso",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685233&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685233",
@@ -134704,7 +134960,9 @@
     },
     "name": "Elder rune platebody + 3",
     "slot": "torso",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685234&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685234",
@@ -134722,7 +134980,9 @@
     },
     "name": "Elder rune platebody + 4",
     "slot": "torso",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685235&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685235",
@@ -134740,7 +135000,9 @@
     },
     "name": "Elder rune platebody + 5",
     "slot": "torso",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685236&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685236",
@@ -134776,7 +135038,9 @@
     },
     "name": "Elder rune round shield + 1",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685239&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685239",
@@ -134794,7 +135058,9 @@
     },
     "name": "Elder rune round shield + 2",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685240&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685240",
@@ -134812,7 +135078,9 @@
     },
     "name": "Elder rune round shield + 3",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685241&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685241",
@@ -134830,7 +135098,9 @@
     },
     "name": "Elder rune round shield + 4",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685242&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685242",
@@ -134848,7 +135118,9 @@
     },
     "name": "Elder rune round shield + 5",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685243&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685243",
@@ -134884,7 +135156,9 @@
     },
     "name": "Elder rune armoured boots + 1",
     "slot": "feet",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685246&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685246",
@@ -134902,7 +135176,9 @@
     },
     "name": "Elder rune armoured boots + 2",
     "slot": "feet",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685247&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685247",
@@ -134920,7 +135196,9 @@
     },
     "name": "Elder rune armoured boots + 3",
     "slot": "feet",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685248&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685248",
@@ -134938,7 +135216,9 @@
     },
     "name": "Elder rune armoured boots + 4",
     "slot": "feet",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685249&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685249",
@@ -134956,7 +135236,9 @@
     },
     "name": "Elder rune armoured boots + 5",
     "slot": "feet",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685250&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685250",
@@ -134992,7 +135274,9 @@
     },
     "name": "Elder rune gauntlets + 1",
     "slot": "hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685253&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685253",
@@ -135010,7 +135294,9 @@
     },
     "name": "Elder rune gauntlets + 2",
     "slot": "hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685254&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685254",
@@ -135028,7 +135314,9 @@
     },
     "name": "Elder rune gauntlets + 3",
     "slot": "hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685255&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685255",
@@ -135046,7 +135334,9 @@
     },
     "name": "Elder rune gauntlets + 4",
     "slot": "hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685256&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685256",
@@ -135064,7 +135354,9 @@
     },
     "name": "Elder rune gauntlets + 5",
     "slot": "hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685257&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685257",
@@ -135082,7 +135374,9 @@
     },
     "name": "Iron dagger + 1",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685259&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685259",
@@ -135100,7 +135394,9 @@
     },
     "name": "Iron off hand dagger + 1",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685260&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685260",
@@ -135118,7 +135414,9 @@
     },
     "name": "Iron mace + 1",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685261&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685261",
@@ -135136,7 +135434,9 @@
     },
     "name": "Iron off hand mace + 1",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685262&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685262",
@@ -135154,7 +135454,9 @@
     },
     "name": "Iron sword + 1",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685263&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685263",
@@ -135172,7 +135474,9 @@
     },
     "name": "Iron off hand sword + 1",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685264&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685264",
@@ -135190,7 +135494,9 @@
     },
     "name": "Iron scimitar + 1",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685265&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685265",
@@ -135208,7 +135514,9 @@
     },
     "name": "Iron off hand scimitar + 1",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685266&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685266",
@@ -135226,7 +135534,9 @@
     },
     "name": "Iron longsword + 1",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685267&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685267",
@@ -135244,7 +135554,9 @@
     },
     "name": "Iron off hand longsword + 1",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685268&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685268",
@@ -135262,7 +135574,9 @@
     },
     "name": "Iron warhammer + 1",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685269&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685269",
@@ -135280,7 +135594,9 @@
     },
     "name": "Iron off hand warhammer + 1",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685270&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685270",
@@ -135298,7 +135614,9 @@
     },
     "name": "Iron battleaxe + 1",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685271&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685271",
@@ -135316,7 +135634,9 @@
     },
     "name": "Iron off hand battleaxe + 1",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685272&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685272",
@@ -135334,7 +135654,9 @@
     },
     "name": "Iron claws + 1",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685273&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685273",
@@ -135352,7 +135674,9 @@
     },
     "name": "Iron off hand claws + 1",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685274&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685274",
@@ -135370,7 +135694,9 @@
     },
     "name": "Iron 2h sword + 1",
     "slot": "two-handed",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685275&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685275",
@@ -135388,7 +135714,9 @@
     },
     "name": "Iron full helm + 1",
     "slot": "head",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685276&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685276",
@@ -135406,7 +135734,9 @@
     },
     "name": "Iron med helm + 1",
     "slot": "head",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685277&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685277",
@@ -135424,7 +135754,9 @@
     },
     "name": "Iron platelegs + 1",
     "slot": "leg",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685278&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685278",
@@ -135442,7 +135774,9 @@
     },
     "name": "Iron plateskirt + 1",
     "slot": "leg",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685279&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685279",
@@ -135460,7 +135794,9 @@
     },
     "name": "Iron platebody + 1",
     "slot": "torso",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685280&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685280",
@@ -135478,7 +135814,9 @@
     },
     "name": "Iron chainbody + 1",
     "slot": "torso",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685281&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685281",
@@ -135496,7 +135834,9 @@
     },
     "name": "Iron square shield + 1",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685282&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685282",
@@ -135514,7 +135854,9 @@
     },
     "name": "Iron kiteshield + 1",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685283&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685283",
@@ -135532,7 +135874,9 @@
     },
     "name": "Iron armoured boots + 1",
     "slot": "feet",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685284&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685284",
@@ -135550,7 +135894,9 @@
     },
     "name": "Iron gauntlets + 1",
     "slot": "hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685286&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685286",
@@ -135568,7 +135914,9 @@
     },
     "name": "Iron pickaxe + 1",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685287&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685287",
@@ -135838,7 +136186,9 @@
     },
     "name": "Mithril dagger + 1",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685349&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685349",
@@ -135856,7 +136206,9 @@
     },
     "name": "Mithril dagger + 2",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685350&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685350",
@@ -135874,7 +136226,9 @@
     },
     "name": "Mithril off hand dagger + 1",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685351&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685351",
@@ -135892,7 +136246,9 @@
     },
     "name": "Mithril off hand dagger + 2",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685352&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685352",
@@ -135910,7 +136266,9 @@
     },
     "name": "Mithril mace + 1",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685353&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685353",
@@ -135928,7 +136286,9 @@
     },
     "name": "Mithril mace + 2",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685354&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685354",
@@ -135946,7 +136306,9 @@
     },
     "name": "Mithril off hand mace + 1",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685355&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685355",
@@ -135964,7 +136326,9 @@
     },
     "name": "Mithril off hand mace + 2",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685356&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685356",
@@ -135982,7 +136346,9 @@
     },
     "name": "Mithril sword + 1",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685357&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685357",
@@ -136000,7 +136366,9 @@
     },
     "name": "Mithril sword + 2",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685358&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685358",
@@ -136018,7 +136386,9 @@
     },
     "name": "Mithril off hand sword + 1",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685359&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685359",
@@ -136036,7 +136406,9 @@
     },
     "name": "Mithril off hand sword + 2",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685360&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685360",
@@ -136054,7 +136426,9 @@
     },
     "name": "Mithril scimitar + 1",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685362&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685362",
@@ -136072,7 +136446,9 @@
     },
     "name": "Mithril scimitar + 2",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685363&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685363",
@@ -136090,7 +136466,9 @@
     },
     "name": "Mithril off hand scimitar + 1",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685364&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685364",
@@ -136108,7 +136486,9 @@
     },
     "name": "Mithril off hand scimitar + 2",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685365&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685365",
@@ -136126,7 +136506,9 @@
     },
     "name": "Mithril longsword + 1",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685366&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685366",
@@ -136144,7 +136526,9 @@
     },
     "name": "Mithril longsword + 2",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685367&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685367",
@@ -136162,7 +136546,9 @@
     },
     "name": "Mithril off hand longsword + 1",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685368&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685368",
@@ -136180,7 +136566,9 @@
     },
     "name": "Mithril off hand longsword + 2",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685369&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685369",
@@ -136198,7 +136586,9 @@
     },
     "name": "Mithril warhammer + 1",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685370&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685370",
@@ -136216,7 +136606,9 @@
     },
     "name": "Mithril warhammer + 2",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685371&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685371",
@@ -136234,7 +136626,9 @@
     },
     "name": "Mithril off hand warhammer + 1",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685372&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685372",
@@ -136263,7 +136657,9 @@
     },
     "name": "Mithril battleaxe + 1",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685374&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685374",
@@ -136281,7 +136677,9 @@
     },
     "name": "Mithril battleaxe + 2",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685375&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685375",
@@ -136299,7 +136697,9 @@
     },
     "name": "Mithril off hand battleaxe + 1",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685376&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685376",
@@ -136317,7 +136717,9 @@
     },
     "name": "Mithril off hand battleaxe + 2",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685377&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685377",
@@ -136335,7 +136737,9 @@
     },
     "name": "Mithril claws + 1",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685378&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685378",
@@ -136353,7 +136757,9 @@
     },
     "name": "Mithril claws + 2",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685379&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685379",
@@ -136371,7 +136777,9 @@
     },
     "name": "Mithril off hand claws + 1",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685380&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685380",
@@ -136389,7 +136797,9 @@
     },
     "name": "Mithril off hand claws + 2",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685381&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685381",
@@ -136407,7 +136817,9 @@
     },
     "name": "Mithril 2h sword + 1",
     "slot": "two-handed",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685382&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685382",
@@ -136425,7 +136837,9 @@
     },
     "name": "Mithril 2h sword + 2",
     "slot": "two-handed",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685383&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685383",
@@ -136443,7 +136857,9 @@
     },
     "name": "Mithril full helm + 1",
     "slot": "head",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685384&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685384",
@@ -136461,7 +136877,9 @@
     },
     "name": "Mithril full helm + 2",
     "slot": "head",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685385&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685385",
@@ -136479,7 +136897,9 @@
     },
     "name": "Mithril med helm + 1",
     "slot": "head",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685386&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685386",
@@ -136497,7 +136917,9 @@
     },
     "name": "Mithril med helm + 2",
     "slot": "head",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685387&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685387",
@@ -136515,7 +136937,9 @@
     },
     "name": "Mithril platelegs + 1",
     "slot": "leg",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685388&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685388",
@@ -136533,7 +136957,9 @@
     },
     "name": "Mithril platelegs + 2",
     "slot": "leg",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685389&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685389",
@@ -136551,7 +136977,9 @@
     },
     "name": "Mithril plateskirt + 1",
     "slot": "leg",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685390&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685390",
@@ -136569,7 +136997,9 @@
     },
     "name": "Mithril plateskirt + 2",
     "slot": "leg",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685391&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685391",
@@ -136587,7 +137017,9 @@
     },
     "name": "Mithril platebody + 1",
     "slot": "torso",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685392&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685392",
@@ -136605,7 +137037,9 @@
     },
     "name": "Mithril platebody + 2",
     "slot": "torso",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685393&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685393",
@@ -136623,7 +137057,9 @@
     },
     "name": "Mithril chainbody + 1",
     "slot": "torso",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685394&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685394",
@@ -136641,7 +137077,9 @@
     },
     "name": "Mithril chainbody + 2",
     "slot": "torso",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685395&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685395",
@@ -136659,7 +137097,9 @@
     },
     "name": "Mithril square shield + 1",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685396&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685396",
@@ -136677,7 +137117,9 @@
     },
     "name": "Mithril square shield + 2",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685397&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685397",
@@ -136695,7 +137137,9 @@
     },
     "name": "Mithril kiteshield + 1",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685398&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685398",
@@ -136713,7 +137157,9 @@
     },
     "name": "Mithril kiteshield + 2",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685399&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685399",
@@ -136731,7 +137177,9 @@
     },
     "name": "Mithril armoured boots + 1",
     "slot": "feet",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685400&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685400",
@@ -136749,7 +137197,9 @@
     },
     "name": "Mithril armoured boots + 2",
     "slot": "feet",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685401&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685401",
@@ -136767,7 +137217,9 @@
     },
     "name": "Mithril gauntlets + 1",
     "slot": "hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685403&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685403",
@@ -136785,7 +137237,9 @@
     },
     "name": "Mithril gauntlets + 2",
     "slot": "hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685404&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685404",
@@ -136803,7 +137257,9 @@
     },
     "name": "Mithril pickaxe + 1",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685405&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685405",
@@ -136821,7 +137277,9 @@
     },
     "name": "Mithril pickaxe + 2",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685406&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685406",
@@ -136857,7 +137315,9 @@
     },
     "name": "Necronium battleaxe + 1",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685408&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685408",
@@ -136875,7 +137335,9 @@
     },
     "name": "Necronium battleaxe + 2",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685409&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685409",
@@ -136893,7 +137355,9 @@
     },
     "name": "Necronium battleaxe + 3",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685410&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685410",
@@ -136911,7 +137375,9 @@
     },
     "name": "Necronium battleaxe + 4",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685411&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685411",
@@ -136947,7 +137413,9 @@
     },
     "name": "Necronium off hand battleaxe + 1",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685414&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685414",
@@ -136965,7 +137433,9 @@
     },
     "name": "Necronium off hand battleaxe + 2",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685415&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685415",
@@ -136983,7 +137453,9 @@
     },
     "name": "Necronium off hand battleaxe + 3",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685416&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685416",
@@ -137001,7 +137473,9 @@
     },
     "name": "Necronium off hand battleaxe + 4",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685417&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685417",
@@ -137037,7 +137511,9 @@
     },
     "name": "Necronium 2h greataxe + 1",
     "slot": "two-handed",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685420&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685420",
@@ -137055,7 +137531,9 @@
     },
     "name": "Necronium 2h greataxe + 2",
     "slot": "two-handed",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685421&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685421",
@@ -137073,7 +137551,9 @@
     },
     "name": "Necronium 2h greataxe + 3",
     "slot": "two-handed",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685422&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685422",
@@ -137091,7 +137571,9 @@
     },
     "name": "Necronium 2h greataxe + 4",
     "slot": "two-handed",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685423&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685423",
@@ -137109,7 +137591,9 @@
     },
     "name": "Necronium pickaxe + 1",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685425&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685425",
@@ -137127,7 +137611,9 @@
     },
     "name": "Necronium pickaxe + 2",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685426&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685426",
@@ -137145,7 +137631,9 @@
     },
     "name": "Necronium pickaxe + 3",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685427&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685427",
@@ -137163,7 +137651,9 @@
     },
     "name": "Necronium pickaxe + 4",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685428&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685428",
@@ -137199,7 +137689,9 @@
     },
     "name": "Necronium full helm + 1",
     "slot": "head",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685431&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685431",
@@ -137217,7 +137709,9 @@
     },
     "name": "Necronium full helm + 2",
     "slot": "head",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685432&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685432",
@@ -137235,7 +137729,9 @@
     },
     "name": "Necronium full helm + 3",
     "slot": "head",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685433&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685433",
@@ -137253,7 +137749,9 @@
     },
     "name": "Necronium full helm + 4",
     "slot": "head",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685434&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685434",
@@ -137271,7 +137769,9 @@
     },
     "name": "Necronium platelegs + 1",
     "slot": "leg",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685436&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685436",
@@ -137289,7 +137789,9 @@
     },
     "name": "Necronium platelegs + 2",
     "slot": "leg",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685437&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685437",
@@ -137307,7 +137809,9 @@
     },
     "name": "Necronium platelegs + 3",
     "slot": "leg",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685438&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685438",
@@ -137325,7 +137829,9 @@
     },
     "name": "Necronium platelegs + 4",
     "slot": "leg",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685439&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685439",
@@ -137343,7 +137849,9 @@
     },
     "name": "Necronium platebody + 1",
     "slot": "torso",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685441&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685441",
@@ -137361,7 +137869,9 @@
     },
     "name": "Necronium platebody + 2",
     "slot": "torso",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685442&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685442",
@@ -137379,7 +137889,9 @@
     },
     "name": "Necronium platebody + 3",
     "slot": "torso",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685443&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685443",
@@ -137397,7 +137909,9 @@
     },
     "name": "Necronium platebody + 4",
     "slot": "torso",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685444&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685444",
@@ -137433,7 +137947,9 @@
     },
     "name": "Necronium kiteshield + 1",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685447&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685447",
@@ -137451,7 +137967,9 @@
     },
     "name": "Necronium kiteshield + 2",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685448&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685448",
@@ -137469,7 +137987,9 @@
     },
     "name": "Necronium kiteshield + 3",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685449&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685449",
@@ -137487,7 +138007,9 @@
     },
     "name": "Necronium kiteshield + 4",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685450&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685450",
@@ -137523,7 +138045,9 @@
     },
     "name": "Necronium armoured boots + 1",
     "slot": "feet",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685453&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685453",
@@ -137541,7 +138065,9 @@
     },
     "name": "Necronium armoured boots + 2",
     "slot": "feet",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685454&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685454",
@@ -137559,7 +138085,9 @@
     },
     "name": "Necronium armoured boots + 3",
     "slot": "feet",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685455&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685455",
@@ -137577,7 +138105,9 @@
     },
     "name": "Necronium armoured boots + 4",
     "slot": "feet",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685456&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685456",
@@ -137613,7 +138143,9 @@
     },
     "name": "Necronium gauntlets + 1",
     "slot": "hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685459&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685459",
@@ -137631,7 +138163,9 @@
     },
     "name": "Necronium gauntlets + 2",
     "slot": "hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685460&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685460",
@@ -137649,7 +138183,9 @@
     },
     "name": "Necronium gauntlets + 3",
     "slot": "hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685461&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685461",
@@ -137667,7 +138203,9 @@
     },
     "name": "Necronium gauntlets + 4",
     "slot": "hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685462&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685462",
@@ -137703,7 +138241,9 @@
     },
     "name": "Orikalkum warhammer + 1",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685465&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685465",
@@ -137721,7 +138261,9 @@
     },
     "name": "Orikalkum warhammer + 2",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685466&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685466",
@@ -137739,7 +138281,9 @@
     },
     "name": "Orikalkum warhammer + 3",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685467&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685467",
@@ -137775,7 +138319,9 @@
     },
     "name": "Orikalkum off hand warhammer + 1",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685470&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685470",
@@ -137793,7 +138339,9 @@
     },
     "name": "Orikalkum off hand warhammer + 2",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685471&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685471",
@@ -137811,7 +138359,9 @@
     },
     "name": "Orikalkum off hand warhammer + 3",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685472&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685472",
@@ -137847,7 +138397,9 @@
     },
     "name": "Orikalkum 2h warhammer + 1",
     "slot": "two-handed",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685475&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685475",
@@ -137865,7 +138417,9 @@
     },
     "name": "Orikalkum 2h warhammer + 2",
     "slot": "two-handed",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685476&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685476",
@@ -137883,7 +138437,9 @@
     },
     "name": "Orikalkum 2h warhammer + 3",
     "slot": "two-handed",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685477&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685477",
@@ -137919,7 +138475,9 @@
     },
     "name": "Orikalkum pickaxe + 1",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685480&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685480",
@@ -137937,7 +138495,9 @@
     },
     "name": "Orikalkum pickaxe + 2",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685481&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685481",
@@ -137955,7 +138515,9 @@
     },
     "name": "Orikalkum pickaxe + 3",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685482&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685482",
@@ -137991,7 +138553,9 @@
     },
     "name": "Orikalkum full helm + 1",
     "slot": "head",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685485&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685485",
@@ -138009,7 +138573,9 @@
     },
     "name": "Orikalkum full helm + 2",
     "slot": "head",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685486&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685486",
@@ -138027,7 +138593,9 @@
     },
     "name": "Orikalkum full helm + 3",
     "slot": "head",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685487&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685487",
@@ -138063,7 +138631,9 @@
     },
     "name": "Orikalkum platelegs + 1",
     "slot": "leg",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685490&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685490",
@@ -138081,7 +138651,9 @@
     },
     "name": "Orikalkum platelegs + 2",
     "slot": "leg",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685491&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685491",
@@ -138099,7 +138671,9 @@
     },
     "name": "Orikalkum platelegs + 3",
     "slot": "leg",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685492&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685492",
@@ -138135,7 +138709,9 @@
     },
     "name": "Orikalkum platebody + 1",
     "slot": "torso",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685495&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685495",
@@ -138153,7 +138729,9 @@
     },
     "name": "Orikalkum platebody + 2",
     "slot": "torso",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685496&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685496",
@@ -138171,7 +138749,9 @@
     },
     "name": "Orikalkum platebody + 3",
     "slot": "torso",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685497&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685497",
@@ -138207,7 +138787,9 @@
     },
     "name": "Orikalkum kiteshield + 1",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685500&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685500",
@@ -138225,7 +138807,9 @@
     },
     "name": "Orikalkum kiteshield + 2",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685501&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685501",
@@ -138243,7 +138827,9 @@
     },
     "name": "Orikalkum kiteshield + 3",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685502&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685502",
@@ -138279,7 +138865,9 @@
     },
     "name": "Orikalkum armoured boots + 1",
     "slot": "feet",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685505&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685505",
@@ -138297,7 +138885,9 @@
     },
     "name": "Orikalkum armoured boots + 2",
     "slot": "feet",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685506&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685506",
@@ -138315,7 +138905,9 @@
     },
     "name": "Orikalkum armoured boots + 3",
     "slot": "feet",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685507&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685507",
@@ -138351,7 +138943,9 @@
     },
     "name": "Orikalkum gauntlets + 1",
     "slot": "hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685510&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685510",
@@ -138369,7 +138963,9 @@
     },
     "name": "Orikalkum gauntlets + 2",
     "slot": "hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685511&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685511",
@@ -138387,7 +138983,9 @@
     },
     "name": "Orikalkum gauntlets + 3",
     "slot": "hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685512&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685512",
@@ -138405,7 +139003,9 @@
     },
     "name": "Rune dagger + 1",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685514&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685514",
@@ -138423,7 +139023,9 @@
     },
     "name": "Rune dagger + 2",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685515&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685515",
@@ -138441,7 +139043,9 @@
     },
     "name": "Rune dagger + 3",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685516&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685516",
@@ -138492,7 +139096,9 @@
     },
     "name": "Rune mace + 1",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685522&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685522",
@@ -138510,7 +139116,9 @@
     },
     "name": "Rune mace + 2",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685523&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685523",
@@ -138528,7 +139136,9 @@
     },
     "name": "Rune mace + 3",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685524&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685524",
@@ -138711,7 +139321,9 @@
     },
     "name": "Rune longsword + 1",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685546&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685546",
@@ -138729,7 +139341,9 @@
     },
     "name": "Rune longsword + 2",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685547&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685547",
@@ -138747,7 +139361,9 @@
     },
     "name": "Rune longsword + 3",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685548&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685548",
@@ -138765,7 +139381,9 @@
     },
     "name": "Rune off hand longsword + 1",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685550&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685550",
@@ -138783,7 +139401,9 @@
     },
     "name": "Rune off hand longsword + 2",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685551&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685551",
@@ -138801,7 +139421,9 @@
     },
     "name": "Rune off hand longsword + 3",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685552&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685552",
@@ -138885,7 +139507,9 @@
     },
     "name": "Rune battleaxe + 1",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685562&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685562",
@@ -138903,7 +139527,9 @@
     },
     "name": "Rune battleaxe + 2",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685563&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685563",
@@ -138921,7 +139547,9 @@
     },
     "name": "Rune battleaxe + 3",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685564&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685564",
@@ -138939,7 +139567,9 @@
     },
     "name": "Rune off hand battleaxe + 1",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685566&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685566",
@@ -138957,7 +139587,9 @@
     },
     "name": "Rune off hand battleaxe + 2",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685567&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685567",
@@ -138975,7 +139607,9 @@
     },
     "name": "Rune off hand battleaxe + 3",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685568&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685568",
@@ -138993,7 +139627,9 @@
     },
     "name": "Rune claws + 1",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685570&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685570",
@@ -139011,7 +139647,9 @@
     },
     "name": "Rune claws + 2",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685571&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685571",
@@ -139029,7 +139667,9 @@
     },
     "name": "Rune claws + 3",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685572&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685572",
@@ -139047,7 +139687,9 @@
     },
     "name": "Rune off hand claws + 1",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685574&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685574",
@@ -139065,7 +139707,9 @@
     },
     "name": "Rune off hand claws + 2",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685575&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685575",
@@ -139083,7 +139727,9 @@
     },
     "name": "Rune off hand claws + 3",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685576&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685576",
@@ -139101,7 +139747,9 @@
     },
     "name": "Rune 2h sword + 1",
     "slot": "two-handed",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685578&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685578",
@@ -139119,7 +139767,9 @@
     },
     "name": "Rune 2h sword + 2",
     "slot": "two-handed",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685579&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685579",
@@ -139137,7 +139787,9 @@
     },
     "name": "Rune 2h sword + 3",
     "slot": "two-handed",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685580&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685580",
@@ -139155,7 +139807,9 @@
     },
     "name": "Rune full helm + 1",
     "slot": "head",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685582&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685582",
@@ -139173,7 +139827,9 @@
     },
     "name": "Rune full helm + 2",
     "slot": "head",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685583&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685583",
@@ -139191,7 +139847,9 @@
     },
     "name": "Rune full helm + 3",
     "slot": "head",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685584&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685584",
@@ -139209,7 +139867,9 @@
     },
     "name": "Rune med helm + 1",
     "slot": "head",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685586&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685586",
@@ -139227,7 +139887,9 @@
     },
     "name": "Rune med helm + 2",
     "slot": "head",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685587&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685587",
@@ -139245,7 +139907,9 @@
     },
     "name": "Rune med helm + 3",
     "slot": "head",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685588&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685588",
@@ -139362,7 +140026,9 @@
     },
     "name": "Rune chainbody + 1",
     "slot": "torso",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685602&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685602",
@@ -139380,7 +140046,9 @@
     },
     "name": "Rune chainbody + 2",
     "slot": "torso",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685603&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685603",
@@ -139398,7 +140066,9 @@
     },
     "name": "Rune chainbody + 3",
     "slot": "torso",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685604&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685604",
@@ -139449,7 +140119,9 @@
     },
     "name": "Rune kiteshield + 1",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685610&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685610",
@@ -139467,7 +140139,9 @@
     },
     "name": "Rune kiteshield + 2",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685611&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685611",
@@ -139485,7 +140159,9 @@
     },
     "name": "Rune kiteshield + 3",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685612&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685612",
@@ -139602,7 +140278,9 @@
     },
     "name": "Steel dagger + 1",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685627&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685627",
@@ -139620,7 +140298,9 @@
     },
     "name": "Steel off hand dagger + 1",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685628&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685628",
@@ -139638,7 +140318,9 @@
     },
     "name": "Steel mace + 1",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685629&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685629",
@@ -139656,7 +140338,9 @@
     },
     "name": "Steel off hand mace + 1",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685630&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685630",
@@ -139674,7 +140358,9 @@
     },
     "name": "Steel sword + 1",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685631&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685631",
@@ -139692,7 +140378,9 @@
     },
     "name": "Steel off hand sword + 1",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685632&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685632",
@@ -139710,7 +140398,9 @@
     },
     "name": "Steel scimitar + 1",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685633&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685633",
@@ -139728,7 +140418,9 @@
     },
     "name": "Steel off hand scimitar + 1",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685634&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685634",
@@ -139746,7 +140438,9 @@
     },
     "name": "Steel longsword + 1",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685635&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685635",
@@ -139764,7 +140458,9 @@
     },
     "name": "Steel off hand longsword + 1",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685636&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685636",
@@ -139782,7 +140478,9 @@
     },
     "name": "Steel warhammer + 1",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685637&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685637",
@@ -139800,7 +140498,9 @@
     },
     "name": "Steel off hand warhammer + 1",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685638&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685638",
@@ -139818,7 +140518,9 @@
     },
     "name": "Steel battleaxe + 1",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685639&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685639",
@@ -139836,7 +140538,9 @@
     },
     "name": "Steel off hand battleaxe + 1",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685640&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685640",
@@ -139854,7 +140558,9 @@
     },
     "name": "Steel claws + 1",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685641&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685641",
@@ -139872,7 +140578,9 @@
     },
     "name": "Steel off hand claws + 1",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685642&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685642",
@@ -139890,7 +140598,9 @@
     },
     "name": "Steel 2h sword + 1",
     "slot": "two-handed",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685643&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685643",
@@ -139908,7 +140618,9 @@
     },
     "name": "Steel full helm + 1",
     "slot": "head",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685644&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685644",
@@ -139926,7 +140638,9 @@
     },
     "name": "Steel med helm + 1",
     "slot": "head",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685645&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685645",
@@ -139944,7 +140658,9 @@
     },
     "name": "Steel platelegs + 1",
     "slot": "leg",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685646&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685646",
@@ -139962,7 +140678,9 @@
     },
     "name": "Steel plateskirt + 1",
     "slot": "leg",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685647&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685647",
@@ -139980,7 +140698,9 @@
     },
     "name": "Steel platebody + 1",
     "slot": "torso",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685648&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685648",
@@ -139998,7 +140718,9 @@
     },
     "name": "Steel chainbody + 1",
     "slot": "torso",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685649&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685649",
@@ -140016,7 +140738,9 @@
     },
     "name": "Steel square shield + 1",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685650&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685650",
@@ -140034,7 +140758,9 @@
     },
     "name": "Steel kiteshield + 1",
     "slot": "off-hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685651&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685651",
@@ -140052,7 +140778,9 @@
     },
     "name": "Steel armoured boots + 1",
     "slot": "feet",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685652&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685652",
@@ -140070,7 +140798,9 @@
     },
     "name": "Steel gauntlets + 1",
     "slot": "hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685654&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685654",
@@ -140088,7 +140818,9 @@
     },
     "name": "Steel pickaxe + 1",
     "slot": "main_hand",
-    "status": [],
+    "status": [
+      "Ignored"
+    ],
     "wiki": {
       "api": "https://runescape.wiki/api.php?action=parse&pageid=685655&prop=categories|images|templates|wikitext&format=json",
       "link": "https://runescape.wiki/w/?curid=685655",

@@ -1,7 +1,7 @@
 const version = process.env.RUNESCAPE_VERSION || 'oldschool';
 
 const items = require(`../../data/items-${version}.json`).filter(
-  item => !!item.images.detail,
+  item => !!item.images.detail && !item.status.includes('Ignored'),
 );
 
 const itemProvider = (req, res, next) => {
