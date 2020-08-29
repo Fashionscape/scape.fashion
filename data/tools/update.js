@@ -1,13 +1,13 @@
 const fs = require('fs');
 const slow = require('slow');
-const {withColor} = require('./color');
 
 const [_, __, rsrelease, force] = process.argv;
 const config = require('./config')(rsrelease);
 
-const {toItems} = require('./model')(config);
 const slot = require('./slot')(config);
 const wiki = require('./wiki')(config);
+const {toItems} = require('./model')(config);
+const {withColor} = require('./color')(config);
 
 const file = `items-${rsrelease}.json`;
 const items = require(`../${file}`);
@@ -44,6 +44,9 @@ const importFromPage = async pageId => {
 
 const refreshFromPage = async pageId => {
   const items = pageMap.get(pageId);
+
+  const isIgnored = items.every(item => silentItems.includes(item.name));
+  if (isIgnored) return items;
 
   const hasSlot = items.every(item => item.slot);
   const hasImage = items.every(item => item.images.detail);

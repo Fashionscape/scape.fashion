@@ -50,8 +50,12 @@ shift
 
 case "$COMMAND" in
   ignore) ignore $@;;
-  import) import $@;;
+  import)
+    import $@
+    ignore;;
   stats) stats $@;;
   try) try $@;;
-  update) update $@;;
+  update)
+    update $@
+    ignore;;
 esac

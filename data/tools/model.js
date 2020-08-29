@@ -24,7 +24,7 @@ const isValidVariant = variant => {
 };
 
 const infoboxPattern = /^{{Infobox Item\n([^}]+)}}$/m;
-const versionPattern = /^\|version\d = (.*)$/gm;
+const versionPattern = /\|version\d = ([^\|\n]*)/gm;
 
 const parseVariants = wikitext => {
   const [_, infobox] = wikitext.match(infoboxPattern) || [];
@@ -47,7 +47,8 @@ const decodeEntities = encodedString => {
     .replace(/&#(\d+);/gi, (match, numStr) => {
       var num = parseInt(numStr, 10);
       return String.fromCharCode(num);
-    });
+    })
+    .replace(/ö/g, '%C3%B6'); /* Cloudflare doesn't like this character */
 };
 
 const toImageFileName = name => {
@@ -55,7 +56,7 @@ const toImageFileName = name => {
   return decoded.replace(/\s/g, '_');
 };
 
-const imagePattern = /\[\[File:(.+(detail\.png|detail animated\.gif))/m;
+const imagePattern = /\[\[File:([^\]]+(detail\.png|detail animated\.gif))/m;
 
 const parseImage = wikitext => {
   const [_, name] = wikitext.match(imagePattern) || [];
@@ -97,17 +98,6 @@ const model = config => {
   const {toSlot} = Slot(config);
   const wiki = Wiki(config);
 
-  const banList = {
-    oldschool: ['Rune bersker shield'],
-    runescape: [
-      'Boots',
-      'Enchanted bolts',
-      'Shield',
-      'Master cape of Accomplishment',
-      'Metal boots',
-    ],
-  }[config.release];
-
   const toItem = parse => {
     const name = parse.title;
     const pageId = parse.pageid;
@@ -142,7 +132,8 @@ const model = config => {
 
   const toImageUrl = file => `${config.url.base}Special:Redirect/file/${file}`;
 
-  const commentPattern = /<!--[^\-]+-->/g;
+  const commentPattern = /<!--(.*?)-->/mg;
+
   const withImages = ({item, wikitext}) => {
     const withoutComments = wikitext.replace(commentPattern, '');
     const file = parseImage(withoutComments);
@@ -159,7 +150,6 @@ const model = config => {
     wikitext = wikitext['*'];
 
     if (title.startsWith('Category:')) return [];
-    if (banList.includes(title)) return [];
 
     const item = toItem(parse);
     const categories = parse.categories.map(c => c['*']);
