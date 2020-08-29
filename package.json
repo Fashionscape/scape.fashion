@@ -1,6 +1,6 @@
 {
   "name": "gnome-scarf",
-  "version": "0.7.1",
+  "version": "0.7.2",
   "description": "Old School Runescape Fashionscape Tool",
   "main": "index.js",
   "author": "Nick Pierson",
