@@ -1,18 +1,38 @@
 const colordiff = require('color-difference');
 
+const rsrelease = process.env.RUNESCAPE_VERSION || 'oldschool';
+
 const SLOT_WEIGHTS = {
-  Ammunition: 0.01,
-  Body: 1.0,
-  Cape: 0.9,
-  Feet: 0.9,
-  Hand: 0.8,
-  Head: 0.9,
-  Leg: 1.0,
-  Neck: 0.9,
-  Ring: 0.01,
-  Shield: 1.0,
-  Weapon: 1.0,
-};
+  oldschool: {
+    ammunition: 0.01,
+    body: 1.0,
+    cape: 0.9,
+    feet: 0.9,
+    hand: 0.8,
+    head: 0.9,
+    leg: 1.0,
+    neck: 0.9,
+    ring: 0.01,
+    shield: 1.0,
+    weapon: 1.0,
+  },
+  runescape: {
+    'off-hand': 1.0,
+    'two-handed': 1.0,
+    ammunition: 0.01,
+    back: 0.9,
+    feet: 0.9,
+    hand: 0.8,
+    head: 0.9,
+    leg: 1.0,
+    main_hand: 1.0,
+    neck: 0.9,
+    pocket: 0.01,
+    ring: 0.01,
+    sigil: 0.01,
+    torso: 1.0,
+  },
+}[rsrelease];
 
 const byValue = (a, b) => a - b;
 
