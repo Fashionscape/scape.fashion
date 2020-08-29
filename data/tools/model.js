@@ -132,7 +132,7 @@ const model = config => {
 
   const toImageUrl = file => `${config.url.base}Special:Redirect/file/${file}`;
 
-  const commentPattern = /<!--(.*?)-->/mg;
+  const commentPattern = /<!--(.*?)-->/gm;
 
   const withImages = ({item, wikitext}) => {
     const withoutComments = wikitext.replace(commentPattern, '');
@@ -167,9 +167,12 @@ const model = config => {
 
     return zipped
       .filter(({name}) => isValidVariant(name))
-      .map(({image, name}) => toVariant(item, name))
-      .map(variant => withImages({item: variant, wikitext}))
-      .sort((a, b) => a.name.localeCompare(b.name));
+      .sort((a, b) => a.name.localeCompare(b.name))
+      .map(({image, name}) => {
+        const variant = toVariant(item, name);
+        const detail = toImageUrl(image);
+        return {...variant, images: {detail}};
+      });
   };
 
   return {toItems};
