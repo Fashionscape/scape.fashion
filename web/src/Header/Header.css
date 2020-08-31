@@ -1,0 +1,26 @@
+.header {
+  margin: 6rem 0 0;
+  padding: 0 1.5rem;
+}
+
+.title {
+  margin: 0 0 1rem;
+  padding: 0;
+  text-align: center;
+}
+
+.subtitle {
+  line-height: 1.5;
+  margin: 0;
+  text-align: center;
+}
+
+.subtitle img {
+  vertical-align: middle;
+  width: 20px;
+}
+
+.title a {
+  color: inherit;
+  text-decoration: none;
+}

@@ -1,0 +1,102 @@
+input[type=color]::-webkit-color-swatch {
+  border: none;
+  padding: 0;
+}
+
+input[type=color]::-webkit-color-swatch-wrapper {
+  border: none;
+  padding: 0;
+}
+
+label {
+  color: #555555;
+  display: block;
+  font-size: 0.75rem;
+}
+
+.search {
+  box-shadow: 0 6px 4px -4px rgba(0, 0, 0, 0.2);
+  display: block;
+  padding: 2rem 1.5rem;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+
+.search__row {
+  align-items: flex-end;
+  display: flex;
+  margin: 0 auto 1rem;
+  width: 15rem;
+}
+
+.input {
+  border: none;
+  border: 1px solid #333;
+  border-radius: 0.5rem;
+  display: block;
+  height: 3rem;
+  padding: 0;
+  width: 100%;
+}
+
+.input--color {
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  flex: none;
+  margin-left: 0.5rem;
+  overflow: hidden;
+  padding: 0;
+}
+
+.input--square {
+  cursor: pointer;
+  flex: none;
+  width: 3rem;
+}
+
+.input--text {
+  margin-top: 0.25rem;
+  padding: 0 1rem;
+  width: 100%;
+}
+
+.input--submit {
+  background-color: #d8ccb4;
+  background-image: url('https://oldschool.runescape.wiki/images/9/95/Search.png?9a23f');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto 70%;
+  border: 2px solid black;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  margin: 0 auto;
+  width: 15rem;
+}
+
+.select {
+  margin: 1rem auto;
+  width: 15rem;
+}
+
+.select--inline {
+  margin: 0.25rem 0 0;
+  width: 100%;
+}
+
+.toggle {
+  background-color: #d8ccb4;
+  color: #333333;
+  font-size: 0.75rem;
+  font-weight: bold;
+  margin-right: 0.5rem;
+  padding: 0.5rem;
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .search {
+    padding-bottom: 3rem;
+  }
+}

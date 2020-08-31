@@ -1,0 +1,41 @@
+{
+  "name": "fashionscape-web",
+  "version": "0.6.4",
+  "private": true,
+  "dependencies": {
+    "query-string": "^6.8.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-ga": "^2.5.7",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1",
+    "react-select": "^3.0.4"
+  },
+  "scripts": {
+    "build": "react-scripts build",
+    "deploy": "./scripts/deploy.sh",
+    "eject": "react-scripts eject",
+    "postversion": "./scripts/postversion.sh",
+    "precommit": "prettier -l \"**/*.js\"",
+    "start": "react-scripts start",
+    "test": "react-scripts test"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  }
+}
