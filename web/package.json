@@ -12,8 +12,8 @@
     "react-select": "^3.0.4"
   },
   "scripts": {
-    "build": "react-scripts build",
-    "deploy": "./scripts/deploy.sh",
+    "dev": "./scripts/development.sh",
+    "docker": "./scripts/docker.sh",
     "eject": "react-scripts eject",
     "postversion": "./scripts/postversion.sh",
     "precommit": "prettier -l \"**/*.js\"",

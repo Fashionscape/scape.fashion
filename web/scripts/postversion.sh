@@ -1,10 +1,14 @@
 #!/bin/bash
 
-echo $npm_package_version > VERSION
+echo $npm_package_version > .version
 
-git add VERSION
+tag="fashionscape-web-v$npm_package_version"
 
-git commit --amend --no-edit
+git add package.json
+git add .version
+git commit -m "$tag"
+
+git tag "$tag"
 
 git push
 git push --tags
