@@ -2,6 +2,7 @@ FROM node:12.14-alpine
 
 WORKDIR /usr/src/app
 
+COPY .version        .
 COPY package.json    .
 COPY yarn.lock       .
 COPY data            data

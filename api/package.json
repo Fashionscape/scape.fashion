@@ -6,14 +6,12 @@
   "author": "Nick Pierson",
   "license": "MIT",
   "scripts": {
-    "build": "./scripts/build.sh",
-    "deploy": "./scripts/deploy.sh",
+    "docker": "./scripts/docker.sh",
+    "dev": "./scripts/development.sh",
     "items": "cd data && ./items.sh",
     "postversion": "./scripts/postversion.sh",
     "precommit": "prettier -l \"**/*.js\"",
-    "prettier": "prettier --write \"**/*.js\"",
-    "start": "./scripts/start.sh",
-    "stop": "./scripts/stop.sh"
+    "prettier": "prettier --write \"**/*.js\""
   },
   "dependencies": {
     "body-parser": "^1.19.0",
