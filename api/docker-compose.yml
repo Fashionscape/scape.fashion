@@ -15,6 +15,7 @@ services:
       - "./data:/usr/src/app/data"
       - "./node_modules:/usr/src/app/node_modules"
       - "./src:/usr/src/app/src"
+      - "./outfits.db:/usr/src/app/outfits.db"
   rs3-fashionscape-api:
     build: ./
     command: pm2-dev start src/server.js
@@ -30,3 +31,4 @@ services:
       - "./data:/usr/src/app/data"
       - "./node_modules:/usr/src/app/node_modules"
       - "./src:/usr/src/app/src"
+      - "./outfits.db:/usr/src/app/outfits.db"

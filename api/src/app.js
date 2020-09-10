@@ -13,6 +13,7 @@ app.use(itemProvider);
 
 app.use('/colors', require('./routes/colors'));
 app.use('/items', require('./routes/items'));
+app.use('/outfits', require('./routes/outfits'));
 
 app.use('/', (req, res) => res.sendStatus(404));
 
