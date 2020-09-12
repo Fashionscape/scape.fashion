@@ -15,7 +15,9 @@ router.get('/:name', (req, res, next) => {
   const items = req.items;
   const slot = req.query.slot;
 
-  const targetItem = items.find(item => item.name === name);
+  const targetItem = items.find(
+    item => item.name.toLowerCase() === name.toLowerCase(),
+  );
 
   if (!targetItem) throw Error('Item not found.');
 
