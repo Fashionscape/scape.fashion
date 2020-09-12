@@ -16889,46 +16889,6 @@
   },
   {
     "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Axe_handle_(dragon)_detail.png"
-    },
-    "name": "Axe handle (Dragon)",
-    "slot": "weapon",
-    "status": [
-      "Variant"
-    ],
-    "wiki": {
-      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=16393&prop=categories|images|templates|wikitext&format=json",
-      "link": "https://oldschool.runescape.wiki/w/?curid=16393#Dragon",
-      "pageId": 16393
-    },
-    "colors": [
-      "#5b5555",
-      "#393434",
-      "#2a2828"
-    ]
-  },
-  {
-    "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Axe_handle_detail.png"
-    },
-    "name": "Axe handle",
-    "slot": "weapon",
-    "status": [
-      "Variant"
-    ],
-    "wiki": {
-      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=16393&prop=categories|images|templates|wikitext&format=json",
-      "link": "https://oldschool.runescape.wiki/w/?curid=16393#Standard",
-      "pageId": 16393
-    },
-    "colors": [
-      "#7c5c0c",
-      "#664c0c",
-      "#57420c"
-    ]
-  },
-  {
-    "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Splitbark_helm_detail.png"
     },
     "name": "Splitbark helm",
@@ -48054,46 +48014,6 @@
   },
   {
     "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Blood_tiara_detail.png"
-    },
-    "name": "Blood tiara",
-    "slot": "head",
-    "status": [
-      "Discontinued_content"
-    ],
-    "wiki": {
-      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=112926&prop=categories|images|templates|wikitext&format=json",
-      "link": "https://oldschool.runescape.wiki/w/?curid=112926",
-      "pageId": 112926
-    },
-    "colors": [
-      "#968b8f",
-      "#df2d1c",
-      "#c4babe"
-    ]
-  },
-  {
-    "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Soul_tiara_detail.png"
-    },
-    "name": "Soul tiara",
-    "slot": "head",
-    "status": [
-      "Discontinued_content"
-    ],
-    "wiki": {
-      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=112928&prop=categories|images|templates|wikitext&format=json",
-      "link": "https://oldschool.runescape.wiki/w/?curid=112928",
-      "pageId": 112928
-    },
-    "colors": [
-      "#9d939d",
-      "#8d599c",
-      "#665f66"
-    ]
-  },
-  {
-    "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Starter_sword_detail.png"
     },
     "name": "Starter sword",
@@ -48688,132 +48608,6 @@
       "#593e1a",
       "#d1cf1a",
       "#87860f"
-    ]
-  },
-  {
-    "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Poisoned_dart(p)_detail.png"
-    },
-    "name": "Poisoned dart(p)",
-    "slot": "weapon",
-    "status": [],
-    "wiki": {
-      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=118479&prop=categories|images|templates|wikitext&format=json",
-      "link": "https://oldschool.runescape.wiki/w/?curid=118479",
-      "pageId": 118479
-    },
-    "colors": [
-      "#60210e",
-      "#948c83",
-      "#6a6464"
-    ]
-  },
-  {
-    "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Poisoned_dagger(p)_detail.png"
-    },
-    "name": "Poisoned dagger(p)",
-    "slot": "weapon",
-    "status": [],
-    "wiki": {
-      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=118483&prop=categories|images|templates|wikitext&format=json",
-      "link": "https://oldschool.runescape.wiki/w/?curid=118483",
-      "pageId": 118483
-    },
-    "colors": [
-      "#877e4f",
-      "#1d8d16",
-      "#c4c31a"
-    ]
-  },
-  {
-    "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Bow_and_arrow_detail.png"
-    },
-    "name": "Bow and arrow",
-    "slot": "cape",
-    "status": [],
-    "wiki": {
-      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=118503&prop=categories|images|templates|wikitext&format=json",
-      "link": "https://oldschool.runescape.wiki/w/?curid=118503",
-      "pageId": 118503
-    },
-    "colors": [
-      "#4e270c",
-      "#6b6464",
-      "#494443"
-    ]
-  },
-  {
-    "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Paintbrush_detail.png"
-    },
-    "name": "Paintbrush",
-    "slot": "cape",
-    "status": [],
-    "wiki": {
-      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=118504&prop=categories|images|templates|wikitext&format=json",
-      "link": "https://oldschool.runescape.wiki/w/?curid=118504",
-      "pageId": 118504
-    },
-    "colors": [
-      "#4b3d34",
-      "#dc2d1b",
-      "#7e7c71"
-    ]
-  },
-  {
-    "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Zaros_mjolnir_detail.png"
-    },
-    "name": "Zaros mjolnir",
-    "slot": "weapon",
-    "status": [],
-    "wiki": {
-      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=118505&prop=categories|images|templates|wikitext&format=json",
-      "link": "https://oldschool.runescape.wiki/w/?curid=118505",
-      "pageId": 118505
-    },
-    "colors": [
-      "#7d7575",
-      "#72560c",
-      "#746c6c"
-    ]
-  },
-  {
-    "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Astral_tiara_detail.png"
-    },
-    "name": "Astral tiara",
-    "slot": "head",
-    "status": [],
-    "wiki": {
-      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=118506&prop=categories|images|templates|wikitext&format=json",
-      "link": "https://oldschool.runescape.wiki/w/?curid=118506",
-      "pageId": 118506
-    },
-    "colors": [
-      "#9d9296",
-      "#8d599d",
-      "#665f62"
-    ]
-  },
-  {
-    "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/A_jester_stick_detail.png"
-    },
-    "name": "A jester stick",
-    "slot": "weapon",
-    "status": [],
-    "wiki": {
-      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=118511&prop=categories|images|templates|wikitext&format=json",
-      "link": "https://oldschool.runescape.wiki/w/?curid=118511",
-      "pageId": 118511
-    },
-    "colors": [
-      "#3c350d",
-      "#bfb05e",
-      "#8c964f"
     ]
   },
   {
@@ -49438,24 +49232,6 @@
       "#954c44",
       "#2f2828",
       "#bbb93e"
-    ]
-  },
-  {
-    "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Paddle_detail.png"
-    },
-    "name": "Paddle",
-    "slot": "weapon",
-    "status": [],
-    "wiki": {
-      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=183251&prop=categories|images|templates|wikitext&format=json",
-      "link": "https://oldschool.runescape.wiki/w/?curid=183251",
-      "pageId": 183251
-    },
-    "colors": [
-      "#3e2607",
-      "#1b1306",
-      "#5f4328"
     ]
   },
   {
@@ -54628,24 +54404,6 @@
   },
   {
     "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Stick_(unobtainable_item)_detail.png"
-    },
-    "name": "Stick (unobtainable item)",
-    "slot": "weapon",
-    "status": [],
-    "wiki": {
-      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=255282&prop=categories|images|templates|wikitext&format=json",
-      "link": "https://oldschool.runescape.wiki/w/?curid=255282",
-      "pageId": 255282
-    },
-    "colors": [
-      "#3e2f17",
-      "#b7b7ac",
-      "#7c7c74"
-    ]
-  },
-  {
-    "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Amulet_of_blood_fury_detail.png"
     },
     "name": "Amulet of blood fury",
@@ -55620,6 +55378,114 @@
       "#6a5b37",
       "#978e78",
       "#262323"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Amy's_saw_detail.png"
+    },
+    "name": "Amy's saw",
+    "slot": "weapon",
+    "status": [],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=272548&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=272548",
+      "pageId": 272548
+    },
+    "colors": [
+      "#675e4e",
+      "#b07c24",
+      "#9ca4ac"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Carpenter's_helmet_detail.png"
+    },
+    "name": "Carpenter's helmet",
+    "slot": "head",
+    "status": [],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=272553&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=272553",
+      "pageId": 272553
+    },
+    "colors": [
+      "#ae7e2e",
+      "#605745",
+      "#413d34"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Carpenter's_shirt_detail.png"
+    },
+    "name": "Carpenter's shirt",
+    "slot": "body",
+    "status": [],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=272554&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=272554",
+      "pageId": 272554
+    },
+    "colors": [
+      "#5a5245",
+      "#ab9674",
+      "#988e7a"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Carpenter's_trousers_detail.png"
+    },
+    "name": "Carpenter's trousers",
+    "slot": "leg",
+    "status": [],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=272555&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=272555",
+      "pageId": 272555
+    },
+    "colors": [
+      "#5b636a",
+      "#342a1a",
+      "#a77628"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Carpenter's_boots_detail.png"
+    },
+    "name": "Carpenter's boots",
+    "slot": "feet",
+    "status": [],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=272556&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=272556",
+      "pageId": 272556
+    },
+    "colors": [
+      "#6b6250",
+      "#22211b",
+      "#ab8344"
+    ]
+  },
+  {
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Reinforced_goggles_detail.png"
+    },
+    "name": "Reinforced goggles",
+    "slot": "head",
+    "status": [],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=273922&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=273922",
+      "pageId": 273922
+    },
+    "colors": [
+      "#70444c",
+      "#262323",
+      "#9e9494"
     ]
   }
 ]
