@@ -5,18 +5,18 @@ Config.set(rsrelease);
 
 const config = Config.get();
 
-const wiki = require('./wiki');
+const File = require('./file');
+const Wiki = require('./wiki');
 const {toItems} = require('./model');
 const {withColor} = require('./color');
 
 const tryPage = async pageId => {
-  const doc = await wiki.parse(pageId);
+  const doc = await Wiki.parse(pageId);
   const items = toItems(doc);
   const itemsWithColor = await Promise.all(items.map(withColor));
 
-  const keys = new Set();
-  JSON.stringify(itemsWithColor, (k, v) => (keys.add(k), v));
-  console.log(JSON.stringify(itemsWithColor, [...keys].sort(), 2));
+  const output = File.format(itemsWithColor);
+  console.log(output);
 };
 
 tryPage(pageId);

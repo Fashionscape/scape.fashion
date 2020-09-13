@@ -14,7 +14,7 @@ fi
 set -e
 
 ignore() {
-  node tools/ignore.js $RSRELEASE
+  node -e "require('./tools/ignore').update('$RSRELEASE')"
 }
 
 import() {

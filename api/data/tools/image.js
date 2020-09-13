@@ -26,89 +26,97 @@ const toFileUrl = name => {
   return toUrl(file);
 };
 
+const Parse = ({block, match}) => {
+  const commentPattern = /<!--(.*?)-->/gms;
+
+  const one = wikitext => {
+    const withoutComments = wikitext.replace(commentPattern, '');
+    const [_, name] = withoutComments.match(match) || [];
+
+    if (!name) return null;
+
+    return toFileUrl(name);
+  };
+
+  const many = wikitext => {
+    const [_, text] = wikitext.match(block) || [];
+
+    if (!text) return [];
+
+    const images = [...text.matchAll(match)].map(ms => ms[1]);
+
+    return images.map(toFileUrl);
+  };
+
+  return {many, one};
+};
+
 const variant = (() => {
   const Detail = (() => {
-    const blockPattern = /^{{Synced switch\n([^}]+)}}$/m;
-    const imagePattern = /\|version\d ?= ?\[\[File:(.+(detail\.png|detail animated\.gif))/gm;
+    const block = /^{{Synced switch\n([^}]+)}}$/m;
+    const match = /\|version\d ?= ?\[\[File:(.+(detail\.png|detail animated\.gif))/gm;
+    const DetailParse = Parse({block, match});
 
-    const parse = wikitext => {
-      const [_, text] = wikitext.match(blockPattern) || [];
-
-      if (!text) return [];
-
-      const images = [...text.matchAll(imagePattern)].map(ms => ms[1]);
-
-      return images.map(toFileUrl);
-    };
+    const parse = DetailParse.many;
 
     return {parse};
   })();
 
   const Equipped = (() => {
-    const blockPattern = /^{{Infobox Bonuses\n([^}]+)}}$/m;
-    const imagePattern = /\|image\d ?= ?\[\[File:(.+equipped(\.png|\.gif))/gm;
+    const block = /^{{Infobox Bonuses\n([^}]+)}}$/m;
+    const matchMany = /\|image\d ?= ?\[\[File:(.+equipped(\.png|\.gif))/gm;
+    const matchOne = /\|image ?= ?\[\[File:(.+equipped(\.png|\.gif))/m;
 
-    const parse = wikitext => {
-      const [_, text] = wikitext.match(blockPattern) || [];
+    const ManyParse = Parse({block, match: matchMany});
+    const OneParse = Parse({block, match: matchOne});
 
-      if (!text) return [];
+    const parse = (wikitext, n) => {
+      const images = ManyParse.many(wikitext);
+      if (images.length > 0) return images;
 
-      const images = [...text.matchAll(imagePattern)].map(ms => ms[1]);
-
-      return images.map(toFileUrl);
+      const file = OneParse.one(wikitext);
+      return [...new Array(n)].map(() => file);
     };
 
     return {parse};
   })();
 
   const parse = wikitext => {
-    const detail = Detail.parse(wikitext);
-    const equipped = Equipped.parse(wikitext);
+    const details = Detail.parse(wikitext);
+    const equippeds = Equipped.parse(wikitext, details.length);
 
-    return detail.map((detail, i) => ({detail, equipped: equipped[i]}));
+    return details.map((detail, i) => {
+      const equipped = equippeds[i];
+      return equipped ? {detail, equipped} : {detail};
+    });
   };
 
   return {parse};
 })();
 
 const Detail = (() => {
-  const commentPattern = /<!--(.*?)-->/gms;
-  const imagePattern = /\[\[File:([^\]]+(detail\.png|detail animated\.gif))/m;
+  const match = /\[\[File:([^\]]+(detail\.png|detail animated\.gif))/m;
+  const DetailParse = Parse({match});
 
-  const parse = wikitext => {
-    const withoutComments = wikitext.replace(commentPattern, '');
-    const [_, name] = withoutComments.match(imagePattern) || [];
-
-    if (!name) return null;
-
-    return toFileUrl(name);
-  };
+  const parse = DetailParse.one;
 
   return {parse};
 })();
 
 const Equipped = (() => {
-  const commentPattern = /<!--(.*?)-->/gms;
-  const imagePattern = /\[\[File:([^\]]+equipped(\.png|\.gif))/m;
+  const match = /\[\[File:([^\]]+equipped(\.png|\.gif))/m;
+  const EquippedParse = Parse({match});
 
-  const parse = wikitext => {
-    const withoutComments = wikitext.replace(commentPattern, '');
-    const [_, name] = withoutComments.match(imagePattern) || [];
-
-    if (!name) return null;
-
-    return toFileUrl(name);
-  };
+  const parse = EquippedParse.one;
 
   return {parse};
 })();
 
-// TODO return { detail, equipped }
 const parse = wikitext => {
   const detail = Detail.parse(wikitext);
   const equipped = Equipped.parse(wikitext);
 
-  return {detail, equipped};
+  return equipped ? {detail, equipped} : {detail};
 };
 
 module.exports = {parse, variant};

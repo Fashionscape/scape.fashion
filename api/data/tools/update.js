@@ -6,9 +6,11 @@ const Config = require('./config');
 Config.set(rsrelease);
 const config = Config.get();
 
-const slot = require('./slot');
-const wiki = require('./wiki');
-const {toItems} = require('./model');
+const Ignore = require('./ignore');
+const File = require('./file');
+const Model = require('./model');
+const Slot = require('./slot');
+const Wiki = require('./wiki');
 const {withColor} = require('./color');
 
 const file = `items-${rsrelease}.json`;
@@ -23,23 +25,11 @@ const pageMap = items
 
 if (force) pageMap.clear();
 
-const silentItems = fs
-  .readFileSync(`./ignore-${rsrelease}.txt`, 'utf8')
-  .split('\n');
-
-const hasError = item =>
-  item &&
-  !silentItems.includes(item.name) &&
-  !Boolean(item.slot && item.images.detail && item.colors.length);
-
-const logItem = item =>
-  fs.appendFileSync(`errors-${rsrelease}.txt`, JSON.stringify(item, null, 2));
-
 const byPageId = (a, b) => a.wiki.pageId - b.wiki.pageId;
 
 const importFromPage = async pageId => {
-  const doc = await wiki.parse(pageId);
-  const items = toItems(doc);
+  const doc = await Wiki.parse(pageId);
+  const items = Model.toItems(doc);
   const itemsWithColor = await Promise.all(items.map(withColor));
   return itemsWithColor;
 };
@@ -47,17 +37,10 @@ const importFromPage = async pageId => {
 const refreshFromPage = async pageId => {
   const items = pageMap.get(pageId);
 
-  const isIgnored = items.every(item => silentItems.includes(item.name));
-  if (isIgnored) return items;
+  const hasError = items.some(Model.hasError);
+  if (!hasError) return items;
 
-  const hasSlot = items.every(item => item.slot);
-  const hasImages = items.every(({images}) => images.detail && images.equipped);
-  if (!hasSlot || !hasImages) return importFromPage(pageId);
-
-  const hasColor = items.every(item => item.colors?.length);
-  if (!hasColor) return Promise.all(items.map(withColor));
-
-  return items;
+  return importFromPage(pageId);
 };
 
 const groupBy = (as, fn) =>
@@ -69,7 +52,7 @@ const groupBy = (as, fn) =>
   }, {});
 
 const update = async () => {
-  const members = await wiki.categories(slot.categories);
+  const members = await Wiki.categories(Slot.categories);
   const pageIds = [...new Set(members.map(member => member.pageid))];
 
   console.log('Total items: ', pageIds.length);
@@ -95,14 +78,13 @@ const update = async () => {
 
   const items = [...refreshed, ...imported].flat();
 
-  items.forEach(item => hasError(item) && logItem(item));
+  const errorItems = items.filter(Model.hasError);
+  File.Error.write(errorItems);
 
   const validItems = items.filter(item => !!item);
   const sortedItems = validItems.sort(byPageId);
 
-  const keys = new Set();
-  JSON.stringify(sortedItems, (k, v) => (keys.add(k), v));
-  fs.writeFileSync(file, JSON.stringify(sortedItems, [...keys].sort(), 2));
+  File.Items.write(sortedItems);
 };
 
-fs.unlink(`errors-${rsrelease}.txt`, () => update());
+fs.unlink(`errors-${rsrelease}.json`, () => update());

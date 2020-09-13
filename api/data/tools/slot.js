@@ -36,9 +36,12 @@ const slots = {
 
 const categories = slots.map(slot => slot.category);
 
+const isVisible = item =>
+  !['ammunition', 'pocket', 'ring', 'sigil'].includes(item.slot);
+
 const toSlot = categories => {
   const slot = slots.find(slot => categories.includes(slot.category));
   return slot.key;
 };
 
-module.exports = {categories, toSlot};
+module.exports = {categories, isVisible, toSlot};
