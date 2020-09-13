@@ -1,4 +1,8 @@
-const config = {
+let rsversion = 'oldschool';
+
+const set = version => (rsversion = version);
+
+const options = {
   oldschool: {
     release: 'oldschool',
     url: {
@@ -15,4 +19,9 @@ const config = {
   },
 };
 
-module.exports = key => config[key];
+const config = {
+  get: () => options[rsversion],
+  set,
+};
+
+module.exports = config;

@@ -1,16 +1,22 @@
 const [_, __, rsrelease, pageId] = process.argv;
 
-const config = require('./config')(rsrelease);
+const Config = require('./config');
+Config.set(rsrelease);
 
-const wiki = require('./wiki')(config);
-const {toItems} = require('./model')(config);
-const {withColor} = require('./color')(config);
+const config = Config.get();
+
+const wiki = require('./wiki');
+const {toItems} = require('./model');
+const {withColor} = require('./color');
 
 const tryPage = async pageId => {
   const doc = await wiki.parse(pageId);
   const items = toItems(doc);
   const itemsWithColor = await Promise.all(items.map(withColor));
-  console.log(JSON.stringify(itemsWithColor, null, 2));
+
+  const keys = new Set();
+  JSON.stringify(itemsWithColor, (k, v) => (keys.add(k), v));
+  console.log(JSON.stringify(itemsWithColor, [...keys].sort(), 2));
 };
 
 tryPage(pageId);

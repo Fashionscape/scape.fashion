@@ -2,12 +2,14 @@ const fs = require('fs');
 const slow = require('slow');
 
 const [_, __, rsrelease, force] = process.argv;
-const config = require('./config')(rsrelease);
+const Config = require('./config');
+Config.set(rsrelease);
+const config = Config.get();
 
-const slot = require('./slot')(config);
-const wiki = require('./wiki')(config);
-const {toItems} = require('./model')(config);
-const {withColor} = require('./color')(config);
+const slot = require('./slot');
+const wiki = require('./wiki');
+const {toItems} = require('./model');
+const {withColor} = require('./color');
 
 const file = `items-${rsrelease}.json`;
 const items = require(`../${file}`);
@@ -98,7 +100,9 @@ const update = async () => {
   const validItems = items.filter(item => !!item);
   const sortedItems = validItems.sort(byPageId);
 
-  fs.writeFileSync(file, JSON.stringify(sortedItems, null, 2));
+  const keys = new Set();
+  JSON.stringify(sortedItems, (k, v) => (keys.add(k), v));
+  fs.writeFileSync(file, JSON.stringify(sortedItems, [...keys].sort(), 2));
 };
 
 fs.unlink(`errors-${rsrelease}.txt`, () => update());

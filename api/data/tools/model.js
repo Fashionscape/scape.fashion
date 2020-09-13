@@ -1,183 +1,25 @@
+const Image = require('./image');
+const Variant = require('./variant');
 const Wiki = require('./wiki');
-const Slot = require('./slot');
+const {toItem} = require('./item');
 
-const isItemStatus = category => ['Discontinued_content'].includes(category);
+const withImages = item => wikitext => {
+  const images = Image.parse(wikitext);
 
-const bannedVariants = [
-  'Activated',
-  'Broken',
-  'Damaged',
-  'Deadman mode',
-  'Inactive',
-  'Lit',
-  'Locked',
-  'Poison+',
-  'Poison++',
-];
-
-const numberedVariantPattern = /\(?(t|i)?\d+\)?/;
-
-const isValidVariant = variant => {
-  if (numberedVariantPattern.test(variant)) return false;
-  if (bannedVariants.includes(variant)) return false;
-  return true;
+  return {...item, images};
 };
 
-const infoboxPattern = /^{{Infobox Item\n([^}]+)}}$/m;
-const versionPattern = /\|version\d = ([^\|\n]*)/gm;
+const toItems = ({parse}) => {
+  let {title, wikitext} = parse;
+  wikitext = wikitext['*'];
 
-const parseVariants = wikitext => {
-  const [_, infobox] = wikitext.match(infoboxPattern) || [];
-  if (!infobox) return [];
+  if (title.startsWith('Category:')) return [];
 
-  return [...infobox.matchAll(versionPattern)].map(ms => ms[1]);
+  const hasVariants = Variant.hasVariants(wikitext);
+  if (hasVariants) return Variant.toVariants(parse);
+
+  const item = toItem(parse);
+  return [withImages(item)(wikitext)];
 };
 
-const decodeEntities = encodedString => {
-  var translate_re = /&(nbsp|amp|quot|lt|gt);/g;
-  var translate = {
-    nbsp: ' ',
-    amp: '&',
-    quot: '"',
-    lt: '<',
-    gt: '>',
-  };
-  return encodedString
-    .replace(translate_re, (_, entity) => translate[entity])
-    .replace(/&#(\d+);/gi, (match, numStr) => {
-      var num = parseInt(numStr, 10);
-      return String.fromCharCode(num);
-    })
-    .replace(/ö/g, '%C3%B6'); /* Cloudflare doesn't like this character */
-};
-
-const toImageFileName = name => {
-  const decoded = decodeEntities(name);
-  return decoded.replace(/\s/g, '_');
-};
-
-const imagePattern = /\[\[File:([^\]]+(detail\.png|detail animated\.gif))/m;
-
-const parseImage = wikitext => {
-  const [_, name] = wikitext.match(imagePattern) || [];
-
-  if (!name) return null;
-
-  return toImageFileName(name);
-};
-
-const syncedSwitchPattern = /^{{Synced switch\n([^}]+)}}$/m;
-const syncedImagePattern = /\|version\d ?= ?\[\[File:(.+(detail\.png|detail animated\.gif))/gm;
-
-const parseImages = wikitext => {
-  const [_, text] = wikitext.match(syncedSwitchPattern);
-  const images = [...text.matchAll(syncedImagePattern)].map(ms => ms[1]);
-
-  return images.map(toImageFileName);
-};
-
-const standardVariants = [
-  'Active',
-  'Cosmetic',
-  'Fixed',
-  'Normal',
-  'Regular',
-  'Standard',
-  'Undamaged',
-  'Unlit',
-  'Unpoisoned',
-];
-
-const toVariantName = ({name, variant}) => {
-  if (standardVariants.includes(variant)) return name;
-
-  return `${name} (${variant})`;
-};
-
-const model = config => {
-  const {toSlot} = Slot(config);
-  const wiki = Wiki(config);
-
-  const toItem = parse => {
-    const name = parse.title;
-    const pageId = parse.pageid;
-    const api = wiki.apiUrl(pageId);
-    const link = wiki.wikiUrl({pageId});
-
-    const categories = parse.categories.map(c => c['*']);
-    const status = categories.filter(isItemStatus);
-
-    if (name.match(/ \+ \d$/g)) status.push('Ignored');
-
-    const slot = toSlot(categories);
-
-    return {
-      images: {},
-      name,
-      slot,
-      status,
-      wiki: {api, link, pageId},
-    };
-  };
-
-  const toVariant = (item, name) => {
-    return {
-      ...item,
-      name: toVariantName({name: item.name, variant: name}),
-      status: [...item.status, 'Variant'],
-      wiki: {
-        ...item.wiki,
-        link: wiki.wikiUrl({pageId: item.wiki.pageId, variant: name}),
-      },
-    };
-  };
-
-  const toImageUrl = file => `${config.url.base}Special:Redirect/file/${file}`;
-
-  const commentPattern = /<!--(.*?)-->/gms;
-
-  const withImages = ({item, wikitext}) => {
-    const withoutComments = wikitext.replace(commentPattern, '');
-    const file = parseImage(withoutComments);
-
-    if (!file) return item;
-
-    const detail = toImageUrl(file);
-
-    return {...item, images: {detail}};
-  };
-
-  const toItems = ({parse}) => {
-    let {title, wikitext} = parse;
-    wikitext = wikitext['*'];
-
-    if (title.startsWith('Category:')) return [];
-
-    const item = toItem(parse);
-    const categories = parse.categories.map(c => c['*']);
-    const hasVariants = syncedSwitchPattern.test(wikitext);
-
-    if (!hasVariants) return [withImages({item, wikitext})];
-
-    const variantImages = parseImages(wikitext);
-    const variantNames = parseVariants(wikitext);
-
-    const zipped = variantNames.map((name, i) => ({
-      image: variantImages[i],
-      name,
-    }));
-
-    return zipped
-      .filter(({name}) => isValidVariant(name))
-      .sort((a, b) => a.name.localeCompare(b.name))
-      .map(({image, name}) => {
-        const variant = toVariant(item, name);
-        const detail = toImageUrl(image);
-        return {...variant, images: {detail}};
-      });
-  };
-
-  return {toItems};
-};
-
-module.exports = model;
+module.exports = {toItems};
