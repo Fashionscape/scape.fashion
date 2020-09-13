@@ -19,7 +19,7 @@ Hunter cape
 Runecrafting cape
 Woodcutting cape
 Bedsheet
-Crate with zanik
+Crate With Zanik
 Crafting cape
 Broken pickaxe (rune)
 Broken pickaxe (mithril)
@@ -698,16 +698,13 @@ Oaken sentinel helm
 Oaken sentinel chest
 Oaken sentinel trunks
 Oaken sentinel branch
-Oaken sentinel boots
 Willow sentinel helm
 Willow sentinel chest
 Willow sentinel trunks
 Willow sentinel branch
-Willow sentinel boots
 Maple sentinel chest
 Maple sentinel trunks
 Maple sentinel branch
-Maple sentinel boots
 Golden touch sigil
 Unsullied sigil
 Corrupted slayer helmet
@@ -767,8 +764,6 @@ Desert trapper arms
 Jungle trapper chest
 Jungle trapper legguards
 Jungle trapper boots
-Arctic trapper legguards
-Arctic trapper arms
 Energy barrel
 Dig Site pendant (c)
 Ring of slaying (c)
@@ -988,36 +983,15 @@ Rune off hand dagger + 3
 Rune off hand mace + 1
 Rune off hand mace + 2
 Rune off hand mace + 3
-Rune sword + 1
-Rune sword + 2
-Rune sword + 3
-Rune off hand sword + 1
-Rune off hand sword + 2
-Rune off hand sword + 3
-Rune scimitar + 1
-Rune scimitar + 2
-Rune scimitar + 3
 Rune off hand scimitar + 1
 Rune off hand scimitar + 2
 Rune off hand scimitar + 3
-Rune warhammer + 1
-Rune warhammer + 2
-Rune warhammer + 3
 Rune off hand warhammer + 1
 Rune off hand warhammer + 2
 Rune off hand warhammer + 3
 Rune platelegs + 1
 Rune platelegs + 2
 Rune platelegs + 3
-Rune plateskirt + 1
-Rune plateskirt + 2
-Rune plateskirt + 3
-Rune platebody + 1
-Rune platebody + 2
-Rune platebody + 3
-Rune square shield + 1
-Rune square shield + 2
-Rune square shield + 3
 Rune armoured boots + 1
 Rune armoured boots + 2
 Rune armoured boots + 3
@@ -1073,11 +1047,8 @@ Rainbow unicorn plushie
 Ancient gladiator helm
 Golden gnome hat 2019
 Bubbles (Archaeology)
-Archaeology cape
-Archaeology cape (t)
 Hooded archaeology cape
 Hooded archaeology cape (t)
-Archaeology hood
 Wingsuit v2
 Wingsuit v3
 Enhanced fishing rod-o-matic
