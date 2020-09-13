@@ -59,7 +59,7 @@ const hasVariants = wikitext => Image.variant.parse(wikitext).length > 0;
 
 const toItemVariant = item => variant => {
   const name = Name.toNameVariant({name: item.name, variant});
-  const status = [...item.status, 'Variant'];
+  const status = [...item.status, 'variant'];
   const link = Wiki.wikiUrl({pageId: item.wiki.pageId, variant});
   const wiki = {...item.wiki, link};
 
