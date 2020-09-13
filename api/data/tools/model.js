@@ -1,4 +1,5 @@
 const Ignore = require('./ignore');
+const Hide = require('./hide');
 const Image = require('./image');
 const Slot = require('./slot');
 const Variant = require('./variant');
@@ -7,6 +8,7 @@ const {toItem} = require('./item');
 
 const hasError = item => {
   if (Ignore.isIgnored(item)) return false;
+  if (Hide.isHidden(item.name)) return false;
   if (!item.slot) return true;
   if (!item.images.detail) return true;
   if (Slot.isVisible(item) && !item.images.equipped) return true;

@@ -1,3 +1,4 @@
+const Hide = require('./hide');
 const Wiki = require('./wiki');
 const {toSlot} = require('./slot');
 
@@ -20,7 +21,7 @@ const toItem = parse => {
   const pageId = parse.pageid;
   const api = Wiki.apiUrl(pageId);
   const link = Wiki.wikiUrl({pageId});
-  const hidden = !!name.match(/ \+ \d$/g);
+  const hidden = Hide.isHidden(name);
 
   const categories = parse.categories.map(c => c['*']);
   const status = toStatus(categories);

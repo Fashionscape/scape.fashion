@@ -20769,7 +20769,7 @@
       "#c3532f",
       "#251d0a"
     ],
-    "hidden": false,
+    "hidden": true,
     "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Karamjan_monkey_greegree_detail.png"
     },
@@ -37280,7 +37280,7 @@
       "#1e22cb",
       "#313286"
     ],
-    "hidden": false,
+    "hidden": true,
     "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Ancient_gorilla_greegree_detail.png",
       "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Ancient_gorilla_greegree_equipped.png"
@@ -40805,7 +40805,7 @@
       "#c3532f",
       "#213123"
     ],
-    "hidden": false,
+    "hidden": true,
     "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Zombie_monkey_greegree_detail.png"
     },
@@ -40826,7 +40826,7 @@
       "#c3532f",
       "#213123"
     ],
-    "hidden": false,
+    "hidden": true,
     "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Zombie_monkey_greegree_detail.png"
     },
@@ -40847,7 +40847,7 @@
       "#2a2624",
       "#c25932"
     ],
-    "hidden": false,
+    "hidden": true,
     "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Ninja_monkey_greegree_detail.png"
     },
@@ -40868,7 +40868,7 @@
       "#2a2624",
       "#c25932"
     ],
-    "hidden": false,
+    "hidden": true,
     "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Ninja_monkey_greegree_detail.png"
     },
@@ -40889,7 +40889,7 @@
       "#686161",
       "#d42c1c"
     ],
-    "hidden": false,
+    "hidden": true,
     "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Gorilla_greegree_detail.png"
     },
@@ -40910,7 +40910,7 @@
       "#686161",
       "#d42c1c"
     ],
-    "hidden": false,
+    "hidden": true,
     "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Gorilla_greegree_detail.png"
     },
@@ -45045,7 +45045,7 @@
       "#c3532f",
       "#232120"
     ],
-    "hidden": false,
+    "hidden": true,
     "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Kruk_monkey_greegree_detail.png"
     },
@@ -53209,7 +53209,7 @@
       "#3c3c34",
       "#343431"
     ],
-    "hidden": false,
+    "hidden": true,
     "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/A_chair_detail.png"
     },
@@ -53230,7 +53230,7 @@
       "#9e9898",
       "#b4a4a4"
     ],
-    "hidden": false,
+    "hidden": true,
     "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Beer_glass_(Forgettable_Tale...)_detail.png"
     },
@@ -57159,7 +57159,8 @@
     "name": "Lathas' amulet",
     "slot": "neck",
     "status": [
-      "untradeable"
+      "untradeable",
+      "unobtainable"
     ],
     "wiki": {
       "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=118478&prop=categories|images|templates|wikitext&format=json",
@@ -62392,8 +62393,7 @@
   {
     "hidden": false,
     "images": {
-      "detail": null,
-      "equipped": null
+      "detail": null
     },
     "name": "Rune berserker shield",
     "slot": "shield",
