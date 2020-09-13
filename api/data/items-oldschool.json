@@ -11087,7 +11087,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Ham_shirt_detail.png"
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Ham_shirt_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Ham_outfit_equipped_male.png"
     },
     "name": "Ham shirt",
     "slot": "body",
@@ -12257,7 +12258,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Ham_boots_detail.png"
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Ham_boots_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Ham_outfit_equipped_male.png"
     },
     "name": "Ham boots",
     "slot": "feet",
@@ -15237,7 +15239,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Void_knight_robe_detail.png"
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Void_knight_robe_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Void_knight_equipment.png"
     },
     "name": "Void knight robe",
     "slot": "leg",
@@ -15284,7 +15287,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Void_knight_top_detail.png"
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Void_knight_top_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Void_knight_equipment.png"
     },
     "name": "Void knight top",
     "slot": "body",
@@ -20621,7 +20625,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Ham_logo_detail.png"
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Ham_logo_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Ham_outfit_equipped_male.png"
     },
     "name": "Ham logo",
     "slot": "neck",
@@ -20640,7 +20645,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Ham_robe_detail.png"
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Ham_robe_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Ham_outfit_equipped_male.png"
     },
     "name": "Ham robe",
     "slot": "leg",
@@ -20659,7 +20665,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Ham_hood_detail.png"
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Ham_hood_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Ham_outfit_equipped_male.png"
     },
     "name": "Ham hood",
     "slot": "head",
@@ -22753,7 +22760,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Void_knight_gloves_detail.png"
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Void_knight_gloves_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Void_knight_equipment.png"
     },
     "name": "Void knight gloves",
     "slot": "hand",
@@ -23076,7 +23084,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Ham_gloves_detail.png"
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Ham_gloves_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Ham_outfit_equipped_male.png"
     },
     "name": "Ham gloves",
     "slot": "hand",

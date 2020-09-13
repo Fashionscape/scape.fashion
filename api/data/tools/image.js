@@ -64,8 +64,8 @@ const variant = (() => {
 
   const Equipped = (() => {
     const block = /^{{Infobox Bonuses\n([^}]+)}}$/m;
-    const matchMany = /\|image\d ?= ?\[\[File:(.+equipped(\.png|\.gif))/gm;
-    const matchOne = /\|image ?= ?\[\[File:(.+equipped(\.png|\.gif))/m;
+    const matchMany = /\|image\d ?= ?\[\[File:(.+(equipped|equipment)( male| female)?(\.png|\.gif))/gm;
+    const matchOne = /\|image ?= ?\[\[File:(.+(equipped|equipment)( male| female)?(\.png|\.gif))/m;
 
     const ManyParse = Parse({block, match: matchMany});
     const OneParse = Parse({block, match: matchOne});
@@ -104,7 +104,7 @@ const Detail = (() => {
 })();
 
 const Equipped = (() => {
-  const match = /\[\[File:([^\]]+equipped(\.png|\.gif))/m;
+  const match = /\[\[File:([^\]]+(equipped|equipment)( male| female)?(\.png|\.gif))/m;
   const EquippedParse = Parse({match});
 
   const parse = EquippedParse.one;
