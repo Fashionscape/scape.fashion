@@ -26,33 +26,74 @@ const toFileUrl = name => {
   return toUrl(file);
 };
 
-const commentPattern = /<!--(.*?)-->/gms;
-
 const variant = (() => {
-  const syncedSwitchPattern = /^{{Synced switch\n([^}]+)}}$/m;
-  const syncedImagePattern = /\|version\d ?= ?\[\[File:(.+(detail\.png|detail animated\.gif))/gm;
+  const Detail = (() => {
+    const blockPattern = /^{{Synced switch\n([^}]+)}}$/m;
+    const imagePattern = /\|version\d ?= ?\[\[File:(.+(detail\.png|detail animated\.gif))/gm;
 
-  // TODO return { detail, equipped }
+    const parse = wikitext => {
+      const [_, text] = wikitext.match(blockPattern) || [];
+
+      if (!text) return [];
+
+      const images = [...text.matchAll(imagePattern)].map(ms => ms[1]);
+
+      return images.map(toFileUrl);
+    };
+
+    return {parse};
+  })();
+
+  const Equipped = (() => {
+    const blockPattern = /^{{Infobox Bonuses\n([^}]+)}}$/m;
+    const imagePattern = /\|image\d ?= ?\[\[File:(.+equipped(\.png|\.gif))/gm;
+
+    const parse = wikitext => {
+      const [_, text] = wikitext.match(blockPattern) || [];
+
+      if (!text) return [];
+
+      const images = [...text.matchAll(imagePattern)].map(ms => ms[1]);
+
+      return images.map(toFileUrl);
+    };
+
+    return {parse};
+  })();
+
   const parse = wikitext => {
-    const withoutComments = wikitext.replace(commentPattern, '');
-    const [_, text] = withoutComments.match(syncedSwitchPattern) || [];
+    const detail = Detail.parse(wikitext);
+    const equipped = Equipped.parse(wikitext);
 
-    if (!text) return [];
-
-    const images = [...text.matchAll(syncedImagePattern)].map(ms => ms[1]);
-
-    return images.map(toFileUrl).map(detail => ({detail}));
+    return detail.map((detail, i) => ({detail, equipped: equipped[i]}));
   };
 
   return {parse};
 })();
 
 const Detail = (() => {
-  const detailImagePattern = /\[\[File:([^\]]+(detail\.png|detail animated\.gif))/m;
+  const commentPattern = /<!--(.*?)-->/gms;
+  const imagePattern = /\[\[File:([^\]]+(detail\.png|detail animated\.gif))/m;
 
   const parse = wikitext => {
     const withoutComments = wikitext.replace(commentPattern, '');
-    const [_, name] = withoutComments.match(detailImagePattern) || [];
+    const [_, name] = withoutComments.match(imagePattern) || [];
+
+    if (!name) return null;
+
+    return toFileUrl(name);
+  };
+
+  return {parse};
+})();
+
+const Equipped = (() => {
+  const commentPattern = /<!--(.*?)-->/gms;
+  const imagePattern = /\[\[File:([^\]]+equipped(\.png|\.gif))/m;
+
+  const parse = wikitext => {
+    const withoutComments = wikitext.replace(commentPattern, '');
+    const [_, name] = withoutComments.match(imagePattern) || [];
 
     if (!name) return null;
 
@@ -65,8 +106,9 @@ const Detail = (() => {
 // TODO return { detail, equipped }
 const parse = wikitext => {
   const detail = Detail.parse(wikitext);
+  const equipped = Equipped.parse(wikitext);
 
-  return {detail};
+  return {detail, equipped};
 };
 
 module.exports = {parse, variant};

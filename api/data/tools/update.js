@@ -51,8 +51,8 @@ const refreshFromPage = async pageId => {
   if (isIgnored) return items;
 
   const hasSlot = items.every(item => item.slot);
-  const hasImage = items.every(item => item.images.detail);
-  if (!hasSlot || !hasImage) return importFromPage(pageId);
+  const hasImages = items.every(({images}) => images.detail && images.equipped);
+  if (!hasSlot || !hasImages) return importFromPage(pageId);
 
   const hasColor = items.every(item => item.colors?.length);
   if (!hasColor) return Promise.all(items.map(withColor));

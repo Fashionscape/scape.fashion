@@ -9,7 +9,8 @@ const items = require(`../${ITEMS_PATH}`);
 
 const hasColors = item => !!item.colors;
 const hasThreeColors = item => item.colors && item.colors.length === 3;
-const hasImage = item => !!item.images.detail;
+const hasDetailImage = item => !!item.images.detail;
+const hasEquippedImage = item => !!item.images.equipped;
 const hasSlot = item => !!item.slot;
 
 const itemsWithCount = fn =>
@@ -24,7 +25,8 @@ const count = fns =>
 const results = count([
   {name: 'hasColors', fn: hasColors},
   {name: 'hasThreeColors', fn: hasThreeColors},
-  {name: 'hasImage', fn: hasImage},
+  {name: 'hasDetailImage', fn: hasDetailImage},
+  {name: 'hasEquippedImage', fn: hasEquippedImage},
   {name: 'hasSlot', fn: hasSlot},
   {name: 'total', fn: () => true},
 ]);
