@@ -77,13 +77,12 @@ const update = async () => {
   });
 
   const items = [...refreshed, ...imported].flat();
+  const validItems = items.filter(item => !!item);
 
-  const errorItems = items.filter(Model.hasError);
+  const errorItems = validItems.filter(Model.hasError);
   File.Error.write(errorItems);
 
-  const validItems = items.filter(item => !!item);
   const sortedItems = validItems.sort(byPageId);
-
   File.Items.write(sortedItems);
 };
 

@@ -1,4 +1,5 @@
 const config = require('./config').get();
+const Parse = require('./parse');
 
 const decodeEntities = encodedString => {
   var translate_re = /&(nbsp|amp|quot|lt|gt);/g;
@@ -26,56 +27,32 @@ const toFileUrl = name => {
   return toUrl(file);
 };
 
-const Parse = ({block, match}) => {
-  const commentPattern = /<!--(.*?)-->/gms;
-
-  const one = wikitext => {
-    const withoutComments = wikitext.replace(commentPattern, '');
-    const [_, name] = withoutComments.match(match) || [];
-
-    if (!name) return null;
-
-    return toFileUrl(name);
-  };
-
-  const many = wikitext => {
-    const [_, text] = wikitext.match(block) || [];
-
-    if (!text) return [];
-
-    const images = [...text.matchAll(match)].map(ms => ms[1]);
-
-    return images.map(toFileUrl);
-  };
-
-  return {many, one};
-};
-
-const variant = (() => {
+const Variant = (() => {
   const Detail = (() => {
-    const block = /^{{Synced switch\n([^}]+)}}$/m;
-    const match = /\|version\d ?= ?\[\[File:(.+(detail\.png|detail animated\.gif))/gm;
-    const DetailParse = Parse({block, match});
+    const parse = wikitext => {
+      const template = Parse.template(wikitext, 'Synced switch');
+      const entries = Object.entries(template);
+      const images = entries.filter(([k]) => k.startsWith('version'));
+      const values = images.map(([_, v]) => v);
 
-    const parse = DetailParse.many;
+      return values.map(Parse.Image.Inline.detail).map(toFileUrl);
+    };
 
     return {parse};
   })();
 
   const Equipped = (() => {
-    const block = /^{{Infobox Bonuses\n([^}]+)}}$/m;
-    const matchMany = /\|image\d ?= ?(?:\[\[File:)?([^\|]+(equipped|equipment) ?\(?(male|female|front|back)?\)?(\.png|\.gif))/gm;
-    const matchOne = /\|image ?= ?(?:\[\[File:)?([^\|]+(equipped|equipment) ?\(?(male|female|front|back)?\)?(\.png|\.gif))/m;
-
-    const ManyParse = Parse({block, match: matchMany});
-    const OneParse = Parse({block, match: matchOne});
-
     const parse = (wikitext, n) => {
-      const images = ManyParse.many(wikitext);
-      if (images.length > 0) return images;
+      const template = Parse.template(wikitext, 'Infobox Bonuses');
+      const entries = Object.entries(template);
+      const images = entries.filter(([k]) => k.startsWith('image'));
+      const values = images.map(([_, v]) => v);
 
-      const file = OneParse.one(wikitext);
-      return [...new Array(n)].map(() => file);
+      const files = values.map(Parse.Image.Inline.equipped);
+      const urls = files.map(f => f && toFileUrl(f));
+      if (urls.length > 1) return urls;
+
+      return [...new Array(n)].map(() => urls[0]);
     };
 
     return {parse};
@@ -95,19 +72,24 @@ const variant = (() => {
 })();
 
 const Detail = (() => {
-  const match = /\[\[File:([^\]]+(detail\.png|detail animated\.gif))/m;
-  const DetailParse = Parse({match});
-
-  const parse = DetailParse.one;
+  const parse = wikitext => {
+    const detail = Parse.Image.detail(wikitext);
+    return detail && toFileUrl(detail);
+  };
 
   return {parse};
 })();
 
 const Equipped = (() => {
-  const match = /\|image ?= ?(?:\[\[File:)?([^\|]+(equipped|equipment) ?\(?(male|female|front|back)?\)?(\.png|\.gif))/m;
-  const EquippedParse = Parse({match});
-
-  const parse = EquippedParse.one;
+  const parse = wikitext => {
+    const template = Parse.template(wikitext, 'Infobox Bonuses');
+    const entries = Object.entries(template);
+    const images = entries.filter(([k]) => k.startsWith('image'));
+    const [image] = images.map(([_, v]) => v);
+    if (!image) return null;
+    const equipped = Parse.Image.Inline.equipped(image);
+    return equipped && toFileUrl(equipped);
+  };
 
   return {parse};
 })();
@@ -119,4 +101,4 @@ const parse = wikitext => {
   return equipped ? {detail, equipped} : {detail};
 };
 
-module.exports = {parse, variant};
+module.exports = {parse, Variant};

@@ -55,7 +55,7 @@ const Name = (() => {
   return {isValidVariant, parse, toNameVariant};
 })();
 
-const hasVariants = wikitext => Image.variant.parse(wikitext).length > 0;
+const hasVariants = wikitext => Image.Variant.parse(wikitext).length > 0;
 
 const toItemVariant = item => variant => {
   const name = Name.toNameVariant({name: item.name, variant});
@@ -67,7 +67,7 @@ const toItemVariant = item => variant => {
 };
 
 const withImages = wikitext => {
-  const images = Image.variant.parse(wikitext);
+  const images = Image.Variant.parse(wikitext);
 
   return (item, i) => ({...item, images: images[i]});
 };
