@@ -1,4 +1,3 @@
-Bunny ears
 Fremennik rings
 Ring
 Neckwear
@@ -27,7 +26,6 @@ Broken pickaxe (adamant)
 Broken pickaxe (iron)
 Broken pickaxe (bronze)
 Slender blade
-Elemental battlestaff
 A stylish hat
 Shirt (Circus)
 Performance shortbow
@@ -50,16 +48,12 @@ Butterfly net (class 4)
 Butterfly net (class 5)
 Pickaxe (class 4)
 Pickaxe (class 5)
-Santa costume top
-Santa costume legs
 Arrows (class 3)
 Coif (class 5)
 Arrows (class 1)
 Arrows (class 2)
 Arrows (class 4)
 Arrows (class 5)
-Bandana and eyepatch (blue)
-Pirate bandana (grey)
 Staff (class 1)
 Staff (class 2)
 Staff (class 3)
@@ -215,7 +209,6 @@ Nasty rogue gloves
 Malicious rogue gloves
 Loathsome rogue gloves
 Atrocious rogue gloves
-Flaming head
 Ice cream cone hat
 Kayle's chargebow
 Mod cape
@@ -279,7 +272,6 @@ Golden warpriest of Armadyl helm
 Pirate bandana (Trouble Brewing)
 Arcane blood necklace
 Holly wreath
-Extreme dominion medallion
 Snowball (2014 Christmas event)
 Aegis of devotion
 Bulwark of revenge
@@ -545,7 +537,6 @@ Shoes (female, straps)
 Invention hood
 Augmented Akrisae's robe skirt
 Augmented dragonfire ward
-Augmented dragon hatchet
 Augmented Guthan's warspear
 Augmented Ahrim's staff
 Augmented attuned crystal dagger
@@ -642,7 +633,6 @@ Rotten zombie hands
 Rotten zombie legs
 Rotten zombie chest
 Rotten zombie head
-Mimic plushie
 Augmented superior Zuriel's robe top
 Superior Zuriel's robe bottom
 Augmented superior Zuriel's robe bottom

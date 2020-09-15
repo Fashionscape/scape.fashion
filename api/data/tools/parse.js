@@ -56,7 +56,7 @@ const Image = (() => {
 
   const match = {
     comment: /<!--(.*?)-->/gms,
-    detail: /(?:\[\[File:)(.+detail[^\.]*(?:\.png|\.gif))/m,
+    detail: /(?:\[\[File:)([^\]\|]+detail[^\.]*(?:\.png|\.gif))/,
   };
 
   const detail = wikitext => {
