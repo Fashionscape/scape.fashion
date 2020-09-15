@@ -11,7 +11,9 @@ const isIgnored = item => ignoredItems.includes(item.name);
 const update = rsrelease => {
   const items = require(`../items-${rsrelease}.json`);
 
-  const withoutImages = items.filter(item => !item.images?.detail);
+  const withoutImages = items.filter(
+    ({images}) => !images.detail || !images.equipped,
+  );
   const names = withoutImages.map(item => item.name);
   const output = names.join('\n');
 
