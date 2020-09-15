@@ -1,4 +1,5 @@
 const Image = require('./image');
+const Parse = require('./parse');
 const Wiki = require('./wiki');
 const {toFileName} = require('./image');
 const {toItem} = require('./item');
@@ -24,14 +25,12 @@ const Name = (() => {
     return true;
   };
 
-  const infoboxPattern = /^{{Infobox Item\n([^}]+)}}$/m;
-  const versionPattern = /\|version\d = ([^\|\n]*)/gm;
-
   const parse = wikitext => {
-    const [_, infobox] = wikitext.match(infoboxPattern) || [];
-    if (!infobox) return [];
-
-    return [...infobox.matchAll(versionPattern)].map(ms => ms[1]);
+    const template = Parse.template(wikitext, 'Infobox Item');
+    const entries = Object.entries(template);
+    const versions = entries.filter(([k]) => k.startsWith('version'));
+    const values = versions.map(([_, v]) => v);
+    return values;
   };
 
   const standardVariants = [

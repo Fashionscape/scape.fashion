@@ -7510,10 +7510,36 @@
     },
     "name": "Bone dagger",
     "slot": "weapon",
-    "status": [],
+    "status": [
+      "variant"
+    ],
+    "variant": "Unpoisoned",
     "wiki": {
       "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=10472&prop=categories|images|templates|wikitext&format=json",
-      "link": "https://oldschool.runescape.wiki/w/?curid=10472",
+      "link": "https://oldschool.runescape.wiki/w/?curid=10472#Unpoisoned",
+      "pageId": 10472
+    }
+  },
+  {
+    "colors": [
+      "#b0b090",
+      "#14a61c",
+      "#74745c"
+    ],
+    "hidden": false,
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Bone_dagger_(p)_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Bone_dagger_(p)_equipped.png"
+    },
+    "name": "Bone dagger (Poison)",
+    "slot": "weapon",
+    "status": [
+      "variant"
+    ],
+    "variant": "Poison",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=10472&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=10472#Poison",
       "pageId": 10472
     }
   },
@@ -8302,6 +8328,30 @@
   },
   {
     "colors": [
+      "#80735d",
+      "#865b14",
+      "#1a1814"
+    ],
+    "hidden": false,
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Construct._cape(t)_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Construct._cape(t)_equipped.png"
+    },
+    "name": "Construct. cape (Trimmed)",
+    "slot": "cape",
+    "status": [
+      "untradeable",
+      "variant"
+    ],
+    "variant": "Trimmed",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=10527&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=10527#Trimmed",
+      "pageId": 10527
+    }
+  },
+  {
+    "colors": [
       "#7c7363",
       "#1a1814",
       "#7d5821"
@@ -8311,14 +8361,16 @@
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Construct._cape_detail.png",
       "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Construct._cape_equipped.png"
     },
-    "name": "Construct. cape",
+    "name": "Construct. cape (Untrimmed)",
     "slot": "cape",
     "status": [
-      "untradeable"
+      "untradeable",
+      "variant"
     ],
+    "variant": "Untrimmed",
     "wiki": {
       "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=10527&prop=categories|images|templates|wikitext&format=json",
-      "link": "https://oldschool.runescape.wiki/w/?curid=10527",
+      "link": "https://oldschool.runescape.wiki/w/?curid=10527#Untrimmed",
       "pageId": 10527
     }
   },
@@ -20056,8 +20108,7 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Ring_of_stone_detail.png",
-      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Ring_of_stone_equipped.png"
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Ring_of_stone_detail.png"
     },
     "name": "Ring of stone",
     "slot": "ring",
@@ -21337,11 +21388,13 @@
     "name": "Mining helmet",
     "slot": "head",
     "status": [
-      "untradeable"
+      "untradeable",
+      "variant"
     ],
+    "variant": "Unlit",
     "wiki": {
       "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=19576&prop=categories|images|templates|wikitext&format=json",
-      "link": "https://oldschool.runescape.wiki/w/?curid=19576",
+      "link": "https://oldschool.runescape.wiki/w/?curid=19576#Unlit",
       "pageId": 19576
     }
   },
@@ -62392,9 +62445,7 @@
   },
   {
     "hidden": false,
-    "images": {
-      "detail": null
-    },
+    "images": {},
     "name": "Rune berserker shield",
     "slot": "shield",
     "status": [],
