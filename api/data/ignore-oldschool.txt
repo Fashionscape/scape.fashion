@@ -1,1 +1,193 @@
+Opal bolts
+Barbed bolts
+Opal bolts (e)
+Pearl bolts (e)
+Pearl bolts
+Steel brutal
+Bronze bolts
+Bronze bolts (Poison)
+Steel bolts
+Steel bolts (Poison)
+Iron bolts
+Iron bolts (Poison)
+Adamant arrow
+Adamant arrow (Poison)
+Adamant bolts
+Adamant bolts (Poison)
+Archers ring
+Bronze arrow
+Bronze arrow (Poison)
+Bronze brutal
+Bronze fire arrow
+Iron arrow
+Iron arrow (Poison)
+Mithril arrow
+Mithril arrow (Poison)
+Mithril bolts
+Mithril bolts (Poison)
+Rune arrow
+Rune arrow (Poison)
+Steel arrow
+Steel arrow (Poison)
+Beacon ring
+Berserker ring
+Blurite bolts
+Blurite bolts (Poison)
+Bolt rack
+Bone bolts
+Diamond bolts
+Diamond bolts (e)
+Diamond ring
+Dragon arrow
+Dragon arrow (Poison)
+Dragonstone bolts
+Dragonstone ring
+Emerald bolts
+Emerald bolts (e)
+Gold ring
+Guam tar
+Ice arrows
+Jade bolts
+Kebbit bolts
+Long kebbit bolts
+Lunar ring
+Marrentill tar
+Onyx bolts (e)
+Onyx ring
+Ring of dueling
+Ring of wealth (Uncharged)
+Ruby bolts
+Ruby bolts (e)
+Ruby ring
+Runite bolts
+Runite bolts (Poison)
+Sapphire bolts
+Sapphire bolts (e)
+Sapphire ring
+Seers ring
+Warrior ring
+Emerald ring
+Ring of forging
+Ring of charos
+Ring of life
+Ring of visibility
+Silver bolts
+Silver bolts (Poison)
+Training arrows
+Ring of recoil
+Jade bolts (e)
+Dragonstone bolts (e)
+Ring of stone
+Onyx bolts
+Karamjan monkey greegree
+Topaz bolts
+Mith grapple
+Rune brutal
+Easter ring
+Iron brutal
+Broad arrows
+Iron fire arrow
+Berserker ring (i)
+Topaz bolts (e)
+Warrior ring (i)
+Archers ring (i)
+Seers ring (i)
+Tarromin tar
+Harralander tar
+Slayer ring
+Broad bolts
+Adamant brutal
+Black brutal
+Mithril brutal
+Ogre arrow
+Rune fire arrow
+Steel fire arrow
+Mithril fire arrow
+Adamant fire arrow
+Dragon fire arrow
+Tyrannical ring
+Treasonous ring
+Ring of the gods
+Tyrannical ring (i)
+Treasonous ring (i)
+Ring of wealth (i) (Uncharged)
+Explorer's ring 1
+Explorer's ring 2
+Explorer's ring 3
+Explorer's ring 4
+'perfect' ring
+Ring of the gods (i)
+Zombie monkey greegree (small)
+Zombie monkey greegree (big)
+Ninja monkey greegree (small)
+Ninja monkey greegree (medium)
+Gorilla greegree
+Bearded gorilla greegree
+Ring of suffering
+Zenyte ring
+Dragon javelin
+Dragon javelin (Poison)
+Kruk monkey greegree
+Ring of suffering (i)
+Holy blessing
+Peaceful blessing
+Unholy blessing
+Honourable blessing
+War blessing
+Ancient blessing
+Ring of coins
+Ring of nature
+Opal ring
+Jade ring
+Topaz ring
+Ring of pursuit
+Ring of returning
+Efaritay's aid
+Slayer ring (eternal)
+Amethyst broad bolts
+Amethyst arrow
+Amethyst arrow (Poison)
+Amethyst fire arrow
+Amethyst javelin
+Amethyst javelin (Poison)
+A chair
+Beer glass (Forgettable Tale...)
+Granite ring
+Granite ring (i)
+Dragon bolts
+Dragon bolts (Poison)
+Diamond dragon bolts (e)
+Opal dragon bolts (e)
+Jade dragon bolts (e)
+Pearl dragon bolts (e)
+Topaz dragon bolts (e)
+Sapphire dragon bolts (e)
+Emerald dragon bolts (e)
+Ruby dragon bolts (e)
+Dragonstone dragon bolts (e)
+Onyx dragon bolts (e)
+Opal dragon bolts
+Jade dragon bolts
+Pearl dragon bolts
+Topaz dragon bolts
+Sapphire dragon bolts
+Emerald dragon bolts
+Ruby dragon bolts
+Diamond dragon bolts
+Dragonstone dragon bolts
+Onyx dragon bolts
+Bullet arrow
+Field arrow
+Blunt arrow
+Barbed arrow
+Brimstone ring
+Rada's blessing 1
+Rada's blessing 2
+Rada's blessing 3
+Rada's blessing 4
+Ring of 3rd age
+Elven signet
 Rune berserker shield
+Ring of endurance (Charged)
+Ring of endurance (Uncharged)
+Hallowed ring

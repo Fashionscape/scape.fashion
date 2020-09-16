@@ -7832,7 +7832,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Builder's_boots_detail.png",
-      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Builder's_outfit_equipped.png"
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Builder's_costume_equipped.png"
     },
     "name": "Builder's boots",
     "slot": "feet",
@@ -7854,7 +7854,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Builder's_shirt_detail.png",
-      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Builder's_outfit_equipped.png"
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Builder's_costume_equipped.png"
     },
     "name": "Builder's shirt",
     "slot": "body",
@@ -7876,7 +7876,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Builder's_trousers_detail.png",
-      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Builder's_outfit_equipped.png"
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Builder's_costume_equipped.png"
     },
     "name": "Builder's trousers",
     "slot": "leg",
@@ -11160,7 +11160,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Hard_hat_detail.png",
-      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Builder's_outfit_equipped.png"
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Builder's_costume_equipped.png"
     },
     "name": "Hard hat",
     "slot": "head",
@@ -13472,7 +13472,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Ranger_boots_detail.png",
-      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Ranger_outfit_equipped.png"
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Ranger_kit_equipped.png"
     },
     "name": "Ranger boots",
     "slot": "feet",
@@ -20450,7 +20450,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Robin_hood_hat_detail.png",
-      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Ranger_outfit_equipped.png"
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Ranger_kit_equipped.png"
     },
     "name": "Robin hood hat",
     "slot": "head",
@@ -35892,7 +35892,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Rangers'_tunic_detail.png",
-      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Ranger_outfit_equipped.png"
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Ranger_kit_equipped.png"
     },
     "name": "Rangers' tunic",
     "slot": "body",
@@ -36121,7 +36121,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Druidic_wreath_detail.png",
-      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/3rd_age_druidic_robes_equipped.png"
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/3rd_Age_Druidic_robes_equipped.png"
     },
     "name": "Druidic wreath",
     "slot": "head",
@@ -39821,7 +39821,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/3rd_age_full_helmet_detail.png",
-      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/3rd_age_melee_armour_equipped.png"
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/3rd_Age_armour_equipped.png"
     },
     "name": "3rd age full helmet",
     "slot": "head",
@@ -39841,7 +39841,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/3rd_age_platebody_detail.png",
-      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/3rd_age_melee_armour_equipped.png"
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/3rd_Age_armour_equipped.png"
     },
     "name": "3rd age platebody",
     "slot": "body",
@@ -39861,7 +39861,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/3rd_age_platelegs_detail.png",
-      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/3rd_age_melee_armour_equipped.png"
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/3rd_Age_armour_equipped.png"
     },
     "name": "3rd age platelegs",
     "slot": "leg",
@@ -39881,7 +39881,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/3rd_age_kiteshield_detail.png",
-      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/3rd_age_melee_armour_equipped.png"
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/3rd_Age_armour_equipped.png"
     },
     "name": "3rd age kiteshield",
     "slot": "shield",
@@ -39901,7 +39901,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/3rd_age_mage_hat_detail.png",
-      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/3rd_age_mage_armour_equipped.png"
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/3rd_Age_mage_robes_equipped.png"
     },
     "name": "3rd age mage hat",
     "slot": "head",
@@ -39921,7 +39921,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/3rd_age_robe_top_detail.png",
-      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/3rd_age_mage_armour_equipped.png"
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/3rd_Age_mage_robes_equipped.png"
     },
     "name": "3rd age robe top",
     "slot": "body",
@@ -39941,7 +39941,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/3rd_age_robe_detail.png",
-      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/3rd_age_mage_armour_equipped.png"
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/3rd_Age_mage_robes_equipped.png"
     },
     "name": "3rd age robe",
     "slot": "leg",
@@ -39961,7 +39961,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/3rd_age_range_coif_detail.png",
-      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/3rd_age_range_armour_equipped.png"
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/3rd_Age_ranger_kit_equipped.png"
     },
     "name": "3rd age range coif",
     "slot": "head",
@@ -39981,7 +39981,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/3rd_age_range_top_detail.png",
-      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/3rd_age_range_armour_equipped.png"
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/3rd_Age_ranger_kit_equipped.png"
     },
     "name": "3rd age range top",
     "slot": "body",
@@ -40001,7 +40001,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/3rd_age_vambraces_detail.png",
-      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/3rd_age_range_armour_equipped.png"
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/3rd_Age_ranger_kit_equipped.png"
     },
     "name": "3rd age vambraces",
     "slot": "hand",
@@ -40021,7 +40021,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/3rd_age_range_legs_detail.png",
-      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/3rd_age_range_armour_equipped.png"
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/3rd_Age_ranger_kit_equipped.png"
     },
     "name": "3rd age range legs",
     "slot": "leg",
@@ -49093,7 +49093,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Ranger_gloves_detail.png",
-      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Ranger_outfit_equipped.png"
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Ranger_kit_equipped.png"
     },
     "name": "Ranger gloves",
     "slot": "hand",
@@ -59858,7 +59858,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Rangers'_tights_detail.png",
-      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Ranger_outfit_equipped.png"
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Ranger_kit_equipped.png"
     },
     "name": "Rangers' tights",
     "slot": "leg",
@@ -60108,7 +60108,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/3rd_age_druidic_robe_top_detail.png",
-      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/3rd_age_druidic_robes_equipped.png"
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/3rd_Age_Druidic_robes_equipped.png"
     },
     "name": "3rd age druidic robe top",
     "slot": "body",
@@ -60128,7 +60128,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/3rd_age_druidic_robe_bottoms_detail.png",
-      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/3rd_age_druidic_robes_equipped.png"
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/3rd_Age_Druidic_robes_equipped.png"
     },
     "name": "3rd age druidic robe bottoms",
     "slot": "leg",
@@ -60148,7 +60148,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/3rd_age_druidic_staff_detail.png",
-      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/3rd_age_druidic_robes_equipped.png"
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/3rd_Age_Druidic_robes_equipped.png"
     },
     "name": "3rd age druidic staff",
     "slot": "weapon",
