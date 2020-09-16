@@ -36,8 +36,8 @@ const slots = {
 
 const categories = slots.map(slot => slot.category);
 
-const isVisible = item =>
-  !['ammunition', 'pocket', 'ring', 'sigil'].includes(item.slot);
+const isVisible = slot =>
+  !['ammunition', 'pocket', 'ring', 'sigil'].includes(slot);
 
 const toSlot = categories => {
   const slot = slots.find(slot => categories.includes(slot.category));

@@ -6,7 +6,7 @@ const ignoredItems = fs
   .readFileSync(`./ignore-${config.release}.txt`, 'utf8')
   .split('\n');
 
-const isIgnored = item => ignoredItems.includes(item.name);
+const isIgnored = name => ignoredItems.includes(name);
 
 const update = rsrelease => {
   const items = require(`../items-${rsrelease}.json`);

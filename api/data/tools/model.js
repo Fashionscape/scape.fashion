@@ -1,3 +1,5 @@
+const fetch = require('node-fetch');
+
 const Ignore = require('./ignore');
 const Hide = require('./hide');
 const Image = require('./image');
@@ -6,13 +8,30 @@ const Variant = require('./variant');
 const Wiki = require('./wiki');
 const {toItem} = require('./item');
 
-const hasError = item => {
-  if (Ignore.isIgnored(item)) return false;
-  if (Hide.isHidden(item.name)) return false;
-  if (!item.slot) return true;
-  if (!item.images.detail) return true;
-  if (Slot.isVisible(item) && !item.images.equipped) return true;
-  if (!item.colors.length) return true;
+const isImageType = url =>
+  fetch(url)
+    .then(res => res.headers.get('content-type'))
+    .then(type => type.startsWith('image/'));
+
+const withValidImages = async item => {
+  if (!item.images.equipped) return item;
+
+  const isImage = await isImageType(item.images.equipped);
+  if (isImage) return item;
+
+  console.error('Corrupt image url: ', item.images.equipped);
+  delete item.images.equipped;
+
+  return item;
+};
+
+const hasError = ({colors, images, name, slot}) => {
+  if (Ignore.isIgnored(name)) return false;
+  if (Hide.isHidden(name)) return false;
+  if (!slot) return true;
+  if (!images.detail) return true;
+  if (!colors.length) return true;
+  if (Slot.isVisible(slot) && !images.equipped) return true;
 
   return false;
 };
@@ -36,4 +55,4 @@ const toItems = ({parse}) => {
   return [withImages(item)(wikitext)];
 };
 
-module.exports = {hasError, toItems};
+module.exports = {hasError, toItems, withValidImages};

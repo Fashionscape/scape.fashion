@@ -30,7 +30,8 @@ const byPageId = (a, b) => a.wiki.pageId - b.wiki.pageId;
 const importFromPage = async pageId => {
   const doc = await Wiki.parse(pageId);
   const items = Model.toItems(doc);
-  const itemsWithColor = await Promise.all(items.map(withColor));
+  const itemsWithImages = await Promise.all(items.map(Model.withValidImages));
+  const itemsWithColor = await Promise.all(itemsWithImages.map(withColor));
   return itemsWithColor;
 };
 

@@ -6,6 +6,7 @@ Config.set(rsrelease);
 const config = Config.get();
 
 const File = require('./file');
+const Model = require('./model');
 const Wiki = require('./wiki');
 const {toItems} = require('./model');
 const {withColor} = require('./color');
@@ -13,7 +14,8 @@ const {withColor} = require('./color');
 const tryPage = async pageId => {
   const doc = await Wiki.parse(pageId);
   const items = toItems(doc);
-  const itemsWithColor = await Promise.all(items.map(withColor));
+  const itemsWithImages = await Promise.all(items.map(Model.withValidImages));
+  const itemsWithColor = await Promise.all(itemsWithImages.map(withColor));
 
   const output = File.format(itemsWithColor);
   console.log(output);
