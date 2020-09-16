@@ -35,7 +35,7 @@ const importFromPage = async pageId => {
   return itemsWithColor;
 };
 
-const refreshFromPage = pageId => {
+const refreshFromPage = async pageId => {
   const items = pageMap.get(pageId);
 
   const hasError = items.some(Model.hasError);

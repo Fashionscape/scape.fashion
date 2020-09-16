@@ -770,6 +770,7 @@ Dervish robe (red)
 Dervish robe (sepia)
 Dervish robe (pink)
 Dervish robe (violet)
+Pharaoh's top (purple)
 Wushanko jacket (red)
 Wushanko jacket (blue)
 Wushanko jacket (pink)
@@ -1819,6 +1820,7 @@ Rainbow unicorn plushie
 Ancient gladiator helm
 Yak Track Task List
 Golden gnome hat 2019
+Augmented dragon mattock
 Pontifex signet ring
 Bubbles (Archaeology)
 Hooded archaeology cape

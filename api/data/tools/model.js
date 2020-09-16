@@ -9,9 +9,10 @@ const Wiki = require('./wiki');
 const {toItem} = require('./item');
 
 const isImageType = url =>
-  fetch(url, {method: 'HEAD'})
+  fetch(new URL(url), {method: 'HEAD'})
     .then(res => res.headers.get('content-type'))
-    .then(type => type.startsWith('image/'));
+    .then(type => type.startsWith('image/'))
+    .catch(() => false);
 
 const withValidImages = async item => {
   if (!item.images.equipped) return item;
