@@ -9,7 +9,7 @@ const Wiki = require('./wiki');
 const {toItem} = require('./item');
 
 const isImageType = url =>
-  fetch(url)
+  fetch(url, {method: 'HEAD'})
     .then(res => res.headers.get('content-type'))
     .then(type => type.startsWith('image/'));
 

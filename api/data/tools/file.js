@@ -2,12 +2,23 @@ const fs = require('fs');
 
 const config = require('./config').get();
 
-const format = items => {
-  const keys = new Set();
-  JSON.stringify(items, (k, v) => (keys.add(k), v));
+const keys = [
+  'api',
+  'colors',
+  'detail',
+  'equipped',
+  'hidden',
+  'link',
+  'images',
+  'name',
+  'pageId',
+  'slot',
+  'status',
+  'variant',
+  'wiki',
+];
 
-  return JSON.stringify(items, [...keys].sort(), 2);
-};
+const format = items => JSON.stringify(items, keys, 2);
 
 const Error = (() => {
   const write = items => {
