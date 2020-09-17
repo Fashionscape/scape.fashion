@@ -12,8 +12,8 @@ const searchUrl = ({color, item, isByColor, slot}) => {
   slot = slot || '';
 
   return isByColor
-    ? `${config.api}/colors/${color}?slot=${slot}`
-    : `${config.api}/items/${item}?slot=${slot}`;
+    ? `${config.api}/items/match?color=${color}&slot=${slot}`
+    : `${config.api}/items/match?name=${item}&slot=${slot}`;
 };
 
 const SearchResults = props => {
