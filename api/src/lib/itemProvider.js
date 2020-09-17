@@ -1,3 +1,5 @@
+const Fuse = require('fuse.js');
+
 const rsHost = process.env.RS_HOST;
 
 const oldschoolItems = require('../../data/items-oldschool.json');
@@ -10,11 +12,18 @@ const items = {
   runescape: runescapeItems.filter(isDisplayable),
 };
 
+const fuseOpts = {keys: ['name'], threshold: 0.5};
+const fuses = {
+  oldschool: new Fuse(items.oldschool, fuseOpts),
+  runescape: new Fuse(items.runescape, fuseOpts),
+};
+
 const toRelease = host => (host === rsHost ? 'runescape' : 'oldschool');
 
 const itemProvider = (req, res, next) => {
   const release = toRelease(req.headers.host);
   req.items = items[release];
+  req.fuse = fuses[release];
   next();
 };
 
