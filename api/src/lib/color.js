@@ -1,9 +1,7 @@
 const colordiff = require('color-difference');
 
-const rsrelease = process.env.RUNESCAPE_VERSION || 'oldschool';
-
 const SLOT_WEIGHTS = {
-  oldschool: {
+  ...{
     ammunition: 0.01,
     body: 1.0,
     cape: 0.9,
@@ -16,7 +14,7 @@ const SLOT_WEIGHTS = {
     shield: 1.0,
     weapon: 1.0,
   },
-  runescape: {
+  ...{
     'off-hand': 1.0,
     'two-handed': 1.0,
     ammunition: 0.01,
@@ -32,7 +30,7 @@ const SLOT_WEIGHTS = {
     sigil: 0.01,
     torso: 1.0,
   },
-}[rsrelease];
+};
 
 const byValue = (a, b) => a - b;
 
