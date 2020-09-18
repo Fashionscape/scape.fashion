@@ -12,11 +12,13 @@ const byName = (a, b) => {
   return 0;
 };
 
-router.get('/', (req, res) => {
-  const items = req.items;
-  const itemsNameOnly = items.map(item => ({name: item.name})).sort(byName);
+const pick = keys => o => keys.reduce((a, e) => ({...a, [e]: o[e]}), {});
 
-  res.json({items: itemsNameOnly});
+router.get('/', validate.list, (req, res) => {
+  const keys = req.query.keys?.split(',');
+  const items = keys ? req.items.map(pick(keys)) : req.items;
+
+  res.json({items});
 });
 
 router.get('/match', validate.match, (req, res) => {

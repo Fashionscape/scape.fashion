@@ -16,6 +16,17 @@ const find = (() => {
   return Validate.rules(rules);
 })();
 
+const list = (() => {
+  const rules = [
+    ({keys}) =>
+      keys &&
+      !keys.split(',').length &&
+      'Please provide a comma-separated list of keys',
+  ];
+
+  return Validate.rules(rules);
+})();
+
 const match = (() => {
   const isHexColor = input => /^#[0-9A-Fa-f]{6}$/i.test(input);
 
@@ -32,4 +43,4 @@ const match = (() => {
   return Validate.rules(rules);
 })();
 
-module.exports = {find, match};
+module.exports = {find, list, match};
