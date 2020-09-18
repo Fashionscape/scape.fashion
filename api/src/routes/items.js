@@ -70,27 +70,4 @@ const byMatch = (a, b) => a.match - b.match;
 
 const isForSlot = slot => item => !slot || item.slot === slot;
 
-// TODO: deprecate
-router.get('/:name', (req, res) => {
-  const name = req.params.name;
-  const items = req.items;
-  const slot = req.query.slot;
-
-  const targetItem = items.find(
-    item => item.name.toLowerCase() === name.toLowerCase(),
-  );
-
-  if (!targetItem) throw Error('Item not found.');
-
-  const targetColors = targetItem ? targetItem.colors : [];
-
-  const matches = items
-    .filter(isForSlot(slot))
-    .map(withMatch(targetColors))
-    .sort(byMatch)
-    .slice(0, 50);
-
-  res.json({items: matches});
-});
-
 module.exports = router;

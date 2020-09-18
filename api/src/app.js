@@ -11,7 +11,6 @@ app.use(bodyParser.urlencoded({extended: false}));
 
 app.use(itemProvider);
 
-app.use('/colors', require('./routes/colors')); // TODO: deprecate
 app.use('/items', require('./routes/items'));
 
 app.use('/', (req, res) => res.sendStatus(404));
