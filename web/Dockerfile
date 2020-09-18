@@ -1,5 +1,5 @@
 # ----------- Builder ----------
-FROM node:10.16 as builder
+FROM node:12.14 as builder
 
 WORKDIR /usr/src/app
 
