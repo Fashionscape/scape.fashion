@@ -2,7 +2,7 @@
 
 echo $npm_package_version > .version
 
-tag="fashionscape-web-v$npm_package_version"
+tag="web-v$npm_package_version"
 
 git add package.json
 git add .version
