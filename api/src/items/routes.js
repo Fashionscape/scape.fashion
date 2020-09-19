@@ -34,17 +34,23 @@ router.get('/match', validate.match, (req, res) => {
     .filter(isMembers(members))
     .filter(isTradeable(tradeable))
     .map(Match.withMatch(colors))
-    .sort(byMatch)
-    .slice(pageStart(page), pageEnd(page));
+    .sort(byMatch);
+
+  const lastPage = indexOfLastPage(matches.length);
+  const results = matches.slice(pageStart(page), pageEnd(page));
 
   const result = {
-    items: matches,
     ...(color && {color}),
     ...(name && {name: item.name}),
+    items: results,
+    page,
+    lastPage,
   };
 
   res.json(result);
 });
+
+const indexOfLastPage = count => Math.max(0, Math.ceil(count / PAGE_SIZE) - 1);
 
 const byMatch = (a, b) => a.match - b.match;
 
