@@ -2,7 +2,7 @@ const Validate = require('../validate');
 
 const find = (() => {
   const rules = [
-    ({id, name}) => !id && !name && 'Must include name or id in query params.',
+    ({id, name}) => !id && !name && 'Must include name or id in query params',
     ({id}, req) =>
       id &&
       !req.items.find(item => item.wiki.pageId === id) &&
@@ -32,12 +32,13 @@ const match = (() => {
 
   const rules = [
     ({color, name}) =>
-      !color && !name && 'Must include name or color in query params.',
+      !color && !name && 'Must include name or color in query params',
     ({name}, req) =>
       name &&
       !req.fuse.search(name).length &&
       `No item matching search: ${name}`,
     ({color}) => color && !isHexColor(color) && `Invalid color: ${color}`,
+    ({page}) => page  && !Number(page) && 'page must be a number',
   ];
 
   return Validate.rules(rules);
