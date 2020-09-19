@@ -23,13 +23,15 @@ router.get('/', validate.list, (req, res) => {
 
 router.get('/match', validate.match, (req, res) => {
   const {fuse, items} = req;
-  const {color, name, slot} = req.query;
+  const {color, members, name, slot, tradeable} = req.query;
 
   const item = name && fuse.search(name)[0].item;
   const colors = color ? [color] : item.colors;
 
   const matches = items
     .filter(isForSlot(slot))
+    .filter(isMembers(members))
+    .filter(isTradeable(tradeable))
     .map(Match.withMatch(colors))
     .sort(byMatch)
     .slice(0, 50);
@@ -46,6 +48,20 @@ router.get('/match', validate.match, (req, res) => {
 const byMatch = (a, b) => a.match - b.match;
 
 const isForSlot = slot => item => !slot || item.slot === slot;
+
+const toBoolean = param => !['0', 'false'].includes(param);
+
+const isMembers = members => item => {
+  if (members === undefined) return true;
+  const isMembers = !item.status.includes('freetoplay');
+  return toBoolean(members) ? isMembers : !isMembers;
+};
+
+const isTradeable = tradeable => item => {
+  if (tradeable === undefined) return true;
+  const isTradeable = !item.status.includes('untradeable');
+  return toBoolean(tradeable) ? isTradeable : !isTradeable;
+};
 
 router.get('/find', validate.find, (req, res) => {
   const {fuse, items} = req;
