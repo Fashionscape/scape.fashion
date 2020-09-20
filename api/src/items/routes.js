@@ -52,9 +52,14 @@ router.get('/match', validate.match, (req, res) => {
 
 const indexOfLastPage = count => Math.max(0, Math.ceil(count / PAGE_SIZE) - 1);
 
-const byMatch = (a, b) => a.match - b.match;
+const byMatch = (a, b) => b.match - a.match;
 
-const isForSlot = slot => item => !slot || item.slot === slot;
+const invisibleSlots = ['ammunition', 'pocket', 'ring', 'sigil'];
+
+const isForSlot = slot => item => {
+  if (!slot) return !invisibleSlots.includes(item.slot);
+  return item.slot === slot;
+};
 
 const toBoolean = param => !['0', 'false'].includes(param);
 
