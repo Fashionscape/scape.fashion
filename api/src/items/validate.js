@@ -38,7 +38,11 @@ const match = (() => {
       !req.fuse.search(name).length &&
       `No item matching search: ${name}`,
     ({color}) => color && !isHexColor(color) && `Invalid color: ${color}`,
-    ({page}) => page  && !Number(page) && 'page must be a number',
+    ({allowance}) =>
+      allowance &&
+      (Number(allowance) < 0 || 1 < Number(allowance)) &&
+      'Allowance must be between 0 and 1',
+    ({page}) => page && !Number(page) && 'page must be a number',
   ];
 
   return Validate.rules(rules);

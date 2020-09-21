@@ -23,7 +23,7 @@ router.get('/', validate.list, (req, res) => {
 
 router.get('/match', validate.match, (req, res) => {
   const {fuse, items} = req;
-  const {color, members, name, slot, tradeable} = req.query;
+  const {allowance, color, members, name, slot, tradeable} = req.query;
   const page = Number(req.query.page || 0);
 
   const item = name && fuse.search(name)[0].item;
@@ -33,7 +33,7 @@ router.get('/match', validate.match, (req, res) => {
     .filter(isForSlot(slot))
     .filter(isMembers(members))
     .filter(isTradeable(tradeable))
-    .map(Match.withMatch(colors))
+    .map(Match.withMatch(colors, {allowance}))
     .sort(byMatch);
 
   const lastPage = indexOfLastPage(matches.length);
