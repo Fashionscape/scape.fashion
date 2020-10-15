@@ -1,22 +1,16 @@
 import React from 'react';
-import {Switch,Route} from 'react-router-dom'
-
-import Header from './Header';
-import Search from './Search';
-import Footer from './Footer';
+import {BrowserRouter, Switch, Route} from 'react-router-dom';
 
 const App = () => {
   return (
-    <>
-      <Header />
-      <Switch>
-        <Route path="/colors/:color" component={Search} />
-        <Route path="/items/:item" component={Search} />
-        <Route path="/" component={Search} />
-      </Switch>
-      <Footer />
-    </>
+    <BrowserRouter>
+      <Main />
+    </BrowserRouter>
   );
+};
+
+const Main = () => {
+  return 'Hello, world';
 };
 
 export default App;
