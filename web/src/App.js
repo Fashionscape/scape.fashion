@@ -3,7 +3,10 @@ import React from 'react';
 import {BrowserRouter} from 'react-router-dom';
 
 import Header from 'Header';
+import Home from 'Home';
 import SFTheme from 'theme';
+
+import './App.css';
 
 const App = () => {
   return (
@@ -20,7 +23,7 @@ const Main = () => {
   return (
     <>
       <Header />
-      <span>Hello, world!</span>
+      <Home />
     </>
   );
 };
