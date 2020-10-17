@@ -1,5 +1,5 @@
 import React from 'react';
-import {Button, IconButton, InputAdornment} from '@material-ui/core';
+import {IconButton, InputAdornment} from '@material-ui/core';
 import {Palette as PaletteIcon, Search as SearchIcon} from '@material-ui/icons';
 import {makeStyles} from '@material-ui/core/styles';
 

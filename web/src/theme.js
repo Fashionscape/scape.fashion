@@ -14,13 +14,13 @@ const darkTheme = {
     primary: {
       main: colors.grey[50],
     },
-    type: 'dark',
+    mode: 'dark',
   },
 };
 
 const lightTheme = {
   palette: {
-    type: 'light',
+    mode: 'light',
   },
 };
 
