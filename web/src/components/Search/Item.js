@@ -6,8 +6,8 @@ import useItems from 'hooks/items';
 
 const keys = ['name'];
 
-const ItemSearch = props => {
-  const {onChange, value = ''} = props;
+const ItemSearch = React.memo(props => {
+  const {InputProps, onChange, value = ''} = props;
 
   const items = useItems(keys);
 
@@ -16,6 +16,7 @@ const ItemSearch = props => {
 
   return (
     <Autocomplete
+      disableClearable
       freeSolo
       fullWidth
       inputValue={value}
@@ -24,6 +25,7 @@ const ItemSearch = props => {
       renderInput={params => (
         <TextField
           {...params}
+          InputProps={{...params.InputProps, ...InputProps}}
           label="Item"
           fullWidth
           margin="normal"
@@ -32,6 +34,6 @@ const ItemSearch = props => {
       )}
     />
   );
-};
+});
 
 export default ItemSearch;

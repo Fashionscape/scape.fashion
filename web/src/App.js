@@ -2,7 +2,6 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import React from 'react';
 import {BrowserRouter} from 'react-router-dom';
 
-import Header from 'Header';
 import Home from 'Home';
 import SFTheme from 'theme';
 
@@ -22,7 +21,6 @@ const App = () => {
 const Main = () => {
   return (
     <>
-      <Header />
       <Home />
     </>
   );
