@@ -1,23 +1,22 @@
 import React from 'react';
-import {ArrowDropDown} from '@material-ui/icons';
+import {Button, IconButton, InputAdornment} from '@material-ui/core';
+import {Palette as PaletteIcon, Search as SearchIcon} from '@material-ui/icons';
 import {makeStyles} from '@material-ui/core/styles';
-import {
-  Button,
-  IconButton,
-  ClickAwayListener,
-  InputAdornment,
-  MenuList,
-  MenuItem,
-  Paper,
-  Popper,
-} from '@material-ui/core';
 
+import ChestplateIcon from './ChestplateIcon';
 import Search from './';
+
+const useStyles = makeStyles({
+  adornedEnd: {
+    paddingRight: '14px !important',
+  },
+});
 
 const ComboSearch = React.memo(props => {
   const {onChange, value} = props;
 
   const [searchBy, setSearchBy] = React.useState('item');
+  const classes = useStyles();
 
   const handleSearchBy = value => {
     onChange(undefined);
@@ -30,7 +29,8 @@ const ComboSearch = React.memo(props => {
     <Component
       onChange={onChange}
       InputProps={{
-        endAdornment: <SearchBy onSelect={handleSearchBy} />,
+        classes,
+        endAdornment: <SearchBy onSelect={handleSearchBy} value={searchBy} />,
       }}
       value={value}
     />
@@ -38,43 +38,27 @@ const ComboSearch = React.memo(props => {
 });
 
 const SearchBy = props => {
-  const {onSelect} = props;
+  const {onSelect, value} = props;
 
-  const buttonRef = React.useRef();
-  const [open, setOpen] = React.useState(false);
-
-  const handleClickAway = e => {
-    if (buttonRef.current?.contains(e.target)) return;
-    setOpen(false);
-  };
+  const isByItem = value === 'item';
 
   const handleToggle = e => {
     e.stopPropagation();
-    setOpen(open => !open);
-  };
-
-  const handleSelect = value => {
-    setOpen(false);
-    onSelect(value);
+    onSelect(isByItem ? 'color' : 'item');
   };
 
   return (
     <InputAdornment position="end">
-      <IconButton edge="end" onClick={handleToggle} ref={buttonRef}>
-        <ArrowDropDown />
+      <IconButton edge="end" onClick={handleToggle}>
+        {isByItem ? (
+          <PaletteIcon titleAccess="Search by Color" />
+        ) : (
+          <ChestplateIcon titleAccess="Search by Item" />
+        )}
       </IconButton>
-      <Popper anchorEl={buttonRef.current} open={open}>
-        <Paper>
-          <ClickAwayListener onClickAway={handleClickAway}>
-            <MenuList>
-              <MenuItem onClick={() => handleSelect('item')}>By Item</MenuItem>
-              <MenuItem onClick={() => handleSelect('color')}>
-                By Color
-              </MenuItem>
-            </MenuList>
-          </ClickAwayListener>
-        </Paper>
-      </Popper>
+      <IconButton edge="end">
+        <SearchIcon />
+      </IconButton>
     </InputAdornment>
   );
 };

@@ -16,8 +16,7 @@ const Home = () => {
             scape.fashion
           </Typography>
           <Typography align="center" gutterBottom variant="subtitle1">
-            find the perfect match for your fashionscape outfit in Old School
-            Runescape
+            find the perfect match for your outfit in Old School Runescape
           </Typography>
           <SearchForm />
         </Section>
