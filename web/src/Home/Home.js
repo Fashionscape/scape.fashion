@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Typography, Link, Box } from "@material-ui/core";
+import { Typography, Link, Box } from "@material-ui/core";
 
 import Header from "./Header";
 import SearchForm from "./SearchForm";

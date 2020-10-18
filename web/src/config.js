@@ -1,29 +1,41 @@
-const isDev = process.env.NODE_ENV === 'development';
-const isRS3 = window.location.hostname === 'rune.scape.fashion';
+const isDev = process.env.NODE_ENV === "development";
+const isRS3 = window.location.hostname === "rune.scape.fashion";
 
-const env = isDev ? 'development' : isRS3 ? 'runescape' : 'oldschool';
+const env = isDev ? "development" : isRS3 ? "runescape" : "oldschool";
 
 const config = {
   oldschool: {
-    analytics: {
-      trackingId: 'UA-101624095-5',
+    alternate: {
+      name: "RS3",
+      url: "https://rune.scape.fashion",
     },
-    api: 'https://api.scape.fashion',
-    release: 'oldschool',
+    analytics: {
+      trackingId: "UA-101624095-5",
+    },
+    api: "https://api.scape.fashion",
+    release: "oldschool",
   },
   runescape: {
-    analytics: {
-      trackingId: 'UA-101624095-7',
+    alternate: {
+      name: "OSRS",
+      url: "https://scape.fashion",
     },
-    api: 'https://api.rune.scape.fashion',
-    release: 'runescape',
+    analytics: {
+      trackingId: "UA-101624095-7",
+    },
+    api: "https://api.rune.scape.fashion",
+    release: "runescape",
   },
   development: {
-    analytics: {
-      trackingId: 'UA-101624095-5',
+    alternate: {
+      name: "RS3",
+      url: "http://dev.nick.exposed:3000",
     },
-    api: 'http://dev.nick.exposed:8000',
-    release: 'oldschool',
+    analytics: {
+      trackingId: "UA-101624095-5",
+    },
+    api: "http://dev.nick.exposed:8000",
+    release: "oldschool",
   },
 }[env];
 

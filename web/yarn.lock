@@ -1737,10 +1737,10 @@
     react-is "^16.8.0"
     react-transition-group "^4.4.0"
 
-"@material-ui/icons@^4.9.1":
-  version "4.9.1"
-  resolved "https://registry.yarnpkg.com/@material-ui/icons/-/icons-4.9.1.tgz#fdeadf8cb3d89208945b33dbc50c7c616d0bd665"
-  integrity sha512-GBitL3oBWO0hzBhvA9KxqcowRUsA0qzwKkURyC8nppnC3fw54KPKZ+d4V1Eeg/UnDRSzDaI9nGCdel/eh9AQMg==
+"@material-ui/icons@^5.0.0-alpha.13":
+  version "5.0.0-alpha.13"
+  resolved "https://registry.yarnpkg.com/@material-ui/icons/-/icons-5.0.0-alpha.13.tgz#37b8730fa5da9e24e35879ea4e52206bb452a974"
+  integrity sha512-E1LLNdBvFIgvZBj1nk+cOHsttzTYuO+FxXNi962sxUWu21nqU/UOKnWJIEWf57fSHXMHPmxgU5ZcnqD/4pydzQ==
   dependencies:
     "@babel/runtime" "^7.4.4"
 

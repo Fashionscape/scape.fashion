@@ -1,41 +1,60 @@
-import React, {useMemo} from 'react';
-import {colors, useMediaQuery} from '@material-ui/core';
+import React from "react";
+import { colors, useMediaQuery } from "@material-ui/core";
 import {
   ThemeProvider,
   createMuiTheme,
   responsiveFontSizes,
-} from '@material-ui/core/styles';
+} from "@material-ui/core/styles";
 
 const darkTheme = {
   palette: {
     background: {
-      default: '#121212',
+      default: "#121212",
     },
     primary: {
       main: colors.grey[50],
     },
-    mode: 'dark',
+    secondary: {
+      main: colors.grey[50],
+    },
+    mode: "dark",
   },
 };
 
 const lightTheme = {
   palette: {
-    mode: 'light',
+    mode: "light",
   },
 };
 
-const SFTheme = ({children}) => {
-  const prefersDarkMode = useMediaQuery('(prefers-color-scheme: dark)');
+const ThemeModeContext = React.createContext("dark");
 
-  const theme = useMemo(
-    () =>
-      responsiveFontSizes(
-        createMuiTheme(prefersDarkMode ? darkTheme : lightTheme),
-      ),
-    [prefersDarkMode],
+const SFTheme = ({ children }) => {
+  const [mode, setMode] = React.useState("dark");
+
+  const prefersDarkMode = useMediaQuery("(prefers-color-scheme: dark)", {
+    defaultMatches: true,
+  });
+
+  React.useEffect(() => {
+    setMode(prefersDarkMode ? "dark" : "light");
+  }, [prefersDarkMode]);
+
+  const theme = mode === "dark" ? darkTheme : lightTheme;
+  const muiTheme = React.useMemo(
+    () => responsiveFontSizes(createMuiTheme(theme)),
+    [theme]
   );
 
-  return <ThemeProvider theme={theme}>{children}</ThemeProvider>;
+  return (
+    <ThemeModeContext.Provider value={[mode, setMode]}>
+      <ThemeProvider theme={muiTheme}>{children}</ThemeProvider>
+    </ThemeModeContext.Provider>
+  );
 };
 
-export default SFTheme;
+const useThemeMode = () => React.useContext(ThemeModeContext);
+
+export { SFTheme };
+
+export default useThemeMode;
