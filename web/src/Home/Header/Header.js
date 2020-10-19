@@ -62,15 +62,15 @@ const useDesktopToolbarStyles = makeStyles((theme) => ({
     },
   },
   divider: {
-    height: 48
-  }
+    height: 48,
+  },
 }));
 
 const DesktopToolbar = ({ onToggleDarkMode }) => {
   const classes = useDesktopToolbarStyles();
 
   return (
-    <Toolbar classes={classes}>
+    <Toolbar className={classes.root}>
       <Box flex="auto" />
       <IconButton edge="end" onClick={onToggleDarkMode}>
         <DarkModeIcon />

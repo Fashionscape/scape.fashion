@@ -1,31 +1,54 @@
-import React from 'react';
-import {Autocomplete} from '@material-ui/lab';
-import {TextField} from '@material-ui/core';
+import React from "react";
+import {
+  Autocomplete,
+  TextField,
+  Typography,
+  createFilterOptions,
+  makeStyles,
+  useMediaQuery,
+} from "@material-ui/core";
+import { FixedSizeList } from "react-window";
 
-import useItems from 'hooks/items';
+import useItems from "hooks/items";
 
-const keys = ['name'];
+const keys = ["name"];
 
-const ItemSearch = React.memo(props => {
-  const {InputProps, onChange, value = ''} = props;
+const useStyles = makeStyles({
+  listbox: {
+    boxSizing: "border-box",
+    "& ul": {
+      padding: 0,
+      margin: 0,
+    },
+  },
+});
+
+const filterOptions = createFilterOptions({
+  matchFrom: "start",
+});
+
+const ItemSearch = React.memo((props) => {
+  const { InputProps, onChange, value = "" } = props;
 
   const items = useItems(keys);
-
-  const names = items.map(item => item.name);
-  const options = value.length >= 2 ? names : [];
+  const classes = useStyles();
+  const names = React.useMemo(() => items.map((i) => i.name).sort(), [items]);
 
   return (
     <Autocomplete
+      ListboxComponent={ItemList}
+      classes={classes}
       disableClearable
+      disableListWrap
+      filterOptions={filterOptions}
       freeSolo
       fullWidth
-      inputValue={value}
-      onInputChange={(_e, value) => onChange(value)}
-      options={options}
-      renderInput={params => (
+      onChange={(_e, value) => onChange(value)}
+      options={names}
+      renderInput={(params) => (
         <TextField
           {...params}
-          InputProps={{...params.InputProps, ...InputProps}}
+          InputProps={{ ...params.InputProps, ...InputProps }}
           label="Item"
           fullWidth
           margin="normal"
@@ -33,7 +56,48 @@ const ItemSearch = React.memo(props => {
           variant="outlined"
         />
       )}
+      renderOption={(props, option) => (
+        <li {...props}>
+          <Typography noWrap>{option}</Typography>
+        </li>
+      )}
+      value={value}
     />
+  );
+});
+
+const LISTBOX_PADDING = 8;
+
+const ItemList = React.forwardRef(({ children, ...outerProps }, ref) => {
+  const smUp = useMediaQuery((theme) => theme.breakpoints.up("sm"));
+  const itemData = React.Children.toArray(children);
+  const itemSize = smUp ? 36 : 48;
+  const height = itemSize * Math.min(itemData.length, 8);
+
+  return (
+    <div ref={ref}>
+      <FixedSizeList
+        height={height + 2 * LISTBOX_PADDING}
+        innerElementType="ul"
+        outerElementType={React.forwardRef((props, ref) => (
+          <div ref={ref} {...props} {...outerProps} />
+        ))}
+        overscanCount={5}
+        itemCount={itemData.length}
+        itemData={itemData}
+        itemSize={itemSize}
+        width="100%"
+      >
+        {({ index, style }) =>
+          React.cloneElement(itemData[index], {
+            style: {
+              ...style,
+              top: style.top + LISTBOX_PADDING,
+            },
+          })
+        }
+      </FixedSizeList>
+    </div>
   );
 });
 
