@@ -14,9 +14,8 @@ import {
   Typography,
 } from "@material-ui/core";
 import { Close as CloseIcon, Outbond as OutbondIcon } from "@material-ui/icons";
-import { lighten, makeStyles } from "@material-ui/core/styles";
+import { lighten, makeStyles, useTheme } from "@material-ui/core/styles";
 
-import useThemeMode from "theme";
 import config from "config";
 
 const useStyles = makeStyles((theme) => {
@@ -31,14 +30,11 @@ const useStyles = makeStyles((theme) => {
   };
 });
 
-const NavDrawer = ({ onClose, open }) => {
+const NavDrawer = ({ onClose, onToggleDarkMode, open }) => {
   const classes = useStyles();
-  const [themeMode, setThemeMode] = useThemeMode();
+  const theme = useTheme();
 
-  const isDarkMode = themeMode === "dark";
-
-  const handleDarkModeToggle = () =>
-    setThemeMode(isDarkMode ? "light" : "dark");
+  const isDarkMode = theme.palette.mode === "dark";
 
   return (
     <Drawer anchor="right" classes={classes} onClose={onClose} open={open}>
@@ -61,8 +57,8 @@ const NavDrawer = ({ onClose, open }) => {
       </List>
       <Divider />
       <List subheader={<ListSubheader>Settings</ListSubheader>}>
-        <ListItemLink href={config.alternate.url}>
-          <ListItemText primary={`Prefer ${config.alternate.name}`} />
+        <ListItemLink href={config.altRelease.url}>
+          <ListItemText primary={`Prefer ${config.altRelease.abbreviation}`} />
           <OutbondIcon />
         </ListItemLink>
         <ListItem>
@@ -70,7 +66,7 @@ const NavDrawer = ({ onClose, open }) => {
           <Switch
             checked={isDarkMode}
             edge="end"
-            onChange={handleDarkModeToggle}
+            onChange={onToggleDarkMode}
           />
         </ListItem>
       </List>

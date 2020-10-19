@@ -1,16 +1,22 @@
-import React from 'react';
+import React from "react";
 
-import {Container} from '@material-ui/core';
-import {withStyles} from '@material-ui/core/styles';
+import { Container } from "@material-ui/core";
+import { makeStyles } from "@material-ui/core/styles";
 
-const styles = {
+const useStyles = makeStyles({
   root: {
-    flex: '1 0 auto',
+    flex: "1 0 auto",
   },
+});
+
+const Page = ({ children, ...props }) => {
+  const classes = useStyles();
+
+  return (
+    <Container classes={classes} {...props}>
+      {children}
+    </Container>
+  );
 };
 
-const Page = ({children, classes}) => {
-  return <Container className={classes.root}>{children}</Container>;
-};
-
-export default withStyles(styles)(Page);
+export default Page;

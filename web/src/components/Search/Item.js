@@ -29,6 +29,7 @@ const ItemSearch = React.memo(props => {
           label="Item"
           fullWidth
           margin="normal"
+          placeholder="Santa hat"
           variant="outlined"
         />
       )}

@@ -1,11 +1,17 @@
-import React from 'react';
+import React from "react";
 
-import { Box } from '@material-ui/core';
+import { Box, useMediaQuery } from "@material-ui/core";
 
-const Section = ({children}) => (
-  <Box pb="3rem" pt="3rem">
-    {children}
-  </Box>
-);
+const Section = ({ children, ...rest }) => {
+  const isSmall = useMediaQuery((theme) => theme.breakpoints.down("md"));
+
+  const spacing = isSmall ? 6 : 12;
+
+  return (
+    <Box pb={spacing} pt={spacing} {...rest}>
+      {children}
+    </Box>
+  );
+};
 
 export default Section;

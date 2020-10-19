@@ -1,22 +1,23 @@
 import React from "react";
-import { Typography, Link, Box } from "@material-ui/core";
+import { Typography, Link, Box, useMediaQuery } from "@material-ui/core";
 
 import Header from "./Header";
 import SearchForm from "./SearchForm";
 import Section from "components/Section";
 import Page from "components/Page";
+import config from "config";
 
 const Home = () => {
   return (
     <>
       <Header />
-      <Page>
+      <Page maxWidth="xs">
         <Section>
-          <Typography align="center" component="h1" gutterBottom variant="h2">
-            scape.fashion
+          <Typography align="center" component="h1" variant="h2">
+            {config.release.title}
           </Typography>
           <Typography align="center" gutterBottom variant="subtitle1">
-            find the perfect match for your outfit in Old School Runescape
+            Find the perfect outfit for your special item
           </Typography>
           <SearchForm />
         </Section>
@@ -27,8 +28,12 @@ const Home = () => {
 };
 
 const Footer = () => {
+  const isSmall = useMediaQuery((theme) => theme.breakpoints.down("md"));
+
+  if (!isSmall) return null;
+
   return (
-    <Box padding={2} textAlign="center">
+    <Box padding={4} textAlign="center">
       <Link href="https://discord.gg/uFv57D5" variant="body2">
         Discord
       </Link>
