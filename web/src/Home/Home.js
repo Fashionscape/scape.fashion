@@ -1,13 +1,18 @@
 import React from "react";
 import { Typography, Link, Box, useMediaQuery } from "@material-ui/core";
+import { Redirect } from "react-router-dom";
 
 import Header from "./Header";
-import SearchForm from "./SearchForm";
-import Section from "components/Section";
 import Page from "components/Page";
+import Search from "components/Search";
+import Section from "components/Section";
 import config from "config";
 
 const Home = () => {
+  const [search, setSearch] = React.useState();
+
+  if (search) return <Redirect push to="/items/match" />;
+
   return (
     <>
       <Header />
@@ -19,7 +24,7 @@ const Home = () => {
           <Typography align="center" gutterBottom variant="subtitle1">
             Find the perfect outfit for your special item
           </Typography>
-          <SearchForm />
+          <Search.Combo onSubmit={setSearch} />
         </Section>
       </Page>
       <Footer />

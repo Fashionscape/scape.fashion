@@ -1,50 +1,76 @@
-import React from 'react';
-import {IconButton, InputAdornment} from '@material-ui/core';
-import {Palette as PaletteIcon, Search as SearchIcon} from '@material-ui/icons';
-import {makeStyles} from '@material-ui/core/styles';
+import React from "react";
+import { IconButton, InputAdornment } from "@material-ui/core";
+import {
+  Palette as PaletteIcon,
+  Search as SearchIcon,
+} from "@material-ui/icons";
+import { makeStyles } from "@material-ui/core/styles";
 
-import ChestplateIcon from './ChestplateIcon';
-import Search from './';
+import ChestplateIcon from "./ChestplateIcon";
+import Search from "./";
+
+const defaults = {
+  color: "#ff0000",
+  item: "",
+};
 
 const useStyles = makeStyles({
   adornedEnd: {
-    paddingRight: '14px !important',
+    paddingRight: "14px !important",
   },
 });
 
-const ComboSearch = React.memo(props => {
-  const {onChange, value} = props;
+const ComboSearch = React.memo((props) => {
+  const { onSubmit } = props;
 
-  const [searchBy, setSearchBy] = React.useState('item');
+  const [search, setSearch] = React.useState();
+  const [searchBy, setSearchBy] = React.useState("item");
   const classes = useStyles();
 
-  const handleSearchBy = value => {
-    onChange(undefined);
+  const hasSearch = search?.length > 0;
+
+  const handleSearchBy = (value) => {
+    setSearch(defaults[value]);
     setSearchBy(value);
   };
 
-  const Component = searchBy === 'item' ? Search.Item : Search.Color;
+  const handleSubmit = (event) => {
+    event.preventDefault();
+
+    if (hasSearch) onSubmit({ search, searchBy });
+  };
+
+  const Component = searchBy === "item" ? Search.Item : Search.Color;
 
   return (
-    <Component
-      onChange={onChange}
-      InputProps={{
-        classes,
-        endAdornment: <SearchBy onSelect={handleSearchBy} value={searchBy} />,
-      }}
-      value={value}
-    />
+    <form onSubmit={handleSubmit}>
+      <Component
+        InputProps={{
+          classes,
+          endAdornment: (
+            <SearchAdornments
+              onSearch={handleSubmit}
+              onSearchBy={handleSearchBy}
+              value={searchBy}
+            />
+          ),
+        }}
+        onChange={setSearch}
+        value={search}
+      />
+      <input type="submit" style={{ display: "none" }} />
+    </form>
   );
 });
 
-const SearchBy = props => {
-  const {onSelect, value} = props;
+const SearchAdornments = (props) => {
+  const { onSearch, onSearchBy, value } = props;
 
-  const isByItem = value === 'item';
+  const isByItem = value === "item";
 
-  const handleToggle = e => {
+  const handleToggle = (e) => {
     e.stopPropagation();
-    onSelect(isByItem ? 'color' : 'item');
+    onSearchBy(isByItem ? "color" : "item");
   };
 
   return (
@@ -56,7 +82,7 @@ const SearchBy = props => {
           <ChestplateIcon titleAccess="Search by Item" />
         )}
       </IconButton>
-      <IconButton edge="end">
+      <IconButton edge="end" onClick={onSearch}>
         <SearchIcon />
       </IconButton>
     </InputAdornment>

@@ -1,15 +1,15 @@
-import React from 'react';
+import React from "react";
 import {
   FormControl,
   InputBase,
   InputLabel,
   InputAdornment,
   OutlinedInput,
-} from '@material-ui/core';
-import {makeStyles} from '@material-ui/core/styles';
+} from "@material-ui/core";
+import { makeStyles } from "@material-ui/core/styles";
 
-const ColorSearch = React.memo(props => {
-  const {InputProps, onChange, value = '#ff0000'} = props;
+const ColorSearch = React.memo((props) => {
+  const { InputProps, onChange, value = "#ff0000" } = props;
 
   const colorPickerRef = React.createRef();
 
@@ -37,19 +37,19 @@ const ColorSearch = React.memo(props => {
 
 const useStyles = makeStyles({
   input: {
-    background: 'none',
+    background: "none",
     border: 0,
-    borderRadius: '0.5rem',
-    height: '2em',
-    overflow: 'hidden',
+    borderRadius: "0.5rem",
+    height: "2em",
+    overflow: "hidden",
     padding: 0,
-    width: '2em',
+    width: "2em",
   },
 });
 
-const ColorAdornment = React.forwardRef(({onChange, value}, ref) => {
+const ColorAdornment = React.forwardRef(({ onChange, value }, ref) => {
   const classes = useStyles();
-  const handleChange = React.useCallback(e => onChange(e.target.value), [
+  const handleChange = React.useCallback((e) => onChange(e.target.value), [
     onChange,
   ]);
 

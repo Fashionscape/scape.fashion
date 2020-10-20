@@ -1,11 +1,12 @@
-import CssBaseline from '@material-ui/core/CssBaseline';
-import React from 'react';
-import {BrowserRouter} from 'react-router-dom';
+import CssBaseline from "@material-ui/core/CssBaseline";
+import React from "react";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
-import Home from 'Home';
-import { SFTheme } from 'theme';
+import Home from "Home";
+import Items from "Items";
+import { SFTheme } from "theme";
 
-import './App.css';
+import "./App.css";
 
 const App = () => {
   return (
@@ -20,9 +21,14 @@ const App = () => {
 
 const Main = () => {
   return (
-    <>
-      <Home />
-    </>
+    <Switch>
+      <Route path="/items/match">
+        <Items.Match />
+      </Route>
+      <Route exact path="/">
+        <Home />
+      </Route>
+    </Switch>
   );
 };
 
