@@ -3,11 +3,11 @@ import {
   AppBar,
   Box,
   Divider,
+  Hidden,
   IconButton,
   Link,
   Toolbar,
   makeStyles,
-  useMediaQuery,
 } from "@material-ui/core";
 import {
   Brightness4 as DarkModeIcon,
@@ -22,7 +22,6 @@ const Header = () => {
   const [isNavOpen, setIsNavOpen] = React.useState(false);
   const [themeMode, setThemeMode] = useThemeMode();
 
-  const isSmall = useMediaQuery((theme) => theme.breakpoints.down("md"));
   const isDarkMode = themeMode === "dark";
 
   const handleDarkModeToggle = () =>
@@ -31,11 +30,12 @@ const Header = () => {
   return (
     <>
       <AppBar color="transparent" elevation={0} position="static">
-        {isSmall ? (
+        <Hidden mdUp>
           <MobileToolbar onMenuClick={() => setIsNavOpen(true)} />
-        ) : (
+        </Hidden>
+        <Hidden mdDown>
           <DesktopToolbar onToggleDarkMode={handleDarkModeToggle} />
-        )}
+        </Hidden>
       </AppBar>
       <NavDrawer
         onClose={() => setIsNavOpen(false)}

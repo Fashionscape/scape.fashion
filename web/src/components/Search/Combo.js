@@ -20,12 +20,19 @@ const useStyles = makeStyles({
   },
 });
 
+const useFormStyles = makeStyles({
+  root: {
+    width: "100%",
+  },
+});
+
 const ComboSearch = React.memo((props) => {
   const { onSubmit } = props;
 
   const [search, setSearch] = React.useState();
   const [searchBy, setSearchBy] = React.useState("item");
   const classes = useStyles();
+  const formClasses = useFormStyles();
 
   const hasSearch = search?.length > 0;
 
@@ -43,7 +50,7 @@ const ComboSearch = React.memo((props) => {
   const Component = searchBy === "item" ? Search.Item : Search.Color;
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form className={formClasses.root} onSubmit={handleSubmit}>
       <Component
         InputProps={{
           classes,

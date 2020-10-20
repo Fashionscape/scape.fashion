@@ -1,6 +1,11 @@
 import React from "react";
-import { Typography, Link, Box, useMediaQuery } from "@material-ui/core";
 import { Redirect } from "react-router-dom";
+import {
+  Box,
+  Hidden,
+  Link,
+  Typography,
+} from "@material-ui/core";
 
 import Header from "./Header";
 import Page from "components/Page";
@@ -8,10 +13,15 @@ import Search from "components/Search";
 import Section from "components/Section";
 import config from "config";
 
+const toPath = ({ search, searchBy }) => {
+  const key = searchBy === "item" ? "name" : "color";
+  return `/items/match?${key}=${search}`;
+};
+
 const Home = () => {
   const [search, setSearch] = React.useState();
 
-  if (search) return <Redirect push to="/items/match" />;
+  if (search) return <Redirect push to={toPath(search)} />;
 
   return (
     <>
@@ -33,20 +43,18 @@ const Home = () => {
 };
 
 const Footer = () => {
-  const isSmall = useMediaQuery((theme) => theme.breakpoints.down("md"));
-
-  if (!isSmall) return null;
-
   return (
-    <Box padding={4} textAlign="center">
-      <Link href="https://discord.gg/uFv57D5" variant="body2">
-        Discord
-      </Link>
-      <Box display="inline" m={1} />
-      <Link href="https://www.patreon.com/nickontheweb" variant="body2">
-        Patreon
-      </Link>
-    </Box>
+    <Hidden mdUp>
+      <Box padding={4} textAlign="center">
+        <Link href="https://discord.gg/uFv57D5" variant="body2">
+          Discord
+        </Link>
+        <Box display="inline" m={1} />
+        <Link href="https://www.patreon.com/nickontheweb" variant="body2">
+          Patreon
+        </Link>
+      </Box>
+    </Hidden>
   );
 };
 
