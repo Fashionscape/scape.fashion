@@ -9,7 +9,7 @@ import { useSearch } from "hooks/search";
 
 const useStyles = makeStyles({
   page: {
-    paddingTop: 132,
+    paddingTop: 128,
   },
 });
 
