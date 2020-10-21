@@ -4,6 +4,7 @@ import {
   Box,
   Button,
   Card,
+  CardActionArea,
   CardContent,
   CardMedia,
   Chip,
@@ -41,7 +42,7 @@ const useItemStyles = makeStyles((theme) => ({
 }));
 
 const Item = (props) => {
-  const { colors, images, name, status } = props;
+  const { colors, images, name, status, wiki } = props;
 
   const classes = useItemStyles();
 
@@ -55,34 +56,48 @@ const Item = (props) => {
       <ClearIcon className={classes.iconError} />
     );
 
+  const itemPath = toPath({ searchBy: "item", search: name });
+
   return (
     <Grid item xs={12}>
       <Card className={classes.card} variant="outlined">
-        <CardContent>
-          <Typography variant="h5" component="span">
-            {name}
-          </Typography>
-          <Box className={classes.chips}>
-            <Chip
-              label="Free to play"
-              icon={statusIcon(isFreeToPlay)}
-              size="small"
-              variant="outlined"
-            />
-            <Chip
-              label="Tradeable"
-              icon={statusIcon(isTradeable)}
-              size="small"
-              variant="outlined"
-            />
-          </Box>
-        </CardContent>
-        <CardMedia
-          className={classes.media}
-          component="img"
-          height="240"
-          image={images.detail}
-        />
+        <CardActionArea
+          component={React.forwardRef((props, ref) => (
+            <Link {...props} to={itemPath} ref={ref} />
+          ))}
+        >
+          <CardContent>
+            <Typography variant="h5" component="span">
+              {name}
+            </Typography>
+            <Box className={classes.chips}>
+              <Chip
+                label="Free to play"
+                icon={statusIcon(isFreeToPlay)}
+                size="small"
+                variant="outlined"
+              />
+              <Chip
+                label="Tradeable"
+                icon={statusIcon(isTradeable)}
+                size="small"
+                variant="outlined"
+              />
+            </Box>
+          </CardContent>
+        </CardActionArea>
+        <CardActionArea
+          component={React.forwardRef((props, ref) => (
+            <a href={wiki.link} ref={ref} {...props} />
+          ))}
+        >
+          <CardMedia
+            className={classes.media}
+            component="img"
+            height="240"
+            image={images.detail}
+          />
+        </CardActionArea>
         <CardContent>
           <Typography color="textSecondary" component="span" variant="body2">
             Palette
