@@ -27,12 +27,17 @@ const useFormStyles = makeStyles({
 });
 
 const ComboSearch = React.memo((props) => {
-  const { onSubmit } = props;
+  const { initialSearch = { search: "", searchBy: "item" }, onSubmit } = props;
 
-  const [search, setSearch] = React.useState();
-  const [searchBy, setSearchBy] = React.useState("item");
+  const [search, setSearch] = React.useState(initialSearch.search);
+  const [searchBy, setSearchBy] = React.useState(initialSearch.searchBy);
   const classes = useStyles();
   const formClasses = useFormStyles();
+
+  React.useEffect(() => {
+    setSearchBy(initialSearch.searchBy);
+    setSearch(initialSearch.search);
+  }, [initialSearch]);
 
   const hasSearch = search?.length > 0;
 

@@ -1,22 +1,13 @@
 import React from "react";
 import { Redirect } from "react-router-dom";
-import {
-  Box,
-  Hidden,
-  Link,
-  Typography,
-} from "@material-ui/core";
+import { Box, Hidden, Link, Typography } from "@material-ui/core";
 
 import Header from "./Header";
 import Page from "components/Page";
 import Search from "components/Search";
 import Section from "components/Section";
 import config from "config";
-
-const toPath = ({ search, searchBy }) => {
-  const key = searchBy === "item" ? "name" : "color";
-  return `/items/match?${key}=${search}`;
-};
+import { toPath } from "hooks/search";
 
 const Home = () => {
   const [search, setSearch] = React.useState();
