@@ -39,11 +39,15 @@ const useStyles = makeStyles({
   input: {
     background: "none",
     border: 0,
-    borderRadius: "0.5rem",
+    borderRadius: 4,
     height: "2em",
     overflow: "hidden",
     padding: 0,
     width: "2em",
+    "&::-webkit-color-swatch, &::-webkit-color-swatch-wrapper": {
+      border: "none",
+      padding: 0,
+    },
   },
 });
 
