@@ -10,8 +10,8 @@ const items = (() => {
     return body.items;
   };
 
-  const match = async (search) => {
-    const params = toParams(search);
+  const match = async ({ search, filters }) => {
+    const params = toParams({ ...search, ...filters });
     const query = params.toString();
     const res = await fetch(`${config.api}/items/match?${query}`);
     const body = await res.json();

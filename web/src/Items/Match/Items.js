@@ -17,6 +17,18 @@ import { Clear as ClearIcon, Check as CheckIcon } from "@material-ui/icons";
 
 import { toPath } from "hooks/search";
 
+const Items = React.memo(({ items }) => {
+  return (
+    <Box py={2}>
+      <Grid container spacing={2}>
+        {items.map((item) => (
+          <Item key={item.name} {...item} />
+        ))}
+      </Grid>
+    </Box>
+  );
+});
+
 const useItemStyles = makeStyles((theme) => ({
   card: {
     backgroundColor: "transparent",
@@ -87,8 +99,10 @@ const Item = (props) => {
           </CardContent>
         </CardActionArea>
         <CardActionArea
-          component={React.forwardRef((props, ref) => (
-            <a href={wiki.link} ref={ref} {...props} />
+          component={React.forwardRef(({ children, ...props }, ref) => (
+            <a href={wiki.link} ref={ref} {...props}>
+              {children}
+            </a>
           ))}
         >
           <CardMedia
@@ -140,4 +154,5 @@ const ColorSwatch = ({ color }) => {
   );
 };
 
-export default Item;
+export { Item };
+export default Items;

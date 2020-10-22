@@ -17,9 +17,13 @@ export const useSearch = () => {
   return React.useMemo(() => ({ search, searchBy }), [search, searchBy]);
 };
 
-export const toParams = ({ searchBy, search }) => {
+const removeEmpty = (obj) =>
+  Object.keys(obj).forEach((key) => obj[key] ?? delete obj[key]) || obj;
+
+export const toParams = ({ searchBy, search, ...rest }) => {
   const key = keyMap[searchBy];
-  return new URLSearchParams({ [key]: search });
+  const params = removeEmpty(rest);
+  return new URLSearchParams({ [key]: search, ...params });
 };
 
 export const toPath = ({ search, searchBy }) => {
