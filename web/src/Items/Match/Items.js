@@ -32,11 +32,18 @@ const Items = React.memo(({ items }) => {
 const useItemStyles = makeStyles((theme) => ({
   card: {
     backgroundColor: "transparent",
+    display: "flex",
+    flexDirection: "column",
+    height: "100%",
+  },
+  mediaContainer: {
+    backgroundColor: theme.palette.mode === "dark" && lighten("#121212", 0.05),
+    display: 'flex',
+    padding: theme.spacing(2.5),
+    flex: "auto",
   },
   media: {
-    backgroundColor: theme.palette.mode === "dark" && lighten("#121212", 0.05),
     objectFit: "contain",
-    padding: theme.spacing(2.5),
   },
   chips: {
     display: "flex",
@@ -71,7 +78,7 @@ const Item = (props) => {
   const itemPath = toPath({ searchBy: "item", search: name });
 
   return (
-    <Grid item xs={12}>
+    <Grid item xs={12} sm={6} md={4}>
       <Card className={classes.card} variant="outlined">
         <CardActionArea
           component={React.forwardRef((props, ref) => (
@@ -99,6 +106,7 @@ const Item = (props) => {
           </CardContent>
         </CardActionArea>
         <CardActionArea
+          className={classes.mediaContainer}
           component={React.forwardRef(({ children, ...props }, ref) => (
             <a href={wiki.link} ref={ref} {...props}>
               {children}
