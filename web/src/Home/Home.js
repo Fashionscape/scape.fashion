@@ -2,7 +2,7 @@ import React from "react";
 import { Redirect } from "react-router-dom";
 import { Box, Hidden, Link, Typography } from "@material-ui/core";
 
-import Header from "./Header";
+import Header from "components/Header";
 import Page from "components/Page";
 import Search from "components/Search";
 import Section from "components/Section";

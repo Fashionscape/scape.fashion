@@ -6,9 +6,10 @@ import {
   MenuItem,
   Select,
   makeStyles,
+  useMediaQuery,
 } from "@material-ui/core";
 
-import Header from "./Header";
+import Header from "components/Header";
 import Items from "./Items";
 import Page from "components/Page";
 import client from "client";
@@ -17,12 +18,13 @@ import { useSlots } from "hooks/slots";
 
 const useStyles = makeStyles({
   page: {
-    paddingTop: 128,
+    paddingTop: ({ mdUp }) => (mdUp ? 80 : 128),
   },
 });
 
 const Match = () => {
-  const classes = useStyles();
+  const mdUp = useMediaQuery((theme) => theme.breakpoints.up("md"));
+  const classes = useStyles({ mdUp });
   const search = useSearch();
 
   const [loading, setLoading] = React.useState(true);
@@ -42,7 +44,7 @@ const Match = () => {
 
   return (
     <>
-      <Header search={search} />
+      <Header search={search} showSearch />
       <Page className={classes.page} loading={loading}>
         <Filters filters={filters} onChange={handleFiltersChange} />
         <Items items={items} />
