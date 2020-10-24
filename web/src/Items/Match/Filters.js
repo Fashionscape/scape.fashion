@@ -151,6 +151,9 @@ const AdvancedFilter = ({ onChange, value: initialValue = 0.5 }) => {
   const handleChange = (event) => setValue(event.target.value);
   const handleChangeCommitted = (_, value) => onChange(value);
 
+  const handleClickAway = (event) =>
+    event.target !== linkEl.current && setIsOpen(false);
+
   return (
     <>
       <Link
@@ -164,7 +167,7 @@ const AdvancedFilter = ({ onChange, value: initialValue = 0.5 }) => {
         <ExpandMoreIcon className={classes.icon} />
       </Link>
       <Popper anchorEl={linkEl?.current} open={isOpen} placement="bottom-start">
-        <ClickAwayListener onClickAway={() => setIsOpen(false)}>
+        <ClickAwayListener onClickAway={handleClickAway}>
           <Paper className={classes.paper} variant="outlined">
             <Typography variant="h6">Allowance</Typography>
             <Typography gutterBottom variant="body2">
