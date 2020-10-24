@@ -19,18 +19,36 @@ const Match = () => {
   const classes = useStyles({ mdUp });
   const search = useSearch();
 
-  const [loading, setLoading] = React.useState(true);
-  const [items, setItems] = React.useState([]);
   const [filters, setFilters] = React.useState({});
+  const [items, setItems] = React.useState([]);
+  const [loading, setLoading] = React.useState(true);
+  const [page, setPage] = React.useState(0);
 
   React.useEffect(() => {
     setLoading(true);
 
     client.items
-      .match({ search, filters })
-      .then(setItems)
+      .match({ search, filters, page })
+      .then((is) => setItems((items) => items.concat(is)))
       .finally(() => setLoading(false));
-  }, [search, filters]);
+  }, [search, filters, page]);
+
+  React.useEffect(() => {
+    if (loading) return;
+
+    const handleScroll = () => {
+      const { scrollY } = window;
+      const { offsetHeight, scrollHeight } = document.body;
+
+      if (offsetHeight + scrollY <= scrollHeight - 5) return;
+
+      setPage((page) => page + 1);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [loading]);
 
   const handleFiltersChange = (filter) => setFilters({ ...filters, ...filter });
 
