@@ -13,22 +13,22 @@ export const useSearch = () => {
   const query = useQuery();
   const searchBy = query.has("name") ? "item" : "color";
   const key = keyMap[searchBy];
-  const search = query.get(key);
-  return React.useMemo(() => ({ search, searchBy }), [search, searchBy]);
+  const value = query.get(key);
+  return React.useMemo(() => ({ searchBy, value }), [searchBy, value]);
 };
 
 const removeEmpty = (obj) =>
   Object.keys(obj).forEach((key) => obj[key] === "" && delete obj[key]) || obj;
 
-export const toParams = ({ searchBy, search, ...rest }) => {
+export const toParams = ({ searchBy, value, ...rest }) => {
   const key = keyMap[searchBy];
   const params = removeEmpty(rest);
-  return new URLSearchParams({ [key]: search, ...params });
+  return new URLSearchParams({ [key]: value, ...params });
 };
 
-export const toPath = ({ search, searchBy }) => {
+export const toPath = ({ searchBy, value }) => {
   const key = keyMap[searchBy];
-  const params = new URLSearchParams({ [key]: search });
+  const params = new URLSearchParams({ [key]: value });
   const query = params.toString();
   return `/items/match?${query}`;
 };

@@ -9,12 +9,14 @@ import {
 import { makeStyles } from "@material-ui/core/styles";
 
 const ColorSearch = React.memo((props) => {
-  const { InputProps, onChange, value = "#ff0000" } = props;
+  const { InputProps, hide, onChange, value = "#ff0000" } = props;
 
   const colorPickerRef = React.createRef();
 
+  const style = hide ? { display: "none" } : {};
+
   return (
-    <FormControl fullWidth margin="normal" variant="outlined">
+    <FormControl fullWidth margin="normal" variant="outlined" style={style}>
       <InputLabel htmlFor="color-search">Color</InputLabel>
       <OutlinedInput
         {...InputProps}
@@ -53,9 +55,10 @@ const useStyles = makeStyles({
 
 const ColorAdornment = React.forwardRef(({ onChange, value }, ref) => {
   const classes = useStyles();
-  const handleChange = React.useCallback((e) => onChange(e.target.value), [
-    onChange,
-  ]);
+  const handleChange = React.useCallback(
+    (event) => onChange(event.target.value),
+    [onChange]
+  );
 
   return (
     <InputAdornment disablePointerEvents position="start">

@@ -14,24 +14,49 @@ const useStyles = makeStyles({
   },
 });
 
+const initialState = { filters: {}, items: [] };
+
+const reducer = (state, { payload, type }) => {
+  switch (type) {
+    case "filter":
+      return { ...state, filters: { ...state.filters, ...payload } };
+    case "loading":
+      return { ...state, loading: true };
+    case "loaded":
+      return { ...state, loading: false, ...payload };
+    default:
+      return;
+  }
+};
+
 const Match = () => {
   const mdUp = useMediaQuery((theme) => theme.breakpoints.up("md"));
   const classes = useStyles({ mdUp });
   const search = useSearch();
 
-  const [filters, setFilters] = React.useState({});
-  const [items, setItems] = React.useState([]);
-  const [loading, setLoading] = React.useState(true);
-  const [page, setPage] = React.useState(0);
+  const [state, dispatch] = React.useReducer(reducer, initialState);
+  const { filters, items, loading, page } = state;
 
   React.useEffect(() => {
-    setLoading(true);
+    fetchItems({ filters, page: 0, search });
+  }, [filters, search]);
 
-    client.items
-      .match({ search, filters, page })
-      .then((is) => setItems((items) => items.concat(is)))
-      .finally(() => setLoading(false));
-  }, [search, filters, page]);
+  const fetchItems = async ({ filters, items = [], page, search }) => {
+    dispatch({ type: "loading" });
+
+    const loaded = await client.items.match({ search, filters, page });
+    items = items.concat(loaded);
+
+    dispatch({ type: "loaded", payload: { items, page } });
+  };
+
+  const fetchPage = React.useCallback(
+    (page) => fetchItems({ filters, items, page, search }),
+    [filters, items, search]
+  );
+
+  const handleFiltersChange = (filter) =>
+    dispatch({ type: "filter", payload: filter });
 
   React.useEffect(() => {
     if (loading) return;
@@ -42,15 +67,13 @@ const Match = () => {
 
       if (offsetHeight + scrollY <= scrollHeight - 5) return;
 
-      setPage((page) => page + 1);
+      fetchPage(page + 1);
     };
 
     window.addEventListener("scroll", handleScroll);
 
     return () => window.removeEventListener("scroll", handleScroll);
-  }, [loading]);
-
-  const handleFiltersChange = (filter) => setFilters({ ...filters, ...filter });
+  }, [loading, fetchPage, page]);
 
   return (
     <>

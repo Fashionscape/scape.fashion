@@ -28,7 +28,7 @@ const filterOptions = createFilterOptions({
 });
 
 const ItemSearch = React.memo((props) => {
-  const { InputProps, onChange, value = "" } = props;
+  const { InputProps, hide, onChange, value = "" } = props;
 
   const items = useItems(keys);
   const classes = useStyles();
@@ -61,6 +61,7 @@ const ItemSearch = React.memo((props) => {
           <Typography noWrap>{option}</Typography>
         </li>
       )}
+      style={hide ? { display: "none" } : {}}
       value={value}
     />
   );

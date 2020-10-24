@@ -9,11 +9,6 @@ import { makeStyles } from "@material-ui/core/styles";
 import ChestplateIcon from "./ChestplateIcon";
 import Search from "./";
 
-const defaults = {
-  color: "#ff0000",
-  item: "",
-};
-
 const useStyles = makeStyles({
   adornedEnd: {
     paddingRight: "14px !important",
@@ -26,51 +21,52 @@ const useFormStyles = makeStyles({
   },
 });
 
-const defaultSearch = { search: "", searchBy: "item" };
+const defaultSearch = { searchBy: "item", value: "" };
 
 const ComboSearch = React.memo((props) => {
   const { initialSearch = defaultSearch, onSubmit } = props;
 
-  const [search, setSearch] = React.useState(initialSearch.search);
   const [searchBy, setSearchBy] = React.useState(initialSearch.searchBy);
+  const [searches, setSearches] = React.useState(initialSearch.value);
   const classes = useStyles();
   const formClasses = useFormStyles();
 
   React.useEffect(() => {
-    setSearchBy(initialSearch.searchBy);
-    setSearch(initialSearch.search);
+    const { searchBy, value } = initialSearch;
+    setSearchBy(searchBy);
+    setSearches((ss) => ({ ...ss, [searchBy]: value }));
   }, [initialSearch]);
 
-  const hasSearch = search?.length > 0;
-
-  const handleSearchBy = (value) => {
-    setSearch(defaults[value]);
-    setSearchBy(value);
-  };
+  const handleSearchBy = (value) => setSearchBy(value);
 
   const handleSubmit = (event) => {
     event.preventDefault();
 
-    if (hasSearch) onSubmit({ search, searchBy });
+    const value = searches[searchBy];
+    if (value?.length > 0) onSubmit({ searchBy, value });
   };
 
-  const Component = searchBy === "item" ? Search.Item : Search.Color;
+  const endAdornment = (
+    <SearchAdornments
+      onSearch={handleSubmit}
+      onSearchBy={handleSearchBy}
+      value={searchBy}
+    />
+  );
 
   return (
     <form className={formClasses.root} onSubmit={handleSubmit}>
-      <Component
-        InputProps={{
-          classes,
-          endAdornment: (
-            <SearchAdornments
-              onSearch={handleSubmit}
-              onSearchBy={handleSearchBy}
-              value={searchBy}
-            />
-          ),
-        }}
-        onChange={setSearch}
-        value={search}
+      <Search.Item
+        InputProps={{ classes, endAdornment }}
+        hide={searchBy !== "item"}
+        onChange={(value) => setSearches((ss) => ({ ...ss, item: value }))}
+        value={searches.item}
+      />
+      <Search.Color
+        InputProps={{ classes, endAdornment }}
+        hide={searchBy !== "color"}
+        onChange={(value) => setSearches((ss) => ({ ...ss, color: value }))}
+        value={searches.color}
       />
       <input type="submit" style={{ display: "none" }} />
     </form>
