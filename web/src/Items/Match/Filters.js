@@ -93,7 +93,10 @@ const useFilterStyles = makeStyles((theme) => ({
 const Filter = ({ label, onChange, options, value = "" }) => {
   const classes = useFilterStyles();
 
-  const handleChange = (event) => onChange(event.target.value);
+  const handleChange = (event) => {
+    if (event.target.value === value) return;
+    onChange(event.target.value);
+  };
 
   return (
     <FormControl
@@ -109,7 +112,7 @@ const Filter = ({ label, onChange, options, value = "" }) => {
         variant="outlined"
         value={value}
       >
-        <MenuItem value={null}>All</MenuItem>
+        <MenuItem value="">All</MenuItem>
         {options.map((option) => (
           <MenuItem key={option.value} value={option.value}>
             {option.label}

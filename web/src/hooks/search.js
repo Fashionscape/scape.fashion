@@ -18,7 +18,7 @@ export const useSearch = () => {
 };
 
 const removeEmpty = (obj) =>
-  Object.keys(obj).forEach((key) => obj[key] ?? delete obj[key]) || obj;
+  Object.keys(obj).forEach((key) => obj[key] === "" && delete obj[key]) || obj;
 
 export const toParams = ({ searchBy, search, ...rest }) => {
   const key = keyMap[searchBy];
