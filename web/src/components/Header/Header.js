@@ -123,6 +123,7 @@ const DesktopToolbar = ({ SearchInput, onToggleDarkMode }) => {
       </Link>
       <Divider className={classes.divider} orientation="vertical" />
       <Link href="https://discord.gg/uFv57D5">Discord</Link>
+      <Link href="https://github.com/Fashionscape/scape.fashion">Github</Link>
       <Link href="https://www.patreon.com/nickontheweb">Patreon</Link>
     </Toolbar>
   );
