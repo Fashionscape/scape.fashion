@@ -42,7 +42,7 @@ const match = (() => {
       allowance &&
       (Number(allowance) < 0 || 1 < Number(allowance)) &&
       'Allowance must be between 0 and 1',
-    ({page}) => page && !Number(page) && 'page must be a number',
+    ({page}) => page && Number.isNaN(parseInt(page)) && 'Page must be a number',
   ];
 
   return Validate.rules(rules);
