@@ -28,7 +28,7 @@ const useItemStyles = makeStyles((theme) => ({
   },
 }));
 
-const Item = (props) => {
+const Item = React.memo((props) => {
   const classes = useItemStyles();
 
   return (
@@ -40,6 +40,6 @@ const Item = (props) => {
       </Card>
     </Grid>
   );
-};
+});
 
 export default Items;
