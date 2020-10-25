@@ -44,29 +44,14 @@ const ItemPalette = ({ colors, loading }) => {
   );
 };
 
-const useSwatchStyles = makeStyles((theme) => ({
-  root: {
-    backgroundColor: (props) => props.color,
-    minHeight: 32,
-    "&:hover": {
-      backgroundColor: (props) => props.color,
-    },
-  },
-  skeleton: {
-    borderRadius: theme.shape.borderRadius,
-  },
-}));
-
-const ColorSwatch = ({ color, loading }) => {
-  const classes = useSwatchStyles({ color });
-
+const ColorSwatch = ({ classes, color, loading }) => {
   const path = toPath({ searchBy: "color", value: color });
 
   if (loading)
     return (
       <Skeleton
-        className={classes.skeleton}
         height={32}
+        style={{ borderRadius: 4 }}
         variant="rectangular"
         width="100%"
       />
@@ -77,8 +62,8 @@ const ColorSwatch = ({ color, loading }) => {
       component={React.forwardRef((props, ref) => (
         <Link {...props} to={path} ref={ref} />
       ))}
-      className={classes.root}
       fullWidth
+      style={{ backgroundColor: color, minHeight: 32 }}
       variant="contained"
     />
   );

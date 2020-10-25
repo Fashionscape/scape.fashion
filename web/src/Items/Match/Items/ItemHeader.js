@@ -8,18 +8,30 @@ import {
   Skeleton,
   Typography,
   makeStyles,
+  withStyles,
 } from "@material-ui/core";
 import { Clear as ClearIcon, Check as CheckIcon } from "@material-ui/icons";
 
 import { toPath } from "hooks/search";
 
-const useStyles = makeStyles((theme) => ({
-  iconError: {
-    color: theme.palette.error.main,
-  },
-  iconSuccess: {
+const SuccessIcon = withStyles((theme) => ({
+  root: {
     color: theme.palette.success.main,
   },
+}))(({ classes }) => <CheckIcon className={classes.root} />);
+
+const ErrorIcon = withStyles((theme) => ({
+  root: {
+    color: theme.palette.error.main,
+  },
+}))(({ classes }) => <ClearIcon className={classes.root} />);
+
+const successIcon = <SuccessIcon />;
+const errorIcon = <ErrorIcon />;
+
+const statusIcon = (hasStatus) => (hasStatus ? successIcon : errorIcon);
+
+const useStyles = makeStyles((theme) => ({
   chips: {
     display: "flex",
     marginLeft: theme.spacing(-0.5),
@@ -35,13 +47,6 @@ const ItemHeader = ({ loading, name, status }) => {
 
   const isTradeable = !status?.includes("untradeable");
   const isFreeToPlay = status?.includes("freetoplay");
-
-  const statusIcon = (hasStatus) =>
-    hasStatus ? (
-      <CheckIcon className={classes.iconSuccess} />
-    ) : (
-      <ClearIcon className={classes.iconError} />
-    );
 
   const wrapper = loading
     ? "button"
