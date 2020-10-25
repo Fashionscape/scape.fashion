@@ -60,7 +60,7 @@ const useSwatchStyles = makeStyles((theme) => ({
 const ColorSwatch = ({ color, loading }) => {
   const classes = useSwatchStyles({ color });
 
-  const path = toPath({ searchBy: "color", search: color });
+  const path = toPath({ searchBy: "color", value: color });
 
   if (loading)
     return (
