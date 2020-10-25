@@ -63,8 +63,8 @@ const ItemHeader = ({ loading, name, status }) => {
         <Box className={classes.chips}>
           {loading ? (
             <>
-              <Skeleton width={100} />
-              <Skeleton width={100} />
+              <Skeleton height={24} width={100} />
+              <Skeleton height={24} width={100} />
             </>
           ) : (
             <>
