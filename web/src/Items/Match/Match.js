@@ -21,7 +21,7 @@ const reducer = (state, { payload, type }) => {
     case "filter":
       return { ...state, filters: { ...state.filters, ...payload } };
     case "loading":
-      return { ...state, loading: true };
+      return { ...state, loading: true, items: payload };
     case "loaded":
       return { ...state, loading: false, ...payload };
     default:
@@ -42,7 +42,7 @@ const Match = () => {
   }, [filters, search]);
 
   const fetchItems = async ({ filters, items = [], page, search }) => {
-    dispatch({ type: "loading" });
+    dispatch({ type: "loading", payload: items });
 
     const loaded = await client.items.match({ search, filters, page });
     items = items.concat(loaded);
@@ -78,9 +78,9 @@ const Match = () => {
   return (
     <>
       <Header search={search} showSearch />
-      <Page className={classes.page} loading={loading}>
+      <Page className={classes.page}>
         <Filters filters={filters} onChange={handleFiltersChange} />
-        <Items items={items} />
+        <Items items={items} loading={loading} />
       </Page>
     </>
   );

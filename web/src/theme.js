@@ -7,6 +7,13 @@ import {
 } from "@material-ui/core/styles";
 
 const darkTheme = {
+  components: {
+    MuiSkeleton: {
+      defaultProps: {
+        animation: "wave",
+      },
+    },
+  },
   palette: {
     background: {
       default: "#121212",
@@ -22,6 +29,13 @@ const darkTheme = {
 };
 
 const lightTheme = {
+  components: {
+    Skeleton: {
+      defaultProps: {
+        animation: "wave",
+      },
+    },
+  },
   palette: {
     mode: "light",
   },

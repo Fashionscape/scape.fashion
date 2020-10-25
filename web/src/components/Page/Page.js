@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Container, LinearProgress } from "@material-ui/core";
+import { Container } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles({
@@ -12,12 +12,12 @@ const useStyles = makeStyles({
   },
 });
 
-const Page = ({ children, loading, ...props }) => {
+const Page = ({ children, ...props }) => {
   const classes = useStyles();
 
   return (
-    <Container className={classes.root} disableGutters={loading} {...props}>
-      {loading ? <LinearProgress className={classes.progress} /> : children}
+    <Container className={classes.root} {...props}>
+      {children}
     </Container>
   );
 };
