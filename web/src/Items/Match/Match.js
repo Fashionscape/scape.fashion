@@ -38,6 +38,7 @@ const Match = () => {
   const { filters, items, loading, page } = state;
 
   React.useEffect(() => {
+    window.scrollTo(0, 0);
     fetchItems({ filters, page: 0, search });
   }, [filters, search]);
 
