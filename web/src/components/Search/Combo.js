@@ -1,4 +1,5 @@
 import React from "react";
+import { useHistory } from "react-router-dom";
 import { IconButton, InputAdornment } from "@material-ui/core";
 import {
   Palette as PaletteIcon,
@@ -8,6 +9,7 @@ import { makeStyles } from "@material-ui/core/styles";
 
 import ChestplateIcon from "./ChestplateIcon";
 import Search from "./";
+import { toPath, useSearch } from "hooks/search";
 
 const useStyles = makeStyles({
   adornedEnd: {
@@ -21,22 +23,23 @@ const useFormStyles = makeStyles({
   },
 });
 
-const defaultSearch = { searchBy: "item", value: "" };
+const isByColor = (search) => search.hasOwnProperty("color");
 
 const ComboSearch = (props) => {
-  const { initialSearch = defaultSearch, onSubmit } = props;
+  const history = useHistory();
+  const initialSearch = useSearch();
+  const initialSearchBy = isByColor(initialSearch) ? "color" : "item";
 
-  const [searchBy, setSearchBy] = React.useState(initialSearch.searchBy);
-  const [searches, setSearches] = React.useState(initialSearch.value);
+  const [searchBy, setSearchBy] = React.useState(initialSearchBy);
+  const [searches, setSearches] = React.useState(initialSearch);
   const classes = useStyles();
   const formClasses = useFormStyles();
   const formRef = React.useRef();
 
   React.useEffect(() => {
-    const { searchBy, value } = initialSearch;
-    setSearchBy(searchBy);
-    setSearches((ss) => ({ ...ss, [searchBy]: value }));
-  }, [initialSearch]);
+    setSearchBy(initialSearchBy);
+    setSearches(initialSearch);
+  }, [initialSearch, initialSearchBy]);
 
   const handleSearchBy = React.useCallback((value) => setSearchBy(value), []);
 
@@ -47,9 +50,12 @@ const ComboSearch = (props) => {
       const formData = new FormData(formRef.current);
       const value = formData.get(searchBy);
 
-      if (value?.length > 0) onSubmit({ searchBy, value });
+      if (value?.length === 0) return;
+
+      const path = toPath({ ...initialSearch, [searchBy]: value });
+      history.push(path);
     },
-    [onSubmit, searchBy]
+    [history, initialSearch, searchBy]
   );
 
   const endAdornment = (

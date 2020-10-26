@@ -1,5 +1,4 @@
 import React from "react";
-import { Redirect } from "react-router-dom";
 import { Box, Hidden, Link, Typography } from "@material-ui/core";
 
 import Header from "components/Header";
@@ -7,13 +6,8 @@ import Page from "components/Page";
 import Search from "components/Search";
 import Section from "components/Section";
 import config from "config";
-import { toPath } from "hooks/search";
 
 const Home = () => {
-  const [search, setSearch] = React.useState();
-
-  if (search) return <Redirect push to={toPath(search)} />;
-
   return (
     <>
       <Header />
@@ -25,7 +19,7 @@ const Home = () => {
           <Typography align="center" gutterBottom variant="subtitle1">
             Find the perfect outfit for your special item
           </Typography>
-          <Search.Combo onSubmit={setSearch} />
+          <Search.Combo />
         </Section>
       </Page>
       <Footer />

@@ -1,5 +1,4 @@
 import React from "react";
-import { Redirect } from "react-router-dom";
 import {
   AppBar,
   Box,
@@ -20,7 +19,6 @@ import config from "config";
 import NavDrawer from "components/NavDrawer";
 import Search from "components/Search";
 import useThemeMode from "theme";
-import { toPath } from "hooks/search";
 
 const useHeaderStyles = makeStyles((theme) => ({
   root: {
@@ -29,9 +27,8 @@ const useHeaderStyles = makeStyles((theme) => ({
 }));
 
 const Header = (props) => {
-  const { showSearch, search } = props;
+  const { showSearch } = props;
 
-  const [input, setInput] = React.useState();
   const [isNavOpen, setIsNavOpen] = React.useState(false);
   const [themeMode, setThemeMode] = useThemeMode();
 
@@ -45,13 +42,10 @@ const Header = (props) => {
   const handleDarkModeToggle = () =>
     setThemeMode(isDarkMode ? "light" : "dark");
 
-  const SearchInput = showSearch && (
-    <Search.Combo initialSearch={search} onSubmit={setInput} />
-  );
+  const SearchInput = showSearch && <Search.Combo />;
 
   return (
     <>
-      {input && <Redirect push to={toPath(input)} />}
       <AppBar
         className={classes.root}
         elevation={showSearch && isScrolled ? 4 : 0}

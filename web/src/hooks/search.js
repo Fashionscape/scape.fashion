@@ -1,34 +1,46 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
 
-const keyMap = {
-  color: "color",
-  item: "name",
-  name: "item",
-};
-
 export const useQuery = () => new URLSearchParams(useLocation().search);
 
 export const useSearch = () => {
   const query = useQuery();
-  const searchBy = query.has("name") ? "item" : "color";
-  const key = keyMap[searchBy];
-  const value = query.get(key);
-  return React.useMemo(() => ({ searchBy, value }), [searchBy, value]);
+  const search = Object.fromEntries(query);
+
+  if (search.name) {
+    search.item = search.name;
+    delete search.name;
+  }
+
+  if (search.item && search.color) delete search.color;
+
+  const { color, item, slot, members, tradeable, allowance } = search;
+
+  return React.useMemo(
+    () => ({
+      allowance,
+      ...(color && { color }),
+      ...(item && { item }),
+      members,
+      slot,
+      tradeable,
+    }),
+    [color, item, slot, members, tradeable, allowance]
+  );
 };
 
 const removeEmpty = (obj) =>
-  Object.keys(obj).forEach((key) => obj[key] === "" && delete obj[key]) || obj;
+  Object.fromEntries(
+    Object.entries(obj).filter(([k, v]) => ![undefined, null, ""].includes(v))
+  );
 
-export const toParams = ({ searchBy, value, ...rest }) => {
-  const key = keyMap[searchBy];
-  const params = removeEmpty(rest);
-  return new URLSearchParams({ [key]: value, ...params });
-};
-
-export const toPath = ({ searchBy, value }) => {
-  const key = keyMap[searchBy];
-  const params = new URLSearchParams({ [key]: value });
+export const toPath = ({ color, item, ...rest }) => {
+  const params = new URLSearchParams({
+    ...(item && { name: item }),
+    ...(color && { color }),
+    ...removeEmpty(rest),
+  });
   const query = params.toString();
+
   return `/items/match?${query}`;
 };

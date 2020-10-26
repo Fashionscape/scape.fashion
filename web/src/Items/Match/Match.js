@@ -18,8 +18,6 @@ const initialState = { filters: {}, items: [] };
 
 const reducer = (state, { payload, type }) => {
   switch (type) {
-    case "filter":
-      return { ...state, filters: { ...state.filters, ...payload } };
     case "loading":
       return { ...state, loading: true, items: payload };
     case "loaded":
@@ -56,9 +54,6 @@ const Match = () => {
     [filters, items, search]
   );
 
-  const handleFiltersChange = (filter) =>
-    dispatch({ type: "filter", payload: filter });
-
   React.useEffect(() => {
     if (loading) return;
 
@@ -78,9 +73,9 @@ const Match = () => {
 
   return (
     <>
-      <Header search={search} showSearch />
+      <Header showSearch />
       <Page className={classes.page}>
-        <Filters filters={filters} onChange={handleFiltersChange} />
+        <Filters filters={filters} />
         <Items items={items} loading={loading} />
       </Page>
     </>

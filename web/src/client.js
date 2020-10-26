@@ -1,5 +1,5 @@
 import config from "config";
-import { toParams } from "hooks/search";
+import { toPath } from "hooks/search";
 
 const items = (() => {
   const list = async (keys = []) => {
@@ -11,9 +11,8 @@ const items = (() => {
   };
 
   const match = async ({ search, filters, page }) => {
-    const params = toParams({ ...search, ...filters, page });
-    const query = params.toString();
-    const res = await fetch(`${config.api}/items/match?${query}`);
+    const path = toPath({ ...search, ...filters, page });
+    const res = await fetch(config.api + path);
     const body = await res.json();
     return body.items;
   };

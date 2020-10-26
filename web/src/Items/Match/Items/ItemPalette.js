@@ -9,7 +9,7 @@ import {
   makeStyles,
 } from "@material-ui/core";
 
-import { toPath } from "hooks/search";
+import { useSearch, toPath } from "hooks/search";
 
 const useStyles = makeStyles((theme) => ({
   swatches: {
@@ -45,7 +45,8 @@ const ItemPalette = ({ colors, loading }) => {
 };
 
 const ColorSwatch = ({ classes, color, loading }) => {
-  const path = toPath({ searchBy: "color", value: color });
+  const search = useSearch();
+  const path = toPath({ ...search, color, item: null });
 
   if (loading)
     return (
