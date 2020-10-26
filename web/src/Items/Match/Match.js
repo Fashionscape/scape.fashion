@@ -14,7 +14,7 @@ const useStyles = makeStyles({
   },
 });
 
-const initialState = { filters: {}, items: [] };
+const initialState = { items: [] };
 
 const reducer = (state, { payload, type }) => {
   switch (type) {
@@ -33,25 +33,25 @@ const Match = () => {
   const search = useSearch();
 
   const [state, dispatch] = React.useReducer(reducer, initialState);
-  const { filters, items, loading, page } = state;
+  const { items, loading, page } = state;
 
   React.useEffect(() => {
     window.scrollTo(0, 0);
-    fetchItems({ filters, page: 0, search });
-  }, [filters, search]);
+    fetchItems({ page: 0, search });
+  }, [search]);
 
-  const fetchItems = async ({ filters, items = [], page, search }) => {
+  const fetchItems = async ({ items = [], page, search }) => {
     dispatch({ type: "loading", payload: items });
 
-    const loaded = await client.items.match({ search, filters, page });
+    const loaded = await client.items.match({ search, page });
     items = items.concat(loaded);
 
     dispatch({ type: "loaded", payload: { items, page } });
   };
 
   const fetchPage = React.useCallback(
-    (page) => fetchItems({ filters, items, page, search }),
-    [filters, items, search]
+    (page) => fetchItems({ items, page, search }),
+    [items, search]
   );
 
   React.useEffect(() => {
@@ -75,7 +75,7 @@ const Match = () => {
     <>
       <Header showSearch />
       <Page className={classes.page}>
-        <Filters filters={filters} />
+        <Filters />
         <Items items={items} loading={loading} />
       </Page>
     </>
