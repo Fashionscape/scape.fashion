@@ -33,7 +33,7 @@ const Match = () => {
   const search = useSearch();
 
   const [state, dispatch] = React.useReducer(reducer, initialState);
-  const { items, loading, page } = state;
+  const { items, loading, page, searched } = state;
 
   React.useEffect(() => {
     window.scrollTo(0, 0);
@@ -46,7 +46,7 @@ const Match = () => {
     const loaded = await client.items.match({ search, page });
     items = items.concat(loaded);
 
-    dispatch({ type: "loaded", payload: { items, page } });
+    dispatch({ type: "loaded", payload: { items, page, searched: search } });
   };
 
   const fetchPage = React.useCallback(
@@ -76,7 +76,7 @@ const Match = () => {
       <Header showSearch />
       <Page className={classes.page}>
         <Filters />
-        <Items items={items} loading={loading} />
+        <Items items={items} loading={loading} searched={searched} />
       </Page>
     </>
   );

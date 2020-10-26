@@ -9,7 +9,7 @@ import {
   makeStyles,
 } from "@material-ui/core";
 
-import { useSearch, toPath } from "hooks/search";
+import { toPath } from "hooks/search";
 
 const useStyles = makeStyles((theme) => ({
   swatches: {
@@ -21,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const ItemPalette = ({ colors, loading }) => {
+const ItemPalette = ({ colors, loading, searched }) => {
   const classes = useStyles();
 
   return (
@@ -37,17 +37,16 @@ const ItemPalette = ({ colors, loading }) => {
             <ColorSwatch loading={true} />
           </>
         ) : (
-          colors.map((color, i) => <ColorSwatch color={color} key={i} />)
+          colors.map((color, i) => (
+            <ColorSwatch color={color} key={i} searched={searched} />
+          ))
         )}
       </Box>
     </CardContent>
   );
 };
 
-const ColorSwatch = ({ classes, color, loading }) => {
-  const search = useSearch();
-  const path = toPath({ ...search, color, item: null });
-
+const ColorSwatch = ({ classes, color, loading, searched }) => {
   if (loading)
     return (
       <Skeleton
@@ -57,6 +56,8 @@ const ColorSwatch = ({ classes, color, loading }) => {
         width="100%"
       />
     );
+
+  const path = toPath({ ...searched, color, item: null });
 
   return (
     <Button

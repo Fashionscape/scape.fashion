@@ -12,7 +12,7 @@ import {
 } from "@material-ui/core";
 import { Clear as ClearIcon, Check as CheckIcon } from "@material-ui/icons";
 
-import { useSearch, toPath } from "hooks/search";
+import { toPath } from "hooks/search";
 
 const SuccessIcon = withStyles((theme) => ({
   root: {
@@ -41,10 +41,9 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const ItemHeader = ({ loading, name, status }) => {
+const ItemHeader = ({ loading, name, searched, status }) => {
   const classes = useStyles();
-  const search = useSearch();
-  const itemPath = toPath({ ...search, item: name, color: null });
+  const itemPath = toPath({ ...searched, item: name, color: null });
 
   const isTradeable = !status?.includes("untradeable");
   const isFreeToPlay = status?.includes("freetoplay");
