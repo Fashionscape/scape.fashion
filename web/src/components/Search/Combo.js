@@ -30,6 +30,14 @@ const ComboSearch = ({ onChange, onSubmit, search }) => {
     onChange,
   ]);
 
+  const handleSubmit = React.useCallback(
+    (event) => {
+      event.preventDefault();
+      onSubmit(event);
+    },
+    [onSubmit]
+  );
+
   const endAdornment = (
     <SearchAdornments
       onSearch={onSubmit}
@@ -39,7 +47,7 @@ const ComboSearch = ({ onChange, onSubmit, search }) => {
   );
 
   return (
-    <form className={formClasses.root} onSubmit={onSubmit} ref={formRef}>
+    <form className={formClasses.root} onSubmit={handleSubmit} ref={formRef}>
       {search.by === "item" ? (
         <Search.Item
           InputProps={{ classes, endAdornment }}

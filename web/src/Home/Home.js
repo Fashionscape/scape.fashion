@@ -13,16 +13,8 @@ import { toPath } from "hooks/search";
 const initialSearch = { by: "item", item: "" };
 
 const Home = () => {
-  const [search, setSearch] = React.useState(initialSearch);
-  const [searched, setSearched] = React.useState(null);
-
-  const handleSearchChange = (change) => setSearch({ ...search, ...change });
-
-  const handleSubmit = () => setSearched({ search });
-
   return (
     <>
-      {searched && <Redirect push to={toPath(searched)} />}
       <Header />
       <Page maxWidth="xs">
         <Section>
@@ -32,15 +24,49 @@ const Home = () => {
           <Typography align="center" gutterBottom variant="subtitle1">
             Find the perfect outfit for your special item
           </Typography>
-          <Search.Combo
-            onChange={handleSearchChange}
-            onSubmit={handleSubmit}
-            search={search}
-          />
+          <SearchForm />
         </Section>
       </Page>
       <Footer />
     </>
+  );
+};
+
+const initialState = { search: initialSearch, searched: null };
+
+const reducer = (state, { type, payload }) => {
+  switch (type) {
+    case "search":
+      return { ...state, search: { ...state.search, ...payload } };
+    case "searched":
+      return { ...state, searched: { search: state.search } };
+    default:
+      return;
+  }
+};
+
+const SearchForm = () => {
+  const [state, dispatch] = React.useReducer(reducer, initialState);
+  const { search, searched } = state;
+
+  const handleSearchChange = React.useCallback(
+    (search) => dispatch({ type: "search", payload: search }),
+    [dispatch]
+  );
+
+  const handleSubmit = React.useCallback(() => dispatch({ type: "searched" }), [
+    dispatch,
+  ]);
+
+  const value = searched && searched.search[searched.search.by];
+  if (value) return <Redirect push to={toPath(searched)} />;
+
+  return (
+    <Search.Combo
+      onChange={handleSearchChange}
+      onSubmit={handleSubmit}
+      search={search}
+    />
   );
 };
 
