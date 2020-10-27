@@ -54,8 +54,18 @@ const useStyles = makeStyles({
 
 const ColorAdornment = React.forwardRef(({ onChange, value }, ref) => {
   const classes = useStyles();
+  const [color, setColor] = React.useState(value);
 
-  const handleChange = (event) => onChange(event.target.value);
+  React.useEffect(() => {
+    const tId = setTimeout(() => onChange(color), 100);
+
+    return () => clearTimeout(tId);
+  }, [color]);
+
+  const handleChange = React.useCallback(
+    (event) => setColor(event.target.value),
+    [setColor]
+  );
 
   return (
     <InputAdornment position="start">
