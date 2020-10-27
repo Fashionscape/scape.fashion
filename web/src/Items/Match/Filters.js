@@ -147,6 +147,10 @@ const AdvancedFilter = ({ onChange, value: initialValue = 0.5 }) => {
   const [isOpen, setIsOpen] = React.useState(false);
   const [value, setValue] = React.useState(initialValue);
 
+  React.useEffect(() => {
+    setValue(initialValue);
+  }, [initialValue]);
+
   const handleChange = (event) => setValue(event.target.value);
   const handleChangeCommitted = (_, value) => onChange(value);
 

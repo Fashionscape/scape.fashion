@@ -1,5 +1,5 @@
 import React from "react";
-import { Redirect } from "react-router-dom";
+import { Redirect, useHistory } from "react-router-dom";
 import { makeStyles, useMediaQuery } from "@material-ui/core";
 
 import Header from "components/Header";
@@ -34,20 +34,25 @@ const reducer = (state, { payload, type }) => {
 const Match = () => {
   const mdUp = useMediaQuery((theme) => theme.breakpoints.up("md"));
   const classes = useStyles({ mdUp });
+
+  const history = useHistory();
   const query = useQuery();
 
   const [state, dispatch] = React.useReducer(reducer, { ...query, items: [] });
   const { filters, items, loading, page, search, searched } = state;
 
   React.useEffect(() => {
-    const by = query.search.by;
-    if (searched?.search[by] === query.search[by]) return;
-
     dispatch({ type: "search", payload: query.search });
+  }, [query.search]);
 
+  React.useEffect(() => {
+    dispatch({ type: "filters", payload: query.filters });
+  }, [query.filters]);
+
+  React.useEffect(() => {
     window.scrollTo(0, 0);
     fetchItems({ page: 0, ...query });
-  }, [query, searched]);
+  }, [query]);
 
   const fetchItems = async ({ filters, items = [], page, search }) => {
     dispatch({ type: "loading", payload: { items } });
@@ -86,19 +91,13 @@ const Match = () => {
 
   const handleFilterChange = (filters) => {
     dispatch({ type: "filters", payload: filters });
-
-    window.scrollTo(0, 0);
-    fetchItems({ filters, search, page: 0 });
+    history.push(toPath({ filters, search }));
   };
 
-  const handleSubmit = () => {
-    window.scrollTo(0, 0);
-    fetchItems({ filters, page: 0, search });
-  };
+  const handleSubmit = () => history.push(toPath({ filters, search }));
 
   return (
     <>
-      {searched && <Redirect push to={toPath(searched)} />}
       <Header
         SearchInput={
           <Search.Combo
