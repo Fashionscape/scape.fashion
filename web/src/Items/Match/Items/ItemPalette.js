@@ -57,7 +57,7 @@ const ColorSwatch = ({ classes, color, loading, searched }) => {
       />
     );
 
-  const path = toPath({ ...searched, color, item: null });
+  const path = toPath({ ...searched, search: { by: "color", color } });
 
   return (
     <Button

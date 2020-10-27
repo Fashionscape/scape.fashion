@@ -43,7 +43,7 @@ const useStyles = makeStyles((theme) => ({
 
 const ItemHeader = ({ loading, name, searched, status }) => {
   const classes = useStyles();
-  const itemPath = toPath({ ...searched, item: name, color: null });
+  const itemPath = toPath({ ...searched, search: { by: "item", item: name } });
 
   const isTradeable = !status?.includes("untradeable");
   const isFreeToPlay = status?.includes("freetoplay");

@@ -17,7 +17,6 @@ import {
 
 import config from "config";
 import NavDrawer from "components/NavDrawer";
-import Search from "components/Search";
 import useThemeMode from "theme";
 
 const useHeaderStyles = makeStyles((theme) => ({
@@ -27,7 +26,7 @@ const useHeaderStyles = makeStyles((theme) => ({
 }));
 
 const Header = (props) => {
-  const { showSearch } = props;
+  const { SearchInput } = props;
 
   const [isNavOpen, setIsNavOpen] = React.useState(false);
   const [themeMode, setThemeMode] = useThemeMode();
@@ -42,14 +41,12 @@ const Header = (props) => {
   const handleDarkModeToggle = () =>
     setThemeMode(isDarkMode ? "light" : "dark");
 
-  const SearchInput = showSearch && <Search.Combo />;
-
   return (
     <>
       <AppBar
         className={classes.root}
-        elevation={showSearch && isScrolled ? 4 : 0}
-        position={showSearch ? "fixed" : "static"}
+        elevation={SearchInput && isScrolled ? 4 : 0}
+        position={SearchInput ? "fixed" : "static"}
       >
         <Hidden mdUp>
           <MobileToolbar

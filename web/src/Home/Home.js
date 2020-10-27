@@ -1,4 +1,5 @@
 import React from "react";
+import { Redirect } from "react-router-dom";
 import { Box, Hidden, Link, Typography } from "@material-ui/core";
 
 import Header from "components/Header";
@@ -7,9 +8,21 @@ import Search from "components/Search";
 import Section from "components/Section";
 import config from "config";
 
+import { toPath } from "hooks/search";
+
+const initialSearch = { by: "item", item: "" };
+
 const Home = () => {
+  const [search, setSearch] = React.useState(initialSearch);
+  const [searched, setSearched] = React.useState(null);
+
+  const handleSearchChange = (change) => setSearch({ ...search, ...change });
+
+  const handleSubmit = () => setSearched({ search });
+
   return (
     <>
+      {searched && <Redirect push to={toPath(searched)} />}
       <Header />
       <Page maxWidth="xs">
         <Section>
@@ -19,7 +32,11 @@ const Home = () => {
           <Typography align="center" gutterBottom variant="subtitle1">
             Find the perfect outfit for your special item
           </Typography>
-          <Search.Combo />
+          <Search.Combo
+            onChange={handleSearchChange}
+            onSubmit={handleSubmit}
+            search={search}
+          />
         </Section>
       </Page>
       <Footer />

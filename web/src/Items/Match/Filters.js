@@ -1,5 +1,4 @@
 import React from "react";
-import { useHistory } from "react-router-dom";
 import {
   ClickAwayListener,
   Box,
@@ -17,7 +16,6 @@ import {
 } from "@material-ui/core";
 import { ExpandMore as ExpandMoreIcon } from "@material-ui/icons";
 
-import { toPath, useSearch } from "hooks/search";
 import { useSlots } from "hooks/slots";
 
 const membersOptions = [
@@ -39,20 +37,13 @@ const useFiltersStyles = makeStyles({
   },
 });
 
-const Filters = () => {
+const Filters = ({ onChange, filters = {} }) => {
   const classes = useFiltersStyles();
-  const history = useHistory();
-  const filters = useSearch();
 
   const slots = useSlots();
 
-  const handleChange = React.useCallback(
-    (key) => (value) => {
-      const path = toPath({ ...filters, [key]: value });
-      history.push(path);
-    },
-    [history, filters]
-  );
+  const handleChange = (key) => (value) =>
+    onChange({ ...filters, [key]: value });
 
   return (
     <Box

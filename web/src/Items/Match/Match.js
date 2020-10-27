@@ -1,12 +1,14 @@
 import React from "react";
+import { Redirect } from "react-router-dom";
 import { makeStyles, useMediaQuery } from "@material-ui/core";
 
 import Header from "components/Header";
 import Filters from "./Filters";
 import Items from "./Items";
 import Page from "components/Page";
+import Search from "components/Search";
 import client from "client";
-import { useSearch } from "hooks/search";
+import { toPath, useQuery } from "hooks/search";
 
 const useStyles = makeStyles({
   page: {
@@ -14,14 +16,16 @@ const useStyles = makeStyles({
   },
 });
 
-const initialState = { items: [] };
-
 const reducer = (state, { payload, type }) => {
   switch (type) {
     case "loading":
-      return { ...state, loading: true, items: payload };
+      return { ...state, loading: true, ...payload };
     case "loaded":
       return { ...state, loading: false, ...payload };
+    case "filters":
+      return { ...state, filters: payload };
+    case "search":
+      return { ...state, search: { ...state.search, ...payload } };
     default:
       return;
   }
@@ -30,28 +34,34 @@ const reducer = (state, { payload, type }) => {
 const Match = () => {
   const mdUp = useMediaQuery((theme) => theme.breakpoints.up("md"));
   const classes = useStyles({ mdUp });
-  const search = useSearch();
+  const query = useQuery();
 
-  const [state, dispatch] = React.useReducer(reducer, initialState);
-  const { items, loading, page, searched } = state;
+  const [state, dispatch] = React.useReducer(reducer, { ...query, items: [] });
+  const { filters, items, loading, page, search, searched } = state;
 
   React.useEffect(() => {
+    const by = query.search.by;
+    if (searched?.search[by] === query.search[by]) return;
+
+    dispatch({ type: "search", payload: query.search });
+
     window.scrollTo(0, 0);
-    fetchItems({ page: 0, search });
-  }, [search]);
+    fetchItems({ page: 0, ...query });
+  }, [query, searched]);
 
-  const fetchItems = async ({ items = [], page, search }) => {
-    dispatch({ type: "loading", payload: items });
+  const fetchItems = async ({ filters, items = [], page, search }) => {
+    dispatch({ type: "loading", payload: { items } });
 
-    const loaded = await client.items.match({ search, page });
+    const loaded = await client.items.match({ filters, search, page });
     items = items.concat(loaded);
 
-    dispatch({ type: "loaded", payload: { items, page, searched: search } });
+    const searched = { filters, search };
+    dispatch({ type: "loaded", payload: { items, page, searched } });
   };
 
   const fetchPage = React.useCallback(
-    (page) => fetchItems({ items, page, search }),
-    [items, search]
+    (page) => fetchItems({ filters, items, page, search }),
+    [filters, items, search]
   );
 
   React.useEffect(() => {
@@ -71,11 +81,36 @@ const Match = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, [loading, fetchPage, page]);
 
+  const handleSearchChange = (search) =>
+    dispatch({ type: "search", payload: search });
+
+  const handleFilterChange = (filters) => {
+    dispatch({ type: "filters", payload: filters });
+
+    window.scrollTo(0, 0);
+    fetchItems({ filters, search, page: 0 });
+  };
+
+  const handleSubmit = () => {
+    window.scrollTo(0, 0);
+    fetchItems({ filters, page: 0, search });
+  };
+
   return (
     <>
-      <Header showSearch />
+      {searched && <Redirect push to={toPath(searched)} />}
+      <Header
+        SearchInput={
+          <Search.Combo
+            onChange={handleSearchChange}
+            onSubmit={handleSubmit}
+            search={search}
+          />
+        }
+        showSearch
+      />
       <Page className={classes.page}>
-        <Filters />
+        <Filters filters={filters} onChange={handleFilterChange} />
         <Items items={items} loading={loading} searched={searched} />
       </Page>
     </>

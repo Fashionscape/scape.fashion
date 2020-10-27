@@ -10,8 +10,8 @@ const items = (() => {
     return body.items;
   };
 
-  const match = async ({ search, page }) => {
-    const path = toPath({ ...search, page });
+  const match = async ({ filters, page, search }) => {
+    const path = toPath({ filters, page, search });
     const res = await fetch(config.api + path);
     const body = await res.json();
     return body.items;

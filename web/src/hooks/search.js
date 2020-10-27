@@ -1,32 +1,38 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
 
-export const useQuery = () => new URLSearchParams(useLocation().search);
+export const useQueryParams = () => new URLSearchParams(useLocation().search);
 
-export const useSearch = () => {
-  const query = useQuery();
-  const search = Object.fromEntries(query);
+export const useQuery = () => {
+  const queryParams = useQueryParams();
+  const query = Object.fromEntries(queryParams);
 
-  if (search.name) {
-    search.item = search.name;
-    delete search.name;
+  if (query.name) {
+    query.item = query.name;
+    delete query.name;
   }
 
-  if (search.item && search.color) delete search.color;
+  if (query.item && query.color) delete query.color;
 
-  const { color, item, slot, members, tradeable, allowance } = search;
+  const searchBy = query.hasOwnProperty("color") ? "color" : "item";
 
-  return React.useMemo(
+  const { allowance, color, item, members, slot, tradeable } = query;
+
+  const filters = React.useMemo(
+    () => ({ allowance, members, slot, tradeable }),
+    [allowance, members, slot, tradeable]
+  );
+
+  const search = React.useMemo(
     () => ({
-      allowance,
       ...(color && { color }),
       ...(item && { item }),
-      members,
-      slot,
-      tradeable,
+      by: searchBy,
     }),
-    [color, item, slot, members, tradeable, allowance]
+    [color, item, searchBy]
   );
+
+  return React.useMemo(() => ({ filters, search }), [filters, search]);
 };
 
 const removeEmpty = (obj) =>
@@ -34,11 +40,12 @@ const removeEmpty = (obj) =>
     Object.entries(obj).filter(([k, v]) => ![undefined, null, ""].includes(v))
   );
 
-export const toPath = ({ color, item, ...rest }) => {
+export const toPath = ({ filters = {}, page, search }) => {
   const params = new URLSearchParams({
-    ...(item && { name: item }),
-    ...(color && { color }),
-    ...removeEmpty(rest),
+    ...(search.by === "item" && { name: search.item }),
+    ...(search.by === "color" && { color: search.color }),
+    ...(page !== undefined && { page }),
+    ...removeEmpty(filters),
   });
   const query = params.toString();
 
