@@ -1,5 +1,5 @@
 import React from "react";
-import { useHistory } from "react-router-dom";
+import { Redirect, useHistory } from "react-router-dom";
 import { makeStyles, useMediaQuery } from "@material-ui/core";
 
 import Header from "components/Header";
@@ -23,7 +23,7 @@ const reducer = (state, { payload, type }) => {
     case "loaded":
       return { ...state, loading: false, ...payload };
     case "filters":
-      return { ...state, filters: payload };
+      return { ...state, filters: { ...state.filters, ...payload } };
     case "search":
       return { ...state, search: { ...state.search, ...payload } };
     default:
@@ -89,15 +89,16 @@ const Match = () => {
   const handleSearchChange = (search) =>
     dispatch({ type: "search", payload: search });
 
-  const handleFilterChange = (filters) => {
-    dispatch({ type: "filters", payload: filters });
-    history.push(toPath({ filters, search }));
-  };
+  const handleFilterChange = React.useCallback(
+    (filters) => dispatch({ type: "filters", payload: filters }),
+    [dispatch]
+  );
 
   const handleSubmit = () => history.push(toPath({ filters, search }));
 
   return (
     <>
+      {searched && <Redirect push to={toPath({ ...searched, filters })} />}
       <Header
         SearchInput={
           <Search.Combo
@@ -110,7 +111,7 @@ const Match = () => {
       />
       <Page className={classes.page}>
         <Filters filters={filters} onChange={handleFilterChange} />
-        <Items items={items} loading={loading} searched={searched} />
+        <Items items={items} filters={searched?.filters} loading={loading} />
       </Page>
     </>
   );

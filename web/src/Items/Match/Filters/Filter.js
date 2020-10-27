@@ -1,7 +1,6 @@
 import React from "react";
 import {
   ClickAwayListener,
-  Box,
   FormControl,
   InputLabel,
   Link,
@@ -15,68 +14,6 @@ import {
   makeStyles,
 } from "@material-ui/core";
 import { ExpandMore as ExpandMoreIcon } from "@material-ui/icons";
-
-import { useSlots } from "hooks/slots";
-
-const membersOptions = [
-  { label: "Members", value: true },
-  { label: "Free to play", value: false },
-];
-
-const tradeableOptions = [
-  { label: "Tradeable", value: true },
-  { label: "Untradeable", value: false },
-];
-
-const useFiltersStyles = makeStyles({
-  root: {
-    scrollbarWidth: "none",
-    "&::-webkit-scrollbar": {
-      display: "none",
-    },
-  },
-});
-
-const Filters = ({ onChange, filters = {} }) => {
-  const classes = useFiltersStyles();
-
-  const slots = useSlots();
-
-  const handleChange = (key) => (value) =>
-    onChange({ ...filters, [key]: value });
-
-  return (
-    <Box
-      alignItems="baseline"
-      className={classes.root}
-      display="flex"
-      overflow="auto"
-    >
-      <Filter
-        label="Slot"
-        onChange={handleChange("slot")}
-        options={slots}
-        value={filters.slot}
-      />
-      <Filter
-        label="Members"
-        onChange={handleChange("members")}
-        options={membersOptions}
-        value={filters.members}
-      />
-      <Filter
-        label="Tradeable"
-        onChange={handleChange("tradeable")}
-        options={tradeableOptions}
-        value={filters.tradeable}
-      />
-      <AdvancedFilter
-        onChange={handleChange("allowance")}
-        value={filters.allowance}
-      />
-    </Box>
-  );
-};
 
 const useFilterStyles = makeStyles((theme) => ({
   formControl: {
@@ -193,4 +130,8 @@ const AdvancedFilter = ({ onChange, value: initialValue = 0.5 }) => {
   );
 };
 
-export default Filters;
+const MemoFilter = React.memo(Filter);
+const MemoAdvanced = React.memo(AdvancedFilter);
+
+export { MemoFilter as Filter };
+export { MemoAdvanced as AdvancedFilter };

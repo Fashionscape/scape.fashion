@@ -21,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const ItemPalette = ({ colors, loading, searched }) => {
+const ItemPalette = ({ colors, loading, filters }) => {
   const classes = useStyles();
 
   return (
@@ -38,7 +38,7 @@ const ItemPalette = ({ colors, loading, searched }) => {
           </>
         ) : (
           colors.map((color, i) => (
-            <ColorSwatch color={color} key={i} searched={searched} />
+            <ColorSwatch color={color} key={i} filters={filters} />
           ))
         )}
       </Box>
@@ -46,7 +46,7 @@ const ItemPalette = ({ colors, loading, searched }) => {
   );
 };
 
-const ColorSwatch = ({ classes, color, loading, searched }) => {
+const ColorSwatch = ({ classes, color, filters, loading }) => {
   if (loading)
     return (
       <Skeleton
@@ -57,7 +57,7 @@ const ColorSwatch = ({ classes, color, loading, searched }) => {
       />
     );
 
-  const path = toPath({ ...searched, search: { by: "color", color } });
+  const path = toPath({ filters, search: { by: "color", color } });
 
   return (
     <Button

@@ -120,4 +120,4 @@ const DesktopToolbar = ({ SearchInput, onToggleDarkMode }) => {
   );
 };
 
-export default Header;
+export default React.memo(Header);

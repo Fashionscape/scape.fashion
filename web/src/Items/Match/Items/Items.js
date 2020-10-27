@@ -5,12 +5,12 @@ import ItemHeader from "./ItemHeader";
 import ItemImage from "./ItemImage";
 import ItemPalette from "./ItemPalette";
 
-const Items = React.memo(({ items, loading, searched }) => {
+const Items = React.memo(({ filters, items, loading }) => {
   return (
     <Box py={2}>
       <Grid container spacing={2}>
         {items.map((item, i) => (
-          <Item key={item.name} {...item} searched={searched} />
+          <Item key={item.name} {...item} filters={filters} />
         ))}
         {loading &&
           [...Array(50)].map((_, i) => <Item key={i} loading={true} />)}

@@ -60,7 +60,7 @@ const ColorAdornment = React.forwardRef(({ onChange, value }, ref) => {
     const tId = setTimeout(() => onChange(color), 100);
 
     return () => clearTimeout(tId);
-  }, [color]);
+  }, [color, onChange]);
 
   const handleChange = React.useCallback(
     (event) => setColor(event.target.value),
