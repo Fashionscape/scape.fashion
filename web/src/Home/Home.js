@@ -30,7 +30,7 @@ const Home = () => {
   );
 };
 
-const initialSearch = { by: "item", item: null };
+const initialSearch = { by: "item", color: "#ff0000", item: null };
 const initialState = { search: initialSearch, searched: null };
 
 const reducer = (state, { type, payload }) => {

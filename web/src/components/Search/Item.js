@@ -38,7 +38,6 @@ const ItemSearch = React.memo((props) => {
     <Autocomplete
       ListboxComponent={ItemList}
       autoHighlight
-      autoSelect
       classes={classes}
       disableClearable
       disableListWrap

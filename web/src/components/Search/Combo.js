@@ -25,15 +25,9 @@ const ComboSearch = ({ onChange, onSubmit, search }) => {
   const classes = useStyles();
   const formClasses = useFormStyles();
 
-  const [searchBy, setSearchBy] = React.useState(search.by);
-
-  const handleSearchBy = React.useCallback((value) => setSearchBy(value), [
-    setSearchBy,
+  const handleSearchBy = React.useCallback((value) => onChange({ by: value }), [
+    onChange,
   ]);
-
-  React.useEffect(() => {
-    setSearchBy(search.by);
-  }, [search.by]);
 
   const handleSubmit = React.useCallback(
     (event) => {
@@ -47,15 +41,15 @@ const ComboSearch = ({ onChange, onSubmit, search }) => {
 
   const endAdornment = (
     <SearchAdornments
-      onSearch={onSubmit}
+      onSearch={handleSubmit}
       onSearchBy={handleSearchBy}
-      value={searchBy}
+      value={search.by}
     />
   );
 
   return (
     <form className={formClasses.root} onSubmit={handleSubmit}>
-      {searchBy === "item" ? (
+      {search.by === "item" ? (
         <Search.Item
           InputProps={{ classes, endAdornment }}
           onChange={(value) => onChange({ by: "item", item: value })}
