@@ -16,7 +16,9 @@ export const useQuery = () => {
 
   const searchBy = query.hasOwnProperty("color") ? "color" : "item";
 
-  const { allowance, color, item, members, slot, tradeable } = query;
+  const { color, item, members, slot, tradeable } = query;
+  const allowance =
+    query.allowance === undefined ? undefined : Number(query.allowance);
 
   const filters = React.useMemo(
     () => ({ allowance, members, slot, tradeable }),
