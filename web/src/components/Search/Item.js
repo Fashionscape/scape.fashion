@@ -28,7 +28,7 @@ const filterOptions = createFilterOptions({
 });
 
 const ItemSearch = React.memo((props) => {
-  const { InputProps, onChange, value = "" } = props;
+  const { InputProps, onChange, value } = props;
 
   const items = useItems(keys);
   const classes = useStyles();
@@ -37,11 +37,12 @@ const ItemSearch = React.memo((props) => {
   return (
     <Autocomplete
       ListboxComponent={ItemList}
+      autoHighlight
+      autoSelect
       classes={classes}
       disableClearable
       disableListWrap
       filterOptions={filterOptions}
-      freeSolo
       fullWidth
       onChange={(_e, value) => onChange(value)}
       options={names}

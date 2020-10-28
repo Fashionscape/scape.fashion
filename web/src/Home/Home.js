@@ -10,8 +10,6 @@ import config from "config";
 
 import { toPath } from "hooks/search";
 
-const initialSearch = { by: "item", item: "" };
-
 const Home = () => {
   return (
     <>
@@ -32,6 +30,7 @@ const Home = () => {
   );
 };
 
+const initialSearch = { by: "item", item: null };
 const initialState = { search: initialSearch, searched: null };
 
 const reducer = (state, { type, payload }) => {
@@ -58,8 +57,7 @@ const SearchForm = () => {
     dispatch,
   ]);
 
-  const value = searched && searched.search[searched.search.by];
-  if (value) return <Redirect push to={toPath(searched)} />;
+  if (searched) return <Redirect push to={toPath(searched)} />;
 
   return (
     <Search.Combo

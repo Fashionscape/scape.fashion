@@ -9,7 +9,7 @@ import {
 import { makeStyles } from "@material-ui/core/styles";
 
 const ColorSearch = React.memo((props) => {
-  const { InputProps, onChange, value = "#ff0000" } = props;
+  const { InputProps, onChange, value } = props;
 
   const colorPickerRef = React.useRef();
 
@@ -57,10 +57,12 @@ const ColorAdornment = React.forwardRef(({ onChange, value }, ref) => {
   const [color, setColor] = React.useState(value);
 
   React.useEffect(() => {
-    const tId = setTimeout(() => onChange(color), 100);
+    const colorEl = ref.current;
+    const handleChange = (event) => onChange(event.target.value);
+    colorEl.addEventListener("change", handleChange);
 
-    return () => clearTimeout(tId);
-  }, [color, onChange]);
+    return () => colorEl.removeEventListener("change", handleChange);
+  }, [onChange, ref]);
 
   const handleChange = React.useCallback(
     (event) => setColor(event.target.value),
@@ -75,7 +77,7 @@ const ColorAdornment = React.forwardRef(({ onChange, value }, ref) => {
         name="color"
         onChange={handleChange}
         type="color"
-        value={value}
+        value={color}
       />
     </InputAdornment>
   );

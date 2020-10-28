@@ -24,40 +24,47 @@ const useFormStyles = makeStyles({
 const ComboSearch = ({ onChange, onSubmit, search }) => {
   const classes = useStyles();
   const formClasses = useFormStyles();
-  const formRef = React.useRef();
 
-  const handleSearchBy = React.useCallback((value) => onChange({ by: value }), [
-    onChange,
+  const [searchBy, setSearchBy] = React.useState(search.by);
+
+  const handleSearchBy = React.useCallback((value) => setSearchBy(value), [
+    setSearchBy,
   ]);
+
+  React.useEffect(() => {
+    setSearchBy(search.by);
+  }, [search.by]);
 
   const handleSubmit = React.useCallback(
     (event) => {
       event.preventDefault();
+      if (!onSubmit) return;
+      if (!search[search.by]) return;
       onSubmit(event);
     },
-    [onSubmit]
+    [onSubmit, search]
   );
 
   const endAdornment = (
     <SearchAdornments
       onSearch={onSubmit}
       onSearchBy={handleSearchBy}
-      value={search.by}
+      value={searchBy}
     />
   );
 
   return (
-    <form className={formClasses.root} onSubmit={handleSubmit} ref={formRef}>
-      {search.by === "item" ? (
+    <form className={formClasses.root} onSubmit={handleSubmit}>
+      {searchBy === "item" ? (
         <Search.Item
           InputProps={{ classes, endAdornment }}
-          onChange={(value) => onChange({ item: value })}
+          onChange={(value) => onChange({ by: "item", item: value })}
           value={search.item}
         />
       ) : (
         <Search.Color
           InputProps={{ classes, endAdornment }}
-          onChange={(value) => onChange({ color: value })}
+          onChange={(value) => onChange({ by: "color", color: value })}
           value={search.color}
         />
       )}
@@ -95,9 +102,11 @@ const SearchAdornments = React.memo(
           <IconButton edge="end" onClick={handleToggle}>
             {isByItem ? colorIcon : itemIcon}
           </IconButton>
-          <IconButton edge="end" onClick={onSearch}>
-            <SearchIcon />
-          </IconButton>
+          {onSearch && (
+            <IconButton edge="end" onClick={onSearch}>
+              <SearchIcon />
+            </IconButton>
+          )}
         </InputAdornment>
       );
     };
