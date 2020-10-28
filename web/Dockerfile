@@ -3,6 +3,7 @@ FROM node:12.14 as builder
 
 WORKDIR /usr/src/app
 
+COPY jsconfig.json   .
 COPY package.json    .
 COPY yarn.lock       .
 COPY src             src
