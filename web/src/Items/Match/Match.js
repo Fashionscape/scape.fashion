@@ -15,6 +15,8 @@ const useStyles = makeStyles({
   },
 });
 
+const initialState = { search: { color: "#ff0000" } };
+
 const reducer = (state, { payload, type }) => {
   switch (type) {
     case "filters":
@@ -33,7 +35,11 @@ const Match = () => {
   const history = useHistory();
   const query = useQuery();
 
-  const [state, dispatch] = React.useReducer(reducer, { ...query });
+  const [state, dispatch] = React.useReducer(reducer, {
+    filters: { ...initialState.filters, ...query.filters },
+    search: { ...initialState.search, ...query.search },
+  });
+
   const { filters, search } = state;
 
   React.useEffect(() => {

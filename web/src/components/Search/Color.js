@@ -57,6 +57,10 @@ const ColorAdornment = React.forwardRef(({ onChange, value }, ref) => {
   const [color, setColor] = React.useState(value);
 
   React.useEffect(() => {
+    setColor(value);
+  }, [value]);
+
+  React.useEffect(() => {
     const colorEl = ref.current;
     const handleChange = (event) => onChange(event.target.value);
     colorEl.addEventListener("change", handleChange);
