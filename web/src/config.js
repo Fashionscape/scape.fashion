@@ -28,6 +28,7 @@ const config = {
     analytics: {
       trackingId: "UA-101624095-7",
     },
+    api: "https://api.rune.scape.fashion",
     release: {
       key: "runescape",
       name: "Runescape",
