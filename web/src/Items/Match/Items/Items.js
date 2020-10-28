@@ -24,6 +24,7 @@ const Items = React.memo(() => {
   const { items, loading, page, searched } = state;
 
   React.useEffect(() => {
+    window.scrollTo(0, 0);
     fetchItems({ filters, page: 0, search });
   }, [filters, search]);
 
