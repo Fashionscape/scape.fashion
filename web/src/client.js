@@ -11,7 +11,7 @@ const items = (() => {
   };
 
   const match = async ({ filters, page, search }) => {
-    const path = toPath({ filters, page, search });
+    const path = toPath({ filters, page, pageSize: 30, search });
     const res = await fetch(config.api + path);
     return res.json();
   };

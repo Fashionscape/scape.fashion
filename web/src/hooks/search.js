@@ -42,11 +42,12 @@ const removeEmpty = (obj) =>
     Object.entries(obj).filter(([k, v]) => ![undefined, null, ""].includes(v))
   );
 
-export const toPath = ({ filters = {}, page, search }) => {
+export const toPath = ({ filters = {}, page, pageSize, search }) => {
   const params = new URLSearchParams({
     ...(search.by === "item" && { name: search.item }),
     ...(search.by === "color" && { color: search.color }),
     ...(page !== undefined && { page }),
+    ...(pageSize !== undefined && { pageSize }),
     ...removeEmpty(filters),
   });
   const query = params.toString();

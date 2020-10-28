@@ -66,7 +66,7 @@ const Items = React.memo(() => {
   return (
     <Box py={2}>
       <ItemList items={items} filters={searched?.filters} />
-      <Skeletons length={50} hide={!loading} />
+      <Skeletons length={30} hide={!loading} />
     </Box>
   );
 });
