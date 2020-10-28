@@ -25,6 +25,7 @@ router.get('/match', validate.match, (req, res) => {
   const {fuse, items} = req;
   const {allowance, color, members, name, slot, tradeable} = req.query;
   const page = Number(req.query.page || 0);
+  const pageSize = Number(req.query.pageSize || 50);
 
   const item = name && fuse.search(name)[0].item;
   const colors = color ? [color] : item.colors;
@@ -36,8 +37,11 @@ router.get('/match', validate.match, (req, res) => {
     .map(Match.withMatch(colors, {allowance}))
     .sort(byMatch);
 
-  const lastPage = indexOfLastPage(matches.length);
-  const results = matches.slice(pageStart(page), pageEnd(page));
+  const lastPage = indexOfLastPage(matches.length, pageSize);
+  const results = matches.slice(
+    pageStart(page, pageSize),
+    pageEnd(page, pageSize)
+  );
 
   const result = {
     ...(color && {color}),
@@ -50,7 +54,11 @@ router.get('/match', validate.match, (req, res) => {
   res.json(result);
 });
 
-const indexOfLastPage = count => Math.max(0, Math.ceil(count / PAGE_SIZE) - 1);
+const indexOfLastPage = (count, pageSize) =>
+  Math.max(0, Math.ceil(count / pageSize) - 1);
+
+const pageStart = (page, pageSize) => page * pageSize;
+const pageEnd = (page, pageSize) => pageStart(page, pageSize) + pageSize;
 
 const byMatch = (a, b) => b.match - a.match;
 
@@ -74,10 +82,6 @@ const isTradeable = tradeable => item => {
   const isTradeable = !item.status.includes('untradeable');
   return toBoolean(tradeable) ? isTradeable : !isTradeable;
 };
-
-const PAGE_SIZE = 50;
-const pageStart = page => page * PAGE_SIZE;
-const pageEnd = page => pageStart(page) + PAGE_SIZE;
 
 router.get('/find', validate.find, (req, res) => {
   const {fuse, items} = req;
