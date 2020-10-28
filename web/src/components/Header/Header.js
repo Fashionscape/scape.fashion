@@ -46,7 +46,7 @@ const Header = (props) => {
     <>
       <AppBar
         className={classes.root}
-        elevation={SearchInput && isScrolled ? 4 : 0}
+        elevation={SearchInput && (isScrolled || !isDarkMode) ? 2 : 0}
         position={SearchInput ? "fixed" : "static"}
       >
         <Container disableGutters maxWidth={SearchInput ? "lg" : false}>

@@ -3,13 +3,17 @@ import {
   CardActionArea,
   CardMedia,
   Skeleton,
+  darken,
   lighten,
   makeStyles,
 } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
   mediaContainer: {
-    backgroundColor: theme.palette.mode === "dark" && lighten("#121212", 0.05),
+    backgroundColor:
+      theme.palette.mode === "dark"
+        ? lighten("#121212", 0.05)
+        : darken("#fff", 0.05),
     display: "flex",
     padding: theme.spacing(2.5),
     flex: "auto",

@@ -95,7 +95,7 @@ const Skeletons = React.memo(({ length, hide }) => {
 
 const useItemStyles = makeStyles((theme) => ({
   card: {
-    backgroundColor: "transparent",
+    backgroundColor: theme.palette.mode === "dark" && "transparent",
     display: "flex",
     flexDirection: "column",
     height: "100%",

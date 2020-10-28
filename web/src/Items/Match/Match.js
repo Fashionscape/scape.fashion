@@ -9,11 +9,12 @@ import Page from "components/Page";
 import Search from "components/Search";
 import { toPath, useQuery } from "hooks/search";
 
-const useStyles = makeStyles({
+const useStyles = makeStyles((theme) => ({
   page: {
+    backgroundColor: theme.palette.mode === "light" && "#fafafa",
     paddingTop: ({ mdUp }) => (mdUp ? 80 : 128),
   },
-});
+}));
 
 const initialState = { search: { color: "#ff0000" } };
 

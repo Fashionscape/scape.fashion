@@ -53,6 +53,7 @@ const Filters = ({ onChange, filters = {} }) => {
       alignItems="baseline"
       className={classes.root}
       display="flex"
+      pt={1}
       overflow="auto"
     >
       <Filter

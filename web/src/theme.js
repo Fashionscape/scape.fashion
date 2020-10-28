@@ -38,6 +38,9 @@ const lightTheme = {
   },
   palette: {
     mode: "light",
+    background: {
+      default: "#ffffff",
+    },
     primary: {
       main: colors.grey[900],
     },
