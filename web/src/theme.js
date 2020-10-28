@@ -38,21 +38,41 @@ const lightTheme = {
   },
   palette: {
     mode: "light",
+    primary: {
+      main: colors.grey[900],
+    },
+    secondary: {
+      main: colors.grey[900],
+    },
   },
 };
+
+const storage = (() => {
+  const key = "prefersDarkMode";
+
+  const preferredMode = () => localStorage.getItem(key);
+
+  const setPreferredMode = (mode) => localStorage.setItem(key, mode);
+
+  return { preferredMode, setPreferredMode };
+})();
 
 const ThemeModeContext = React.createContext("dark");
 
 const SFTheme = ({ children }) => {
-  const [mode, setMode] = React.useState("dark");
-
-  const prefersDarkMode = useMediaQuery("(prefers-color-scheme: dark)", {
+  const storagePreference = storage.preferredMode();
+  const osPrefersDarkMode = useMediaQuery("(prefers-color-scheme: dark)", {
     defaultMatches: true,
   });
+  const osPreference = osPrefersDarkMode ? "dark" : "light";
+  const preferredMode = storagePreference ?? osPreference;
 
-  React.useEffect(() => {
-    setMode(prefersDarkMode ? "dark" : "light");
-  }, [prefersDarkMode]);
+  const [mode, setModeState] = React.useState(preferredMode);
+
+  const setMode = (mode) => {
+    storage.setPreferredMode(mode);
+    setModeState(mode);
+  };
 
   const theme = mode === "dark" ? darkTheme : lightTheme;
   const muiTheme = React.useMemo(
