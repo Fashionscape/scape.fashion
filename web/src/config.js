@@ -7,7 +7,7 @@ const config = {
   oldschool: {
     altRelease: {
       abbreviation: "RS3",
-      url: "https://rune.scape.fashion",
+      url: "https://beta.rune.scape.fashion",
     },
     analytics: {
       trackingId: "UA-101624095-5",
@@ -23,7 +23,7 @@ const config = {
   runescape: {
     altRelease: {
       abbreviation: "OSRS",
-      url: "https://scape.fashion",
+      url: "https://beta.scape.fashion",
     },
     analytics: {
       trackingId: "UA-101624095-7",
