@@ -2,6 +2,7 @@ import React from "react";
 import {
   AppBar,
   Box,
+  Container,
   Divider,
   Hidden,
   IconButton,
@@ -48,18 +49,20 @@ const Header = (props) => {
         elevation={SearchInput && isScrolled ? 4 : 0}
         position={SearchInput ? "fixed" : "static"}
       >
-        <Hidden mdUp>
-          <MobileToolbar
-            SearchInput={SearchInput}
-            onMenuClick={() => setIsNavOpen(true)}
-          />
-        </Hidden>
-        <Hidden mdDown>
-          <DesktopToolbar
-            SearchInput={SearchInput}
-            onToggleDarkMode={handleDarkModeToggle}
-          />
-        </Hidden>
+        <Container disableGutters maxWidth={SearchInput ? "lg" : false}>
+          <Hidden mdUp>
+            <MobileToolbar
+              SearchInput={SearchInput}
+              onMenuClick={() => setIsNavOpen(true)}
+            />
+          </Hidden>
+          <Hidden mdDown>
+            <DesktopToolbar
+              SearchInput={SearchInput}
+              onToggleDarkMode={handleDarkModeToggle}
+            />
+          </Hidden>
+        </Container>
       </AppBar>
       <NavDrawer
         onClose={() => setIsNavOpen(false)}
