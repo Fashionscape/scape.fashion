@@ -61,13 +61,19 @@ const Items = React.memo(() => {
 
   return (
     <Box py={2}>
-      <Grid container spacing={2}>
-        {items.map((item, i) => (
-          <Item key={item.name} {...item} filters={searched.filters} />
-        ))}
-      </Grid>
+      <ItemList items={items} filters={searched?.filters} />
       <Skeletons length={50} hide={!loading} />
     </Box>
+  );
+});
+
+const ItemList = React.memo(({ items, filters }) => {
+  return (
+    <Grid container spacing={2}>
+      {items.map((item, i) => (
+        <Item key={item.name} {...item} filters={filters} />
+      ))}
+    </Grid>
   );
 });
 
