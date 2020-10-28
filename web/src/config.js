@@ -1,5 +1,5 @@
 const isDev = process.env.NODE_ENV === "development";
-const isRS3 = window.location.hostname === "rune.scape.fashion";
+const isRS3 = window.location.hostname === "beta.rune.scape.fashion";
 
 const env = isDev ? "development" : isRS3 ? "runescape" : "oldschool";
 
