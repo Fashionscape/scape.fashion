@@ -13,8 +13,7 @@ const items = (() => {
   const match = async ({ filters, page, search }) => {
     const path = toPath({ filters, page, search });
     const res = await fetch(config.api + path);
-    const body = await res.json();
-    return body.items;
+    return res.json();
   };
 
   return { list, match };

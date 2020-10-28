@@ -30,10 +30,12 @@ const Items = React.memo(() => {
   const fetchItems = async ({ filters, items = [], page, search }) => {
     dispatch({ type: "loading", payload: { items } });
 
-    const loaded = await client.items.match({ filters, search, page });
-    items = items.concat(loaded);
+    const response = await client.items.match({ filters, search, page });
+    items = items.concat(response.items);
 
-    const searched = { filters, search };
+    const { lastPage } = response;
+
+    const searched = { filters, lastPage, search };
     dispatch({ type: "loaded", payload: { items, page, searched } });
   };
 
@@ -44,6 +46,7 @@ const Items = React.memo(() => {
 
   React.useEffect(() => {
     if (loading) return;
+    if (page === searched?.lastPage) return;
 
     const handleScroll = () => {
       const { scrollY } = window;
@@ -57,7 +60,7 @@ const Items = React.memo(() => {
     window.addEventListener("scroll", handleScroll);
 
     return () => window.removeEventListener("scroll", handleScroll);
-  }, [loading, fetchPage, page]);
+  }, [loading, fetchPage, page, searched]);
 
   return (
     <Box py={2}>
