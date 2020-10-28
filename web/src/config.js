@@ -28,9 +28,12 @@ const config = {
     analytics: {
       trackingId: "UA-101624095-7",
     },
-    api: "https://api.rune.scape.fashion",
-    title: "rune.scape.fashion",
-    release: "runescape",
+    release: {
+      key: "runescape",
+      name: "Runescape",
+      abbreviation: "RS3",
+      title: "rune.scape.fashion",
+    },
   },
   development: {
     altRelease: {
