@@ -2,6 +2,7 @@ import CssBaseline from "@material-ui/core/CssBaseline";
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
+import Analytics from "Analytics";
 import Home from "Home";
 import Items from "Items";
 import { SFTheme } from "theme";
@@ -11,10 +12,12 @@ import "./App.css";
 const App = () => {
   return (
     <BrowserRouter>
-      <SFTheme>
-        <CssBaseline />
-        <Main />
-      </SFTheme>
+      <Analytics>
+        <SFTheme>
+          <CssBaseline />
+          <Main />
+        </SFTheme>
+      </Analytics>
     </BrowserRouter>
   );
 };
