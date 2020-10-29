@@ -25,7 +25,7 @@ const Home = () => {
             scape.fashion
           </Typography>
           <Typography align="center" gutterBottom variant="subtitle1">
-            Find the perfect outfit for your special item
+            Find items that match in {config.release.name}
           </Typography>
           <SearchForm />
         </Section>
