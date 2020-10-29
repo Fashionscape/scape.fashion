@@ -16,8 +16,13 @@ const Home = () => {
       <Header />
       <Page maxWidth="xs">
         <Section>
-          <Typography align="center" component="h1" variant="h2">
-            {config.release.title}
+          <Typography
+            align="center"
+            component="h1"
+            variant="h2"
+            style={{ fontWeight: "bold" }}
+          >
+            scape.fashion
           </Typography>
           <Typography align="center" gutterBottom variant="subtitle1">
             Find the perfect outfit for your special item

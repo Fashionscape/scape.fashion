@@ -17,7 +17,6 @@ const config = {
       key: "oldschool",
       name: "Old School Runescape",
       abbreviation: "OSRS",
-      title: "scape.fashion",
     },
   },
   runescape: {
@@ -33,7 +32,6 @@ const config = {
       key: "runescape",
       name: "Runescape",
       abbreviation: "RS3",
-      title: "rune.scape.fashion",
     },
   },
   development: {
@@ -49,7 +47,6 @@ const config = {
       key: "oldschool",
       name: "Old School Runescape",
       abbreviation: "OSRS",
-      title: "scape.fashion",
     },
   },
 }[env];
