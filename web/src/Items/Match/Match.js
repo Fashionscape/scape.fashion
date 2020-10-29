@@ -16,7 +16,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const initialState = { search: { color: "#ff0000" } };
+const initialState = { search: { color: "#ff0000", item: null } };
 
 const reducer = (state, { payload, type }) => {
   switch (type) {
@@ -56,6 +56,7 @@ const Match = () => {
     const currentPath = location.pathname + location.search;
 
     if (currentPath === toPath({ filters, search })) return;
+    if (!search[search.by]) return;
 
     // allow rendering to finish
     setTimeout(() => {
