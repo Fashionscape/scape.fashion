@@ -46,7 +46,7 @@ const NavDrawer = ({ onClose, onToggleDarkMode, open }) => {
       </Toolbar>
       <Divider />
       <List subheader={<ListSubheader>Get involved</ListSubheader>}>
-        <ListItemLink href="https://discord.gg/uFv57D5">
+        <ListItemLink href="https://discord.gg/yGubFFEuup">
           <ListItemText primary="Discord" />
           <OutbondIcon />
         </ListItemLink>
@@ -67,18 +67,14 @@ const NavDrawer = ({ onClose, onToggleDarkMode, open }) => {
         </ListItemLink>
         <ListItem>
           <ListItemText primary="Dark Mode" />
-          <Switch
-            checked={isDarkMode}
-            edge="end"
-            onChange={onToggleDarkMode}
-          />
+          <Switch checked={isDarkMode} edge="end" onChange={onToggleDarkMode} />
         </ListItem>
       </List>
       <Box flex="auto" />
       <Box p={2}>
         <Typography align="center" variant="body2">
           <span>Found a problem? Ask on </span>
-          <Link href="https://discord.gg/uFv57D5" underline="always">
+          <Link href="https://discord.gg/yGubFFEuup" underline="always">
             discord
           </Link>{" "}
           <span> or </span>

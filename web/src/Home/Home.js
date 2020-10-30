@@ -77,7 +77,7 @@ const Footer = () => {
   return (
     <Hidden mdUp>
       <Box padding={4} textAlign="center">
-        <Link href="https://discord.gg/uFv57D5" variant="body2">
+        <Link href="https://discord.gg/yGubFFEuup" variant="body2">
           Discord
         </Link>
         <Box display="inline" m={1} />
