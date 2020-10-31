@@ -9381,9 +9381,9 @@
   },
   {
     "colors": [
-      "#625780",
-      "#b7aad8",
-      "#9077cc"
+      "#6a5f8a",
+      "#c2bcd9",
+      "#af9fdb"
     ],
     "hidden": false,
     "images": {
@@ -17914,10 +17914,10 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Mith_crossbow_detail.png",
-      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Mith_crossbow_equipped.png"
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Mithril_crossbow_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Mithril_crossbow_equipped.png"
     },
-    "name": "Mith crossbow",
+    "name": "Mithril crossbow",
     "slot": "weapon",
     "status": [],
     "wiki": {
@@ -19705,9 +19705,9 @@
   },
   {
     "colors": [
-      "#664a1e",
-      "#bf8a39",
-      "#966c2d"
+      "#ba8738",
+      "#59401a",
+      "#775624"
     ],
     "hidden": false,
     "images": {
@@ -25645,6 +25645,30 @@
   },
   {
     "colors": [
+      "#584732",
+      "#b2a779",
+      "#989067"
+    ],
+    "hidden": false,
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Graceful_legs_(Trailblazer)_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Graceful_outfit_(Trailblazer)_equipped.png"
+    },
+    "name": "Graceful legs (Trailblazer)",
+    "slot": "leg",
+    "status": [
+      "untradeable",
+      "variant"
+    ],
+    "variant": "Trailblazer",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=26342&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=26342#Trailblazer",
+      "pageId": 26342
+    }
+  },
+  {
+    "colors": [
       "#bcb6a0",
       "#494343",
       "#6a6154"
@@ -25856,6 +25880,30 @@
     "wiki": {
       "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=26356&prop=categories|images|templates|wikitext&format=json",
       "link": "https://oldschool.runescape.wiki/w/?curid=26356#Shayzien",
+      "pageId": 26356
+    }
+  },
+  {
+    "colors": [
+      "#644e38",
+      "#b7ad7d",
+      "#948c64"
+    ],
+    "hidden": false,
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Graceful_boots_(Trailblazer)_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Graceful_outfit_(Trailblazer)_equipped.png"
+    },
+    "name": "Graceful boots (Trailblazer)",
+    "slot": "feet",
+    "status": [
+      "untradeable",
+      "variant"
+    ],
+    "variant": "Trailblazer",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=26356&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=26356#Trailblazer",
       "pageId": 26356
     }
   },
@@ -26077,6 +26125,30 @@
   },
   {
     "colors": [
+      "#524330",
+      "#ada274",
+      "#8d9176"
+    ],
+    "hidden": false,
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Graceful_top_(Trailblazer)_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Graceful_outfit_(Trailblazer)_equipped.png"
+    },
+    "name": "Graceful top (Trailblazer)",
+    "slot": "body",
+    "status": [
+      "untradeable",
+      "variant"
+    ],
+    "variant": "Trailblazer",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=26362&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=26362#Trailblazer",
+      "pageId": 26362
+    }
+  },
+  {
+    "colors": [
       "#373333",
       "#948e76",
       "#74745c"
@@ -26288,6 +26360,30 @@
     "wiki": {
       "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=26364&prop=categories|images|templates|wikitext&format=json",
       "link": "https://oldschool.runescape.wiki/w/?curid=26364#Shayzien",
+      "pageId": 26364
+    }
+  },
+  {
+    "colors": [
+      "#55412f",
+      "#6c573c",
+      "#64543c"
+    ],
+    "hidden": false,
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Graceful_cape_(Trailblazer)_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Graceful_cape_(Trailblazer)_equipped.png"
+    },
+    "name": "Graceful cape (Trailblazer)",
+    "slot": "cape",
+    "status": [
+      "untradeable",
+      "variant"
+    ],
+    "variant": "Trailblazer",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=26364&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=26364#Trailblazer",
       "pageId": 26364
     }
   },
@@ -26509,6 +26605,30 @@
   },
   {
     "colors": [
+      "#4f3e2c",
+      "#776042",
+      "#261f16"
+    ],
+    "hidden": false,
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Graceful_gloves_(Trailblazer)_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Graceful_outfit_(Trailblazer)_equipped.png"
+    },
+    "name": "Graceful gloves (Trailblazer)",
+    "slot": "hand",
+    "status": [
+      "untradeable",
+      "variant"
+    ],
+    "variant": "Trailblazer",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=26366&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=26366#Trailblazer",
+      "pageId": 26366
+    }
+  },
+  {
+    "colors": [
       "#87826d",
       "#242220",
       "#cbc7b1"
@@ -26720,6 +26840,30 @@
     "wiki": {
       "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=26368&prop=categories|images|templates|wikitext&format=json",
       "link": "https://oldschool.runescape.wiki/w/?curid=26368#Shayzien",
+      "pageId": 26368
+    }
+  },
+  {
+    "colors": [
+      "#463727",
+      "#7a6445",
+      "#1b130b"
+    ],
+    "hidden": false,
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Graceful_hood_(Trailblazer)_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Graceful_outfit_(Trailblazer)_equipped.png"
+    },
+    "name": "Graceful hood (Trailblazer)",
+    "slot": "head",
+    "status": [
+      "untradeable",
+      "variant"
+    ],
+    "variant": "Trailblazer",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=26368&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=26368#Trailblazer",
       "pageId": 26368
     }
   },
@@ -31080,9 +31224,9 @@
   },
   {
     "colors": [
-      "#999057",
-      "#255a4c",
-      "#ad2037"
+      "#a79d5f",
+      "#295c49",
+      "#a5273e"
     ],
     "hidden": false,
     "images": {
@@ -36845,9 +36989,9 @@
   },
   {
     "colors": [
-      "#0c0404",
-      "#140404",
-      "#100404"
+      "#7d7474",
+      "#595454",
+      "#544c4c"
     ],
     "hidden": false,
     "images": {
@@ -37845,9 +37989,9 @@
   },
   {
     "colors": [
-      "#064157",
-      "#a49999",
-      "#998c8c"
+      "#3a94b3",
+      "#a39696",
+      "#285d6e"
     ],
     "hidden": false,
     "images": {
@@ -37865,9 +38009,9 @@
   },
   {
     "colors": [
-      "#a47504",
-      "#b4a9a9",
-      "#0e0d36"
+      "#aa8014",
+      "#b5abaa",
+      "#6a4f0c"
     ],
     "hidden": false,
     "images": {
@@ -37905,9 +38049,9 @@
   },
   {
     "colors": [
-      "#2c2c04",
-      "#1c1c04",
-      "#343404"
+      "#9e9d7d",
+      "#5c5b49",
+      "#c5c5a6"
     ],
     "hidden": false,
     "images": {
@@ -41030,9 +41174,9 @@
   },
   {
     "colors": [
-      "#49510c",
-      "#8cae62",
-      "#952013"
+      "#47500b",
+      "#95af73",
+      "#96352b"
     ],
     "hidden": false,
     "images": {
@@ -41052,8 +41196,8 @@
   },
   {
     "colors": [
-      "#515137",
-      "#8e8a72",
+      "#4f4e37",
+      "#918a78",
       "#7c7c54"
     ],
     "hidden": false,
@@ -41074,9 +41218,9 @@
   },
   {
     "colors": [
-      "#565538",
-      "#938c73",
-      "#848458"
+      "#5a5a3b",
+      "#25251a",
+      "#938e75"
     ],
     "hidden": false,
     "images": {
@@ -41097,8 +41241,8 @@
   {
     "colors": [
       "#232308",
-      "#525c0c",
-      "#444b10"
+      "#535d0c",
+      "#394308"
     ],
     "hidden": false,
     "images": {
@@ -49442,9 +49586,9 @@
   },
   {
     "colors": [
-      "#9999ac",
-      "#2d3556",
-      "#454a72"
+      "#8a8b9a",
+      "#363e5a",
+      "#4c4c6f"
     ],
     "hidden": false,
     "images": {
@@ -49464,9 +49608,9 @@
   },
   {
     "colors": [
-      "#9c9da9",
-      "#212721",
-      "#4c544c"
+      "#90909b",
+      "#2c302c",
+      "#4c514c"
     ],
     "hidden": false,
     "images": {
@@ -49486,9 +49630,9 @@
   },
   {
     "colors": [
-      "#b0aa96",
-      "#ab9a44",
-      "#6c6454"
+      "#9b9896",
+      "#ab9c50",
+      "#5c5745"
     ],
     "hidden": false,
     "images": {
@@ -49508,9 +49652,9 @@
   },
   {
     "colors": [
-      "#9f9fad",
-      "#3d110f",
-      "#4c4444"
+      "#908f9a",
+      "#42130c",
+      "#494444"
     ],
     "hidden": false,
     "images": {
@@ -57311,7 +57455,7 @@
     "slot": "neck",
     "status": [
       "untradeable",
-      "unobtainable"
+      "discontinued"
     ],
     "wiki": {
       "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=118478&prop=categories|images|templates|wikitext&format=json",
@@ -62044,10 +62188,10 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Dragon_pickaxe(or)_detail.png",
-      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Dragon_pickaxe(or)_equipped.png"
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Dragon_pickaxe_(or)_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Dragon_pickaxe_(or)_equipped.png"
     },
-    "name": "Dragon pickaxe(or)",
+    "name": "Dragon pickaxe (or)",
     "slot": "weapon",
     "status": [
       "untradeable"
