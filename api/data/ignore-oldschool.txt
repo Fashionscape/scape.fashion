@@ -190,4 +190,5 @@ Elven signet
 Rune berserker shield
 Ring of endurance (Charged)
 Ring of endurance (Uncharged)
+Hallowed grapple
 Hallowed ring

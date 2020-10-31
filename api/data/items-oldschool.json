@@ -19912,6 +19912,56 @@
   },
   {
     "colors": [
+      "#7c5c0c",
+      "#664c0c",
+      "#57420c"
+    ],
+    "hidden": false,
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Axe_handle_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Axe_handle_equipped.png"
+    },
+    "name": "Axe handle",
+    "slot": "weapon",
+    "status": [
+      "freetoplay",
+      "unobtainable",
+      "variant"
+    ],
+    "variant": "Standard",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=16393&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=16393#Standard",
+      "pageId": 16393
+    }
+  },
+  {
+    "colors": [
+      "#5b5555",
+      "#393434",
+      "#2a2828"
+    ],
+    "hidden": false,
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Axe_handle_(dragon)_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Axe_handle_(dragon)_equipped.png"
+    },
+    "name": "Axe handle (Dragon)",
+    "slot": "weapon",
+    "status": [
+      "freetoplay",
+      "unobtainable",
+      "variant"
+    ],
+    "variant": "Dragon",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=16393&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=16393#Dragon",
+      "pageId": 16393
+    }
+  },
+  {
+    "colors": [
       "#95794b",
       "#463a22",
       "#5f4f30"
@@ -56489,6 +56539,54 @@
   },
   {
     "colors": [
+      "#968b8f",
+      "#df2d1c",
+      "#c4babe"
+    ],
+    "hidden": false,
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Blood_tiara_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Blood_tiara_equipped.png"
+    },
+    "name": "Blood tiara",
+    "slot": "head",
+    "status": [
+      "discontinued",
+      "untradeable",
+      "unobtainable"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=112926&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=112926",
+      "pageId": 112926
+    }
+  },
+  {
+    "colors": [
+      "#9d939d",
+      "#8d599c",
+      "#665f66"
+    ],
+    "hidden": false,
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Soul_tiara_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Soul_tiara_equipped.png"
+    },
+    "name": "Soul tiara",
+    "slot": "head",
+    "status": [
+      "discontinued",
+      "untradeable",
+      "unobtainable"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=112928&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=112928",
+      "pageId": 112928
+    }
+  },
+  {
+    "colors": [
       "#878529",
       "#8e8584",
       "#3f3a3a"
@@ -57223,6 +57321,166 @@
   },
   {
     "colors": [
+      "#60210e",
+      "#948c83",
+      "#6a6464"
+    ],
+    "hidden": false,
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Poisoned_dart(p)_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Poisoned_dart(p)_equipped.png"
+    },
+    "name": "Poisoned dart(p)",
+    "slot": "weapon",
+    "status": [
+      "untradeable",
+      "unobtainable"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=118479&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=118479",
+      "pageId": 118479
+    }
+  },
+  {
+    "colors": [
+      "#877e4f",
+      "#1d8d16",
+      "#c4c31a"
+    ],
+    "hidden": false,
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Poisoned_dagger(p)_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Poisoned_dagger(p)_equipped.png"
+    },
+    "name": "Poisoned dagger(p)",
+    "slot": "weapon",
+    "status": [
+      "untradeable",
+      "unobtainable"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=118483&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=118483",
+      "pageId": 118483
+    }
+  },
+  {
+    "colors": [
+      "#4e270c",
+      "#6b6464",
+      "#494443"
+    ],
+    "hidden": false,
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Bow_and_arrow_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Bow_and_arrow_equipped.png"
+    },
+    "name": "Bow and arrow",
+    "slot": "cape",
+    "status": [
+      "untradeable",
+      "unobtainable"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=118503&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=118503",
+      "pageId": 118503
+    }
+  },
+  {
+    "colors": [
+      "#4b3d34",
+      "#dc2d1b",
+      "#7e7c71"
+    ],
+    "hidden": false,
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Paintbrush_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Paintbrush_equipped.png"
+    },
+    "name": "Paintbrush",
+    "slot": "cape",
+    "status": [
+      "untradeable",
+      "unobtainable"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=118504&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=118504",
+      "pageId": 118504
+    }
+  },
+  {
+    "colors": [
+      "#7d7575",
+      "#72560c",
+      "#746c6c"
+    ],
+    "hidden": false,
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Zaros_mjolnir_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Zaros_mjolnir_equipped.png"
+    },
+    "name": "Zaros mjolnir",
+    "slot": "weapon",
+    "status": [
+      "unobtainable"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=118505&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=118505",
+      "pageId": 118505
+    }
+  },
+  {
+    "colors": [
+      "#9d9296",
+      "#8d599d",
+      "#665f62"
+    ],
+    "hidden": false,
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Astral_tiara_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Astral_tiara_equipped.png"
+    },
+    "name": "Astral tiara",
+    "slot": "head",
+    "status": [
+      "untradeable",
+      "unobtainable"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=118506&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=118506",
+      "pageId": 118506
+    }
+  },
+  {
+    "colors": [
+      "#3c350d",
+      "#bfb05e",
+      "#8c964f"
+    ],
+    "hidden": false,
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/A_jester_stick_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/A_jester_stick_equipped.png"
+    },
+    "name": "A jester stick",
+    "slot": "weapon",
+    "status": [
+      "untradeable",
+      "unobtainable"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=118511&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=118511",
+      "pageId": 118511
+    }
+  },
+  {
+    "colors": [
       "#61553f",
       "#aea883",
       "#9a9671"
@@ -57949,6 +58207,29 @@
       "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=182867&prop=categories|images|templates|wikitext&format=json",
       "link": "https://oldschool.runescape.wiki/w/?curid=182867",
       "pageId": 182867
+    }
+  },
+  {
+    "colors": [
+      "#3e2607",
+      "#1b1306",
+      "#5f4328"
+    ],
+    "hidden": false,
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Paddle_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Paddle_equipped.png"
+    },
+    "name": "Paddle",
+    "slot": "weapon",
+    "status": [
+      "freetoplay",
+      "unobtainable"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=183251&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=183251",
+      "pageId": 183251
     }
   },
   {
@@ -64148,6 +64429,30 @@
   },
   {
     "colors": [
+      "#3e2f17",
+      "#b7b7ac",
+      "#7c7c74"
+    ],
+    "hidden": false,
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Stick_(unobtainable_item)_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Stick_(unobtainable_item)_equipped.png"
+    },
+    "name": "Stick (unobtainable item)",
+    "slot": "weapon",
+    "status": [
+      "untradeable",
+      "freetoplay",
+      "unobtainable"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=255282&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=255282",
+      "pageId": 255282
+    }
+  },
+  {
+    "colors": [
       "#3c3b4b",
       "#992619",
       "#521e1a"
@@ -64524,6 +64829,27 @@
       "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=265986&prop=categories|images|templates|wikitext&format=json",
       "link": "https://oldschool.runescape.wiki/w/?curid=265986",
       "pageId": 265986
+    }
+  },
+  {
+    "colors": [
+      "#415f8a",
+      "#b1a885",
+      "#608cbc"
+    ],
+    "hidden": false,
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Hallowed_grapple_detail.png"
+    },
+    "name": "Hallowed grapple",
+    "slot": "ammunition",
+    "status": [
+      "untradeable"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=265999&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=265999",
+      "pageId": 265999
     }
   },
   {
@@ -65469,6 +65795,681 @@
       "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=273922&prop=categories|images|templates|wikitext&format=json",
       "link": "https://oldschool.runescape.wiki/w/?curid=273922",
       "pageId": 273922
+    }
+  },
+  {
+    "colors": [
+      "#893736",
+      "#a5b18e",
+      "#6c745d"
+    ],
+    "hidden": false,
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Headless_head_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Headless_head_equipped.png"
+    },
+    "name": "Headless head",
+    "slot": "head",
+    "status": [
+      "untradeable",
+      "freetoplay"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=277309&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=277309",
+      "pageId": 277309
+    }
+  },
+  {
+    "colors": [
+      "#96a394",
+      "#811b0e",
+      "#645c44"
+    ],
+    "hidden": false,
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Fairy_mushroom_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Fairy_mushroom_equipped.png"
+    },
+    "name": "Fairy mushroom",
+    "slot": "shield",
+    "status": [
+      "untradeable"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=278518&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=278518",
+      "pageId": 278518
+    }
+  },
+  {
+    "colors": [
+      "#8c8968",
+      "#384542",
+      "#5d291b"
+    ],
+    "hidden": false,
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Trailblazer_axe_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Trailblazer_axe_equipped.png"
+    },
+    "name": "Trailblazer axe",
+    "slot": "weapon",
+    "status": [
+      "untradeable"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=278520&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=278520",
+      "pageId": 278520
+    }
+  },
+  {
+    "colors": [
+      "#524b3b",
+      "#aa9f72",
+      "#587f82"
+    ],
+    "hidden": false,
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Trailblazer_pickaxe_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Trailblazer_pickaxe_equipped.png"
+    },
+    "name": "Trailblazer pickaxe",
+    "slot": "weapon",
+    "status": [
+      "untradeable"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=278522&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=278522",
+      "pageId": 278522
+    }
+  },
+  {
+    "colors": [
+      "#594f3e",
+      "#948d66",
+      "#b0a577"
+    ],
+    "hidden": false,
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Trailblazer_harpoon_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Trailblazer_harpoon_equipped.png"
+    },
+    "name": "Trailblazer harpoon",
+    "slot": "weapon",
+    "status": [
+      "untradeable"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=278523&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=278523",
+      "pageId": 278523
+    }
+  },
+  {
+    "colors": [
+      "#3a3018",
+      "#639393",
+      "#e3dbbb"
+    ],
+    "hidden": false,
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Trailblazer_bronze_trophy_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Trailblazer_bronze_trophy_equipped.png"
+    },
+    "name": "Trailblazer bronze trophy",
+    "slot": "shield",
+    "status": [
+      "untradeable"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=278784&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=278784",
+      "pageId": 278784
+    }
+  },
+  {
+    "colors": [
+      "#3e3d3d",
+      "#e3dbbb",
+      "#649494"
+    ],
+    "hidden": false,
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Trailblazer_iron_trophy_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Trailblazer_iron_trophy_equipped.png"
+    },
+    "name": "Trailblazer iron trophy",
+    "slot": "shield",
+    "status": [
+      "untradeable"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=278786&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=278786",
+      "pageId": 278786
+    }
+  },
+  {
+    "colors": [
+      "#3b3b3d",
+      "#ada39e",
+      "#639393"
+    ],
+    "hidden": false,
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Trailblazer_steel_trophy_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Trailblazer_steel_trophy_equipped.png"
+    },
+    "name": "Trailblazer steel trophy",
+    "slot": "shield",
+    "status": [
+      "untradeable"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=278787&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=278787",
+      "pageId": 278787
+    }
+  },
+  {
+    "colors": [
+      "#2d3338",
+      "#5b5c85",
+      "#529878"
+    ],
+    "hidden": false,
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Trailblazer_mithril_trophy_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Trailblazer_mithril_trophy_equipped.png"
+    },
+    "name": "Trailblazer mithril trophy",
+    "slot": "shield",
+    "status": [
+      "untradeable"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=278789&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=278789",
+      "pageId": 278789
+    }
+  },
+  {
+    "colors": [
+      "#3a4639",
+      "#c9927a",
+      "#649494"
+    ],
+    "hidden": false,
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Trailblazer_adamant_trophy_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Trailblazer_adamant_trophy_equipped.png"
+    },
+    "name": "Trailblazer adamant trophy",
+    "slot": "shield",
+    "status": [
+      "untradeable"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=278790&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=278790",
+      "pageId": 278790
+    }
+  },
+  {
+    "colors": [
+      "#3b4b52",
+      "#ccc4b6",
+      "#649494"
+    ],
+    "hidden": false,
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Trailblazer_rune_trophy_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Trailblazer_rune_trophy_equipped.png"
+    },
+    "name": "Trailblazer rune trophy",
+    "slot": "shield",
+    "status": [
+      "untradeable"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=278791&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=278791",
+      "pageId": 278791
+    }
+  },
+  {
+    "colors": [
+      "#3e1a15",
+      "#9faaa4",
+      "#898484"
+    ],
+    "hidden": false,
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Trailblazer_dragon_trophy_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Trailblazer_dragon_trophy_equipped.png"
+    },
+    "name": "Trailblazer dragon trophy",
+    "slot": "shield",
+    "status": [
+      "untradeable"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=278792&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=278792",
+      "pageId": 278792
+    }
+  },
+  {
+    "colors": [
+      "#313d3d",
+      "#5c7475",
+      "#516464"
+    ],
+    "hidden": false,
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Trailblazer_hood_(t1)_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Trailblazer_outfit_(t1)_equipped.png"
+    },
+    "name": "Trailblazer hood (t1)",
+    "slot": "head",
+    "status": [],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=278799&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=278799",
+      "pageId": 278799
+    }
+  },
+  {
+    "colors": [
+      "#3d4b4c",
+      "#89a9aa",
+      "#748c8c"
+    ],
+    "hidden": false,
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Trailblazer_hood_(t2)_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Trailblazer_outfit_(t2)_equipped.png"
+    },
+    "name": "Trailblazer hood (t2)",
+    "slot": "head",
+    "status": [],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=278800&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=278800",
+      "pageId": 278800
+    }
+  },
+  {
+    "colors": [
+      "#3c4846",
+      "#b8ae82",
+      "#948c64"
+    ],
+    "hidden": false,
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Trailblazer_hood_(t3)_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Trailblazer_outfit_(t3)_equipped.png"
+    },
+    "name": "Trailblazer hood (t3)",
+    "slot": "head",
+    "status": [],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=278801&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=278801",
+      "pageId": 278801
+    }
+  },
+  {
+    "colors": [
+      "#504d43",
+      "#82a1a2",
+      "#89796d"
+    ],
+    "hidden": false,
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Trailblazer_coat_(t1)_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Trailblazer_outfit_(t1)_equipped.png"
+    },
+    "name": "Trailblazer coat (t1)",
+    "slot": "body",
+    "status": [],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=278804&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=278804",
+      "pageId": 278804
+    }
+  },
+  {
+    "colors": [
+      "#45463d",
+      "#82a1a2",
+      "#718c8a"
+    ],
+    "hidden": false,
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Trailblazer_coat_(t2)_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Trailblazer_outfit_(t2)_equipped.png"
+    },
+    "name": "Trailblazer coat (t2)",
+    "slot": "body",
+    "status": [],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=278805&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=278805",
+      "pageId": 278805
+    }
+  },
+  {
+    "colors": [
+      "#4c4a3d",
+      "#88a6a2",
+      "#b9ae80"
+    ],
+    "hidden": false,
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Trailblazer_coat_(t3)_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Trailblazer_outfit_(t3)_equipped.png"
+    },
+    "name": "Trailblazer coat (t3)",
+    "slot": "body",
+    "status": [],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=278806&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=278806",
+      "pageId": 278806
+    }
+  },
+  {
+    "colors": [
+      "#4f371b",
+      "#bab082",
+      "#647474"
+    ],
+    "hidden": false,
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Trailblazer_trousers_(t3)_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Trailblazer_outfit_(t3)_equipped.png"
+    },
+    "name": "Trailblazer trousers (t3)",
+    "slot": "leg",
+    "status": [],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=278807&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=278807",
+      "pageId": 278807
+    }
+  },
+  {
+    "colors": [
+      "#4e381e",
+      "#748886",
+      "#807166"
+    ],
+    "hidden": false,
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Trailblazer_trousers_(t2)_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Trailblazer_outfit_(t2)_equipped.png"
+    },
+    "name": "Trailblazer trousers (t2)",
+    "slot": "leg",
+    "status": [],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=278808&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=278808",
+      "pageId": 278808
+    }
+  },
+  {
+    "colors": [
+      "#4f3418",
+      "#78776e",
+      "#59605e"
+    ],
+    "hidden": false,
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Trailblazer_trousers_(t1)_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Trailblazer_outfit_(t1)_equipped.png"
+    },
+    "name": "Trailblazer trousers (t1)",
+    "slot": "leg",
+    "status": [],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=278809&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=278809",
+      "pageId": 278809
+    }
+  },
+  {
+    "colors": [
+      "#554535",
+      "#211f1b",
+      "#8b7b6f"
+    ],
+    "hidden": false,
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Trailblazer_boots_(t1)_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Trailblazer_outfit_(t1)_equipped.png"
+    },
+    "name": "Trailblazer boots (t1)",
+    "slot": "feet",
+    "status": [],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=278811&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=278811",
+      "pageId": 278811
+    }
+  },
+  {
+    "colors": [
+      "#3a403c",
+      "#91a2a3",
+      "#837b7a"
+    ],
+    "hidden": false,
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Trailblazer_boots_(t2)_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Trailblazer_outfit_(t2)_equipped.png"
+    },
+    "name": "Trailblazer boots (t2)",
+    "slot": "feet",
+    "status": [],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=278812&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=278812",
+      "pageId": 278812
+    }
+  },
+  {
+    "colors": [
+      "#3e423d",
+      "#bdb394",
+      "#948c81"
+    ],
+    "hidden": false,
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Trailblazer_boots_(t3)_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Trailblazer_outfit_(t3)_equipped.png"
+    },
+    "name": "Trailblazer boots (t3)",
+    "slot": "feet",
+    "status": [],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=278813&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=278813",
+      "pageId": 278813
+    }
+  },
+  {
+    "colors": [
+      "#505148",
+      "#93b3b3",
+      "#c0b88e"
+    ],
+    "hidden": false,
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Trailblazer_banner_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Trailblazer_banner_equipped.png"
+    },
+    "name": "Trailblazer banner",
+    "slot": "weapon",
+    "status": [],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=278816&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=278816",
+      "pageId": 278816
+    }
+  },
+  {
+    "colors": [
+      "#64543d",
+      "#c5bd94",
+      "#698485"
+    ],
+    "hidden": false,
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Extradimensional_bag_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Extradimensional_bag_equipped.png"
+    },
+    "name": "Extradimensional bag (Closed)",
+    "slot": "cape",
+    "status": [
+      "untradeable",
+      "variant"
+    ],
+    "variant": "Closed",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=278913&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=278913#Closed",
+      "pageId": 278913
+    }
+  },
+  {
+    "colors": [
+      "#503b24",
+      "#657e7f",
+      "#c3b98e"
+    ],
+    "hidden": false,
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Extradimensional_bag_(open)_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Extradimensional_bag_equipped.png"
+    },
+    "name": "Extradimensional bag (Open)",
+    "slot": "cape",
+    "status": [
+      "untradeable",
+      "variant"
+    ],
+    "variant": "Open",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=278913&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=278913#Open",
+      "pageId": 278913
+    }
+  },
+  {
+    "colors": [
+      "#454941",
+      "#c0bd8d",
+      "#a89a72"
+    ],
+    "hidden": false,
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Trailblazer_trophy_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Trailblazer_trophy_equipped.png"
+    },
+    "name": "Trailblazer trophy",
+    "slot": "shield",
+    "status": [
+      "untradeable"
+    ],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=278921&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=278921",
+      "pageId": 278921
+    }
+  },
+  {
+    "colors": [
+      "#878667",
+      "#333f3d",
+      "#5a281a"
+    ],
+    "hidden": false,
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Trailblazer_axe_(or)_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Trailblazer_axe_equipped.png"
+    },
+    "name": "Trailblazer axe (or)",
+    "slot": "weapon",
+    "status": [],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=278959&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=278959",
+      "pageId": 278959
+    }
+  },
+  {
+    "colors": [
+      "#4c4636",
+      "#a5996e",
+      "#8c845e"
+    ],
+    "hidden": false,
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Trailblazer_pickaxe_(or)_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Trailblazer_pickaxe_equipped.png"
+    },
+    "name": "Trailblazer pickaxe (or)",
+    "slot": "weapon",
+    "status": [],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=278960&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=278960",
+      "pageId": 278960
+    }
+  },
+  {
+    "colors": [
+      "#574b3a",
+      "#a99f71",
+      "#938c65"
+    ],
+    "hidden": false,
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Trailblazer_harpoon_(or)_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Trailblazer_harpoon_equipped.png"
+    },
+    "name": "Trailblazer harpoon (or)",
+    "slot": "weapon",
+    "status": [],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=278961&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=278961",
+      "pageId": 278961
+    }
+  },
+  {
+    "colors": [
+      "#7a8823",
+      "#2d2929",
+      "#544c4c"
+    ],
+    "hidden": false,
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Trailblazer_cane_detail.png",
+      "equipped": "https://oldschool.runescape.wiki/w/Special:Redirect/file/Trailblazer_cane_equipped.png"
+    },
+    "name": "Trailblazer cane",
+    "slot": "weapon",
+    "status": [],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=278988&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=278988",
+      "pageId": 278988
     }
   }
 ]
