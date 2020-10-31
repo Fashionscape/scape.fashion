@@ -1187,6 +1187,7 @@ Lapis lazuli ring
 Sigil of slaying
 Ferocious sigil
 Aggression sigil
+Menaphos journal
 Slayer Codex
 Golden touch sigil
 Limitless sigil
