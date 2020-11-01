@@ -51,10 +51,10 @@ Ring
 Steel bolts
 Neckwear
 White sq shield
+White kiteshield
 Training arrows
 Beret
 Metal boots
-Rune kiteshield (Zamorak)
 Mithril grapple
 Pearl bolts
 Silver bolts
@@ -88,7 +88,6 @@ Bracelet
 Gauntlets
 Monkey greegree
 Enchanted gem
-Farming cape
 Fishing cape
 Herblore cape
 Hunter cape
@@ -193,7 +192,6 @@ Berserker ring (i)
 Hand cannon shot
 Steel bolts (p+)
 Ferocious ring
-Full slayer helmet
 Ring of kinship
 Novite arrows
 Bonecrusher
@@ -434,7 +432,6 @@ Academy full helm
 Sir Owen's longsword
 Academy bolts
 Off-hand weapons
-Off-hand shark fist
 Scrimshaw of vampyrism
 Scrimshaw of attack
 Scrimshaw of cruelty
@@ -529,10 +526,6 @@ Leviathan ring
 Superior leviathan ring
 Reinforced slayer helmet (cf)
 Reinforced slayer helmet (ef)
-Reinforced slayer helmet
-Mighty slayer helmet
-Strong slayer helmet
-Full slayer helmet (f)
 Full slayer helmet (cf)
 Full slayer helmet (ef)
 Mighty slayer helmet (f)
@@ -540,7 +533,6 @@ Mighty slayer helmet (cf)
 Mighty slayer helmet (c)
 Mighty slayer helmet (e)
 Mighty slayer helmet (ef)
-Reinforced slayer helmet (f)
 Reinforced slayer helmet (c)
 Reinforced slayer helmet (e)
 Strong slayer helmet (f)
@@ -555,6 +547,9 @@ Master cape of Accomplishment
 Seedicide
 Sign of death
 Gold accumulator
+Superior void knight mage helm
+Superior void knight ranger helm
+Superior void knight melee helm
 Damaged book (Zamorak)
 Damaged book (Armadyl)
 Damaged book (Bandos)
@@ -584,7 +579,6 @@ Attuned ectoplasmator
 Attuned ectoplasmator (degraded)
 Asylum doctor's ring
 Asylum surgeon's ring
-Arcane blood necklace
 Crafting catalyst
 Tirannwn quiver 4
 Tirannwn quiver 1
@@ -856,9 +850,6 @@ Full slayer helmet (e) (blue)
 Full slayer helmet (ef) (red)
 Full slayer helmet (ef) (blue)
 Full slayer helmet (ef) (green)
-Full slayer helmet (f) (red)
-Full slayer helmet (f) (blue)
-Full slayer helmet (f) (green)
 Mighty slayer helmet (red)
 Mighty slayer helmet (blue)
 Mighty slayer helmet (green)
@@ -903,10 +894,6 @@ Reinforced slayer helmet (ef) (red)
 Reinforced slayer helmet (ef) (blue)
 Reinforced slayer helmet (ef) (green)
 Reinforced slayer helmet (ef) (yellow)
-Reinforced slayer helmet (f) (red)
-Reinforced slayer helmet (f) (blue)
-Reinforced slayer helmet (f) (green)
-Reinforced slayer helmet (f) (yellow)
 Strong slayer helmet (red)
 Strong slayer helmet (blue)
 Strong slayer helmet (green)
@@ -949,18 +936,6 @@ Death Lotus Disciple Mask (blue)
 Death Lotus Disciple Torso (red)
 Death Lotus Disciple Torso (black)
 Death Lotus Disciple Torso (blue)
-Elite void knight robe (guardian)
-Elite void knight robe (justiciar)
-Elite void knight robe (executioner)
-Elite void knight top (executioner)
-Elite void knight top (justiciar)
-Elite void knight top (guardian)
-Superior elite void knight top (guardian)
-Superior elite void knight top (justiciar)
-Superior elite void knight top (executioner)
-Superior elite void knight robe (guardian)
-Superior elite void knight robe (justiciar)
-Superior elite void knight robe (executioner)
 Shoes (female, flats)
 Shoes (male, shoes)
 Shoes (female, straps)
@@ -971,9 +946,7 @@ Augmented Guthan's warspear
 Augmented Ahrim's staff
 Augmented attuned crystal dagger
 Augmented lava whip
-Augmented staff of light
 Augmented Bandos godsword
-Augmented chaotic spear
 Gold zodiac costume
 Black zodiac costume
 Red zodiac costume
@@ -1154,8 +1127,6 @@ Super disco hands
 Super disco feet
 Augmented wyvern crossbow
 Book of Death
-Veteran cape (15 year)
-Veteran hood (15 year)
 Staff of devotion
 Heart balloon
 Bunch of flowers
@@ -1192,7 +1163,6 @@ Slayer Codex
 Golden touch sigil
 Limitless sigil
 Unsullied sigil
-Corrupted slayer helmet
 Corrupted slayer helmet (e)
 Corrupted slayer helmet (c)
 Corrupted slayer helmet (red)
@@ -1731,9 +1701,6 @@ Rune armoured boots + 3
 Rune gauntlets + 1
 Rune gauntlets + 2
 Rune gauntlets + 3
-Rune pickaxe + 1
-Rune pickaxe + 2
-Rune pickaxe + 3
 Steel dagger + 1
 Steel off hand dagger + 1
 Steel mace + 1
@@ -1792,13 +1759,8 @@ Ring of death (o)
 Charos' clue carrier
 Advanced smithing autoheater
 Armour spikes (alloy)
-Custom-fit trimmed spiked masterwork helm
-Custom-fit trimmed spiked masterwork gloves
-Custom-fit trimmed spiked masterwork boots
 Custom-fit trimmed spiked masterwork platebody
 Custom-fit trimmed spiked masterwork platelegs
-Augmented custom-fit trimmed spiked masterwork platebody
-Augmented custom-fit trimmed spiked masterwork platelegs
 Ancient herb
 Corrupt herb
 Augmented dinosaur body
@@ -1825,7 +1787,6 @@ Augmented dragon mattock
 Pontifex signet ring
 Bubbles (Archaeology)
 Hooded archaeology cape
-Hooded archaeology cape (t)
 Archaeology journal
 Wingsuit v2
 Wingsuit v3
