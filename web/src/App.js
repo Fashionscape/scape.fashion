@@ -1,6 +1,6 @@
 import CssBaseline from "@material-ui/core/CssBaseline";
 import React from "react";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Redirect, Route, Switch } from "react-router-dom";
 
 import Analytics from "Analytics";
 import Home from "Home";
@@ -31,6 +31,7 @@ const Main = () => {
       <Route exact path="/">
         <Home />
       </Route>
+      <Redirect to="/" />
     </Switch>
   );
 };
