@@ -29,7 +29,7 @@ const toUrl = ({ filename, hash: [a, b] }) =>
 const toFileUrl = (filename) => {
   filename = decodeURIComponent(filename);
   filename = decodeEntities(filename);
-  filename = filename.replace(/\s/g, "_");
+  filename = filename.replace(/\s+/g, "_");
   filename = filename.charAt(0).toUpperCase() + filename.slice(1);
 
   return toUrl({ filename, hash: md5(filename) });
