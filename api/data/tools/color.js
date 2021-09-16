@@ -33,7 +33,15 @@ const withColor = async (item) => {
   if (!item.images.detail) return item;
 
   const image = item.images.detail;
-  let colors = await toPalette(image).catch((e) => console.log(e) || []);
+  let colors;
+  try {
+    colors = await toPalette(image);
+  } catch (e) {
+    if (e.message.startsWith("Unsupported file type: text/html")) {
+      console.error("error: image request failed: ", item.images.detail);
+      item.images = {};
+    } else console.log(e);
+  }
 
   if (!colors?.length) colors = overrides[item.name] || [];
 

@@ -1,7 +1,6 @@
 const Image = require("./image");
 const Parse = require("./parse");
 const Wiki = require("./wiki");
-const { toFileName } = require("./image");
 const { toItem } = require("./item");
 
 const Name = (() => {
