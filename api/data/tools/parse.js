@@ -40,8 +40,8 @@ const template = (wikitext, name) => {
 const Image = (() => {
   const Inline = (() => {
     const match = {
-      detail: /(?:\[\[File:\s*)?([^}\n]+detail[^\.]*(?:\.png|\.gif))/im,
-      equipped: /(?:\[\[File:\s*)?([^}\n]+(?:equipped|equipment)[^\.]*(?:\.png|\.gif))/i,
+      detail: /(?:\[*File:\s*)?([^}\n]+detail[^\.]*(?:\.png|\.gif))/im,
+      equipped: /(?:\[*File:\s*)?([^}\n]+(?:equipped|equipment)[^\.]*(?:\.png|\.gif))/i,
     };
 
     const detail = (wikitext) => {
@@ -58,7 +58,7 @@ const Image = (() => {
   })();
 
   const match = {
-    detail: /(?:\[\[File:\s*)([^\]\|]+detail[^\.]*(?:\.png|\.gif))/i,
+    detail: /(?:\[*File:\s*)([^\]\|]+detail[^\.]*(?:\.png|\.gif))/i,
   };
 
   const detail = (wikitext) => {
