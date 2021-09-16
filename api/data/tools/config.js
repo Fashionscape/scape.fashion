@@ -14,8 +14,9 @@ const options = {
   runescape: {
     release: "runescape",
     url: {
-      base: "https://runescape.wiki/w/",
       api: "https://runescape.wiki/api.php",
+      base: "https://runescape.wiki",
+      wiki: "https://runescape.wiki/w/",
     },
   },
 };
