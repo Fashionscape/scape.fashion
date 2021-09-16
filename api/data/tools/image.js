@@ -51,9 +51,12 @@ const Variant = (() => {
     const parse = (wikitext, n) => {
       const template = Parse.template(wikitext, "Infobox Bonuses");
       const entries = Object.entries(template);
-      const images = entries.filter(([k]) => k.includes("image"));
-      const values = images.map(([_, v]) => v);
 
+      const images = entries.filter(([k]) => k.startsWith("image"));
+      const altimages = entries.filter(([k]) => k.startsWith("altimage"));
+      const imgs = images.length >= altimages.length ? images : altimages;
+
+      const values = imgs.map(([_, v]) => v);
       const files = values.map(Parse.Image.Inline.equipped);
       const urls = files.map((f) => f && toFileUrl(f));
       if (urls.length > 1) return urls;
