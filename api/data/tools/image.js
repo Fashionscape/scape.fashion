@@ -17,16 +17,18 @@ const decodeEntities = (encodedString) => {
     .replace(/&#(\d+);/gi, (_, numStr) => {
       var num = parseInt(numStr, 10);
       return String.fromCharCode(num);
-    })
-    .replace(/ö/g, "%C3%B6"); /* Cloudflare doesn't like this character */
+    });
 };
 
+/* Cloudflare doesn't like this character */
+const sanitize = (filename) => filename.replace(/ö/g, "%C3%B6");
+
 const toUrl = ({ filename, hash: [a, b] }) =>
-  `${config.url.base}/images/${a}/${a}${b}/${filename}?48781`;
+  `${config.url.base}/images/${a}/${a}${b}/${sanitize(filename)}?48781`;
 
 const toFileUrl = (filename) => {
-  filename = decodeEntities(filename);
   filename = decodeURIComponent(filename);
+  filename = decodeEntities(filename);
   filename = filename.replace(/\s/g, "_");
   filename = filename.charAt(0).toUpperCase() + filename.slice(1);
 
