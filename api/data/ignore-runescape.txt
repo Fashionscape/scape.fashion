@@ -16,7 +16,7 @@ Bronze bolts
 Opal bolts
 Opal bolts (e)
 Barbed bolts
-Runite bolts
+Rune bolts
 Warrior ring
 Fremennik rings
 Berserker ring
@@ -58,7 +58,6 @@ Metal boots
 Mithril grapple
 Pearl bolts
 Silver bolts
-Prayer cape
 Ice arrows
 Bronze arrow
 Guam tar
@@ -82,22 +81,15 @@ Broad arrow
 Bone bolts
 Beacon ring
 Boater
-Anger maul
 Boots
 Bracelet
 Gauntlets
 Monkey greegree
 Enchanted gem
-Fishing cape
-Herblore cape
-Hunter cape
-Runecrafting cape
-Woodcutting cape
 Ring of visibility
 Dragon arrow
 Kebbit bolts
 Long kebbit bolts
-Bedsheet
 Hatchet handle
 Mithril brutal
 Bronze brutal
@@ -108,7 +100,6 @@ Rune brutal
 Black brutal
 Pickaxe handle
 Crate With Zanik
-Crafting cape
 Broken pickaxe (rune)
 Broken pickaxe (mithril)
 Broken pickaxe (adamant)
@@ -117,9 +108,6 @@ Broken pickaxe (iron)
 Broken pickaxe (bronze)
 Slender blade
 Heraldic helmet (Treasure Trails)
-Combat robe bottom
-Combat robe top
-Combat hood
 Black bolts
 Ring of slaying
 Broad-tipped bolts
@@ -170,7 +158,6 @@ Staff (class 4)
 Staff (class 5)
 Silver sickle emerald (b)
 Enchanted sickle emerald (b)
-Impling net
 Gold ring (i)
 Sapphire ring (i)
 Emerald ring (i)
@@ -207,7 +194,6 @@ Promethium arrows
 Sagittarian arrows
 Paintbrush
 Hoop
-Fairy wand
 Wooden shield (Weapons rack)
 Ring of vigour
 Saradomin arrows
@@ -220,11 +206,9 @@ Statue collection bag
 Herbicide
 Explorer's ring 4
 Soul cape
-Lunar staff - pt1
 Lunar staff - pt2
 Lunar staff - pt3
 Eek
-Black full helm (bugged)
 Clay ring
 Ring of devotion
 Ceremonial sword
@@ -247,11 +231,6 @@ Lizard skull (charged)
 Lunar helm (charged)
 Lunar helm (e)
 Farseer helm (charged)
-Berserker helm (charged)
-Berserker helm (e)
-Archer helm (charged)
-Antlers (charged)
-Adamant full helm (charged)
 Green barrier generator
 Yellow barrier generator
 One barrel
@@ -318,7 +297,6 @@ Crafting ring
 Cooking ring
 Sunglasses
 Ring of Fortune
-Arcane capacitor amulet (u)
 Sacred clay shield (inactive)
 RuneFest 2011 hood
 Dragonbane bolt
@@ -358,12 +336,6 @@ Buskin mask
 Goliath gloves
 Swift gloves
 Spellcaster gloves
-Illuminated Book of Wisdom
-Illuminated Book of Chaos
-Illuminated Book of Law
-Illuminated Book of Balance
-Illuminated Book of War
-Illuminated Ancient Book
 Highland war paint
 Highland top
 Highland kilt
@@ -424,15 +396,12 @@ Atrocious rogue gloves
 Victor's bronze ring
 Exalted silver ring
 Herculean gold ring
-Ice cream cone hat
 Summer sun ring
 Summer storm ring
 Kayle's chargebow
 Ectoplasmator
 Mod cape
-Academy shortbow
 Academy arrow
-Academy full helm
 Sir Owen's longsword
 Academy bolts
 Off-hand weapons
@@ -467,12 +436,9 @@ First age ring
 Charming imp
 Off-hand primal rapier
 Off-hand primal longsword
-Queen Black Dragon helm
 Skullbuster hat
 Starfire bow
 Starfire staff
-Eva's kiteshield
-Eva's longsword
 Ascension bolts
 Fragment bolts
 Fragment arrows
@@ -480,28 +446,28 @@ Hoardstalker ring
 Bronze Saradominist token
 Bronze Zamorakian token
 Silver Zamorakian token
-Runite Zamorakian token
+Rune Zamorakian Token
 Gold Zamorakian token
 Dragon Zamorakian token
 Silver Saradominist token
-Runite Saradominist token
+Rune Saradominist token
 Gold Saradominist token
 Dragon Saradominist token
-Divination cape
-Sign of the porter I
+Sign of the porter I (active)
+Sign of the porter I (inactive)
 Sign of respite I
 Sign of respite II
 Sign of respite III
 Sign of item protection
 Sign of life
-Sign of the porter II
-Sign of the porter III
+Sign of the porter II (active)
+Sign of the porter II (inactive)
+Sign of the porter III (active)
+Sign of the porter III (inactive)
 Sign of the porter VI
 Sign of the porter V
-Sign of the porter IV
-Flaming skull (blue)
-Flaming skull (green)
-Flaming skull (purple)
+Sign of the porter IV (active)
+Sign of the porter IV (inactive)
 Ariane's wand
 Ozan's longbow
 Black iron ring
@@ -521,10 +487,10 @@ Silver Armadylean token
 Bronze Bandosian token
 Silver Bandosian token
 Gold Armadylean token
-Runite Armadylean token
+Rune Armadylean token
 Dragon Armadylean token
 Gold Bandosian token
-Runite Bandosian token
+Rune Bandosian token
 Dragon Bandosian token
 Leviathan ring
 Superior leviathan ring
@@ -532,14 +498,12 @@ Reinforced slayer helmet (cf)
 Reinforced slayer helmet (ef)
 Full slayer helmet (cf)
 Full slayer helmet (ef)
-Mighty slayer helmet (f)
 Mighty slayer helmet (cf)
 Mighty slayer helmet (c)
 Mighty slayer helmet (e)
 Mighty slayer helmet (ef)
 Reinforced slayer helmet (c)
 Reinforced slayer helmet (e)
-Strong slayer helmet (f)
 Strong slayer helmet (cf)
 Strong slayer helmet (c)
 Strong slayer helmet (e)
@@ -583,7 +547,10 @@ Attuned ectoplasmator
 Attuned ectoplasmator (degraded)
 Asylum doctor's ring
 Asylum surgeon's ring
+Arcane blood necklace (empty)
+Blood amulet of fury (empty)
 Crafting catalyst
+Ascension crossbow (shadow) (used)
 Tirannwn quiver 4
 Tirannwn quiver 1
 Tirannwn quiver 2
@@ -596,49 +563,21 @@ Superior whopper-baiting scrimshaw
 Casket-salvaging scrimshaw
 Superior casket-salvaging scrimshaw
 Rose petals
-Aegis of devotion
-Bulwark of revenge
-Lovers medallion
-Haters medallion
-Cupid's halo
-Demonic horns (Valentine's)
-Crown of the fallen
 Wild arrow
-Hooded woodcutting cape
 Pocket book
 Mithril grapple (Dimension of Disaster)
-Silverlight (dyed) (Dimension of Disaster)
-Pulse core
+Pulse core (historical)
 Spring cleaner 2000
 Spring cleaner 3000
 Spring cleaner 5000
 Spring cleaner 9000
 Spring cleaner 9001
 Astromancer credits
-Saradominist ceremonial robe bottom
-Armadylean ceremonial robe bottom
-Zamorakian ceremonial robe bottom
-Zamorakian ceremonial robe top
 Kethsi ring
 Challenge shard
 Hooded attack cape
 Hooded strength cape
-Hooded magic cape
-Hooded prayer cape
 Hooded crafting cape
-Hooded mining cape
-Hooded smithing cape
-Hooded fishing cape
-Hooded firemaking cape
-Hooded runecrafting cape
-Hooded herblore cape
-Hooded thieving cape
-Hooded fletching cape
-Hooded slayer cape
-Hooded farming cape
-Hooded hunter cape
-Hooded summoning cape
-Hooded divination cape
 Advanced pulse core
 Off-hand steel ceremonial sword I
 Off-hand steel ceremonial sword II
@@ -660,10 +599,8 @@ Off-hand rune ceremonial sword III
 Off-hand rune ceremonial sword IV
 Off-hand rune ceremonial sword V
 Dragonkin protection charm
-Hooded ranged cape
 Helm of the Black Demon
 Helm of the Automatons
-Helm of the Ganodermic
 Fire runecrafting gloves
 Chaos runecrafting gloves
 Death runecrafting gloves
@@ -691,7 +628,6 @@ Captain's sword
 Necrolord's staff
 Moia's hands
 Starfire chaps
-Starfire chestplate
 Starfire vambraces
 Starfire magic boots
 Starfire melee boots
@@ -702,24 +638,12 @@ Starfire legplates
 Starfire hood
 Starfire hauberk
 Starfire coif
-Starfire gauntlets
 Starfire gloves
-Starfury chestplate
-Starfury gauntlets
-Starfury gloves
-Starfury coif
 Starfury hauberk
-Starfury helmet
-Starfury hood
 Starfury legplates
-Starfury magic boots
 Starfury ranged boots
-Starfury melee boots
-Starfury robe
-Starfury skirt
 Starfury vambraces
 Blisterwood stakes (ammo)
-Helm of corruption
 Scrimshaw of aggression
 Scrimshaw of sacrifice
 Scrimshaw of corruption
@@ -728,18 +652,9 @@ Golden tools (Invasion of Falador)
 Bat necklace
 Wyvern spines
 Raptor gem
-Divination memory body
-Divination memory hands
-Divination memory feet
-Divination energy hands
-Divination energy feet
-Divination chronicle body
-Divination chronicle legs
-Divination chronicle head
-Divination chronicle hands
-Divination chronicle feet
 Black Santa hat with beard
 Kalphite repriser
+Blighted rebounder (broken)
 Ghostspeak amulet (enchanted)
 Ring of snow
 Ring of charos (a)
@@ -753,7 +668,6 @@ Dragon fire arrows (unlit)
 Unlit dark fire arrows
 Bubbles (Beneath Cursed Tides)
 Diving suit helmet
-Silverlight (dyed)
 Ghost buster 500 (blue)
 Ghost buster 500 (red)
 Ghost buster 500 (green)
@@ -878,10 +792,7 @@ Mighty slayer helmet (f) (red)
 Mighty slayer helmet (f) (blue)
 Mighty slayer helmet (f) (green)
 Mighty slayer helmet (f) (yellow)
-Reinforced slayer helmet (red)
 Reinforced slayer helmet (blue)
-Reinforced slayer helmet (green)
-Reinforced slayer helmet (yellow)
 Reinforced slayer helmet (c) (red)
 Reinforced slayer helmet (c) (blue)
 Reinforced slayer helmet (c) (green)
@@ -921,7 +832,8 @@ Strong slayer helmet (f) (red)
 Strong slayer helmet (f) (blue)
 Strong slayer helmet (f) (green)
 Strong slayer helmet (f) (yellow)
-Ascension crossbow (blood)
+Ascension crossbow (blood) (new)
+Ascension crossbow (blood) (used)
 Off-hand ascension crossbow (blood)
 Noxious longbow (blood)
 Noxious scythe (blood)
@@ -934,23 +846,15 @@ Ring of stone (red)
 Ring of stone (green)
 Ring of stone (blue)
 Ring of stone (yellow)
-Death Lotus Disciple Mask (red)
-Death Lotus Disciple Mask (black)
-Death Lotus Disciple Mask (blue)
 Death Lotus Disciple Torso (red)
 Death Lotus Disciple Torso (black)
 Death Lotus Disciple Torso (blue)
 Shoes (female, flats)
 Shoes (male, shoes)
 Shoes (female, straps)
-Invention hood
-Augmented Akrisae's robe skirt
-Augmented dragonfire ward
 Augmented Guthan's warspear
 Augmented Ahrim's staff
-Augmented attuned crystal dagger
 Augmented lava whip
-Augmented Bandos godsword
 Gold zodiac costume
 Black zodiac costume
 Red zodiac costume
@@ -958,8 +862,6 @@ Blue zodiac costume
 Green zodiac costume
 Valentine's petal
 Ice cream cone hat (cosmetic)
-Augmented Bandos godsword (passive)
-Augmented Armadyl godsword (passive)
 Lightweight feather
 Mask of Sliske, Light (pocket)
 Mask of Sliske, Shadow (pocket)
@@ -970,25 +872,18 @@ Seren insignia
 Sliske insignia
 Chic scarf
 Korasi's sword (Quiet Before the Swarm)
-Vampyre hunter amulet
 Vampyric blood essence
 Penance blood essence
 Aegis blood essence
 Reflecting blood essence
 Berserk blood essence
 Tireless blood essence
-Keldagrim camouflage body
-Keldagrim camouflage legs
 Keldagrim camouflage feet
-Prifddinas camouflage body
-Desert camouflage head
-Desert camouflage hands
-Desert camouflage feet
-Keldagrim camouflage head
-Auto-sanctifier
-B.A.N.K. Stander
+Auto-sanctifier (Unused)
+Auto-sanctifier (Used)
+B.A.N.K. Stander (Unused)
+B.A.N.K. Stander (Used)
 Dungeoneering party simulator
-Cabbagespeak amulet
 Boat
 Bottoms of Autumn
 Gloves of Autumn
@@ -998,12 +893,11 @@ Chest of Seasons
 Golden tools (Boat to the Arc)
 Mizuyari
 Augmented ascension crossbow (blood)
-Augmented off-hand ascension crossbow (barrows)
+Augmented ascension crossbow (Third Age) (uncharged)
 Augmented off-hand ascension crossbow (blood)
 Augmented noxious longbow (blood)
 Augmented noxious scythe (blood)
 Waiko teleport
-Cosmetic prized pendant of Invention
 Cosmetic pendant of Invention
 Black parasol
 Terrorbird mount (green)
@@ -1012,11 +906,6 @@ Terrorbird mount (purple)
 Terrorbird mount (blue)
 Terrorbird mount (yellow)
 Terrorbird mount (red)
-High Armour of Hanto headpiece
-High Armour of Hanto cuirass
-High Armour of Hanto legguards
-High Armour of Hanto handguards
-High Armour of Hanto sabatons
 Augmented High Armour of Hanto cuirass
 Augmented High Armour of Hanto legguards
 Superior spined helm
@@ -1025,9 +914,6 @@ Superior spined chaps
 Superior spined boots
 Superior spined gloves
 Superior skeletal helm
-Superior skeletal top
-Superior skeletal bottoms
-Superior skeletal boots
 Superior skeletal gloves
 Large rune pouch
 Soul cape (white)
@@ -1040,20 +926,6 @@ Nasty rogue gloves (Crucible)
 Malicious rogue gloves (Crucible)
 Loathsome rogue gloves (Crucible)
 Atrocious rogue gloves (Crucible)
-Frozen gorajan trailblazer head
-Frozen gorajan trailblazer body
-Frozen gorajan trailblazer legs
-Frozen gorajan trailblazer hands
-Frozen gorajan trailblazer feet
-Furnished gorajan trailblazer body
-Furnished gorajan trailblazer legs
-Furnished gorajan trailblazer hands
-Furnished gorajan trailblazer feet
-Abandoned gorajan trailblazer feet
-Occult gorajan trailblazer head
-Occult gorajan trailblazer body
-Occult gorajan trailblazer legs
-Occult gorajan trailblazer hands
 Memory-crushing scrimshaw
 Superior memory-crushing scrimshaw
 Energy-gathering scrimshaw
@@ -1083,9 +955,7 @@ Rotten zombie legs
 Rotten zombie chest
 Rotten zombie head
 Contract contact
-Augmented superior Zuriel's robe top
 Superior Zuriel's robe bottom
-Augmented superior Zuriel's robe bottom
 Augmented superior Zuriel's staff
 Superior Statius's platebody
 Augmented superior Statius's platebody
@@ -1109,7 +979,6 @@ Annihilation (Deathmatch)
 Decimation (Deathmatch)
 Obliteration (Deathmatch)
 Shard of Mah
-Bright reindeer-terrorbird mount
 Christmas pudding balloon
 Opal ring
 Jade ring
@@ -1117,14 +986,6 @@ Topaz ring
 Ring of metamorphosis
 Ring of respawn
 Columbarium ring
-Disco top
-Disco legs
-Disco hands
-Disco feet
-Cool disco top
-Cool disco legs
-Cool disco hands
-Cool disco feet
 Super disco top
 Super disco legs
 Super disco hands
@@ -1136,23 +997,9 @@ Heart balloon
 Bunch of flowers
 Mouth grip
 Magic carpet (item)
-A chair
-Beer glass (Forgettable Tale of a Drunken Dwarf)
-A jester stick
 Clan bronze arrow
 Clan rune arrow
 Soul cape (golden)
-Oaken sentinel helm
-Oaken sentinel chest
-Oaken sentinel trunks
-Oaken sentinel branch
-Willow sentinel helm
-Willow sentinel chest
-Willow sentinel trunks
-Willow sentinel branch
-Maple sentinel chest
-Maple sentinel trunks
-Maple sentinel branch
 Attuned crystal teleport seed
 Ring of Luck
 Luck of the Dwarves
@@ -1161,7 +1008,9 @@ Hazelmere's signet ring
 Lapis lazuli ring
 Sigil of slaying
 Ferocious sigil
-Aggression sigil
+Aggression sigil (broken)
+Aggression sigil (new)
+Aggression sigil (used)
 Menaphos journal
 Slayer Codex
 Golden touch sigil
@@ -1203,20 +1052,12 @@ Port district teleport
 Worker district teleport
 Sophanem Slayer Dungeon teleport
 Menaphos shifting tombs teleport
-Lucky Ahrim's hood
-Lucky Ahrim's staff
 Lucky Ahrim's robe top
 Lucky Ahrim's robe skirt
-Lucky Dharok's helm
 Lucky Dharok's platebody
 Lucky Guthan's warspear
 Lucky Guthan's platebody
-Lucky Guthan's chainskirt
-Lucky Karil's coif
 Lucky Karil's top
-Lucky Torag's platebody
-Lucky Torag's platelegs
-Lucky Verac's helm
 Lucky Verac's brassard
 Lucky Verac's plateskirt
 Augmented Orb of the Cywir elders
@@ -1224,30 +1065,18 @@ Ring of sand
 Seren godbow (blood)
 Augmented Seren godbow (blood)
 Desert trapper head
-Desert trapper chest
-Desert trapper legguards
-Desert trapper arms
-Jungle trapper chest
-Jungle trapper legguards
-Jungle trapper boots
 Energy barrel
 Dig Site pendant (c)
 Ring of slaying (c)
 Ring of respawn (c)
 Traveller's necklace (c)
 Enlightened amulet (c)
-Amulet of glory (c)
 Ring of duelling (c)
-Ring of Wealth (c)
+Ring of Wealth (C)
 Combat bracelet (c)
 Mechanised siphon
 Ferocious ring (c)
 Lederhosen terrorbird mount
-Ghostly revenant helmet
-Ghostly revenant cuirass
-Ghostly revenant greaves
-Ghostly revenant cuffs
-Ghostly revenant boots
 Ghostly spirit hunter skull helmet
 Ghostly spirit hunter flesh jacket
 Ghostly spirit hunter bottoms
@@ -1258,26 +1087,11 @@ Ghostly reaver garb top
 Ghostly reaver garb bottoms
 Ghostly reaver grasps
 Ghostly reaver boots
-Ghostly lederhosen hat
-Ghostly lederhosen top
-Ghostly lederhosen shorts
-Ghostly lederhosen gloves
-Ghostly lederhosen boots
 Ghostly hard hat
 Ghostly builder's shirt
 Ghostly builder's trousers
 Ghostly builder's gloves
 Ghostly builder's boots
-Ghostly clown hat
-Ghostly clown shirt
-Ghostly clown leggings
-Ghostly clown gloves
-Ghostly clown shoes
-Ghostly ringmaster hat
-Ghostly ringmaster shirt
-Ghostly ringmaster pants
-Ghostly ringmaster gloves
-Ghostly ringmaster boots
 Ghostly chicken head
 Ghostly chicken wings
 Ghostly chicken legs
@@ -1327,9 +1141,8 @@ Second-Age range top
 Second-Age range legs
 Ring of coins
 Ring of trees
-Blue checkered shirt
-Orlando Smith's hat
-Ascension crossbow (ice)
+Ascension crossbow (ice) (new)
+Ascension crossbow (ice) (used)
 Drygore longsword (ice)
 Off-hand drygore longsword (ice)
 Drygore mace (ice)
@@ -1356,7 +1169,7 @@ Augmented malevolent greaves (ice)
 Augmented sirenic hauberk (ice)
 Augmented sirenic chaps (ice)
 Augmented tectonic robe top (ice)
-Augmented tectonic robe bottom (Ice)
+Augmented tectonic robe bottom (ice)
 Augmented Second-Age platebody
 Augmented Second-Age platelegs
 Augmented Second-Age robe top
@@ -1378,7 +1191,7 @@ Augmented seismic wand (ice)
 Augmented seismic singularity (ice)
 Augmented Zaros godsword (ice)
 Augmented khopesh of Tumeken (ice)
-Augmented khopesh of Elidinis (Ice)
+Augmented khopesh of Elidinis (ice)
 Augmented imperium core (ice)
 Augmented wand of the praesul (ice)
 Off-hand ascension crossbow (ice)
@@ -1390,11 +1203,9 @@ Zoltan plushie
 Dave's spellbook
 Khopesh of Tumeken (Third Age)
 Khopesh of Elidinis (Third Age)
-Augmented Imperium core (blood)
+Augmented imperium core (blood)
 Augmented khopesh of Tumeken (Third Age)
-Augmented khopesh of Tumeken (blood)
 Augmented khopesh of Elidinis (Third Age)
-Augmented khopesh of Elidinis (blood)
 Postie Pete's hat
 Blight bolts
 CPSL Mind Banner
@@ -1403,29 +1214,29 @@ The Prince's Trust Banner
 Blossom balloon
 Blossom parasol
 Blossom lantern
+Blightbound crossbow (broken)
 Erethdor's grimoire
-Blightbound crossbow (shadow)
-Off-hand Blightbound crossbow (shadow)
+Blightbound crossbow (Barrows) (broken)
+Blightbound crossbow (blood) (broken)
 Blightbound crossbow (ice)
-Off-hand Blightbound crossbow (ice)
-Blightbound crossbow (third age)
-Off-hand Blightbound crossbow (Third Age)
+Off-hand blightbound crossbow (ice)
+Blightbound crossbow (Third Age)
+Off-hand blightbound crossbow (Third Age)
 Augmented Blightbound crossbow
-Augmented Off-hand Blightbound crossbow
-Augmented Blightbound crossbow (shadow)
-Augmented Off-hand blightbound crossbow (shadow)
-Augmented Blightbound crossbow (blood)
-Augmented Off-hand blightbound crossbow (blood)
-Augmented Blightbound crossbow (ice)
-Augmented Off-hand blightbound crossbow (ice)
-Augmented Blightbound crossbow (Third Age)
-Augmented Off-hand blightbound crossbow (Third Age)
+Augmented blightbound crossbow (shadow)
+Augmented off-hand blightbound crossbow (shadow)
+Augmented blightbound crossbow (blood) (uncharged)
+Augmented off-hand blightbound crossbow (blood)
+Augmented blightbound crossbow (ice)
+Augmented off-hand blightbound crossbow (ice)
+Augmented blightbound crossbow (Third Age)
+Augmented off-hand blightbound crossbow (Third Age)
 Elite sirenic mask
 Elite sirenic chaps
 Elite sirenic mask (blood)
 Elite sirenic mask (Third Age)
 Elite sirenic mask (ice)
-Elite sirenic chaps (barrows)
+Elite sirenic chaps (Barrows)
 Elite sirenic chaps (blood)
 Elite sirenic chaps (Third Age)
 Elite sirenic chaps (ice)
@@ -1433,9 +1244,9 @@ Elite sirenic hauberk (blood)
 Elite tectonic mask (blood)
 Elite tectonic robe top (blood)
 Elite tectonic robe bottom (blood)
-Elite tectonic mask (barrows)
-Elite tectonic robe bottom (barrows)
-Elite sirenic hauberk (barrows)
+Elite tectonic mask (Barrows)
+Elite tectonic robe bottom (Barrows)
+Elite sirenic hauberk (Barrows)
 Elite tectonic mask (Third Age)
 Elite tectonic robe top (Third Age)
 Elite tectonic robe bottom (Third Age)
@@ -1443,14 +1254,11 @@ Elite sirenic hauberk (Third Age)
 Elite sirenic hauberk (ice)
 Elite tectonic robe top (ice)
 Elite tectonic robe bottom (ice)
-Augmented elite tetsu katana
-Augmented elite tetsu wakizashi
-Augmented elite seasinger kiba
-Augmented elite tectonic robe bottom (barrows)
+Augmented elite tectonic robe bottom (Barrows)
 Augmented elite tectonic robe top (Third Age)
 Augmented elite tectonic robe bottom (Third Age)
-Augmented elite sirenic chaps (barrows)
-Augmented elite sirenic hauberk (barrows)
+Augmented elite sirenic chaps (Barrows)
+Augmented elite sirenic hauberk (Barrows)
 Augmented elite sirenic hauberk (Third Age)
 Augmented elite sirenic chaps (Third Age)
 Augmented elite tectonic robe top (blood)
@@ -1468,7 +1276,6 @@ Superior scrimshaw of corruption
 Augmented elite sirenic hauberk
 Augmented elite sirenic chaps
 Augmented elite tectonic robe top
-Augmented elite tectonic robe bottom
 Dragonkin Laboratory teleport
 Golden chaotic claw
 Golden off-hand chaotic claw
@@ -1490,8 +1297,6 @@ Large rune pouch (orange)
 Large rune pouch (black)
 Large rune pouch (pink)
 Premier artefact
-Adamant dagger + 1
-Adamant dagger + 2
 Adamant off hand dagger + 1
 Adamant off hand dagger + 2
 Adamant mace + 1
@@ -1502,10 +1307,6 @@ Adamant sword + 1
 Adamant sword + 2
 Adamant off hand sword + 1
 Adamant off hand sword + 2
-Adamant scimitar + 1
-Adamant scimitar + 2
-Adamant off hand scimitar + 1
-Adamant off hand scimitar + 2
 Adamant longsword + 1
 Adamant longsword + 2
 Adamant off hand longsword + 1
@@ -1520,12 +1321,7 @@ Adamant off hand battleaxe + 1
 Adamant off hand battleaxe + 2
 Adamant claws + 1
 Adamant claws + 2
-Adamant off hand claws + 1
-Adamant off hand claws + 2
-Adamant 2h sword + 1
-Adamant 2h sword + 2
 Adamant full helm + 1
-Adamant full helm + 2
 Adamant med helm + 1
 Adamant med helm + 2
 Adamant platelegs + 1
@@ -1557,48 +1353,34 @@ Iron off hand longsword + 1
 Iron warhammer + 1
 Iron off hand warhammer + 1
 Iron battleaxe + 1
-Iron off hand battleaxe + 1
 Iron claws + 1
-Iron off hand claws + 1
 Iron 2h sword + 1
 Iron full helm + 1
 Iron med helm + 1
 Iron platelegs + 1
-Iron plateskirt + 1
 Iron platebody + 1
 Iron chainbody + 1
 Iron square shield + 1
 Iron kiteshield + 1
 Iron armoured boots + 1
 Iron gauntlets + 1
+Iron pickaxe + 1
 Mithril dagger + 1
 Mithril dagger + 2
-Mithril off hand dagger + 1
-Mithril off hand dagger + 2
 Mithril mace + 1
 Mithril mace + 2
 Mithril off hand mace + 1
 Mithril off hand mace + 2
-Mithril sword + 1
-Mithril sword + 2
 Mithril off hand sword + 1
 Mithril off hand sword + 2
 Mithril scimitar + 1
 Mithril scimitar + 2
-Mithril off hand scimitar + 1
-Mithril off hand scimitar + 2
 Mithril longsword + 1
 Mithril longsword + 2
 Mithril off hand longsword + 1
 Mithril off hand longsword + 2
-Mithril warhammer + 1
-Mithril warhammer + 2
-Mithril off hand warhammer + 1
-Mithril off hand warhammer + 2
 Mithril battleaxe + 1
 Mithril battleaxe + 2
-Mithril off hand battleaxe + 1
-Mithril off hand battleaxe + 2
 Mithril claws + 1
 Mithril claws + 2
 Mithril off hand claws + 1
@@ -1623,137 +1405,28 @@ Mithril kiteshield + 1
 Mithril kiteshield + 2
 Mithril armoured boots + 1
 Mithril armoured boots + 2
-Mithril gauntlets + 1
-Mithril gauntlets + 2
-Rune dagger + 1
-Rune dagger + 2
-Rune dagger + 3
-Rune off hand dagger + 1
-Rune off hand dagger + 2
-Rune off hand dagger + 3
-Rune mace + 1
-Rune mace + 2
-Rune mace + 3
-Rune off hand mace + 1
-Rune off hand mace + 2
-Rune off hand mace + 3
-Rune sword + 1
-Rune sword + 2
-Rune sword + 3
-Rune off hand sword + 1
-Rune off hand sword + 2
-Rune off hand sword + 3
-Rune scimitar + 1
-Rune scimitar + 2
-Rune scimitar + 3
-Rune off hand scimitar + 1
-Rune off hand scimitar + 2
-Rune off hand scimitar + 3
-Rune longsword + 1
-Rune longsword + 2
-Rune longsword + 3
-Rune off hand longsword + 1
-Rune off hand longsword + 2
-Rune off hand longsword + 3
-Rune warhammer + 1
-Rune warhammer + 2
-Rune warhammer + 3
-Rune off hand warhammer + 1
-Rune off hand warhammer + 2
-Rune off hand warhammer + 3
-Rune battleaxe + 1
-Rune battleaxe + 2
-Rune battleaxe + 3
-Rune off hand battleaxe + 1
-Rune off hand battleaxe + 2
-Rune off hand battleaxe + 3
-Rune claws + 1
-Rune claws + 2
-Rune claws + 3
-Rune off hand claws + 1
-Rune off hand claws + 2
-Rune off hand claws + 3
-Rune 2h sword + 1
-Rune 2h sword + 2
-Rune 2h sword + 3
-Rune full helm + 1
-Rune full helm + 2
-Rune full helm + 3
-Rune med helm + 1
-Rune med helm + 2
-Rune med helm + 3
-Rune platelegs + 1
-Rune platelegs + 2
-Rune platelegs + 3
-Rune plateskirt + 1
-Rune plateskirt + 2
-Rune plateskirt + 3
-Rune platebody + 1
-Rune platebody + 2
-Rune platebody + 3
-Rune chainbody + 1
-Rune chainbody + 2
-Rune chainbody + 3
-Rune square shield + 1
-Rune square shield + 2
-Rune square shield + 3
-Rune kiteshield + 1
-Rune kiteshield + 2
-Rune kiteshield + 3
-Rune armoured boots + 1
-Rune armoured boots + 2
-Rune armoured boots + 3
-Rune gauntlets + 1
-Rune gauntlets + 2
-Rune gauntlets + 3
-Steel dagger + 1
-Steel off hand dagger + 1
-Steel mace + 1
-Steel off hand mace + 1
-Steel sword + 1
-Steel off hand sword + 1
-Steel scimitar + 1
-Steel off hand scimitar + 1
-Steel longsword + 1
-Steel off hand longsword + 1
-Steel warhammer + 1
-Steel off hand warhammer + 1
-Steel battleaxe + 1
-Steel off hand battleaxe + 1
-Steel claws + 1
-Steel off hand claws + 1
-Steel 2h sword + 1
-Steel full helm + 1
-Steel med helm + 1
-Steel platelegs + 1
-Steel plateskirt + 1
-Steel platebody + 1
-Steel chainbody + 1
-Steel square shield + 1
-Steel kiteshield + 1
-Steel armoured boots + 1
-Steel gauntlets + 1
+Mithril pickaxe + 1
+Mithril pickaxe + 2
 Armour spikes
 Ring of Whispers
 Rock-crushing scrimshaw
 Superior rock-crushing scrimshaw
 Gem-finding scrimshaw
 Superior gem-finding scrimshaw
-Luck of the Dwarves (i)
-Ring of Fortune (i)
+Luck of the dwarves (i)
+Ring of fortune (i)
 Hazelmere's signet ring (i)
 Ring of death (i)
 Asylum surgeon's ring (i)
 Chinchompa plushie
-Eldritch crossbow (blood)
 Black stone arrows
 Undead slayer sigil
 Dragon slayer sigil
 Demon slayer sigil
 Shadow Reef teleport
-Augmented Eldritch crossbow (blood)
-Augmented Eldritch crossbow (third age)
-Augmented Eldritch crossbow (ice)
+Augmented eldritch crossbow (blood)
+Augmented eldritch crossbow (Third Age)
+Augmented eldritch crossbow (ice)
 Sack of medium parcels
 Sack of huge parcels
 Treasured fan mail
@@ -1768,10 +1441,8 @@ Custom-fit trimmed spiked masterwork platebody
 Custom-fit trimmed spiked masterwork platelegs
 Ancient herb
 Corrupt herb
-Augmented dinosaur body
-Augmented dinosaur chaps
+Blast diffusion boots (broken)
 Augmented terrasaur maul
-Laniakea's spear
 Golden Linza's helmet
 Golden Linza's hammer
 Golden Linza's cuirass
@@ -1783,13 +1454,11 @@ Shadow gem Virtus gloves
 Shadow gem Virtus boots
 One Special balloon
 Cinder core
-Pink unicorn plushie
 Rainbow unicorn plushie
 Ancient gladiator helm
 Yak Track Task List
-Golden gnome hat 2019
 Augmented dragon mattock
-Pontifex signet ring
+Pontifex signet ring (Restored)
 Bubbles (Archaeology)
 Hooded archaeology cape
 Archaeology journal
