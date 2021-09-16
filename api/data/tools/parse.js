@@ -25,7 +25,7 @@ const template = (wikitext, name) => {
     .slice(2 + name.length, end - 2)
     .replace(comment, "")
     .replace(/{{.*}}/g, "fake-value")
-    .replace(/(?:\[\[File:)([^\|\]]+)[^\]]*]]/gi, "$1");
+    .replace(/(?:\[\[File:\s*)([^\|\]]+)[^\]]*]]/gi, "$1");
 
   const lines = block
     .replace(/\n/g, "")
@@ -40,8 +40,8 @@ const template = (wikitext, name) => {
 const Image = (() => {
   const Inline = (() => {
     const match = {
-      detail: /(?:\[\[File:)?([^}\n]+detail[^\.]*(?:\.png|\.gif))/im,
-      equipped: /(?:\[\[File:)?([^}\n]+(?:equipped|equipment)[^\.]*(?:\.png|\.gif))/i,
+      detail: /(?:\[\[File:\s*)?([^}\n]+detail[^\.]*(?:\.png|\.gif))/im,
+      equipped: /(?:\[\[File:\s*)?([^}\n]+(?:equipped|equipment)[^\.]*(?:\.png|\.gif))/i,
     };
 
     const detail = (wikitext) => {
@@ -58,7 +58,7 @@ const Image = (() => {
   })();
 
   const match = {
-    detail: /(?:\[\[File:)([^\]\|]+detail[^\.]*(?:\.png|\.gif))/i,
+    detail: /(?:\[\[File:\s*)([^\]\|]+detail[^\.]*(?:\.png|\.gif))/i,
   };
 
   const detail = (wikitext) => {

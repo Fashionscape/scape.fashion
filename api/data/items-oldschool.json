@@ -15907,7 +15907,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/images/c/cd/Zamorak_plateskirt_detail.png?48781"
+      "detail": "https://oldschool.runescape.wiki/images/c/cd/Zamorak_plateskirt_detail.png?48781",
+      "equipped": "https://oldschool.runescape.wiki/images/f/fc/Zamorak_plateskirt_equipped_male.png?48781"
     },
     "name": "Zamorak plateskirt",
     "slot": "leg",
@@ -25236,7 +25237,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/images/1/12/Saradomin_plateskirt_detail.png?48781"
+      "detail": "https://oldschool.runescape.wiki/images/1/12/Saradomin_plateskirt_detail.png?48781",
+      "equipped": "https://oldschool.runescape.wiki/images/a/a2/Saradomin_plateskirt_equipped_male.png?48781"
     },
     "name": "Saradomin plateskirt",
     "slot": "leg",
@@ -32920,7 +32922,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/images/a/af/Ancient_plateskirt_detail.png?48781"
+      "detail": "https://oldschool.runescape.wiki/images/a/af/Ancient_plateskirt_detail.png?48781",
+      "equipped": "https://oldschool.runescape.wiki/images/0/07/Ancient_plateskirt_equipped_male.png?48781"
     },
     "name": "Ancient plateskirt",
     "slot": "leg",
@@ -35770,7 +35773,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/images/5/5f/Armadyl_plateskirt_detail.png?48781"
+      "detail": "https://oldschool.runescape.wiki/images/5/5f/Armadyl_plateskirt_detail.png?48781",
+      "equipped": "https://oldschool.runescape.wiki/images/5/5a/Armadyl_plateskirt_equipped_male.png?48781"
     },
     "name": "Armadyl plateskirt",
     "slot": "leg",
