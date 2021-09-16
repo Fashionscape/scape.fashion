@@ -355,6 +355,9 @@ Theatrical skirt
 Theatrical shoes
 Sock mask
 Buskin mask
+Goliath gloves
+Swift gloves
+Spellcaster gloves
 Illuminated Book of Wisdom
 Illuminated Book of Chaos
 Illuminated Book of Law
@@ -392,6 +395,7 @@ Spellcaster gloves (white)
 Spellcaster gloves (black)
 Swift gloves (yellow)
 Swift gloves (white)
+Mindspike
 Rope arrow
 TokKul-Zo
 Long Horns
@@ -1310,6 +1314,7 @@ Diamond bakriminel bolts
 Dragonstone bakriminel bolts
 Onyx bakriminel bolts
 Hydrix bakriminel bolts
+Smithing autoheater
 Treasure Trail collection log
 Second-Age full helm
 Second-Age platebody
@@ -1796,3 +1801,81 @@ Enhanced hammer-tron
 Clover parasol
 Alchemical hydrix brooch
 Brooch of the Gods
+Essence of Finality amulet (red)
+Essence of Finality amulet (blue)
+Essence of Finality amulet (yellow)
+Essence of Finality amulet (green)
+Essence of Finality amulet (purple)
+Essence of Finality amulet (pink)
+Essence of Finality amulet (black)
+Essence of Finality amulet (or)(red)
+Essence of Finality amulet (or)(blue)
+Essence of Finality amulet (or)(yellow)
+Essence of Finality amulet (or)(green)
+Essence of Finality amulet (or)(purple)
+Essence of Finality amulet (or)(pink)
+Essence of Finality amulet (or)(black)
+Enhanced fleeting boots
+Enhanced laceration boots
+Enhanced blast diffusion boots
+Golden gnome hat 2020
+Pontifex observation ring
+Champion's ring
+Stalker's ring
+Reaver's ring
+Channeller's ring
+Augmented Laniakea's spear (uncharged)
+Necklace of Salamancy
+Sign of the porter VII
+Shard of Erebus
+Pontifex shadow ring
+Menaphos Parasol
+Kerapac's wrist wraps
+Scripture of Jas
+Augmented fractured Staff of Armadyl (blood)
+Augmented fractured Staff of Armadyl (shadow)
+Augmented fractured Staff of Armadyl (ice)
+Augmented fractured Staff of Armadyl (Barrows)
+Augmented fractured Staff of Armadyl (Third Age)
+Augmented fractured Staff of Armadyl
+Scripture of Ful
+Scripture of Bik
+Scripture of Wen
+Enhanced Kerapac's wrist wraps
+Golden Bandos helmet
+Golden Bandos gloves
+Golden Bandos chestplate
+Golden Bandos tassets
+Golden Bandos boots
+Golden Armadyl helmet
+Golden Armadyl gloves
+Golden Armadyl chestplate
+Golden Armadyl chainskirt
+Golden Armadyl boots
+Golden hood of subjugation
+Golden gloves of subjugation
+Golden garb of subjugation
+Golden gown of subjugation
+Golden boots of subjugation
+Augmented dark ice shard
+Augmented dark ice sliver
+Augmented Dark Shard of Leng
+Augmented Dark Sliver of Leng
+Dark Shard of Leng (Barrows)
+Dark Sliver of Leng (Barrows)
+Augmented Dark Shard of Leng (Barrows)
+Augmented Dark Sliver of Leng (Barrows)
+Dark Shard of Leng (blood)
+Dark Sliver of Leng (blood)
+Augmented Dark Shard of Leng (blood)
+Augmented Dark Sliver of Leng (blood)
+Dark Shard of Leng (ice)
+Dark Sliver of Leng (ice)
+Augmented Dark Shard of Leng (ice)
+Augmented Dark Sliver of Leng (ice)
+Augmented Dark Shard of Leng (shadow)
+Augmented Dark Sliver of Leng (shadow)
+Dark Shard of Leng (Third Age)
+Dark Sliver of Leng (Third Age)
+Augmented Dark Shard of Leng (Third Age)
+Augmented Dark Sliver of Leng (Third Age)
