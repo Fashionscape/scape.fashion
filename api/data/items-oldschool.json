@@ -71715,6 +71715,86 @@
   },
   {
     "colors": [
+      "#bd2818",
+      "#7f1b0d",
+      "#55110a"
+    ],
+    "hidden": false,
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/images/d/d4/Keris_partisan_of_breaching_detail.png?48781",
+      "equipped": "https://oldschool.runescape.wiki/images/f/f9/Keris_partisan_of_breaching_equipped.png?48781"
+    },
+    "name": "Keris partisan (Breach of the Scarab)",
+    "slot": "weapon",
+    "status": [
+      "untradeable",
+      "variant"
+    ],
+    "variant": "Breach of the Scarab",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=328987&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=328987#Breach_of_the_Scarab",
+      "pageId": 328987
+    }
+  },
+  {
+    "hidden": false,
+    "images": {},
+    "name": "Keris partisan (Eye of the Corrupter)",
+    "slot": "weapon",
+    "status": [
+      "untradeable",
+      "variant"
+    ],
+    "variant": "Eye of the Corrupter",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=328987&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=328987#Eye_of_the_Corrupter",
+      "pageId": 328987
+    }
+  },
+  {
+    "hidden": false,
+    "images": {},
+    "name": "Keris partisan (Jewel of the Sun)",
+    "slot": "weapon",
+    "status": [
+      "untradeable",
+      "variant"
+    ],
+    "variant": "Jewel of the Sun",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=328987&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=328987#Jewel_of_the_Sun",
+      "pageId": 328987
+    }
+  },
+  {
+    "colors": [
+      "#b717b5",
+      "#540a52",
+      "#6c0c64"
+    ],
+    "hidden": false,
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/images/d/dc/Keris_partisan_detail.png?48781",
+      "equipped": "https://oldschool.runescape.wiki/images/f/fc/Keris_partisan_equipped.png?48781"
+    },
+    "name": "Keris partisan (No Jewel)",
+    "slot": "weapon",
+    "status": [
+      "untradeable",
+      "variant"
+    ],
+    "variant": "No Jewel",
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=328987&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=328987#No_Jewel",
+      "pageId": 328987
+    }
+  },
+  {
+    "colors": [
       "#a414a3",
       "#4e094d",
       "#6c0c64"

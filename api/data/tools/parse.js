@@ -45,7 +45,7 @@ const Image = (() => {
     };
 
     const detail = (wikitext) => {
-      const [_, detail] = wikitext.match(match.detail);
+      const [_, detail] = wikitext.match(match.detail) || [];
       return detail;
     };
 

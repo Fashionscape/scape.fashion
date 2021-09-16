@@ -39,8 +39,9 @@ const Variant = (() => {
       const entries = Object.entries(template);
       const images = entries.filter(([k]) => k.startsWith("version"));
       const values = images.map(([_, v]) => v);
+      const files = values.map(Parse.Image.Inline.detail);
 
-      return values.map(Parse.Image.Inline.detail).map(toFileUrl);
+      return files.map((f) => f && toFileUrl(f));
     };
 
     return { parse };
@@ -69,7 +70,7 @@ const Variant = (() => {
 
     return details.map((detail, i) => {
       const equipped = equippeds[i];
-      return equipped ? { detail, equipped } : { detail };
+      return { ...(equipped && { equipped }), ...(detail && { detail }) };
     });
   };
 
