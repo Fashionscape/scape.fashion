@@ -4,7 +4,6 @@ const Ignore = require("./ignore");
 const Hide = require("./hide");
 const Image = require("./image");
 const Slot = require("./slot");
-const Parse = require("./parse");
 const Variant = require("./variant");
 const { toItem } = require("./item");
 
@@ -43,22 +42,9 @@ const withImages = (item) => (wikitext) => {
   return { ...item, images };
 };
 
-/* Keep only the wikitext we need for parsing. This helps filter out false
- * positives for variants like finding a Synced Switch under Gallery section
- * Item: Dragon Arrow */
-const filterWikitext = (text) => {
-  const bonusesStart = text.search(new RegExp(`{{Infobox Bonuses`, "i"));
-  if (bonusesStart < 0) return text;
-
-  const bonusesEnd = Parse.parseBlock(text.slice(bonusesStart));
-  if (bonusesEnd < 0) return text;
-
-  return text.slice(0, bonusesStart + bonusesEnd + "}}".length);
-};
-
 const toItems = ({ parse }) => {
   let { title, wikitext } = parse;
-  wikitext = filterWikitext(wikitext["*"]);
+  wikitext = wikitext["*"];
 
   if (title.startsWith("Category:")) return [];
 

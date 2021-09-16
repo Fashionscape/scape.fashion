@@ -33,9 +33,24 @@ const toFileUrl = (filename) => {
 };
 
 const Variant = (() => {
+  /* Keep only wikitext prior to Infobox Bonuses when searching for Synced
+   * Switch. These helps prevent false positives for variants like finding a
+   * Synced Switch under Gallery section.
+   * Item: Dragon Arrow (osrs) */
+  const filterWikitext = (text) => {
+    const bonusesStart = text.search(new RegExp(`{{Infobox Bonuses`, "i"));
+    if (bonusesStart < 0) return text;
+
+    const bonusesEnd = Parse.parseBlock(text.slice(bonusesStart));
+    if (bonusesEnd < 0) return text;
+
+    return text.slice(0, bonusesStart + bonusesEnd + "}}".length);
+  };
+
   const Detail = (() => {
     const parse = (wikitext) => {
-      const template = Parse.template(wikitext, "Synced switch");
+      const text = filterWikitext(wikitext);
+      const template = Parse.template(text, "Synced switch");
       const entries = Object.entries(template);
       const images = entries.filter(([k]) => k.startsWith("version"));
       const values = images.map(([_, v]) => v);
