@@ -1,20 +1,17 @@
-const fetch = require('node-fetch');
-const slow = require('slow');
+const fetch = require("node-fetch");
+const slow = require("slow");
 
-const config = require('./config').get();
-
-const BASE_URL = config.url.base;
-const API_URL = config.url.api;
+const config = require("./config").get();
 
 const FETCH_OPTIONS = {
   headers: {
-    'User-Agent': 'Fashionscape Bot (scape.fashion) (contact@scape.fashion)',
-  },
+    "User-Agent": "Fashionscape Bot (scape.fashion) (contact@scape.fashion)"
+  }
 };
 
-const categoryMembers = async (category, continu = '') => {
+const categoryMembers = async (category, continu = "") => {
   const url = `
-      ${API_URL}
+      ${config.url.api}
         ?action=query
         &list=categorymembers
         &cmtitle=Category:${category}
@@ -22,7 +19,7 @@ const categoryMembers = async (category, continu = '') => {
         &cmlimit=500
         &cmcontinue=${continu}
         &format=json
-    `.replace(/\s/g, '');
+    `.replace(/\s/g, "");
 
   const response = await fetch(url, FETCH_OPTIONS).then(res => res.json());
 
@@ -45,19 +42,19 @@ const categories = categories =>
     .then(ms => ms.flat());
 
 const apiUrl = pageId =>
-  `${API_URL}?action=parse&pageid=${pageId}&prop=categories|images|templates|wikitext&format=json`;
+  `${config.url.api}?action=parse&pageid=${pageId}&prop=categories|images|templates|wikitext&format=json`;
 
 const parse = pageId => {
   const url = apiUrl(pageId);
-  console.log('Fetching item: ', url);
+  console.log("Fetching item: ", url);
   return fetch(url, FETCH_OPTIONS).then(response => response.json());
 };
 
-const wikiUrl = ({pageId, variant}) => {
-  const pageUrl = `${BASE_URL}?curid=${pageId}`;
-  const hash = '#' + variant?.replace(/ /g, '_');
+const wikiUrl = ({ pageId, variant }) => {
+  const pageUrl = `${config.url.wiki}?curid=${pageId}`;
+  const hash = "#" + variant?.replace(/ /g, "_");
 
   return variant ? pageUrl + hash : pageUrl;
 };
 
-module.exports = {apiUrl, categories, categoryMembers, parse, wikiUrl};
+module.exports = { apiUrl, categories, categoryMembers, parse, wikiUrl };

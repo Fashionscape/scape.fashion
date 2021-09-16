@@ -1,12 +1,12 @@
-const Hide = require('./hide');
-const Wiki = require('./wiki');
-const {toSlot} = require('./slot');
+const Hide = require("./hide");
+const Wiki = require("./wiki");
+const { toSlot } = require("./slot");
 
 const statuses = [
-  {category: 'Discontinued_content', label: 'discontinued'},
-  {category: 'Unobtainable_items', label: 'unobtainable'},
-  {category: 'Untradeable_items', label: 'untradeable'},
-  {category: 'Free-to-play_items', label: 'freetoplay'},
+  { category: "Discontinued_content", label: "discontinued" },
+  { category: "Unobtainable_items", label: "unobtainable" },
+  { category: "Untradeable_items", label: "untradeable" },
+  { category: "Free-to-play_items", label: "freetoplay" }
 ];
 
 const toStatus = categories =>
@@ -20,10 +20,10 @@ const toItem = parse => {
   const name = parse.title;
   const pageId = parse.pageid;
   const api = Wiki.apiUrl(pageId);
-  const link = Wiki.wikiUrl({pageId});
+  const link = Wiki.wikiUrl({ pageId });
   const hidden = Hide.isHidden(name);
 
-  const categories = parse.categories.map(c => c['*']);
+  const categories = parse.categories.map(c => c["*"]);
   const status = toStatus(categories);
 
   const slot = toSlot(categories);
@@ -33,8 +33,8 @@ const toItem = parse => {
     name,
     slot,
     status,
-    wiki: {api, link, pageId},
+    wiki: { api, link, pageId }
   };
 };
 
-module.exports = {toItem};
+module.exports = { toItem };

@@ -6,9 +6,9 @@ const parseBlock = text => {
     if (found && open === 0) return i;
 
     const c = text[i];
-    if (c === '{') found = true;
-    if (c === '{') open++;
-    if (c === '}') open--;
+    if (c === "{") found = true;
+    if (c === "{") open++;
+    if (c === "}") open--;
   }
 
   return -1;
@@ -17,19 +17,19 @@ const parseBlock = text => {
 const comment = /<!--(.*?)-->/gms;
 
 const template = (wikitext, name) => {
-  const start = wikitext.search(new RegExp(`{{${name}`, 'i'));
+  const start = wikitext.search(new RegExp(`{{${name}`, "i"));
   const text = wikitext.slice(start);
   const end = parseBlock(text);
 
   const block = text
     .slice(2 + name.length, end - 2)
-    .replace(comment, '')
-    .replace(/{{.*}}/g, 'fake-value')
-    .replace(/(?:\[\[File:)([^\|\]]+)[^\]]*]]/gi, '$1');
+    .replace(comment, "")
+    .replace(/{{.*}}/g, "fake-value")
+    .replace(/(?:\[\[File:)([^\|\]]+)[^\]]*]]/gi, "$1");
 
   const lines = block
-    .replace(/\n/g, '')
-    .split('|')
+    .replace(/\n/g, "")
+    .split("|")
     .filter(l => !!l);
 
   const entries = lines.map(line => line.split(/ ?= ?/));
@@ -41,7 +41,7 @@ const Image = (() => {
   const Inline = (() => {
     const match = {
       detail: /(?:\[\[File:)?([^}\n]+detail[^\.]*(?:\.png|\.gif))/im,
-      equipped: /(?:\[\[File:)?([^}\n]+(?:equipped|equipment)[^\.]*(?:\.png|\.gif))/i,
+      equipped: /(?:\[\[File:)?([^}\n]+(?:equipped|equipment)[^\.]*(?:\.png|\.gif))/i
     };
 
     const detail = wikitext => {
@@ -54,20 +54,20 @@ const Image = (() => {
       return equipped;
     };
 
-    return {detail, equipped};
+    return { detail, equipped };
   })();
 
   const match = {
-    detail: /(?:\[\[File:)([^\]\|]+detail[^\.]*(?:\.png|\.gif))/i,
+    detail: /(?:\[\[File:)([^\]\|]+detail[^\.]*(?:\.png|\.gif))/i
   };
 
   const detail = wikitext => {
-    const text = wikitext.replace(comment, '');
+    const text = wikitext.replace(comment, "");
     const [_, detail] = text.match(match.detail) || [];
     return detail;
   };
 
-  return {Inline, detail};
+  return { Inline, detail };
 })();
 
-module.exports = {Image, template};
+module.exports = { Image, template };

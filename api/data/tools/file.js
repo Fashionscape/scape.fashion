@@ -1,21 +1,21 @@
-const fs = require('fs');
+const fs = require("fs");
 
-const config = require('./config').get();
+const config = require("./config").get();
 
 const keys = [
-  'api',
-  'colors',
-  'detail',
-  'equipped',
-  'hidden',
-  'link',
-  'images',
-  'name',
-  'pageId',
-  'slot',
-  'status',
-  'variant',
-  'wiki',
+  "api",
+  "colors",
+  "detail",
+  "equipped",
+  "hidden",
+  "link",
+  "images",
+  "name",
+  "pageId",
+  "slot",
+  "status",
+  "variant",
+  "wiki"
 ];
 
 const format = items => JSON.stringify(items, keys, 2);
@@ -30,7 +30,7 @@ const Error = (() => {
     fs.writeFileSync(file, output);
   };
 
-  return {write};
+  return { write };
 })();
 
 const Items = (() => {
@@ -41,7 +41,7 @@ const Items = (() => {
     fs.writeFileSync(file, output);
   };
 
-  return {write};
+  return { write };
 })();
 
-module.exports = {format, Error, Items};
+module.exports = { format, Error, Items };

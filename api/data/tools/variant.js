@@ -1,20 +1,20 @@
-const Image = require('./image');
-const Parse = require('./parse');
-const Wiki = require('./wiki');
-const {toFileName} = require('./image');
-const {toItem} = require('./item');
+const Image = require("./image");
+const Parse = require("./parse");
+const Wiki = require("./wiki");
+const { toFileName } = require("./image");
+const { toItem } = require("./item");
 
 const Name = (() => {
   const bannedVariants = [
-    'Activated',
-    'Broken',
-    'Damaged',
-    'Deadman mode',
-    'Inactive',
-    'Lit',
-    'Locked',
-    'Poison+',
-    'Poison++',
+    "Activated",
+    "Broken",
+    "Damaged",
+    "Deadman mode",
+    "Inactive",
+    "Lit",
+    "Locked",
+    "Poison+",
+    "Poison++"
   ];
 
   const numberedVariantPattern = /\(?(t|i)?\d+\)?/;
@@ -26,54 +26,54 @@ const Name = (() => {
   };
 
   const parse = wikitext => {
-    const template = Parse.template(wikitext, 'Infobox Item');
+    const template = Parse.template(wikitext, "Infobox Item");
     const entries = Object.entries(template);
-    const versions = entries.filter(([k]) => k.startsWith('version'));
+    const versions = entries.filter(([k]) => k.startsWith("version"));
     const values = versions.map(([_, v]) => v);
     return values;
   };
 
   const standardVariants = [
-    'Active',
-    'Cosmetic',
-    'Fixed',
-    'Normal',
-    'Regular',
-    'Standard',
-    'Undamaged',
-    'Unlit',
-    'Unpoisoned',
+    "Active",
+    "Cosmetic",
+    "Fixed",
+    "Normal",
+    "Regular",
+    "Standard",
+    "Undamaged",
+    "Unlit",
+    "Unpoisoned"
   ];
 
-  const toNameVariant = ({name, variant}) => {
+  const toNameVariant = ({ name, variant }) => {
     if (standardVariants.includes(variant)) return name;
 
     return `${name} (${variant})`;
   };
 
-  return {isValidVariant, parse, toNameVariant};
+  return { isValidVariant, parse, toNameVariant };
 })();
 
 const hasVariants = wikitext => Image.Variant.parse(wikitext).length > 0;
 
 const toItemVariant = item => variant => {
-  const name = Name.toNameVariant({name: item.name, variant});
-  const status = [...item.status, 'variant'];
-  const link = Wiki.wikiUrl({pageId: item.wiki.pageId, variant});
-  const wiki = {...item.wiki, link};
+  const name = Name.toNameVariant({ name: item.name, variant });
+  const status = [...item.status, "variant"];
+  const link = Wiki.wikiUrl({ pageId: item.wiki.pageId, variant });
+  const wiki = { ...item.wiki, link };
 
-  return {...item, name, status, variant, wiki};
+  return { ...item, name, status, variant, wiki };
 };
 
 const withImages = wikitext => {
   const images = Image.Variant.parse(wikitext);
 
-  return (item, i) => ({...item, images: images[i]});
+  return (item, i) => ({ ...item, images: images[i] });
 };
 
 const toVariants = parse => {
-  let {wikitext} = parse;
-  wikitext = wikitext['*'];
+  let { wikitext } = parse;
+  wikitext = wikitext["*"];
 
   const item = toItem(parse);
   const names = Name.parse(wikitext);
@@ -85,4 +85,4 @@ const toVariants = parse => {
     .sort((a, b) => a.name.localeCompare(b.name));
 };
 
-module.exports = {hasVariants, toVariants};
+module.exports = { hasVariants, toVariants };

@@ -1,17 +1,17 @@
-const fs = require('fs');
-const slow = require('slow');
+const fs = require("fs");
+const slow = require("slow");
 
 const [_, __, rsrelease, force] = process.argv;
-const Config = require('./config');
+const Config = require("./config");
 Config.set(rsrelease);
 const config = Config.get();
 
-const Ignore = require('./ignore');
-const File = require('./file');
-const Model = require('./model');
-const Slot = require('./slot');
-const Wiki = require('./wiki');
-const {withColor} = require('./color');
+const Ignore = require("./ignore");
+const File = require("./file");
+const Model = require("./model");
+const Slot = require("./slot");
+const Wiki = require("./wiki");
+const { withColor } = require("./color");
 
 const file = `items-${rsrelease}.json`;
 const items = require(`../${file}`);
@@ -56,15 +56,15 @@ const update = async () => {
   const members = await Wiki.categories(Slot.categories);
   const pageIds = [...new Set(members.map(member => member.pageid))];
 
-  console.log('Total items: ', pageIds.length);
+  console.log("Total items: ", pageIds.length);
 
   let processedCount = 0;
   const logProgress = () =>
     processedCount++ % 100 === 0 &&
     console.log(`Processing item ${processedCount}...`);
 
-  const {known = [], unknown = []} = groupBy(pageIds, id =>
-    pageMap.has(id) ? 'known' : 'unknown',
+  const { known = [], unknown = [] } = groupBy(pageIds, id =>
+    pageMap.has(id) ? "known" : "unknown"
   );
 
   const refreshed = await slow.run(known, pageId => {

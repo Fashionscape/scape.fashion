@@ -1,4 +1,4 @@
-const colordiff = require('color-difference');
+const colordiff = require("color-difference");
 
 const compare = weight => ([a, b]) => {
   const diff = colordiff.compare(a.color, b.color);
@@ -8,13 +8,13 @@ const compare = weight => ([a, b]) => {
 const worst = weight => ([a, b]) =>
   100 * Math.pow(weight, a.order) * Math.pow(weight, b.order);
 
-const withOrder = (color, i) => ({color, order: i});
+const withOrder = (color, i) => ({ color, order: i });
 
 const combos = (as, bs) => [].concat(...as.map(a => bs.map(b => [a, b])));
 
 const sum = (sum, n) => sum + n;
 
-const withMatch = (colors, {allowance = 0.5}) => item => {
+const withMatch = (colors, { allowance = 0.5 }) => item => {
   if (!item.colors || !item.colors.length) return item;
 
   const searchColorsWithOrder = colors.map(withOrder);
@@ -27,7 +27,7 @@ const withMatch = (colors, {allowance = 0.5}) => item => {
   const normalScore = deduction / worstScore;
   const match = 1 - normalScore;
 
-  return {...item, match};
+  return { ...item, match };
 };
 
-module.exports = {withMatch};
+module.exports = { withMatch };
