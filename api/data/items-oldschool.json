@@ -3752,7 +3752,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/images/e/e1/Ancient_staff_detail.png?48781"
+      "detail": "https://oldschool.runescape.wiki/images/e/e1/Ancient_staff_detail.png?48781",
+      "equipped": "https://oldschool.runescape.wiki/images/2/23/Ancient_staff_equipped_female.png?48781"
     },
     "name": "Ancient staff",
     "slot": "weapon",
@@ -7126,7 +7127,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/images/c/c4/Berserker_necklace_detail.png?48781"
+      "detail": "https://oldschool.runescape.wiki/images/c/c4/Berserker_necklace_detail.png?48781",
+      "equipped": "https://oldschool.runescape.wiki/images/0/0b/Berserker_necklace_equipped_female.png?48781"
     },
     "name": "Berserker necklace",
     "slot": "neck",
@@ -9720,7 +9722,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/images/4/43/Farseer_helm_detail.png?48781"
+      "detail": "https://oldschool.runescape.wiki/images/4/43/Farseer_helm_detail.png?48781",
+      "equipped": "https://oldschool.runescape.wiki/images/1/16/Farseer_helm_equipped_female.png?48781"
     },
     "name": "Farseer helm",
     "slot": "head",
@@ -12199,7 +12202,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/images/8/85/Magic_shortbow_detail.png?48781"
+      "detail": "https://oldschool.runescape.wiki/images/8/85/Magic_shortbow_detail.png?48781",
+      "equipped": "https://oldschool.runescape.wiki/images/9/9b/Magic_shortbow_equipped_female.png?48781"
     },
     "name": "Magic shortbow",
     "slot": "weapon",
@@ -13038,7 +13042,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/images/6/69/Onyx_necklace_detail.png?48781"
+      "detail": "https://oldschool.runescape.wiki/images/6/69/Onyx_necklace_detail.png?48781",
+      "equipped": "https://oldschool.runescape.wiki/images/6/6c/Onyx_necklace_equipped_female.png?48781"
     },
     "name": "Onyx necklace",
     "slot": "neck",
@@ -15136,7 +15141,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/images/0/04/Toktz-mej-tal_detail.png?48781"
+      "detail": "https://oldschool.runescape.wiki/images/0/04/Toktz-mej-tal_detail.png?48781",
+      "equipped": "https://oldschool.runescape.wiki/images/6/69/Toktz-mej-tal_equipped_female.png?48781"
     },
     "name": "Toktz-mej-tal",
     "slot": "weapon",
@@ -15289,7 +15295,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/images/2/2f/Void_knight_mace_detail.png?48781"
+      "detail": "https://oldschool.runescape.wiki/images/2/2f/Void_knight_mace_detail.png?48781",
+      "equipped": "https://oldschool.runescape.wiki/images/f/f8/Void_knight_mace_equipped_female.png?48781"
     },
     "name": "Void knight mace",
     "slot": "weapon",
@@ -15360,7 +15367,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/images/4/44/Warrior_helm_detail.png?48781"
+      "detail": "https://oldschool.runescape.wiki/images/4/44/Warrior_helm_detail.png?48781",
+      "equipped": "https://oldschool.runescape.wiki/images/6/66/Warrior_helm_equipped_female.png?48781"
     },
     "name": "Warrior helm",
     "slot": "head",
@@ -16749,7 +16757,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/images/1/1a/Dragonfire_shield_detail.png?48781"
+      "detail": "https://oldschool.runescape.wiki/images/1/1a/Dragonfire_shield_detail.png?48781",
+      "equipped": "https://oldschool.runescape.wiki/images/5/5f/Dragonfire_shield_equipped_female.png?48781"
     },
     "name": "Dragonfire shield (Charged)",
     "slot": "shield",
@@ -16772,7 +16781,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/images/7/7f/Dragonfire_shield_(uncharged)_detail.png?48781"
+      "detail": "https://oldschool.runescape.wiki/images/7/7f/Dragonfire_shield_(uncharged)_detail.png?48781",
+      "equipped": "https://oldschool.runescape.wiki/images/c/ce/Dragonfire_shield_(uncharged)_equipped_female.png?48781"
     },
     "name": "Dragonfire shield (Uncharged)",
     "slot": "shield",
@@ -17118,7 +17128,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/images/9/9b/Slayer's_staff_detail.png?48781"
+      "detail": "https://oldschool.runescape.wiki/images/9/9b/Slayer's_staff_detail.png?48781",
+      "equipped": "https://oldschool.runescape.wiki/images/e/e5/Slayer's_staff_equipped_female.png?48781"
     },
     "name": "Slayer's staff",
     "slot": "weapon",
@@ -17903,7 +17914,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/images/e/ed/Silverlight_detail.png?48781"
+      "detail": "https://oldschool.runescape.wiki/images/e/ed/Silverlight_detail.png?48781",
+      "equipped": "https://oldschool.runescape.wiki/images/6/60/Silverlight_equipped_female.png?48781"
     },
     "name": "Silverlight",
     "slot": "weapon",
@@ -17927,7 +17939,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/images/0/05/Silverlight_(dyed)_detail.png?48781"
+      "detail": "https://oldschool.runescape.wiki/images/0/05/Silverlight_(dyed)_detail.png?48781",
+      "equipped": "https://oldschool.runescape.wiki/images/c/ce/Silverlight_(dyed)_equipped_female.png?48781"
     },
     "name": "Silverlight (Dyed)",
     "slot": "weapon",
@@ -20860,7 +20873,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/images/6/67/Infinity_boots_detail.png?48781"
+      "detail": "https://oldschool.runescape.wiki/images/6/67/Infinity_boots_detail.png?48781",
+      "equipped": "https://oldschool.runescape.wiki/images/b/bd/Infinity_boots_equipped_female.png?48781"
     },
     "name": "Infinity boots",
     "slot": "feet",
@@ -21334,7 +21348,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/images/5/52/Chinchompa_detail.png?48781"
+      "detail": "https://oldschool.runescape.wiki/images/5/52/Chinchompa_detail.png?48781",
+      "equipped": "https://oldschool.runescape.wiki/images/b/be/Chinchompa_equipped_female.png?48781"
     },
     "name": "Chinchompa",
     "slot": "weapon",
@@ -22738,7 +22753,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/images/b/b3/Princess_blouse_detail.png?48781"
+      "detail": "https://oldschool.runescape.wiki/images/b/b3/Princess_blouse_detail.png?48781",
+      "equipped": "https://oldschool.runescape.wiki/images/f/fa/Princess_blouse_equipped_female.png?48781"
     },
     "name": "Princess blouse",
     "slot": "body",
@@ -22760,7 +22776,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/images/d/d1/Princess_skirt_detail.png?48781"
+      "detail": "https://oldschool.runescape.wiki/images/d/d1/Princess_skirt_detail.png?48781",
+      "equipped": "https://oldschool.runescape.wiki/images/f/fb/Princess_skirt_equipped_female.png?48781"
     },
     "name": "Princess skirt",
     "slot": "leg",
@@ -22954,7 +22971,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/images/a/ad/Seal_of_passage_detail.png?48781"
+      "detail": "https://oldschool.runescape.wiki/images/a/ad/Seal_of_passage_detail.png?48781",
+      "equipped": "https://oldschool.runescape.wiki/images/9/98/Seal_of_passage_equipped_female.png?48781"
     },
     "name": "Seal of passage",
     "slot": "neck",
@@ -24937,7 +24955,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/images/0/06/Sled_(unwaxed)_detail.png?48781"
+      "detail": "https://oldschool.runescape.wiki/images/0/06/Sled_(unwaxed)_detail.png?48781",
+      "equipped": "https://oldschool.runescape.wiki/images/e/ed/Sled_equipped_female.png?48781"
     },
     "name": "Sled (Unwaxed)",
     "slot": "weapon",
@@ -24960,7 +24979,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/images/0/04/Sled_detail.png?48781"
+      "detail": "https://oldschool.runescape.wiki/images/0/04/Sled_detail.png?48781",
+      "equipped": "https://oldschool.runescape.wiki/images/e/ed/Sled_equipped_female.png?48781"
     },
     "name": "Sled (Waxed)",
     "slot": "weapon",
@@ -31301,7 +31321,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/images/7/78/Crate_with_zanik_detail.png?48781"
+      "detail": "https://oldschool.runescape.wiki/images/7/78/Crate_with_zanik_detail.png?48781",
+      "equipped": "https://oldschool.runescape.wiki/images/d/db/Crate_with_zanik_equipped_female.png?48781"
     },
     "name": "Crate with zanik",
     "slot": "weapon",
@@ -34146,7 +34167,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/images/a/a9/3rd_age_longsword_detail.png?48781"
+      "detail": "https://oldschool.runescape.wiki/images/a/a9/3rd_age_longsword_detail.png?48781",
+      "equipped": "https://oldschool.runescape.wiki/images/2/29/3rd_age_longsword_equipped_female.png?48781"
     },
     "name": "3rd age longsword",
     "slot": "weapon",
@@ -37577,7 +37599,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/images/a/aa/Event_rpg_detail.png?48781"
+      "detail": "https://oldschool.runescape.wiki/images/a/aa/Event_rpg_detail.png?48781",
+      "equipped": "https://oldschool.runescape.wiki/images/4/4e/Event_rpg_equipped_female.png?48781"
     },
     "name": "Event rpg",
     "slot": "weapon",
@@ -37666,7 +37689,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/images/4/4c/Magic_shortbow_(i)_detail.png?48781"
+      "detail": "https://oldschool.runescape.wiki/images/4/4c/Magic_shortbow_(i)_detail.png?48781",
+      "equipped": "https://oldschool.runescape.wiki/images/f/f7/Magic_shortbow_(i)_equipped_female.png?48781"
     },
     "name": "Magic shortbow (i)",
     "slot": "weapon",
@@ -45120,7 +45144,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/images/8/8b/Gnome_child_hat_detail.png?48781"
+      "detail": "https://oldschool.runescape.wiki/images/8/8b/Gnome_child_hat_detail.png?48781",
+      "equipped": "https://oldschool.runescape.wiki/images/6/6d/Gnome_child_hat_equipped_female.png?48781"
     },
     "name": "Gnome child hat",
     "slot": "head",
@@ -45301,7 +45326,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/images/b/b0/Necklace_of_anguish_detail.png?48781"
+      "detail": "https://oldschool.runescape.wiki/images/b/b0/Necklace_of_anguish_detail.png?48781",
+      "equipped": "https://oldschool.runescape.wiki/images/2/21/Necklace_of_anguish_equipped_female.png?48781"
     },
     "name": "Necklace of anguish",
     "slot": "neck",
@@ -45340,7 +45366,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/images/6/6c/Amulet_of_torture_detail.png?48781"
+      "detail": "https://oldschool.runescape.wiki/images/6/6c/Amulet_of_torture_detail.png?48781",
+      "equipped": "https://oldschool.runescape.wiki/images/0/07/Amulet_of_torture_equipped_female.png?48781"
     },
     "name": "Amulet of torture",
     "slot": "neck",
@@ -45398,7 +45425,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/images/a/ab/Zenyte_amulet_detail.png?48781"
+      "detail": "https://oldschool.runescape.wiki/images/a/ab/Zenyte_amulet_detail.png?48781",
+      "equipped": "https://oldschool.runescape.wiki/images/0/0e/Zenyte_amulet_equipped_female.png?48781"
     },
     "name": "Zenyte amulet",
     "slot": "neck",
@@ -45417,7 +45445,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/images/c/cf/Zenyte_necklace_detail.png?48781"
+      "detail": "https://oldschool.runescape.wiki/images/c/cf/Zenyte_necklace_detail.png?48781",
+      "equipped": "https://oldschool.runescape.wiki/images/e/e7/Zenyte_necklace_equipped_female.png?48781"
     },
     "name": "Zenyte necklace",
     "slot": "neck",
@@ -45480,7 +45509,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/images/9/99/Heavy_ballista_detail.png?48781"
+      "detail": "https://oldschool.runescape.wiki/images/9/99/Heavy_ballista_detail.png?48781",
+      "equipped": "https://oldschool.runescape.wiki/images/6/6a/Heavy_ballista_equipped_female.png?48781"
     },
     "name": "Heavy ballista",
     "slot": "weapon",
@@ -45499,7 +45529,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/images/6/6c/Light_ballista_detail.png?48781"
+      "detail": "https://oldschool.runescape.wiki/images/6/6c/Light_ballista_detail.png?48781",
+      "equipped": "https://oldschool.runescape.wiki/images/8/82/Light_ballista_equipped_female.png?48781"
     },
     "name": "Light ballista",
     "slot": "weapon",
@@ -53575,7 +53606,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/images/f/ff/Ancient_wyvern_shield_detail.png?48781"
+      "detail": "https://oldschool.runescape.wiki/images/f/ff/Ancient_wyvern_shield_detail.png?48781",
+      "equipped": "https://oldschool.runescape.wiki/images/5/5d/Ancient_wyvern_shield_equipped_female.png?48781"
     },
     "name": "Ancient wyvern shield (Charged)",
     "slot": "shield",
@@ -53598,7 +53630,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/images/1/18/Ancient_wyvern_shield_(uncharged)_detail.png?48781"
+      "detail": "https://oldschool.runescape.wiki/images/1/18/Ancient_wyvern_shield_(uncharged)_detail.png?48781",
+      "equipped": "https://oldschool.runescape.wiki/images/1/18/Ancient_wyvern_shield_(uncharged)_equipped_female.png?48781"
     },
     "name": "Ancient wyvern shield (Uncharged)",
     "slot": "shield",
@@ -54167,7 +54200,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/images/5/54/Imbued_saradomin_cape_detail.png?48781"
+      "detail": "https://oldschool.runescape.wiki/images/5/54/Imbued_saradomin_cape_detail.png?48781",
+      "equipped": "https://oldschool.runescape.wiki/images/3/3e/Imbued_saradomin_cape_equipped_female.png?48781"
     },
     "name": "Imbued saradomin cape",
     "slot": "cape",
@@ -54190,7 +54224,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/images/1/1c/Imbued_guthix_cape_detail.png?48781"
+      "detail": "https://oldschool.runescape.wiki/images/1/1c/Imbued_guthix_cape_detail.png?48781",
+      "equipped": "https://oldschool.runescape.wiki/images/3/30/Imbued_guthix_cape_equipped_female.png?48781"
     },
     "name": "Imbued guthix cape",
     "slot": "cape",
@@ -54213,7 +54248,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/images/3/37/Imbued_zamorak_cape_detail.png?48781"
+      "detail": "https://oldschool.runescape.wiki/images/3/37/Imbued_zamorak_cape_detail.png?48781",
+      "equipped": "https://oldschool.runescape.wiki/images/d/d6/Imbued_zamorak_cape_equipped_female.png?48781"
     },
     "name": "Imbued zamorak cape",
     "slot": "cape",
@@ -55043,7 +55079,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/images/e/ee/Dragonfire_ward_detail.png?48781"
+      "detail": "https://oldschool.runescape.wiki/images/e/ee/Dragonfire_ward_detail.png?48781",
+      "equipped": "https://oldschool.runescape.wiki/images/2/25/Dragonfire_ward_equipped_female.png?48781"
     },
     "name": "Dragonfire ward (Charged)",
     "slot": "shield",
@@ -55066,7 +55103,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/images/d/dd/Dragonfire_ward_(uncharged)_detail.png?48781"
+      "detail": "https://oldschool.runescape.wiki/images/d/dd/Dragonfire_ward_(uncharged)_detail.png?48781",
+      "equipped": "https://oldschool.runescape.wiki/images/f/f5/Dragonfire_ward_(uncharged)_equipped_female.png?48781"
     },
     "name": "Dragonfire ward (Uncharged)",
     "slot": "shield",
@@ -59581,7 +59619,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/images/5/5b/Jester_cape_detail.png?48781"
+      "detail": "https://oldschool.runescape.wiki/images/5/5b/Jester_cape_detail.png?48781",
+      "equipped": "https://oldschool.runescape.wiki/images/c/ca/Jester_cape_equipped_female.png?48781"
     },
     "name": "Jester cape",
     "slot": "cape",
@@ -59602,7 +59641,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/images/2/2a/Shoulder_parrot_detail.png?48781"
+      "detail": "https://oldschool.runescape.wiki/images/2/2a/Shoulder_parrot_detail.png?48781",
+      "equipped": "https://oldschool.runescape.wiki/images/d/d0/Shoulder_parrot_equipped_female.png?48781"
     },
     "name": "Shoulder parrot",
     "slot": "cape",
@@ -59733,7 +59773,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/images/4/42/Amulet_of_defence_(t)_detail.png?48781"
+      "detail": "https://oldschool.runescape.wiki/images/4/42/Amulet_of_defence_(t)_detail.png?48781",
+      "equipped": "https://oldschool.runescape.wiki/images/8/88/Amulet_of_defence_(t)_equipped_female.png?48781"
     },
     "name": "Amulet of defence (t)",
     "slot": "neck",
@@ -63162,7 +63203,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/images/3/32/Swift_blade_detail.png?48781"
+      "detail": "https://oldschool.runescape.wiki/images/3/32/Swift_blade_detail.png?48781",
+      "equipped": "https://oldschool.runescape.wiki/images/6/62/Swift_blade_equipped_female.png?48781"
     },
     "name": "Swift blade",
     "slot": "weapon",
@@ -63183,7 +63225,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/images/8/85/Staff_of_balance_detail.png?48781"
+      "detail": "https://oldschool.runescape.wiki/images/8/85/Staff_of_balance_detail.png?48781",
+      "equipped": "https://oldschool.runescape.wiki/images/6/68/Staff_of_balance_equipped_female.png?48781"
     },
     "name": "Staff of balance",
     "slot": "weapon",
@@ -64594,7 +64637,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/images/a/a1/Inquisitor's_mace_detail.png?48781"
+      "detail": "https://oldschool.runescape.wiki/images/a/a1/Inquisitor's_mace_detail.png?48781",
+      "equipped": "https://oldschool.runescape.wiki/images/2/29/Inquisitor's_mace_equipped_female.png?48781"
     },
     "name": "Inquisitor's mace",
     "slot": "weapon",
@@ -64613,7 +64657,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/images/a/a3/Nightmare_staff_detail.png?48781"
+      "detail": "https://oldschool.runescape.wiki/images/a/a3/Nightmare_staff_detail.png?48781",
+      "equipped": "https://oldschool.runescape.wiki/images/c/ca/Nightmare_staff_equipped_female.png?48781"
     },
     "name": "Nightmare staff",
     "slot": "weapon",
@@ -64632,7 +64677,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/images/9/91/Eldritch_nightmare_staff_detail.png?48781"
+      "detail": "https://oldschool.runescape.wiki/images/9/91/Eldritch_nightmare_staff_detail.png?48781",
+      "equipped": "https://oldschool.runescape.wiki/images/e/e2/Eldritch_nightmare_staff_equipped_female.png?48781"
     },
     "name": "Eldritch nightmare staff",
     "slot": "weapon",
@@ -64653,7 +64699,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/images/4/4f/Harmonised_nightmare_staff_detail.png?48781"
+      "detail": "https://oldschool.runescape.wiki/images/4/4f/Harmonised_nightmare_staff_detail.png?48781",
+      "equipped": "https://oldschool.runescape.wiki/images/1/1a/Harmonised_nightmare_staff_equipped_female.png?48781"
     },
     "name": "Harmonised nightmare staff",
     "slot": "weapon",
@@ -64674,7 +64721,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/images/d/d2/Volatile_nightmare_staff_detail.png?48781"
+      "detail": "https://oldschool.runescape.wiki/images/d/d2/Volatile_nightmare_staff_detail.png?48781",
+      "equipped": "https://oldschool.runescape.wiki/images/d/d6/Volatile_nightmare_staff_equipped_female.png?48781"
     },
     "name": "Volatile nightmare staff",
     "slot": "weapon",
@@ -67408,7 +67456,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/images/5/5c/Sled_(2020_Christmas_event)_detail.png?48781"
+      "detail": "https://oldschool.runescape.wiki/images/5/5c/Sled_(2020_Christmas_event)_detail.png?48781",
+      "equipped": "https://oldschool.runescape.wiki/images/5/56/Sled_(2020_Christmas_event)_equipped_female.png?48781"
     },
     "name": "Sled (2020 Christmas event)",
     "slot": "weapon",
@@ -70259,7 +70308,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/images/e/e9/Heavy_ballista_(Last_Man_Standing)_detail.png?48781"
+      "detail": "https://oldschool.runescape.wiki/images/e/e9/Heavy_ballista_(Last_Man_Standing)_detail.png?48781",
+      "equipped": "https://oldschool.runescape.wiki/images/6/6a/Heavy_ballista_equipped_female.png?48781"
     },
     "name": "Heavy ballista (Last Man Standing)",
     "slot": "weapon",
@@ -70690,7 +70740,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/images/7/72/Imbued_guthix_cape_(Last_Man_Standing)_detail.png?48781"
+      "detail": "https://oldschool.runescape.wiki/images/7/72/Imbued_guthix_cape_(Last_Man_Standing)_detail.png?48781",
+      "equipped": "https://oldschool.runescape.wiki/images/3/30/Imbued_guthix_cape_equipped_female.png?48781"
     },
     "name": "Imbued guthix cape (Last Man Standing)",
     "slot": "cape",
@@ -70963,7 +71014,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/images/c/c8/Volatile_nightmare_staff_(Last_Man_Standing)_detail.png?48781"
+      "detail": "https://oldschool.runescape.wiki/images/c/c8/Volatile_nightmare_staff_(Last_Man_Standing)_detail.png?48781",
+      "equipped": "https://oldschool.runescape.wiki/images/d/d6/Volatile_nightmare_staff_equipped_female.png?48781"
     },
     "name": "Volatile nightmare staff (Last Man Standing)",
     "slot": "weapon",
@@ -71546,7 +71598,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/images/d/da/Imbued_saradomin_cape_(Last_Man_Standing)_detail.png?48781"
+      "detail": "https://oldschool.runescape.wiki/images/d/da/Imbued_saradomin_cape_(Last_Man_Standing)_detail.png?48781",
+      "equipped": "https://oldschool.runescape.wiki/images/3/3e/Imbued_saradomin_cape_equipped_female.png?48781"
     },
     "name": "Imbued saradomin cape (Last Man Standing)",
     "slot": "cape",
@@ -71568,7 +71621,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/images/c/ca/Imbued_zamorak_cape_(Last_Man_Standing)_detail.png?48781"
+      "detail": "https://oldschool.runescape.wiki/images/c/ca/Imbued_zamorak_cape_(Last_Man_Standing)_detail.png?48781",
+      "equipped": "https://oldschool.runescape.wiki/images/d/d6/Imbued_zamorak_cape_equipped_female.png?48781"
     },
     "name": "Imbued zamorak cape (Last Man Standing)",
     "slot": "cape",

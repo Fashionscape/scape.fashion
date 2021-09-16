@@ -51,7 +51,7 @@ const Variant = (() => {
     const parse = (wikitext, n) => {
       const template = Parse.template(wikitext, "Infobox Bonuses");
       const entries = Object.entries(template);
-      const images = entries.filter(([k]) => k.startsWith("image"));
+      const images = entries.filter(([k]) => k.includes("image"));
       const values = images.map(([_, v]) => v);
 
       const files = values.map(Parse.Image.Inline.equipped);
@@ -90,7 +90,7 @@ const Equipped = (() => {
   const parse = (wikitext) => {
     const template = Parse.template(wikitext, "Infobox Bonuses");
     const entries = Object.entries(template);
-    const images = entries.filter(([k]) => k.startsWith("image"));
+    const images = entries.filter(([k]) => k.includes("image"));
     const [image] = images.map(([_, v]) => v);
     if (!image) return null;
     const equipped = Parse.Image.Inline.equipped(image);
