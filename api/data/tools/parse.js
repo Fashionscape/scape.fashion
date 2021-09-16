@@ -70,4 +70,4 @@ const Image = (() => {
   return { Inline, detail };
 })();
 
-module.exports = { Image, template };
+module.exports = { Image, parseBlock, template };
