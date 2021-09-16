@@ -24,12 +24,12 @@ const decodeEntities = (encodedString) => {
 const toUrl = ({ filename, hash: [a, b] }) =>
   `${config.url.base}/images/${a}/${a}${b}/${filename}?48781`;
 
-const toFileUrl = (name) => {
-  const decoded = decodeEntities(name);
-  const filename = decoded.replace(/\s/g, "_");
-  const hash = md5(filename);
+const toFileUrl = (filename) => {
+  filename = decodeEntities(filename);
+  filename = filename.replace(/\s/g, "_");
+  filename = filename.charAt(0).toUpperCase() + filename.slice(1);
 
-  return toUrl({ filename, hash });
+  return toUrl({ filename, hash: md5(filename) });
 };
 
 const Variant = (() => {

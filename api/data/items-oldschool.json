@@ -1831,7 +1831,8 @@
     ],
     "hidden": false,
     "images": {
-      "detail": "https://oldschool.runescape.wiki/images/b/bc/Iron_axe_detail.png?48781"
+      "detail": "https://oldschool.runescape.wiki/images/b/bc/Iron_axe_detail.png?48781",
+      "equipped": "https://oldschool.runescape.wiki/images/b/b0/Iron_axe_equipped.png?48781"
     },
     "name": "Iron axe",
     "slot": "weapon",
