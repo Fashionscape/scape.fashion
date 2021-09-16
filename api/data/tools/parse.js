@@ -41,8 +41,7 @@ const Image = (() => {
   const Inline = (() => {
     const match = {
       detail: /(?:\[\[File:)?([^}\n]+detail[^\.]*(?:\.png|\.gif))/im,
-      equipped:
-        /(?:\[\[File:)?([^}\n]+(?:equipped|equipment)[^\.]*(?:\.png|\.gif))/i,
+      equipped: /(?:\[\[File:)?([^}\n]+(?:equipped|equipment)[^\.]*(?:\.png|\.gif))/i,
     };
 
     const detail = (wikitext) => {

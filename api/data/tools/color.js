@@ -11,13 +11,14 @@ const toHex = ([r, g, b]) => {
 
 const toPalette = async (src) => {
   const palette = await ColorThief.getPalette(src, 3);
-  return palette.map(toHex);
+  return palette?.map(toHex);
 };
 
 const overrides = {
   oldschool: {
     "Ankou gloves": ["#ac2313", "#d22c1c", "#861b0c"],
     "Crone-made amulet": ["#fae7c6", "#f2efeb", "#e7dac2"],
+    "Ghostly boots": ["#4d4c47", "#342f2c", "#44443c"],
     "Ghostly gloves": ["#4d4c47", "#342f2c", "#44443c"],
     "Ghostly robe (bottom)": ["#51504a", "#2d2d29", "#3c3c36"],
   },
@@ -34,7 +35,7 @@ const withColor = async (item) => {
   const image = item.images.detail;
   let colors = await toPalette(image).catch((e) => console.log(e) || []);
 
-  if (!colors.length) colors = overrides[item.name] || [];
+  if (!colors?.length) colors = overrides[item.name] || [];
 
   return { ...item, colors };
 };
