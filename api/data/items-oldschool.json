@@ -3443,7 +3443,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/images/9/96/Ahrim's_hood_detail.png?48781",
-      "equipped": "https://oldschool.runescape.wiki/images/e/e8/Ahrim's_hood_equipped_male.png?48781"
+      "equipped": "https://oldschool.runescape.wiki/images/3/3c/Ahrim's_hood_equipped_female.png?48781"
     },
     "name": "Ahrim's hood",
     "slot": "head",
@@ -8243,7 +8243,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/images/a/a2/Combat_bracelet_(uncharged)_detail.png?48781",
-      "equipped": "https://oldschool.runescape.wiki/images/e/ea/Combat_bracelet_equipped_male.png?48781"
+      "equipped": "https://oldschool.runescape.wiki/images/9/9c/Combat_bracelet_(uncharged)_equipped_female.png?48781"
     },
     "name": "Combat bracelet (Uncharged)",
     "slot": "hand",
@@ -8794,7 +8794,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/images/0/03/Dharok's_platebody_detail.png?48781",
-      "equipped": "https://oldschool.runescape.wiki/images/c/c4/Dharok's_platebody_equipped_male.png?48781"
+      "equipped": "https://oldschool.runescape.wiki/images/3/32/Dharok's_platebody_equipped_female.png?48781"
     },
     "name": "Dharok's platebody",
     "slot": "body",
@@ -11020,7 +11020,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/images/5/5e/Guthan's_chainskirt_detail.png?48781",
-      "equipped": "https://oldschool.runescape.wiki/images/c/ca/Guthan's_chainskirt_equipped_male.png?48781"
+      "equipped": "https://oldschool.runescape.wiki/images/9/95/Guthan's_chainskirt_equipped_female.png?48781"
     },
     "name": "Guthan's chainskirt",
     "slot": "leg",
@@ -11044,7 +11044,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/images/1/17/Guthan's_helm_detail.png?48781",
-      "equipped": "https://oldschool.runescape.wiki/images/0/04/Guthan's_helm_equipped_male.png?48781"
+      "equipped": "https://oldschool.runescape.wiki/images/1/1b/Guthan's_helm_equipped_female.png?48781"
     },
     "name": "Guthan's helm",
     "slot": "head",
@@ -11068,7 +11068,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/images/7/72/Guthan's_platebody_detail.png?48781",
-      "equipped": "https://oldschool.runescape.wiki/images/a/ab/Guthan's_platebody_equipped_male.png?48781"
+      "equipped": "https://oldschool.runescape.wiki/images/7/72/Guthan's_platebody_equipped_female.png?48781"
     },
     "name": "Guthan's platebody",
     "slot": "body",
@@ -11092,7 +11092,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/images/8/85/Guthan's_warspear_detail.png?48781",
-      "equipped": "https://oldschool.runescape.wiki/images/b/b6/Guthan's_warspear_equipped_male.png?48781"
+      "equipped": "https://oldschool.runescape.wiki/images/f/f1/Guthan's_warspear_equipped_female.png?48781"
     },
     "name": "Guthan's warspear",
     "slot": "weapon",
@@ -11621,7 +11621,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/images/9/97/Karil's_coif_detail.png?48781",
-      "equipped": "https://oldschool.runescape.wiki/images/7/78/Karil's_coif_equipped_male.png?48781"
+      "equipped": "https://oldschool.runescape.wiki/images/8/8e/Karil's_coif_equipped_female.png?48781"
     },
     "name": "Karil's coif",
     "slot": "head",
@@ -11645,7 +11645,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/images/b/b7/Karil's_crossbow_detail.png?48781",
-      "equipped": "https://oldschool.runescape.wiki/images/c/cb/Karil's_crossbow_equipped_male.png?48781"
+      "equipped": "https://oldschool.runescape.wiki/images/1/18/Karil's_crossbow_equipped_female.png?48781"
     },
     "name": "Karil's crossbow",
     "slot": "weapon",
@@ -18989,7 +18989,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/images/9/9e/Dharok's_platelegs_detail.png?48781",
-      "equipped": "https://oldschool.runescape.wiki/images/1/17/Dharok's_platelegs_equipped_male.png?48781"
+      "equipped": "https://oldschool.runescape.wiki/images/3/36/Dharok's_platelegs_equipped_female.png?48781"
     },
     "name": "Dharok's platelegs",
     "slot": "leg",
@@ -20095,7 +20095,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/images/4/4a/Verac's_plateskirt_detail.png?48781",
-      "equipped": "https://oldschool.runescape.wiki/images/4/4f/Verac's_plateskirt_equipped_male.png?48781"
+      "equipped": "https://oldschool.runescape.wiki/images/a/a4/Verac's_plateskirt_equipped_female.png?48781"
     },
     "name": "Verac's plateskirt",
     "slot": "leg",
@@ -20602,7 +20602,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/images/6/60/Torag's_helm_detail.png?48781",
-      "equipped": "https://oldschool.runescape.wiki/images/2/27/Torag's_helm_equipped_male.png?48781"
+      "equipped": "https://oldschool.runescape.wiki/images/6/60/Torag's_helm_equipped_female.png?48781"
     },
     "name": "Torag's helm",
     "slot": "head",
@@ -21258,7 +21258,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/images/7/7f/Torag's_platebody_detail.png?48781",
-      "equipped": "https://oldschool.runescape.wiki/images/9/9b/Torag's_platebody_equipped_male.png?48781"
+      "equipped": "https://oldschool.runescape.wiki/images/e/e2/Torag's_platebody_equipped_female.png?48781"
     },
     "name": "Torag's platebody",
     "slot": "body",
@@ -21282,7 +21282,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/images/7/7e/Torag's_platelegs_detail.png?48781",
-      "equipped": "https://oldschool.runescape.wiki/images/2/29/Torag's_platelegs_equipped_male.png?48781"
+      "equipped": "https://oldschool.runescape.wiki/images/3/3c/Torag's_platelegs_equipped_female.png?48781"
     },
     "name": "Torag's platelegs",
     "slot": "leg",
@@ -22230,7 +22230,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/images/1/14/Verac's_brassard_detail.png?48781",
-      "equipped": "https://oldschool.runescape.wiki/images/0/05/Verac's_brassard_equipped_male.png?48781"
+      "equipped": "https://oldschool.runescape.wiki/images/7/71/Verac's_brassard_equipped_female.png?48781"
     },
     "name": "Verac's brassard",
     "slot": "body",
@@ -23232,7 +23232,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/images/1/18/Dharok's_helm_detail.png?48781",
-      "equipped": "https://oldschool.runescape.wiki/images/d/d4/Dharok's_helm_equipped_male.png?48781"
+      "equipped": "https://oldschool.runescape.wiki/images/c/c7/Dharok's_helm_equipped_female.png?48781"
     },
     "name": "Dharok's helm",
     "slot": "head",
@@ -23256,7 +23256,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/images/4/49/Dharok's_greataxe_detail.png?48781",
-      "equipped": "https://oldschool.runescape.wiki/images/8/8d/Dharok's_greataxe_equipped_male.png?48781"
+      "equipped": "https://oldschool.runescape.wiki/images/3/31/Dharok's_greataxe_equipped_female.png?48781"
     },
     "name": "Dharok's greataxe",
     "slot": "weapon",
@@ -23280,7 +23280,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/images/a/a0/Ahrim's_robetop_detail.png?48781",
-      "equipped": "https://oldschool.runescape.wiki/images/3/35/Ahrim's_robetop_equipped_male.png?48781"
+      "equipped": "https://oldschool.runescape.wiki/images/1/16/Ahrim's_robetop_equipped_female.png?48781"
     },
     "name": "Ahrim's robetop",
     "slot": "body",
@@ -23304,7 +23304,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/images/8/85/Ahrim's_robeskirt_detail.png?48781",
-      "equipped": "https://oldschool.runescape.wiki/images/b/bb/Ahrim's_robeskirt_equipped_male.png?48781"
+      "equipped": "https://oldschool.runescape.wiki/images/7/73/Ahrim's_robeskirt_equipped_female.png?48781"
     },
     "name": "Ahrim's robeskirt",
     "slot": "leg",
@@ -23328,7 +23328,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/images/5/5d/Verac's_helm_detail.png?48781",
-      "equipped": "https://oldschool.runescape.wiki/images/f/f5/Verac's_helm_equipped_male.png?48781"
+      "equipped": "https://oldschool.runescape.wiki/images/1/18/Verac's_helm_equipped_female.png?48781"
     },
     "name": "Verac's helm",
     "slot": "head",
@@ -25324,7 +25324,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/images/0/0b/Karil's_leathertop_detail.png?48781",
-      "equipped": "https://oldschool.runescape.wiki/images/9/92/Karil's_leathertop_equipped_male.png?48781"
+      "equipped": "https://oldschool.runescape.wiki/images/2/2a/Karil's_leathertop_equipped_female.png?48781"
     },
     "name": "Karil's leathertop",
     "slot": "body",
@@ -25348,7 +25348,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/images/5/52/Karil's_leatherskirt_detail.png?48781",
-      "equipped": "https://oldschool.runescape.wiki/images/0/09/Karil's_leatherskirt_equipped_male.png?48781"
+      "equipped": "https://oldschool.runescape.wiki/images/1/1a/Karil's_leatherskirt_equipped_female.png?48781"
     },
     "name": "Karil's leatherskirt",
     "slot": "leg",
@@ -29200,7 +29200,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/images/7/7e/Trident_of_the_seas_(full)_detail.png?48781",
-      "equipped": "https://oldschool.runescape.wiki/images/f/f8/Trident_of_the_seas_equipped.png?48781"
+      "equipped": "https://oldschool.runescape.wiki/images/f/fd/Trident_of_the_seas_(full)_equipped_female.png?48781"
     },
     "name": "Trident of the seas (Charged)",
     "slot": "weapon",
@@ -29224,7 +29224,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/images/7/72/Trident_of_the_seas_detail.png?48781",
-      "equipped": "https://oldschool.runescape.wiki/images/f/f8/Trident_of_the_seas_equipped.png?48781"
+      "equipped": "https://oldschool.runescape.wiki/images/8/81/Trident_of_the_seas_equipped_female.png?48781"
     },
     "name": "Trident of the seas (Partially charged)",
     "slot": "weapon",
@@ -29248,7 +29248,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/images/8/87/Uncharged_trident_detail.png?48781",
-      "equipped": "https://oldschool.runescape.wiki/images/f/f8/Trident_of_the_seas_equipped.png?48781"
+      "equipped": "https://oldschool.runescape.wiki/images/c/c9/Uncharged_trident_equipped_female.png?48781"
     },
     "name": "Trident of the seas (Uncharged)",
     "slot": "weapon",
@@ -41153,7 +41153,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/images/5/55/Infernal_pickaxe_detail.png?48781",
-      "equipped": "https://oldschool.runescape.wiki/images/f/f8/Infernal_pickaxe_equipped.png?48781"
+      "equipped": "https://oldschool.runescape.wiki/images/a/a9/Infernal_pickaxe_equipped_female.png?48781"
     },
     "name": "Infernal pickaxe (Charged)",
     "slot": "weapon",
@@ -41177,7 +41177,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/images/a/a2/Infernal_pickaxe_(uncharged)_detail.png?48781",
-      "equipped": "https://oldschool.runescape.wiki/images/f/f8/Infernal_pickaxe_equipped.png?48781"
+      "equipped": "https://oldschool.runescape.wiki/images/8/8b/Infernal_pickaxe_(uncharged)_equipped_female.png?48781"
     },
     "name": "Infernal pickaxe (Uncharged)",
     "slot": "weapon",
@@ -41201,7 +41201,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/images/8/8e/Infernal_axe_detail.png?48781",
-      "equipped": "https://oldschool.runescape.wiki/images/b/bb/Infernal_axe_equipped.png?48781"
+      "equipped": "https://oldschool.runescape.wiki/images/d/dd/Infernal_axe_equipped_female.png?48781"
     },
     "name": "Infernal axe (Charged)",
     "slot": "weapon",
@@ -41225,7 +41225,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/images/d/d1/Infernal_axe_(uncharged)_detail.png?48781",
-      "equipped": "https://oldschool.runescape.wiki/images/b/bb/Infernal_axe_equipped.png?48781"
+      "equipped": "https://oldschool.runescape.wiki/images/d/db/Infernal_axe_(uncharged)_equipped_female.png?48781"
     },
     "name": "Infernal axe (Uncharged)",
     "slot": "weapon",
@@ -52229,7 +52229,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/images/d/d8/Infernal_harpoon_detail.png?48781",
-      "equipped": "https://oldschool.runescape.wiki/images/c/c2/Infernal_harpoon_equipped.png?48781"
+      "equipped": "https://oldschool.runescape.wiki/images/8/86/Infernal_harpoon_equipped_female.png?48781"
     },
     "name": "Infernal harpoon (Charged)",
     "slot": "weapon",
@@ -52253,7 +52253,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/images/a/a8/Infernal_harpoon_(uncharged)_detail.png?48781",
-      "equipped": "https://oldschool.runescape.wiki/images/c/c2/Infernal_harpoon_equipped.png?48781"
+      "equipped": "https://oldschool.runescape.wiki/images/8/80/Infernal_harpoon_(uncharged)_equipped_female.png?48781"
     },
     "name": "Infernal harpoon (Uncharged)",
     "slot": "weapon",
@@ -56807,7 +56807,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/images/3/3e/Sanguinesti_staff_detail.png?48781",
-      "equipped": "https://oldschool.runescape.wiki/images/e/e8/Sanguinesti_staff_equipped.png?48781"
+      "equipped": "https://oldschool.runescape.wiki/images/7/76/Sanguinesti_staff_equipped_female.png?48781"
     },
     "name": "Sanguinesti staff (Charged)",
     "slot": "weapon",
@@ -56831,7 +56831,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/images/7/73/Sanguinesti_staff_(uncharged)_detail.png?48781",
-      "equipped": "https://oldschool.runescape.wiki/images/e/e8/Sanguinesti_staff_equipped.png?48781"
+      "equipped": "https://oldschool.runescape.wiki/images/9/97/Sanguinesti_staff_(uncharged)_equipped_female.png?48781"
     },
     "name": "Sanguinesti staff (Uncharged)",
     "slot": "weapon",
@@ -67013,7 +67013,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/images/f/f1/Infernal_axe_(or)_detail.png?48781",
-      "equipped": "https://oldschool.runescape.wiki/images/7/70/Trailblazer_axe_equipped.png?48781"
+      "equipped": "https://oldschool.runescape.wiki/images/6/65/Infernal_axe_(or)_equipped_female.png?48781"
     },
     "name": "Infernal axe (or) (Charged)",
     "slot": "weapon",
@@ -67037,7 +67037,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/images/a/af/Infernal_axe_(uncharged)_(Trailblazer)_detail.png?48781",
-      "equipped": "https://oldschool.runescape.wiki/images/7/70/Trailblazer_axe_equipped.png?48781"
+      "equipped": "https://oldschool.runescape.wiki/images/4/4f/Infernal_axe_(or)_(uncharged)_equipped_female.png?48781"
     },
     "name": "Infernal axe (or) (Uncharged)",
     "slot": "weapon",
@@ -67061,7 +67061,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/images/2/2c/Infernal_pickaxe_(or)_detail.png?48781",
-      "equipped": "https://oldschool.runescape.wiki/images/e/ea/Trailblazer_pickaxe_equipped.png?48781"
+      "equipped": "https://oldschool.runescape.wiki/images/5/5b/Infernal_pickaxe_(or)_equipped_female.png?48781"
     },
     "name": "Infernal pickaxe (or) (Charged)",
     "slot": "weapon",
@@ -67085,7 +67085,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/images/7/73/Infernal_pickaxe_(uncharged)_(Trailblazer)_detail.png?48781",
-      "equipped": "https://oldschool.runescape.wiki/images/e/ea/Trailblazer_pickaxe_equipped.png?48781"
+      "equipped": "https://oldschool.runescape.wiki/images/a/a2/Infernal_pickaxe_(or)_(uncharged)_equipped_female.png?48781"
     },
     "name": "Infernal pickaxe (or) (Uncharged)",
     "slot": "weapon",
@@ -67292,7 +67292,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/images/2/20/Decorative_full_helm_(gold)_detail.png?48781",
-      "equipped": "https://oldschool.runescape.wiki/images/4/49/Decorative_full_helm_(gold)_equipped_male.png?48781"
+      "equipped": "https://oldschool.runescape.wiki/images/f/f4/Decorative_full_helm_(gold)_equipped_female.png?48781"
     },
     "name": "Decorative full helm (gold)",
     "slot": "head",
@@ -67317,7 +67317,7 @@
     "hidden": false,
     "images": {
       "detail": "https://oldschool.runescape.wiki/images/6/66/Decorative_boots_(gold)_detail.png?48781",
-      "equipped": "https://oldschool.runescape.wiki/images/d/d6/Decorative_boots_(gold)_equipped_male.png?48781"
+      "equipped": "https://oldschool.runescape.wiki/images/5/50/Decorative_boots_(gold)_equipped_female.png?48781"
     },
     "name": "Decorative boots (gold)",
     "slot": "feet",
