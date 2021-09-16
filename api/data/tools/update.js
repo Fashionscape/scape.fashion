@@ -17,7 +17,7 @@ const file = `items-${rsrelease}.json`;
 const items = require(`../${file}`);
 
 const pageMap = items
-  .filter(item => !!item)
+  .filter((item) => !!item)
   .reduce((map, item) => {
     const items = map.get(item.wiki.pageId) || [];
     return map.set(item.wiki.pageId, [...items, item]);
@@ -27,7 +27,7 @@ if (force) pageMap.clear();
 
 const byPageId = (a, b) => a.wiki.pageId - b.wiki.pageId;
 
-const importFromPage = async pageId => {
+const importFromPage = async (pageId) => {
   const doc = await Wiki.parse(pageId);
   const items = Model.toItems(doc);
   const itemsWithImages = await Promise.all(items.map(Model.withValidImages));
@@ -35,7 +35,7 @@ const importFromPage = async pageId => {
   return itemsWithColor;
 };
 
-const refreshFromPage = async pageId => {
+const refreshFromPage = async (pageId) => {
   const items = pageMap.get(pageId);
 
   const hasError = items.some(Model.hasError);
@@ -54,7 +54,7 @@ const groupBy = (as, fn) =>
 
 const update = async () => {
   const members = await Wiki.categories(Slot.categories);
-  const pageIds = [...new Set(members.map(member => member.pageid))];
+  const pageIds = [...new Set(members.map((member) => member.pageid))];
 
   console.log("Total items: ", pageIds.length);
 
@@ -63,22 +63,22 @@ const update = async () => {
     processedCount++ % 100 === 0 &&
     console.log(`Processing item ${processedCount}...`);
 
-  const { known = [], unknown = [] } = groupBy(pageIds, id =>
+  const { known = [], unknown = [] } = groupBy(pageIds, (id) =>
     pageMap.has(id) ? "known" : "unknown"
   );
 
-  const refreshed = await slow.run(known, pageId => {
+  const refreshed = await slow.run(known, (pageId) => {
     logProgress();
     return refreshFromPage(pageId);
   });
 
-  const imported = await slow.run(unknown, pageId => {
+  const imported = await slow.run(unknown, (pageId) => {
     logProgress();
     return importFromPage(pageId);
   });
 
   const items = [...refreshed, ...imported].flat();
-  const validItems = items.filter(item => !!item);
+  const validItems = items.filter((item) => !!item);
 
   const errorItems = validItems.filter(Model.hasError);
   File.Error.write(errorItems);

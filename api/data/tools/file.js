@@ -15,13 +15,13 @@ const keys = [
   "slot",
   "status",
   "variant",
-  "wiki"
+  "wiki",
 ];
 
-const format = items => JSON.stringify(items, keys, 2);
+const format = (items) => JSON.stringify(items, keys, 2);
 
 const Error = (() => {
-  const write = items => {
+  const write = (items) => {
     if (items.length === 0) return;
 
     const file = `errors-${config.release}.json`;
@@ -34,7 +34,7 @@ const Error = (() => {
 })();
 
 const Items = (() => {
-  const write = items => {
+  const write = (items) => {
     const file = `items-${config.release}.json`;
     const output = format(items);
 

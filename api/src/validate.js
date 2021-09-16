@@ -1,5 +1,5 @@
 const Validate = (() => {
-  const rules = rules => (req, res, next) => {
+  const rules = (rules) => (req, res, next) => {
     const error = rules.reduce((msg, fn) => msg || fn(req.query, req), false);
 
     if (error) {

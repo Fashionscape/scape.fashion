@@ -1,4 +1,4 @@
-const parseBlock = text => {
+const parseBlock = (text) => {
   let found = false;
   let open = 0;
 
@@ -30,9 +30,9 @@ const template = (wikitext, name) => {
   const lines = block
     .replace(/\n/g, "")
     .split("|")
-    .filter(l => !!l);
+    .filter((l) => !!l);
 
-  const entries = lines.map(line => line.split(/ ?= ?/));
+  const entries = lines.map((line) => line.split(/ ?= ?/));
 
   return Object.fromEntries(entries);
 };
@@ -41,15 +41,16 @@ const Image = (() => {
   const Inline = (() => {
     const match = {
       detail: /(?:\[\[File:)?([^}\n]+detail[^\.]*(?:\.png|\.gif))/im,
-      equipped: /(?:\[\[File:)?([^}\n]+(?:equipped|equipment)[^\.]*(?:\.png|\.gif))/i
+      equipped:
+        /(?:\[\[File:)?([^}\n]+(?:equipped|equipment)[^\.]*(?:\.png|\.gif))/i,
     };
 
-    const detail = wikitext => {
+    const detail = (wikitext) => {
       const [_, detail] = wikitext.match(match.detail);
       return detail;
     };
 
-    const equipped = wikitext => {
+    const equipped = (wikitext) => {
       const [_, equipped] = wikitext.match(match.equipped) || [];
       return equipped;
     };
@@ -58,10 +59,10 @@ const Image = (() => {
   })();
 
   const match = {
-    detail: /(?:\[\[File:)([^\]\|]+detail[^\.]*(?:\.png|\.gif))/i
+    detail: /(?:\[\[File:)([^\]\|]+detail[^\.]*(?:\.png|\.gif))/i,
   };
 
-  const detail = wikitext => {
+  const detail = (wikitext) => {
     const text = wikitext.replace(comment, "");
     const [_, detail] = text.match(match.detail) || [];
     return detail;

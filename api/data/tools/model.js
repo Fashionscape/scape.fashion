@@ -8,13 +8,13 @@ const Variant = require("./variant");
 const Wiki = require("./wiki");
 const { toItem } = require("./item");
 
-const isImageType = url =>
+const isImageType = (url) =>
   fetch(new URL(url), { method: "HEAD" })
-    .then(res => res.headers.get("content-type"))
-    .then(type => type.startsWith("image/"))
+    .then((res) => res.headers.get("content-type"))
+    .then((type) => type.startsWith("image/"))
     .catch(() => false);
 
-const withValidImages = async item => {
+const withValidImages = async (item) => {
   if (!item.images.equipped) return item;
 
   const isImage = await isImageType(item.images.equipped);
@@ -37,7 +37,7 @@ const hasError = ({ colors, images, name, slot }) => {
   return false;
 };
 
-const withImages = item => wikitext => {
+const withImages = (item) => (wikitext) => {
   const images = Image.parse(wikitext);
 
   return { ...item, images };

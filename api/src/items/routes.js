@@ -12,7 +12,7 @@ const byName = (a, b) => {
   return 0;
 };
 
-const pick = keys => o => keys.reduce((a, e) => ({ ...a, [e]: o[e] }), {});
+const pick = (keys) => (o) => keys.reduce((a, e) => ({ ...a, [e]: o[e] }), {});
 
 router.get("/", validate.list, (req, res) => {
   const keys = req.query.keys?.split(",");
@@ -48,7 +48,7 @@ router.get("/match", validate.match, (req, res) => {
     ...(name && { name: item.name }),
     items: results,
     page,
-    lastPage
+    lastPage,
   };
 
   res.json(result);
@@ -64,20 +64,20 @@ const byMatch = (a, b) => b.match - a.match;
 
 const invisibleSlots = ["ammunition", "pocket", "ring", "sigil"];
 
-const isForSlot = slot => item => {
+const isForSlot = (slot) => (item) => {
   if (!slot) return !invisibleSlots.includes(item.slot);
   return item.slot === slot;
 };
 
-const toBoolean = param => !["0", "false"].includes(param);
+const toBoolean = (param) => !["0", "false"].includes(param);
 
-const isMembers = members => item => {
+const isMembers = (members) => (item) => {
   if (members === undefined) return true;
   const isMembers = !item.status.includes("freetoplay");
   return toBoolean(members) ? isMembers : !isMembers;
 };
 
-const isTradeable = tradeable => item => {
+const isTradeable = (tradeable) => (item) => {
   if (tradeable === undefined) return true;
   const isTradeable = !item.status.includes("untradeable");
   return toBoolean(tradeable) ? isTradeable : !isTradeable;
@@ -90,7 +90,7 @@ router.get("/find", validate.find, (req, res) => {
 
   const item = name
     ? fuse.search(name)[0].item
-    : items.find(item => item.wiki.pageId === id);
+    : items.find((item) => item.wiki.pageId === id);
 
   res.json({ item });
 });

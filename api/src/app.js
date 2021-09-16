@@ -18,7 +18,7 @@ app.use("/", (req, res) => res.sendStatus(404));
 app.use((err, req, res, next) => {
   res.status(400).send({
     success: false,
-    message: err.message
+    message: err.message,
   });
 });
 

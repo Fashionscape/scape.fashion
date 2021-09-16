@@ -9,7 +9,7 @@ const Wiki = require("./wiki");
 const { toItems } = require("./model");
 const { withColor } = require("./color");
 
-const tryPage = async pageId => {
+const tryPage = async (pageId) => {
   const doc = await Wiki.parse(pageId);
   const items = toItems(doc);
   const itemsWithImages = await Promise.all(items.map(Model.withValidImages));

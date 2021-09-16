@@ -1,6 +1,6 @@
 let rsversion = "oldschool";
 
-const set = version => (rsversion = version);
+const set = (version) => (rsversion = version);
 
 const options = {
   oldschool: {
@@ -8,21 +8,21 @@ const options = {
     url: {
       api: "https://oldschool.runescape.wiki/api.php",
       base: "https://oldschool.runescape.wiki",
-      wiki: "https://oldschool.runescape.wiki/w/"
-    }
+      wiki: "https://oldschool.runescape.wiki/w/",
+    },
   },
   runescape: {
     release: "runescape",
     url: {
       base: "https://runescape.wiki/w/",
-      api: "https://runescape.wiki/api.php"
-    }
-  }
+      api: "https://runescape.wiki/api.php",
+    },
+  },
 };
 
 const config = {
   get: () => options[rsversion],
-  set
+  set,
 };
 
 module.exports = config;

@@ -5,8 +5,8 @@ const config = require("./config").get();
 
 const FETCH_OPTIONS = {
   headers: {
-    "User-Agent": "Fashionscape Bot (scape.fashion) (contact@scape.fashion)"
-  }
+    "User-Agent": "Fashionscape Bot (scape.fashion) (contact@scape.fashion)",
+  },
 };
 
 const categoryMembers = async (category, continu = "") => {
@@ -21,7 +21,7 @@ const categoryMembers = async (category, continu = "") => {
         &format=json
     `.replace(/\s/g, "");
 
-  const response = await fetch(url, FETCH_OPTIONS).then(res => res.json());
+  const response = await fetch(url, FETCH_OPTIONS).then((res) => res.json());
 
   let nextMembers = [];
 
@@ -36,18 +36,18 @@ const categoryMembers = async (category, continu = "") => {
   return [...response.query.categorymembers, ...nextMembers];
 };
 
-const categories = categories =>
+const categories = (categories) =>
   slow
-    .run(categories, category => categoryMembers(category))
-    .then(ms => ms.flat());
+    .run(categories, (category) => categoryMembers(category))
+    .then((ms) => ms.flat());
 
-const apiUrl = pageId =>
+const apiUrl = (pageId) =>
   `${config.url.api}?action=parse&pageid=${pageId}&prop=categories|images|templates|wikitext&format=json`;
 
-const parse = pageId => {
+const parse = (pageId) => {
   const url = apiUrl(pageId);
   console.log("Fetching item: ", url);
-  return fetch(url, FETCH_OPTIONS).then(response => response.json());
+  return fetch(url, FETCH_OPTIONS).then((response) => response.json());
 };
 
 const wikiUrl = ({ pageId, variant }) => {

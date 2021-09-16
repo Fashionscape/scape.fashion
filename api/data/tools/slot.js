@@ -13,7 +13,7 @@ const slots = {
     { category: "Ring_slot_items", key: "ring" },
     { category: "Shield_slot_items", key: "shield" },
     { category: "Two-handed_slot_items", key: "weapon" },
-    { category: "Weapon_slot_items", key: "weapon" }
+    { category: "Weapon_slot_items", key: "weapon" },
   ],
   runescape: [
     { category: "Ammunition_slot_items", key: "ammunition" },
@@ -30,17 +30,17 @@ const slots = {
     { category: "Rings", key: "ring" },
     { category: "Sigil_slot_items", key: "sigil" },
     { category: "Torso_slot_items", key: "torso" },
-    { category: "Two-handed_slot_items", key: "two-handed" }
-  ]
+    { category: "Two-handed_slot_items", key: "two-handed" },
+  ],
 }[config.release];
 
-const categories = slots.map(slot => slot.category);
+const categories = slots.map((slot) => slot.category);
 
-const isVisible = slot =>
+const isVisible = (slot) =>
   !["ammunition", "pocket", "ring", "sigil"].includes(slot);
 
-const toSlot = categories => {
-  const slot = slots.find(slot => categories.includes(slot.category));
+const toSlot = (categories) => {
+  const slot = slots.find((slot) => categories.includes(slot.category));
   return slot.key;
 };
 
