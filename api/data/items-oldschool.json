@@ -9059,6 +9059,25 @@
   },
   {
     "colors": [
+      "#521e17",
+      "#9c9c7e",
+      "#941c14"
+    ],
+    "hidden": false,
+    "images": {
+      "detail": "https://oldschool.runescape.wiki/images/1/19/Dragon_arrow_detail.png?48781"
+    },
+    "name": "Dragon arrow",
+    "slot": "ammunition",
+    "status": [],
+    "wiki": {
+      "api": "https://oldschool.runescape.wiki/api.php?action=parse&pageid=10565&prop=categories|images|templates|wikitext&format=json",
+      "link": "https://oldschool.runescape.wiki/w/?curid=10565",
+      "pageId": 10565
+    }
+  },
+  {
+    "colors": [
       "#62150d",
       "#585151",
       "#403c3c"
