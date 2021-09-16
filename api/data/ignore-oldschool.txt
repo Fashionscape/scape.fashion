@@ -39,7 +39,6 @@ Diamond bolts
 Diamond bolts (e)
 Diamond ring
 Dragon arrow
-Dragon arrow (Poison)
 Dragonstone bolts
 Dragonstone ring
 Emerald bolts
@@ -150,8 +149,6 @@ Amethyst arrow (Poison)
 Amethyst fire arrow
 Amethyst javelin
 Amethyst javelin (Poison)
-A chair
-Beer glass (Forgettable Tale...)
 Granite ring
 Granite ring (i)
 Dragon bolts
@@ -192,3 +189,15 @@ Ring of endurance (Charged)
 Ring of endurance (Uncharged)
 Hallowed grapple
 Hallowed ring
+Celestial ring (Charged)
+Celestial ring (Uncharged)
+Celestial signet (Charged)
+Celestial signet (Uncharged)
+Dragon arrow (Last Man Standing)
+Seers ring (i) (Last Man Standing)
+Dragon javelin (Last Man Standing)
+Diamond bolts (e) (Last Man Standing)
+Berserker ring (Last Man Standing)
+Lightbearer
+Keris partisan (Eye of the Corrupter)
+Keris partisan (Jewel of the Sun)
