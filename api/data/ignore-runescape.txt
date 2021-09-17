@@ -954,6 +954,7 @@ Rotten zombie hands
 Rotten zombie legs
 Rotten zombie chest
 Rotten zombie head
+Amulet of the forsaken (used)
 Contract contact
 Superior Zuriel's robe bottom
 Augmented superior Zuriel's staff

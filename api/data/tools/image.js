@@ -50,14 +50,23 @@ const Variant = (() => {
     return text.slice(0, bonusesStart + bonusesEnd + "}}".length);
   };
 
+  const toVersionNumber = (key) => Number(key.replace(/[a-z]+/, "")) || 1;
+
+  const fillGaps = (is) => {
+    const withArrayIndices = is.map(([k, v]) => [toVersionNumber(k) - 1, v]);
+    const object = Object.fromEntries(withArrayIndices);
+    object.length = Math.max(...withArrayIndices.map(([k]) => k)) + 1;
+    return Array.from(object).map((v) => v ?? "");
+  };
+
   const Detail = (() => {
     const parse = (wikitext) => {
       const text = filterWikitext(wikitext);
       const template = Parse.template(text, "Synced switch");
       const entries = Object.entries(template);
-      const images = entries.filter(([k]) => k.startsWith("version"));
-      const values = images.map(([_, v]) => v);
-      const files = values.map(Parse.Image.Inline.detail);
+      const versions = entries.filter(([k]) => k.startsWith("version"));
+      const versions_ = fillGaps(versions);
+      const files = versions_.map(Parse.Image.Inline.detail);
 
       return files.map((f) => f && toFileUrl(f));
     };
@@ -69,14 +78,13 @@ const Variant = (() => {
     const parse = (wikitext, n) => {
       const template = Parse.template(wikitext, "Infobox Bonuses");
       const entries = Object.entries(template);
-
       const images = entries.filter(([k]) => k.startsWith("image"));
       const altimages = entries.filter(([k]) => k.startsWith("altimage"));
       const imgs = images.length >= altimages.length ? images : altimages;
-
-      const values = imgs.map(([_, v]) => v);
-      const files = values.map(Parse.Image.Inline.equipped);
+      const imgs_ = fillGaps(imgs);
+      const files = imgs_.map(Parse.Image.Inline.equipped);
       const urls = files.map((f) => f && toFileUrl(f));
+
       if (urls.length > 1) return urls;
 
       return [...new Array(n)].map(() => urls[0]);
