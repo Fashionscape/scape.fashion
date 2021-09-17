@@ -40,6 +40,7 @@ const withColor = async (item) => {
     if (e.message.startsWith("Unsupported file type: text/html")) {
       console.error("error: image request failed: ", item.images.detail);
       item.images = {};
+      return item;
     } else console.log(e);
   }
 
