@@ -26,6 +26,8 @@ const overrides = {
     "Crystal ward (historical)": ["#dce8f0", "#e6e7ed", "#cacdce"],
     "Ghostly gloves": ["#040710", "#1b292d", "#141c22"],
     "Ghostly robe (bottom)": ["#040710", "#1b292d", "#141c22"],
+    "Blood ethereal legs": ["#732d42", "#beb9c1", "#5c4e5c"],
+    "Law ethereal legs": ["#2a48c1", "#283d7c", "#8494c4"],
   },
 }[config.release];
 
@@ -44,7 +46,7 @@ const withColor = async (item) => {
     } else console.log(e);
   }
 
-  if (!colors?.length) colors = overrides[item.name] || [];
+  if (colors?.length !== 3) colors = overrides[item.name] || [];
 
   return { ...item, colors };
 };

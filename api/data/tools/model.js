@@ -31,6 +31,7 @@ const hasError = ({ colors, images, name, slot }) => {
   if (!slot) return true;
   if (!images.detail) return true;
   if (!colors.length) return true;
+  if (colors.length !== 3) return true;
   if (Slot.isVisible(slot) && !images.equipped) return true;
 
   return false;

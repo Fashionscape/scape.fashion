@@ -4,9 +4,7 @@ const slow = require("slow");
 const [_, __, rsrelease, force] = process.argv;
 const Config = require("./config");
 Config.set(rsrelease);
-const config = Config.get();
 
-const Ignore = require("./ignore");
 const File = require("./file");
 const Model = require("./model");
 const Slot = require("./slot");
