@@ -2,7 +2,7 @@
 
 set -e
 
-USERNAME=ncpierson
+USERNAME=floramoon
 IMAGE=fashionscape-web
 VERSION=`cat .version`
 

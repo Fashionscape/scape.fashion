@@ -30,7 +30,7 @@ up () {
     --name=$CONTAINER \
     --detach          \
     -p 3000:80        \
-    ncpierson/$CONTAINER:latest
+    floramoon/$CONTAINER:latest
 }
 
 # Begin Script
