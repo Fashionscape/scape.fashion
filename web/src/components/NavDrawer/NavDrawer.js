@@ -54,7 +54,7 @@ const NavDrawer = ({ onClose, onToggleDarkMode, open }) => {
           <ListItemText primary="Github" />
           <OutbondIcon />
         </ListItemLink>
-        <ListItemLink href="https://www.patreon.com/nickontheweb">
+        <ListItemLink href="https://www.patreon.com/florabtw">
           <ListItemText primary="Patreon" />
           <OutbondIcon />
         </ListItemLink>

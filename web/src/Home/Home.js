@@ -58,9 +58,10 @@ const SearchForm = () => {
     [dispatch]
   );
 
-  const handleSubmit = React.useCallback(() => dispatch({ type: "searched" }), [
-    dispatch,
-  ]);
+  const handleSubmit = React.useCallback(
+    () => dispatch({ type: "searched" }),
+    [dispatch]
+  );
 
   if (searched) return <Redirect push to={toPath(searched)} />;
 
@@ -81,7 +82,7 @@ const Footer = () => {
           Discord
         </Link>
         <Box display="inline" m={1} />
-        <Link href="https://www.patreon.com/nickontheweb" variant="body2">
+        <Link href="https://www.patreon.com/florabtw" variant="body2">
           Patreon
         </Link>
       </Box>

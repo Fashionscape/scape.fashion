@@ -37,12 +37,12 @@ const config = {
   development: {
     altRelease: {
       abbreviation: "RS3",
-      url: "http://dev.nick.exposed:3000",
+      url: "http://dev.flora.cool:3000",
     },
     analytics: {
       trackingId: "UA-101624095-5",
     },
-    api: "http://dev.nick.exposed:8000",
+    api: "http://dev.flora.cool:8000",
     release: {
       key: "oldschool",
       name: "Old School Runescape",
