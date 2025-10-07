@@ -6,7 +6,7 @@ can find the web app code in the `web/` directory instead.
 If you just want to run the api, you can pull the **docker image**:
 
 ```bash
-docker pull ncpierson/fashionscape-api
+docker pull floramoon/fashionscape-api
 ```
 
 # Development
@@ -35,7 +35,7 @@ yarn version --patch # --minor, --major also supported
 yarn deploy
 ```
 
-This will push to the `ncpierson/fashionscape-api` docker hub image. However, if you are not `ncpierson`,
+This will push to the `floramoon/fashionscape-api` docker hub image. However, if you are not `floramoon`,
 I recommend that you make changes to the `./scripts/deploy.sh` file before trying to deploy.
 
 # Documentation

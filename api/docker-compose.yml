@@ -5,8 +5,8 @@ services:
     command: pm2-dev start src/server.js
     container_name: fashionscape-api
     environment:
-      - RS_HOST=dev.nick.exposed:8001
-    image: ncpierson/fashionscape-api:latest
+      - RS_HOST=localhost:8001
+    image: floramoon/fashionscape-api:latest
     ports:
       - "8000:8000"
       - "8001:8000"
