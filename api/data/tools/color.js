@@ -1,4 +1,5 @@
 const ColorThief = require("colorthief");
+const fetch = require("node-fetch");
 
 const config = require("./config").get();
 
@@ -10,7 +11,9 @@ const toHex = ([r, g, b]) => {
 };
 
 const toPalette = async (src) => {
-  const palette = await ColorThief.getPalette(src, 3);
+  const response = await fetch(src);
+  const buffer = await response.buffer();
+  const palette = await ColorThief.getPalette(buffer, 3);
   return palette?.map(toHex);
 };
 
@@ -40,7 +43,7 @@ const withColor = async (item) => {
     colors = await toPalette(image);
   } catch (e) {
     if (e.message.startsWith("Unsupported file type: text/html")) {
-      console.error("error: image request failed: ", item.images.detail);
+      console.error("error: image request failed: ", image);
       item.images = {};
       return item;
     } else console.log(e);

@@ -1,8 +1,12 @@
 Opal bolts
 Barbed bolts
 Opal bolts (e)
+Bronze javelin
+Bronze javelin (Poison)
 Pearl bolts (e)
 Pearl bolts
+Steel javelin
+Steel javelin (Poison)
 Steel brutal
 Bronze bolts
 Bronze bolts (Poison)
@@ -14,6 +18,8 @@ Adamant arrow
 Adamant arrow (Poison)
 Adamant bolts
 Adamant bolts (Poison)
+Adamant javelin
+Adamant javelin (Poison)
 Archers ring
 Bronze arrow
 Bronze arrow (Poison)
@@ -21,12 +27,18 @@ Bronze brutal
 Bronze fire arrow
 Iron arrow
 Iron arrow (Poison)
+Iron javelin
+Iron javelin (Poison)
 Mithril arrow
 Mithril arrow (Poison)
 Mithril bolts
 Mithril bolts (Poison)
+Mithril javelin
+Mithril javelin (Poison)
 Rune arrow
 Rune arrow (Poison)
+Rune javelin
+Rune javelin (Poison)
 Steel arrow
 Steel arrow (Poison)
 Beacon ring
@@ -88,6 +100,7 @@ Broad arrows
 Iron fire arrow
 Berserker ring (i)
 Topaz bolts (e)
+Godsword
 Warrior ring (i)
 Archers ring (i)
 Seers ring (i)
@@ -122,12 +135,14 @@ Ninja monkey greegree (small)
 Ninja monkey greegree (medium)
 Gorilla greegree
 Bearded gorilla greegree
-Ring of suffering
+Ring of suffering (Recoil)
+Ring of suffering (Uncharged)
 Zenyte ring
 Dragon javelin
 Dragon javelin (Poison)
 Kruk monkey greegree
-Ring of suffering (i)
+Ring of suffering (i) (Recoil)
+Ring of suffering (i) (Uncharged)
 Holy blessing
 Peaceful blessing
 Unholy blessing
@@ -177,12 +192,14 @@ Bullet arrow
 Field arrow
 Blunt arrow
 Barbed arrow
+Escape crystal
 Brimstone ring
 Rada's blessing 1
 Rada's blessing 2
 Rada's blessing 3
 Rada's blessing 4
 Ring of 3rd age
+Graceful top (Kourend)
 Elven signet
 Rune berserker shield
 Ring of endurance (Charged)
@@ -199,5 +216,40 @@ Dragon javelin (Last Man Standing)
 Diamond bolts (e) (Last Man Standing)
 Berserker ring (Last Man Standing)
 Lightbearer
-Keris partisan (Eye of the Corrupter)
-Keris partisan (Jewel of the Sun)
+Snowman ring
+Ring of the elements (Charged)
+Ring of the elements (Uncharged)
+Lightbearer (beta)
+Terrifying charm
+Ghommal's lucky penny
+Ultor ring
+Magus ring
+Bellator ring
+Venator ring
+Lightbearer (Last Man Standing)
+Ventor ring (beta)
+Bellator ring (beta)
+Ultor ring (beta)
+Magus ring (beta)
+Ring of shadows (Charged)
+Ring of shadows (Uncharged)
+Regular cape
+Irit tar
+Steel ring
+Atlatl dart
+Moonlight antler bolts
+Sunlight antler bolts
+Atlatl dart (Last Man Standing)
+Opal dragon bolts (e) (Last Man Standing)
+Emperor ring
+Crystal blessing
+Clue compass (item)
+Tortugan sacred vessel
+Tortugan vessel
+Castle wars arrow
+Castle wars bolts
+Prison uniform top
+Fishy prison uniform top
+Prison uniform trousers
+Deep sea helmet (The Red Reef)
+Deep sea apparatus (The Red Reef)
