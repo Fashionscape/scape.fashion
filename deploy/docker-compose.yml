@@ -1,0 +1,17 @@
+version: "3"
+services:
+  fashionscape-api:
+    container_name: fashionscape-api
+    environment:
+      - RS_HOST=api.rune.scape.fashion
+    image: floramoon/fashionscape-api:1.2.0
+    restart: always
+  proxy:
+    container_name: proxy
+    image: caddy:2.4.6
+    ports:
+      - 80:80
+      - 443:443
+    restart: always
+    volumes:
+      - /root/scape.fashion/deploy/Caddyfile:/etc/caddy/Caddyfile

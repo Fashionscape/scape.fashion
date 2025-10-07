@@ -1,0 +1,11 @@
+{
+  email hello@flora.cool
+}
+
+api.scape.fashion {
+  reverse_proxy fashionscape-api:8000
+}
+
+api.rune.scape.fashion {
+  reverse_proxy fashionscape-api:8000
+}
